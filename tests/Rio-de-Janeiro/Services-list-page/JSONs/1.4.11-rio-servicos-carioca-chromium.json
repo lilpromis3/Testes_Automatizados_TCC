@@ -1,0 +1,2061 @@
+{
+  "criterio": "1.4.11",
+  "nome": "Non-text Contrast",
+  "inicio": "2026-11-08T15:35:31.758Z",
+  "url": "https://carioca.rio",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1411",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://carioca.rio/"
+    },
+    "comunicado": {
+      "exibido": true,
+      "fechadoPeloBotao": true
+    },
+    "aumentoFonte": {
+      "controle": ".aumentar-fonte a",
+      "acionamento": "cliques_reais_no_controle_do_site",
+      "limiteProgramadoIdentificado": false,
+      "cliques": 18,
+      "fatorAlvo": 2,
+      "fatorAtingidoNaReferencia": 2,
+      "referencia": "SERVIÇOS MAIS BUSCADOS",
+      "criterioDeParada": "atingir_o_fator_alvo_na_referencia_pois_o_controle_nao_tem_maximo",
+      "tamanhoOriginalPx": 17.5,
+      "tamanhoFinalPx": 35,
+      "escopo": "Aumento aplicado em todos os cenários; não pressupõe o mesmo fator em todos os elementos."
+    },
+    "familiasDeFontePreservadas": true,
+    "fonteAmpliadaConfirmada": true,
+    "idioma": {
+      "documento": "pt-BR",
+      "navegador": "pt-BR"
+    },
+    "componentesGraficos": [
+      {
+        "html": "<a class=\"skip-link sr-only sr-only-focusable\" href=\"#content\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Ir para o conteúdo</a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"navbar-brand\" rel=\"home\" href=\"https://prefeitura.rio/\" title=\"Vá para o Portal da Prefeitura da Cidade do Rio de Janeiro\" target=\"_blank\" itemprop=\"url\" style=\"font-size: 38px;\"><img src=\"https://carioca.rio/wp-content/uploads/2021/02/RIOPREFEITURA-horizontal-branco-e1614259697699.png\" st",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"\" rel=\"home\" href=\"https://prefeitura.rio/\" title=\"Vá para o Portal da Prefeitura da Cidade do Rio de Janeiro\" target=\"_blank\" itemprop=\"url\" style=\"font-size: 33px;\"><img src=\"https://carioca.rio/wp-content/uploads/2020/08/space.png\" style=\"font-size: 34px;\"></a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"navbar-brand-1746\" rel=\"home\" href=\"https://www.1746.rio\" title=\"Portal 1746.rio\" target=\"_blank\" itemprop=\"url\" style=\"font-size: 33px;\"><img src=\"https://carioca.rio/wp-content/uploads/2020/02/1746.png\" style=\"font-size: 34px;\"></a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"navbar-brand-info\" rel=\"home\" href=\"https://transparencia.prefeitura.rio\" title=\"Transparência Rio\" target=\"_blank\" itemprop=\"url\" style=\"font-size: 33px;\"><img src=\"https://carioca.rio/wp-content/uploads/2020/02/acessoainfo.png\" style=\"font-size: 34px;\"></a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://twitter.com/Prefeitura_Rio\" target=\"_blank\" style=\"font-size: 35px;\"><img src=\"https://carioca.rio/wp-content/uploads/2020/01/tweet.png\" style=\"font-size: 36px;\"></a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.facebook.com/PrefeituradoRio\" target=\"_blank\" style=\"font-size: 35px;\"><img src=\"https://carioca.rio/wp-content/uploads/2020/01/facebook-1.png\" style=\"font-size: 36px;\"></a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.instagram.com/prefeitura_rio\" target=\"_blank\" style=\"font-size: 35px;\"><img src=\"https://carioca.rio/wp-content/uploads/2020/01/insta.png\" style=\"font-size: 36px;\"></a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.youtube.com/channel/UCBf3rlo_iHd4kRePPhFXDUQ\" target=\"_blank\" style=\"font-size: 35px;\"><img src=\"https://carioca.rio/wp-content/uploads/2020/01/youtube-1.png\" style=\"font-size: 36px;\"></a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">-A</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">+A</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/\" title=\"Portal Carioca Digital\" style=\"font-size: 33px;\"><img width=\"212\" height=\"77\" src=\"https://carioca.rio/wp-content/uploads/2020/01/logotipo-topo.png\" class=\"image wp-image-68668  attachment-full size-full\" alt=\"\" style=\"max-width: 100%; height: auto; font-size: 3",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<input class=\"input-group w-auto field form-control\" id=\"s\" name=\"_sf_s\" type=\"text\" pattern=\".{3,}\" title=\"Digite ao menos 3 letras\" placeholder=\"Digite aqui um termo da sua busca...\" value=\"\" required=\"required\" style=\"font-size: 39px;\">",
+        "cor": "rgb(6, 161, 121)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "1px solid rgb(206, 212, 218)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<input class=\"submit btn btn-primary\" id=\"searchsubmit\" name=\"submit\" type=\"submit\" value=\"\" style=\"font-size: 32px;\">",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button class=\"btn dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\" data-tcc-base-font-size=\"13.5\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 31px;\">\n\t\t\tOlá, visitante! Faça o seu login aqui\n\t\t</butt",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "1px solid rgb(245, 245, 245)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/iss-prazos-de-pagamento/\" style=\"font-size: 33px;\">\n\n\t\t\t\t\n\t\t\t\t\t</a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/iss-prazos-de-pagamento/\" style=\"font-size: 33px;\">\n\t\t\t\t\t\t</a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/pagamento-de-divida-ativa/\" style=\"font-size: 33px;\"><img width=\"640\" height=\"auto\" src=\"https://carioca.rio/wp-content/uploads/2026/10/2026_10_22_BANNERS_SITE_CARIOCA_EM_DIA_V2_PGM_1170X280.png\" class=\"attachment-large size-large\" alt=\"\" srcset=\"https://carioca",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/pagamento-de-divida-ativa/\" style=\"font-size: 33px;\">\n\n\t\t\t\t\n\t\t\t\t\t</a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/iss/\" style=\"font-size: 33px;\">\n\n\t\t\t\t\n\t\t\t\t\t</a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://cartaopic.rio/\" style=\"font-size: 33px;\">\n\n\t\t\t\t\n\t\t\t\t\t</a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://nfsenacional.prefeitura.rio/\" style=\"font-size: 33px;\">\n\n\t\t\t\t\n\t\t\t\t\t</a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/\" style=\"font-size: 33px;\">\n\n\t\t\t\t\n\t\t\t\n\t\t</a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/\" style=\"font-size: 33px;\">\n\n\t\t</a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">\n\n\t\t\t<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\" style=\"font-size: 34px;\"></spa",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"carousel-control-next\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"next\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">\n\n\t\t\t<span class=\"carousel-control-next-icon\" aria-hidden=\"true\" style=\"font-size: 34px;\"></spa",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"carousel-control-close\" data-toggle=\"collapse\" href=\"#wrapper-hero\" role=\"button\" aria-expanded=\"true\" aria-controls=\"wrapper-hero\" style=\"font-size: 33px;\">\t\t\n\n\t\t\t<span class=\"carousel-control-close-icon\" style=\"font-size: 34px;\"></span>\n\n\t\t</a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"69155\" href=\"https://cartaoestacionamento.apps.rio.gov.br/\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-seri",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"92294\" href=\"http://cadunico.rio/\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"83745\" href=\"https://carioca.rio/servicos/itbi-simulacao-de-valor-e-pedido-de-guia/\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"71034\" href=\"http://www2.rio.rj.gov.br/multas/\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"fo",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://services-carioca.rio.rj.gov.br/group/guest/agendamento-iss\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-s",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"70945\" href=\"https://carioca.rio/servicos/informacoes-sobre-gratuidade-em-onibus\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"mu",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"79495\" href=\"https://web2.smsrio.org/portalPaciente/portal/#/meus-pets\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans30",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"68760\" href=\"https://services-carioca.rio.rj.gov.br/group/guest/divida-ativa\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"68687\" href=\"https://web-educacao.apps.rio.gov.br/declaracoes\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-s",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"227\" href=\"https://contracheque.apps.rio.gov.br/\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"84670\" href=\"https://iportal.rio.rj.gov.br/PF331IPTUATUAL/pages/ParcelamentoIptuDs/TelaSelecao.aspx\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-b",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"69823\" href=\"https://carioca.rio/servicos/acesso-a-vigilancia-sanitaria/\" onclick=\"Gateway(this);\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/iptu/\" class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 39px;\"><h2 class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" styl",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"84670\" href=\"https://carioca.rio/servicos/iptu/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">IPTU 202",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/parcelamento-emissao-de-boletos-darm-para-pagamento-do-iptu/?_ga=2.100514777.613224067.1668613367-47307370.1667332041\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-siz",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/iptu-anos-anteriores/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">IPTU - ano",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/iptu-certidao-de-situacao-fiscal-e-enfiteutica/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"fo",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/#\" class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 39px;\"><h2 class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-s",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/emissao-de-certidao-de-divida-ativa/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/pagamento-de-divida-ativa/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Guia ",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/pagamento-de-divida-ativa/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Guia ",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/pagamento-de-divida-ativa/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Parce",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/imoveis-penhorados-como-garantia-para-o-pagamento-de-execucoes-fiscais/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans30",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/licenciamento/\" class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 39px;\"><h2 class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-se",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/alvara-a-jato/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Alvará a jato</li",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/autorizacao-legalizacao-de-comercio-ambulante/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"fon",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/consulta-previa-de-local/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Consul",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/alvara-transitorio-de-eventos/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">L",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a idservico=\"69823\" href=\"https://carioca.rio/servicos/acesso-a-vigilancia-sanitaria/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"f",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://home.carioca.rio/\" class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 39px;\"><h2 class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"fo",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/troca-de-real-infrator/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Multas -",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/informacoes-sobre-carga-e-descarga-de-mudancas-residenciais/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-ser",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/defesa-previa-de-autuacao/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Multa",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/liberacao-de-veiculos-rebocados/\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\"",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/#\" class=\"TitleMenuPersonas\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\"><span class=\"TitlePersonas\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 41px;",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/grupo/licenciamento-de-obras/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Licenciamen",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/grupo/projetos-de-loteamento/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Projetos de",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/objetivo/denunciar-obra-irregular/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Denunc",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/#\" class=\"TitleMenuPersonas\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\"><span class=\"TitlePersonas\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 41px;",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/objetivo/cadastrar-minhas-empresas/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Cadas",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/objetivo/licenciar-empresa/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Licenciar emp",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/grupo/licenciamentos-sanitarios/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Licencia",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/mesas-e-cadeiras-solicitacao-de-alvara-de-autorizacao/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" st",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/objetivo/registrar-banca-de-jornais-e-revistas/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: ",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/grupo/alvara-para-eventos/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Alvará para ev",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/cadastrar-procurador/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Emitir pro",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/#\" class=\"TitleMenuPersonas\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\"><span class=\"TitlePersonas\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 41px;",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/objetivo/atualizar-motorista-auxiliar/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">At",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/grupo/permissao-de-taxi/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Permissão de táx",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/grupo/vistoria-de-permissionario-de-transporte/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: ",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/motorista/\" class=\"TitleMenuPersonas\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\"><span class=\"TitlePersonas\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/servicos/cartao-de-estacionamento-de-idoso/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/objetivo/consultar-multas-de-transito/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Co",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/objetivo/pagar-multas-de-transito/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">Pagar ",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/objetivo/recorrer-de-multas-de-transito/\" class=\"\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 35px;\"><li data-tcc-base-font-size=\"17\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 35px;\">",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://notacarioca.rio.gov.br/senhaweb/login.aspx\" target=\"_blank\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"19\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 3",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.1746.rio\" target=\"_blank\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"19\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 37px;\">1746</li></a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://processo.rio/\" target=\"_blank\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"19\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 37px;\">Processo.rio</li></a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.rio.rj.gov.br/web/transparencia\" target=\"_blank\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"19\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 37px;\">P",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://ecomprasrio.rio.rj.gov.br\" target=\"_blank\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"19\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 37px;\">eCompras Rio",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.rio.rj.gov.br/web/portaldeconcursos/concursos\" target=\"_blank\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"19\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-s",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://participa.rio/\" target=\"_blank\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"19\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 37px;\">Participa.Rio</li></a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://visit.rio/\" target=\"_blank\" class=\"\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\"><li data-tcc-base-font-size=\"19\" data-tcc-base-font-family=\"museo_sans300, sans-serif\" style=\"font-size: 37px;\">Visit.Rio</li></a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"LinkOuvidoria\" href=\"https://ouvidoria.prefeitura.rio/manifestacoes-de-ouvidoria\" target=\"_blank\" data-tcc-base-font-size=\"13\" data-tcc-base-font-family=\"museo_sans700, sans-serif\" style=\"font-size: 31px;\">Acesse aqui </a>",
+        "cor": "rgb(11, 185, 117)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgb(11, 185, 117)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/agentes-publicos/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">agentes públi",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/alunos-e-funcionarios-de-escolas-publicas/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-s",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/arquitetos-urbanistas-engenheiros/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33p",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/arquitetos-e-engenheiros/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Arqui",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/autonomo/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Autônomo</li>\n\t\t\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/cidadao-em-geral/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Cidadão em ge",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/comerciante/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Comerciante</li>\n\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/comunidades/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Comunidades</li>\n\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/condominio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Condomínio</li>\n\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/construtor/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Construtor</li>\n\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/consumidor/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Consumidor</li>\n\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/contribuinte/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Contribuinte</li>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/criancas-e-adolescentes/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Crianç",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/empreiteiros/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Empreiteiros</li>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/empresario/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Empresário</li>\n\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/idoso/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Idoso</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/jovem/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Jovem</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/lgbt/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">LGBT</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/moradores-da-cidade-do-rj/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Mora",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/motorista/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Motorista</li>\n\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/mulher/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Mulher</li>\n\t\t\t\t\t\t\t\t\t</",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/pais-e-alunos/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Pais e Alunos</l",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/passageiro/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Passageiro</li>\n\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/pesquisador-e-estudantes/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Pesqu",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/populacao-de-rua/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">População de ",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/pessoa-com-deficiencia/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Portado",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/proprietario-de-imovel/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Proprie",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/servidor/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Servidor e pensionist",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/servidor-publico-municipal/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Ser",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/taxista/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Taxista</li>\n\t\t\t\t\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/turista/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Turista</li>\n\t\t\t\t\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/tutores-de-animais/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Tutores de ",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/publico/urbanistas/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Urbanistas</li>\n\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/acolhimento/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Acolhimento</li>\n\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/animais-domesticos/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Animais domést",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/animais-silvestres/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Animais silves",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/aprovacao-de-projetos/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Aprovação d",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/arqueologia/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Arqueologia</li>\n\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/arvore/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Árvore</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/assistencia-social/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Assistência So",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/aterro/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Aterro</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/audiovisual/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Audiovisual</li>\n\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/bem-protegido/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Bem Protegido</li>\n",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/brt/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">BRT</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/capacitacao-profissional/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Capacita",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/captacao-de-agua/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Captação de água",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/carnaval/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Carnaval</li>\n\t\t\t\t\t\t\t\t\t<",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/cemiterios-e-servicos-funerarios/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/comissao/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">comissão</li>\n\t\t\t\t\t\t\t\t\t<",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/condutas-eticas/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">condutas éticas</",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/conselho-de-contribuintes/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Conselh",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/construcao-irregular-na-natureza/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/cultura/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Cultura e eventos</li>\n\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/cursos/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Cursos</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/data-rio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">DATA.RIO</li>\n\t\t\t\t\t\t\t\t\t<",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/desinterdicao/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Desinterdição</li>\n",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/desmatamento/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Desmatamento</li>\n\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/diretrizes-viarias/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Diretrizes Viá",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/educacao/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Educação</li>\n\t\t\t\t\t\t\t\t\t<",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/emprego/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Emprego</li>\n\t\t\t\t\t\t\t\t\t</a",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/empresas-e-autonomos/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Empresas e a",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/esporte-e-lazer/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Esporte e lazer</",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/eventos/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Eventos</li>\n\t\t\t\t\t\t\t\t\t</a",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/favelas/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Favelas</li>\n\t\t\t\t\t\t\t\t\t</a",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/fiscalizacao-de-transporte/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Fiscal",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/fogo/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Fogo</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/iluminacao-publica/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Iluminação púb",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/imoveis-e-obras/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Imóveis e obras</",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/injuria-racial/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Injúria racial</li",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/integridade/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Integridade</li>\n\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/iptu/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">IPTU</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/iss/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">ISS</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/itbi/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">ITBI</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/legislacao-urbana/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Legislação Urba",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/licenciamento/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Licenciamento</li>\n",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/licenciamento-de-obras/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Licenciame",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/licenciamento-urbanistico/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Licenci",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/limpeza/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Limpeza Urbana</li>\n\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/manutencao-da-cidade/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Manutenção d",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/mapa/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Mapa</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/meio-ambiente/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Meio Ambiente</li>\n",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/multas-de-transito/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Multas de trân",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/multas-no-vlt/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Multas no VLT</li>\n",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/natureza/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Natureza</li>\n\t\t\t\t\t\t\t\t\t<",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/numeracao-de-edificacoes/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Numeraçã",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/onibus/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Ônibus</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/ordem-publica/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Ordem pública</li>\n",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/paa-pal/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">PAA / PAL</li>\n\t\t\t\t\t\t\t\t\t<",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/pal/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">PAL</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/parimonio-cultural-carioca/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Parimô",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/patrimonio-imobiliario/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Patrimônio",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/pesca-predatoria/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Pesca predatória",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/pet-friendly/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Pet Friendly</li>\n\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/peticionamento-eletronico/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Peticio",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/planejamento-urbano/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Planejamento ",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/plano-diretor-rio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Plano Diretor R",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/programas-e-beneficios-sociais/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Pr",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/projetos-urbanos/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Projetos Urbanos",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/queimadas/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Queimadas</li>\n\t\t\t\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/racismo/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Racismo</li>\n\t\t\t\t\t\t\t\t\t</a",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/reconhecimento-de-logradouros/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Rec",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/permissao-de-transporte-publico/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">R",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/regulamentacao-viaria/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Regulamenta",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/reviver-centro/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Reviver Centro</li",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/saude/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Saúde</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/sitio-paisagens-cariocas-patrimonio-mundial/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-si",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/taxas/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Taxas</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/taxi/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Taxi</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/tecnologia/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Tecnologia</li>\n\t\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/territorios-sociais/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Territórios S",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/tesouro-municipal/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Tesouro Municip",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/transito/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Trânsito</li>\n\t\t\t\t\t\t\t\t\t<",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/transporte/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Transporte</li>\n\t\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/truckrio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">truckrio</li>\n\t\t\t\t\t\t\t\t\t<",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/turismo/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Turismo</li>\n\t\t\t\t\t\t\t\t\t</a",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/unidades-de-conservacao-ambiental/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\"",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/vigilancia-sanitaria/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Vigilância s",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/violencia-domestica/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Violência Dom",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/visitas-tecnicas/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Visitas Técnicas",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/tema/vlt/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t<li data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">VLT</li>\n\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/1100-secretaria-municipal-da-casa-civil-casa-civil/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal da Casa Civil - Casa Civil\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/1200-cgm-controladoria-geral-do-municipio-do-rio-de-janeiro/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tCGM / Controladoria Geral do Município do Rio de Janeiro\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/1403-secretaria-municipal-de-fazenda-coordenadoria-de-licenciamento-e-fiscalizacao/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Fazenda / Coordenadoria d",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/1405-secretaria-municipal-de-fazenda-coordenadoria-de-controle-urbano/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Fazenda / Coordenadoria de Controle Ur",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/mobi-rio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tCompanhia Municipal de Transportes Coletivos / MOBI-Rio\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/5600-smit-secretaria-municipal-de-integridade-transparencia-e-protecao-de-dados/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSMIT / Secretaria Municipal de Integridade, Transpar",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/ccpar-companhia-carioca-de-parcerias-e-investimentos/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tCCPar – Companhia Carioca de Parcerias e Investimentos\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/companhia-de-engenharia-de-trafego-do-rio-de-janeiro-cet-rio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tCompanhia de Engenharia de Tráfego do Rio de Janeiro - CET-RIO\t\t\t\t\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/companhia-municipal-de-energia-e-iluminacao-rioluz/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tCompanhia Municipal de Energia e Iluminação - RIOLUZ\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/companhia-municipal-de-limpeza-urbana-comlurb/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tCompanhia Municipal de Limpeza Urbana - COMLURB\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/distribuidora-de-filmes-s-a-riofilme-riofilme/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tDistribuidora de Filmes S/A - RIOFILME - RIOFILME\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/empresa-de-turismo-do-municipio-do-rio-de-janeiro-riotur/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tEmpresa de Turismo do Município do Rio de Janeiro - RIOTUR\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/empresa-municipal-de-informatica-s-a-iplanrio-2/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tEmpresa Municipal de Informática S.A. - IPLANRIO\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/empresa-municipal-de-urbanizacao-rio-urbe-rio-urbe-2/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tEmpresa Municipal de Urbanização - RIO-URBE - RIO-URBE\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/fundacao-cidade-das-artes-cidade-das-artes-2/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tFundação Cidade das Artes - CIDADE DAS ARTES\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/fundacao-instituto-das-aguas-do-municipio-do-rio-de-janeiro-rio-aguas-2/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tFundação Instituto das Águas do Município do Rio de Janeiro ",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/fundacao-instituto-de-geotecnica-do-municipio-do-rio-de-janeiro-geo-rio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tFundação Instituto de Geotécnica do Município do Rio de Jane",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/fundacao-parques-e-jardins-fpj-2/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tFundação Parques e Jardins - FPJ\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/fundacao-planetario-da-cidade-do-rio-de-janeiro-planetario-2/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tFundação Planetário da Cidade do Rio de Janeiro - PLANETÁRIO\t\t\t\t\t\t\t\t\t\t\n",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/guarda-municipal-do-rio-de-janeiro-gm-rio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tGuarda Municipal do Rio de Janeiro - GM-RIO\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/instituto-de-previdencia-e-assistencia-do-municipio-do-rio-de-janeiro-previ-rio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tInstituto de Previdência e Assistência do Município ",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/instituto-municipal-de-urbanismo-pereira-passos-ipp/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tInstituto Municipal de Urbanismo Pereira Passos - IPP\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/multirio-empresa-municipal-de-multimeios-ltda-multirio-2/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tMULTIRIO - Empresa Municipal de Multimeios Ltda. - MULTIRIO\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/procuradoria-geral-do-municipio-do-rio-de-janeiro-pgm/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tProcuradoria Geral do Município do Rio de Janeiro - PGM\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-especial-da-juventude-carioca-juv-rio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Especial da Juventude Carioca - JUV-RIO\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-especial-de-direitos-humanos-e-igualdade-racial-sedhir/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Especial de Direitos Humanos e Igualdade Racial - SEDHI",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-especial-de-integracao-metropolitana-seim/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Especial de Integração Metropolitana - SEIM\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-especial-de-politicas-e-promocao-da-mulher-spm-rio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Especial de Políticas e Promoção da Mulher - SPM-RIO\t\t\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/4200-sedecon/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Especial de Proteção e Defesa do Consumidor - SEDECON\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-da-pessoa-com-deficiencia-smpd/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal da Pessoa com Deficiência - SMPD\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-assistencia-social-smas/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Assistência Social - SMAS\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-ciencia-e-tecnologia-smct/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Ciência e Tecnologia - SMCT\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-conservacao-seconserva/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Conservação - SECONSERVA\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-cultura-smc-2/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Cultura - SMC\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-desenvolvimento-economico-smde/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Desenvolvimento Econômico - SMDE\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-desenvolvimento-urbano-e-licenciamento-smdu/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Desenvolvimento Urbano e Licenciamento -",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-educacao-sme/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Educação - SME\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-esportes-smel/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Esportes - SMEL\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-fazenda-e-planejamento-smfp/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Fazenda e Planejamento - SMFP\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-fazenda-e-planejamento-subsecretaria-de-gente-e-gestao-compartilhada-subggc/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Fazenda ",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-fazenda-e-planejamento-subsecretaria-de-planejamento-e-acompanhamento-de-resultados-subpar/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Munici",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-habitacao-smh/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Habitação - SMH\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-infraestrutura-smi/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Infraestrutura - SMI\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-meio-ambiente-da-cidade-smac/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Meio Ambiente da Cidade - SMAC\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-ordem-publica-seop-2/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Ordem Pública - SEOP\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-protecao-e-defesa-dos-animais-smpda/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Proteção e Defesa dos Animais - SMPDA\t\t\t\t\t\t\t\t\t\t\n",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-saude-sms/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Saúde - SMS\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-saude-instituto-municipal-de-vigilancia-sanitaria-vigilancia-de-zoonoses-e-de-inspecao-agropecuaria-ivisa-rio/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-saude-subsecretaria-de-protecao-e-defesa-civil-subpdec/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Saúde / Subsecretaria de Prot",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-trabalho-e-renda-smte/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Trabalho e Renda - SMTE\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-de-transportes-smtr/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal de Transportes - SMTR\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/orgao/secretaria-municipal-do-envelhecimento-saudavel-e-qualidade-de-vida-semesqv/\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 34px;\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSecretaria Municipal do Envelhecimento Saudável e Qualid",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      }
+    ]
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "fonte-ampliada-controle-nativo",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-1.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-2.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-3.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-4.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-5.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-6.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-7.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-8.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-9.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-10.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-11.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-12.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-13.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-14.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-15.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-16.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-17.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-18.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-19.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-20.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-21.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-22.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-23.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-24.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-25.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-26.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-27.png",
+    "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-28.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 16926,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-10.png",
+        "scrollTop": 5508
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-11.png",
+        "scrollTop": 6120
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-12.png",
+        "scrollTop": 6732
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-13.png",
+        "scrollTop": 7344
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-14.png",
+        "scrollTop": 7956
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-15.png",
+        "scrollTop": 8568
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-16.png",
+        "scrollTop": 9180
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-17.png",
+        "scrollTop": 9792
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-18.png",
+        "scrollTop": 10404
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-19.png",
+        "scrollTop": 11016
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-20.png",
+        "scrollTop": 11628
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-21.png",
+        "scrollTop": 12240
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-22.png",
+        "scrollTop": 12852
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-23.png",
+        "scrollTop": 13464
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-24.png",
+        "scrollTop": 14076
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-25.png",
+        "scrollTop": 14688
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-26.png",
+        "scrollTop": 15300
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-27.png",
+        "scrollTop": 15912
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-28.png",
+        "scrollTop": 16206
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T15:36:04.795Z"
+}

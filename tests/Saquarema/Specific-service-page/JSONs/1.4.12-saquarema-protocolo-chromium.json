@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.12",
   "nome": "Text Spacing",
-  "inicio": "2026-11-07T20:43:21.844Z",
+  "inicio": "2026-11-08T16:29:49.278Z",
   "url": "https://egov.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -43,16 +43,385 @@
       "descricao": "Documento do formulário aberto; exclui o catálogo externo do e-Gov."
     },
     "espacamento": {
-      "aplicado": false,
-      "metodo": "estilos_originais_do_site",
-      "observacao": "O recorte solicitado não aplica CSS de espaçamento. A varredura no estado original não verifica a tolerância às alterações previstas no critério 1.4.12."
+      "aplicado": true,
+      "metodo": "folha_de_estilo_no_iframe",
+      "caminhoFrames": [
+        "#myIframe",
+        "iframe[name=\"mainform\"]",
+        "body"
+      ],
+      "elementosMedidos": 30,
+      "linha": 1.5,
+      "paragrafoEm": 2,
+      "letrasEm": 0.12,
+      "palavrasEm": 0.16,
+      "medicoes": [
+        {
+          "tag": "FORM",
+          "id": "",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "DIV",
+          "id": "lay",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "UL",
+          "id": "tabsController912156",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "LI",
+          "id": "",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "A",
+          "id": "tabButton0",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "LI",
+          "id": "",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "DIV",
+          "id": "tabsContent912156",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "DIV",
+          "id": "tab0",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "DIV",
+          "id": "MakerContainer3",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "DIV",
+          "id": "MakerLabel3",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "LABEL",
+          "id": "",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "H1",
+          "id": "",
+          "alturaLinhaComputada": "55.92px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "DIV",
+          "id": "MakerLookup1",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "LABEL",
+          "id": "",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "WFRInput1136235",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "DIV",
+          "id": "MakerLookup4",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "LABEL",
+          "id": "",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "WFRInput1136236",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "DIV",
+          "id": "MakerEdit2",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "LABEL",
+          "id": "",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "SPAN",
+          "id": "",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "WFRInput1136234",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "DIV",
+          "id": "MakerLabel4",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "LABEL",
+          "id": "",
+          "alturaLinhaComputada": "20.52px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        },
+        {
+          "tag": "H6",
+          "id": "",
+          "alturaLinhaComputada": "22.8px",
+          "linha": 1.5000000000000002,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null,
+          "familiaPreservada": true,
+          "tamanhoPreservado": true
+        }
+      ],
+      "paragrafosMedidos": 0,
+      "controlesNativosSemAlturaDeLinhaNumerica": [],
+      "limitacao": "A confirmação dos estilos não comprova ausência de recortes, sobreposições ou perda de funcionalidade."
+    },
+    "layout": {
+      "larguraViewport": 1092,
+      "larguraDocumento": 1092,
+      "rolagemHorizontal": false,
+      "candidatosRecorte": [
+        {
+          "html": "<label class=\"mb-0\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\" style=\"white-space: pre; text-decoration: none; text-align: left;\"><h1 data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"37.28px\"><i class=\"fas fa-search\"></i> Consulta de Documentos</h1></label>",
+          "scrollWidth": 592,
+          "clientWidth": 414,
+          "scrollHeight": 64,
+          "clientHeight": 64
+        },
+        {
+          "html": "<input class=\"form-control\" id=\"WFRInput1136236\" name=\"WFRInput1136236Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\">",
+          "scrollWidth": 217,
+          "clientWidth": 162,
+          "scrollHeight": 33,
+          "clientHeight": 33
+        }
+      ],
+      "raiz": "iframe_do_formulario",
+      "toleranciaCssPx": 1
     }
   },
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
-    "estado": "formulario-original-sem-alterar-espacamento",
-    "verificacaoCriterio": "nao_avaliado_neste_recorte",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
+    "estado": "quatro-espacamentos",
+    "verificacaoCriterio": "preparacao_confirmada_cobertura_axe_parcial",
     "viewport": {
       "width": 1280,
       "height": 720
@@ -86,7 +455,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-07T20:43:39.300Z",
+    "timestamp": "2026-11-08T16:29:59.246Z",
     "url": "https://egov.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -181,7 +550,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"w-100 d-flex flex-column flex-fill\" id=\"lay\" style=\"width: 1286px; min-height: 100vh;\">",
+            "html": "<div class=\"w-100 d-flex flex-column flex-fill\" id=\"lay\" style=\"width: 1286px; min-height: 100vh;\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -215,11 +584,11 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<ul id=\"tabsController299645\" class=\"nav nav-tabs flex-sm-nowrap\" role=\"tablist\" style=\"flex: 0 0 auto;\">",
+            "html": "<ul id=\"tabsController912156\" class=\"nav nav-tabs flex-sm-nowrap\" role=\"tablist\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\" style=\"flex: 0 0 auto;\">",
             "target": [
               "#myIframe",
               "iframe",
-              "#tabsController299645"
+              "#tabsController912156"
             ]
           },
           {
@@ -249,11 +618,11 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<li class=\"nav-item overflow-hidden\" role=\"presentation\" style=\"max-width: max-content; margin-bottom: -1px;\">",
+            "html": "<li class=\"nav-item overflow-hidden\" role=\"presentation\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\" style=\"max-width: max-content; margin-bottom: -1px;\">",
             "target": [
               "#myIframe",
               "iframe",
-              ".overflow-hidden[role=\"presentation\"]:nth-child(1)"
+              ".overflow-hidden[role=\"presentation\"][data-tcc-spacing-font-size=\"15.2px\"]:nth-child(1)"
             ]
           },
           {
@@ -283,7 +652,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a id=\"tabButton0\" href=\"#tab0\" class=\"nav-link mb-0 overflow-hidden w-auto outline-0 px-3 py-1 active\" title=\"Consulta Documento\" role=\"tab\" data-bs-toggle=\"tab\" aria-controls=\"tab0\" aria-selected=\"true\" style=\"font-size: 0.9rem; text-overflow: ellipsis;\">",
+            "html": "<a id=\"tabButton0\" href=\"#tab0\" class=\"nav-link mb-0 overfl...\" title=\"Consulta Documento\" role=\"tab\" data-bs-toggle=\"tab\" aria-controls=\"tab0\" aria-selected=\"true\" style=\"font-size: 0.9rem; t...\" data-tcc-spacing=\"\" data-tcc-spacing-fon...=\"sans-serif\" data-tcc-spacing-fon...=\"13.68px\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -317,7 +686,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div id=\"tab0\" webrun-tab-mode=\"view\" class=\"tab-pane position-relative w-100 flex-fill overflow-visible show active\" role=\"tabpanel\" aria-labelledby=\"tabButton0\" style=\"min-height: 649px; background: rgb(255, 255, 255);\">",
+            "html": "<div id=\"tab0\" webrun-tab-mode=\"view\" class=\"tab-pane position-re...\" role=\"tabpanel\" aria-labelledby=\"tabButton0\" data-tcc-spacing=\"\" data-tcc-spacing-fon...=\"sans-serif\" data-tcc-spacing-fon...=\"15.2px\" style=\"min-height: 649px; b...\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -351,7 +720,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"card shadow p-3 mb-5 bg-body rounded\" webrun-type=\"HTMLContainer\" id=\"MakerContainer3\" style=\"left: 1.24417%; top: 24px; width: 97.7449%; height: 625px; min-height: 625px; z-index: 0;\">",
+            "html": "<div class=\"card shadow p-3 mb-5 bg-body rounded\" webrun-type=\"HTMLContainer\" id=\"MakerContainer3\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\" style=\"left: 1.24417%; top: 24px; width: 97.7449%; height: 625px; min-height: 625px; z-index: 0;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -487,7 +856,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"form-group form-label fixed-height\" webrun-type=\"HTMLLabel\" id=\"MakerLabel3\" style=\"left: 30.5489%; top: 144px; width: 38.9021%; height: 35px; min-height: 35px; z-index: 5;\">",
+            "html": "<div class=\"form-group form-label fixed-height\" webrun-type=\"HTMLLabel\" id=\"MakerLabel3\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\" style=\"left: 30.5489%; top: 144px; width: 38.9021%; height: 35px; min-height: 35px; z-index: 5;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -521,7 +890,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"w-100 h-100 d-flex justify-content-start align-items-start\" style=\"min-height: 35px;\"><label class=\"mb-0\" style=\"white-space: pre; text-decoration: none; text-align: left;\"><h1><i class=\"fas fa-search\"></i> Consulta de Documentos</h1></label></div>",
+            "html": "<div class=\"w-100 h-100 d-flex justify-content-start align-items-start\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\" style=\"min-height: 35px;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -555,7 +924,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<label class=\"mb-0\" style=\"white-space: pre; text-decoration: none; text-align: left;\"><h1><i class=\"fas fa-search\"></i> Consulta de Documentos</h1></label>",
+            "html": "<label class=\"mb-0\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\" style=\"white-space: pre; text-decoration: none; text-align: left;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -589,7 +958,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"form-group labeled-top\" webrun-type=\"HTMLLookup\" id=\"MakerLookup1\" style=\"left: 30.5489%; top: 232px; width: 17.9793%; height: 35px; min-height: 35px; z-index: 3;\">",
+            "html": "<div class=\"form-group labeled-top\" webrun-type=\"HTMLLookup\" id=\"MakerLookup1\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\" style=\"left: 30.5489%; top: 232px; width: 17.9793%; height: 35px; min-height: 35px; z-index: 3;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -623,7 +992,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<label class=\"form-label top\" for=\"WFRInput1136235\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">Unidade Protocoladora <span style=\"color:red;\">*</span></label>",
+            "html": "<label class=\"form-label top\" for=\"WFRInput1136235\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -657,7 +1026,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<span style=\"color:red;\">*</span>",
+            "html": "<span style=\"color:red;\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\">*</span>",
             "target": [
               "#myIframe",
               "iframe",
@@ -725,7 +1094,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<input class=\"form-control\" id=\"WFRInput1136235\" name=\"WFRInput1136235Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\">",
+            "html": "<input class=\"form-control\" id=\"WFRInput1136235\" name=\"WFRInput1136235Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -759,7 +1128,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"form-group labeled-top\" webrun-type=\"HTMLLookup\" id=\"MakerLookup4\" style=\"left: 49.0056%; top: 232px; width: 17.9793%; height: 35px; min-height: 35px; z-index: 4;\">",
+            "html": "<div class=\"form-group labeled-top\" webrun-type=\"HTMLLookup\" id=\"MakerLookup4\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\" style=\"left: 49.0056%; top: 232px; width: 17.9793%; height: 35px; min-height: 35px; z-index: 4;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -793,7 +1162,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<label class=\"form-label top\" for=\"WFRInput1136236\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">Tipo de Documento <span style=\"color:red;\">*</span></label>",
+            "html": "<label class=\"form-label top\" for=\"WFRInput1136236\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -827,7 +1196,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<span style=\"color:red;\">*</span>",
+            "html": "<span style=\"color:red;\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\">*</span>",
             "target": [
               "#myIframe",
               "iframe",
@@ -895,7 +1264,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<input class=\"form-control\" id=\"WFRInput1136236\" name=\"WFRInput1136236Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\">",
+            "html": "<input class=\"form-control\" id=\"WFRInput1136236\" name=\"WFRInput1136236Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -929,7 +1298,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"form-group labeled-top\" webrun-type=\"HTMLEdit\" id=\"MakerEdit2\" style=\"left: 30.5489%; top: 296px; width: 22.3548%; height: 35px; min-height: 35px; z-index: 2;\">",
+            "html": "<div class=\"form-group labeled-top\" webrun-type=\"HTMLEdit\" id=\"MakerEdit2\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\" style=\"left: 30.5489%; top: 296px; width: 22.3548%; height: 35px; min-height: 35px; z-index: 2;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -963,7 +1332,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<label class=\"form-label top\" for=\"WFRInput1136234\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">N º Doc. (Ex: 400/2026) <span style=\"color:red;\">*</span></label>",
+            "html": "<label class=\"form-label top\" for=\"WFRInput1136234\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -997,7 +1366,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<span style=\"color:red;\">*</span>",
+            "html": "<span style=\"color:red;\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\">*</span>",
             "target": [
               "#myIframe",
               "iframe",
@@ -1031,7 +1400,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<input class=\"form-control\" type=\"text\" autocomplete=\"on\" name=\"WFRInput1136234\" id=\"WFRInput1136234\" style=\"height: 35px; text-decoration: none;\">",
+            "html": "<input class=\"form-control\" type=\"text\" autocomplete=\"on\" name=\"WFRInput1136234\" id=\"WFRInput1136234\" style=\"height: 35px; text-decoration: none;\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -1167,7 +1536,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"form-group form-label fixed-height\" webrun-type=\"HTMLLabel\" id=\"MakerLabel4\" style=\"left: 30.5489%; top: 352px; width: 36.3564%; height: 35px; min-height: 35px; z-index: 6;\">",
+            "html": "<div class=\"form-group form-label fixed-height\" webrun-type=\"HTMLLabel\" id=\"MakerLabel4\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\" style=\"left: 30.5489%; top: 352px; width: 36.3564%; height: 35px; min-height: 35px; z-index: 6;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -1201,7 +1570,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"w-100 h-100 d-flex justify-content-start align-items-start\" style=\"min-height: 35px;\">",
+            "html": "<div class=\"w-100 h-100 d-flex justify-content-start align-items-start\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\" style=\"min-height: 35px;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -1235,7 +1604,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<label class=\"mb-0\" style=\"white-space: pre; text-decoration: none; text-align: left;\"><h6 style=\"color:red;\"><i class=\"fas fa-exclamation-circle\"></i> Todos os campos acima são obrigatórios.</h6></label>",
+            "html": "<label class=\"mb-0\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"13.68px\" style=\"white-space: pre; text-decoration: none; text-align: left;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -1269,7 +1638,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<h6 style=\"color:red;\"><i class=\"fas fa-exclamation-circle\"></i> Todos os campos acima são obrigatórios.</h6>",
+            "html": "<h6 style=\"color:red;\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\"><i class=\"fas fa-exclamation-circle\"></i> Todos os campos acima são obrigatórios.</h6>",
             "target": [
               "#myIframe",
               "iframe",
@@ -1317,7 +1686,7 @@
     "violations": []
   },
   "screenshots": [
-    "Screenshots/1.4.12-saquarema-protocolo-chromium-2026-11-07T20-43-21-844Z-formulario-original-sem-alterar-espacamento-trecho-1.png"
+    "Screenshots/1.4.12-saquarema-protocolo-chromium-2026-11-08T16-29-49-278Z-quatro-espacamentos-trecho-1.png"
   ],
   "erros": [],
   "captura": {
@@ -1329,10 +1698,10 @@
     },
     "trechos": [
       {
-        "arquivo": "Screenshots/1.4.12-saquarema-protocolo-chromium-2026-11-07T20-43-21-844Z-formulario-original-sem-alterar-espacamento-trecho-1.png",
+        "arquivo": "Screenshots/1.4.12-saquarema-protocolo-chromium-2026-11-08T16-29-49-278Z-quatro-espacamentos-trecho-1.png",
         "scrollTop": 0
       }
     ]
   },
-  "fim": "2026-11-07T20:43:39.732Z"
+  "fim": "2026-11-08T16:29:59.626Z"
 }

@@ -1,7 +1,7 @@
 {
   "criterio": "1.1.1",
   "nome": "Non-text Content",
-  "inicio": "2026-11-08T00:54:30.011Z",
+  "inicio": "2026-11-08T14:46:00.471Z",
   "url": "https://niteroi360.niteroi.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -24,7 +24,7 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
       "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
     },
     "http": {
@@ -36,8 +36,8 @@
       "categoriaConfirmada": "Desenvolvimento Econômico"
     },
     "carregamento": {
-      "imagens": 40,
-      "alturaPercorrida": 4532,
+      "imagens": 39,
+      "alturaPercorrida": 4627,
       "superficieRolagem": "BODY",
       "imagensNaoCarregadas": []
     },
@@ -48,13 +48,15 @@
       "observacao": "Avaliação autorizada como página comum; não depende da autenticação do Hand Talk."
     },
     "verificacaoFamiliasDeFonte": {
-      "elementosMedidos": 396,
+      "elementosMedidos": 378,
       "alteracoes": []
     }
   },
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "catalogo-original-sem-ajustes-widget",
     "viewport": {
       "width": 1280,
@@ -69,7 +71,7 @@
   },
   "ocorrenciasAxe": {
     "violations": 12,
-    "passes": 45,
+    "passes": 42,
     "incomplete": 0,
     "inapplicable": 0
   },
@@ -408,7 +410,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T00:54:44.800Z",
+    "timestamp": "2026-11-08T14:46:10.171Z",
     "url": "https://niteroi360.niteroi.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -606,35 +608,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://workflow-content.colab.re/1792432340901-09_16_2026_consulta_publica_editais_NAV_1366_1_4png.png\" alt=\"Consulta pública\" class=\"w-full h-full object-cover rounded-lg max-w-[400px]\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">",
-            "target": [
-              "img[alt=\"Consulta pública\"]"
-            ]
-          },
-          {
-            "any": [
-              {
-                "id": "has-alt",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element has an alt attribute"
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "alt-space-value",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element has a valid alt attribute value"
-              }
-            ],
-            "impact": null,
             "html": "<img src=\"https://workflow-content.colab.re/1792434977673-artepng.png\" alt=\"Participe da Consulta Pública dos editais NAV 2026!\" class=\"w-full h-full object-cover object-center rounded-lg   mb-[10px] \" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">",
             "target": [
-              ".object-center"
+              ".object-cover"
             ]
           },
           {
@@ -1421,42 +1397,6 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<span role=\"img\" aria-label=\"arrow-left\" class=\"anticon anticon-arrow-left\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
-            "target": [
-              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-prev.slick-arrow[slidecount=\"1\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
-            ]
-          },
-          {
-            "any": [
-              {
-                "id": "aria-label",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-label attribute exists and is not empty"
-              }
-            ],
-            "all": [],
-            "none": [],
-            "impact": null,
-            "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
-            "target": [
-              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-next.slick-arrow[slidecount=\"1\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
-            ]
-          },
-          {
-            "any": [
-              {
-                "id": "aria-label",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-label attribute exists and is not empty"
-              }
-            ],
-            "all": [],
-            "none": [],
-            "impact": null,
             "html": "<span role=\"img\" aria-label=\"arrow-left\" class=\"anticon anticon-arrow-left\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
             "target": [
               ".slick-disabled > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
@@ -1495,7 +1435,7 @@
             "impact": null,
             "html": "<span role=\"img\" aria-label=\"arrow-left\" class=\"anticon anticon-arrow-left\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-prev.slick-arrow[slidecount=\"1\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
+              ".slick-prev.slick-arrow[slidecount=\"1\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
             ]
           },
           {
@@ -1513,7 +1453,7 @@
             "impact": null,
             "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-next.slick-arrow[slidecount=\"1\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
+              ".slick-next.slick-arrow[slidecount=\"1\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
             ]
           },
           {
@@ -2232,7 +2172,7 @@
   "captura": {
     "metodo": "viewports_por_rolagem_real",
     "superficie": "BODY",
-    "alturaConteudo": 4951,
+    "alturaConteudo": 4627,
     "alturaViewport": 720,
     "trechos": [
       {
@@ -2265,10 +2205,10 @@
       },
       {
         "arquivo": "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-8.png",
-        "scrollTop": 4231
+        "scrollTop": 3907
       }
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T00:54:45.076Z"
+  "fim": "2026-11-08T14:46:10.444Z"
 }

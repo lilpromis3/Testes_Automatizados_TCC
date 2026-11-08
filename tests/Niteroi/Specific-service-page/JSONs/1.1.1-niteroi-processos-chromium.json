@@ -1,7 +1,7 @@
 {
   "criterio": "1.1.1",
   "nome": "Non-text Content",
-  "inicio": "2026-11-08T01:12:01.205Z",
+  "inicio": "2026-11-08T14:47:38.999Z",
   "url": "https://processo.niteroi.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -24,7 +24,7 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
       "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
     },
     "http": {
@@ -73,6 +73,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "formulario-localizar-processo-aberto",
     "viewport": {
       "width": 1280,
@@ -189,7 +191,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T01:12:15.392Z",
+    "timestamp": "2026-11-08T14:47:48.678Z",
     "url": "https://processo.niteroi.rj.gov.br/#",
     "toolOptions": {
       "resultTypes": [
@@ -954,5 +956,5 @@
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T01:12:15.640Z"
+  "fim": "2026-11-08T14:47:48.935Z"
 }

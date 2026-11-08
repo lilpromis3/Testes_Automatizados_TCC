@@ -1,0 +1,274 @@
+{
+  "criterio": "2.4.6",
+  "nome": "Headings and Labels",
+  "inicio": "2026-11-08T15:37:09.081Z",
+  "url": "https://carioca.rio",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag246",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://carioca.rio/"
+    },
+    "comunicado": {
+      "exibido": true,
+      "fechadoPeloBotao": true
+    },
+    "aumentoFonte": {
+      "controle": ".aumentar-fonte a",
+      "acionamento": "cliques_reais_no_controle_do_site",
+      "limiteProgramadoIdentificado": false,
+      "cliques": 18,
+      "fatorAlvo": 2,
+      "fatorAtingidoNaReferencia": 2,
+      "referencia": "SERVIÇOS MAIS BUSCADOS",
+      "criterioDeParada": "atingir_o_fator_alvo_na_referencia_pois_o_controle_nao_tem_maximo",
+      "tamanhoOriginalPx": 17.5,
+      "tamanhoFinalPx": 35,
+      "escopo": "Aumento aplicado em todos os cenários; não pressupõe o mesmo fator em todos os elementos."
+    },
+    "familiasDeFontePreservadas": true,
+    "fonteAmpliadaConfirmada": true,
+    "idioma": {
+      "documento": "pt-BR",
+      "navegador": "pt-BR"
+    },
+    "titulosERotulos": [
+      {
+        "html": "<label class=\"sr-only\" for=\"s\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\">Pesquisar</label>",
+        "texto": "Pesquisar",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<input class=\"input-group w-auto field form-control\" id=\"s\" name=\"_sf_s\" type=\"text\" pattern=\".{3,}\" title=\"Digite ao menos 3 letras\" placeholder=\"Digite aqui um termo da sua busca...\" value=\"\" required=\"required\" style=\"font-size: 39px;\">",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<input class=\"submit btn btn-primary\" id=\"searchsubmit\" name=\"submit\" type=\"submit\" value=\"\" style=\"font-size: 32px;\">",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button class=\"btn dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\" data-tcc-base-font-size=\"13.5\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 31px;\">\n\t\t\tOlá, visitante! Faça o seu login aqui\n\t\t</button>",
+        "texto": "Olá, visitante! Faça o seu login aqui",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 39px;\">IPTU</h2>",
+        "texto": "IPTU",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 39px;\">Dívida ativa</h2>",
+        "texto": "Dívida ativa",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 39px;\">Licenciamentos</h2>",
+        "texto": "Licenciamentos",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"TitleMenuMaisBuscados\" data-tcc-base-font-size=\"21\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 39px;\">Outros serviços</h2>",
+        "texto": "Outros serviços",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h5 class=\"text-center\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 32px;\">Prefeitura da Cidade do Rio de Janeiro Sede: Rua Afonso Cavalcanti, 455 - Cidade Nova - 20211-110</h5>",
+        "texto": "Prefeitura da Cidade do Rio de Janeiro Sede: Rua Afonso Cavalcanti, 455 - Cidade Nova - 20211-110",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      }
+    ]
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "fonte-ampliada-controle-nativo",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-1.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-2.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-3.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-4.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-5.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-6.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-7.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-8.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-9.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-10.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-11.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-12.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-13.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-14.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-15.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-16.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-17.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-18.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-19.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-20.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-21.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-22.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-23.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-24.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-25.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-26.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-27.png",
+    "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-28.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 16926,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-10.png",
+        "scrollTop": 5508
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-11.png",
+        "scrollTop": 6120
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-12.png",
+        "scrollTop": 6732
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-13.png",
+        "scrollTop": 7344
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-14.png",
+        "scrollTop": 7956
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-15.png",
+        "scrollTop": 8568
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-16.png",
+        "scrollTop": 9180
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-17.png",
+        "scrollTop": 9792
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-18.png",
+        "scrollTop": 10404
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-19.png",
+        "scrollTop": 11016
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-20.png",
+        "scrollTop": 11628
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-21.png",
+        "scrollTop": 12240
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-22.png",
+        "scrollTop": 12852
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-23.png",
+        "scrollTop": 13464
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-24.png",
+        "scrollTop": 14076
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-25.png",
+        "scrollTop": 14688
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-26.png",
+        "scrollTop": 15300
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-27.png",
+        "scrollTop": 15912
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-28.png",
+        "scrollTop": 16206
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T15:37:42.090Z"
+}

@@ -1,0 +1,208 @@
+{
+  "criterio": "1.4.10",
+  "nome": "Reflow",
+  "inicio": "2026-11-08T15:35:01.307Z",
+  "url": "https://carioca.rio",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1410",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://carioca.rio/"
+    },
+    "comunicado": {
+      "exibido": true,
+      "fechadoPeloBotao": true
+    },
+    "aumentoFonte": {
+      "controle": ".aumentar-fonte a",
+      "acionamento": "cliques_reais_no_controle_do_site",
+      "limiteProgramadoIdentificado": false,
+      "cliques": 18,
+      "fatorAlvo": 2,
+      "fatorAtingidoNaReferencia": 2,
+      "referencia": "SERVIÇOS MAIS BUSCADOS",
+      "criterioDeParada": "atingir_o_fator_alvo_na_referencia_pois_o_controle_nao_tem_maximo",
+      "tamanhoOriginalPx": 17.5,
+      "tamanhoFinalPx": 35,
+      "escopo": "Aumento aplicado em todos os cenários; não pressupõe o mesmo fator em todos os elementos."
+    },
+    "familiasDeFontePreservadas": true,
+    "fonteAmpliadaConfirmada": true,
+    "idioma": {
+      "documento": "pt-BR",
+      "navegador": "pt-BR"
+    },
+    "layout": {
+      "larguraViewport": 320,
+      "larguraDocumento": 357,
+      "rolagemHorizontal": true,
+      "candidatosRecorte": [
+        {
+          "html": "<a class=\"skip-link sr-only sr-only-focusable\" href=\"#content\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\" style=\"font-size: 33px;\">Ir para o conteúdo</a>",
+          "scrollWidth": 284,
+          "clientWidth": 1,
+          "scrollHeight": 50,
+          "clientHeight": 1
+        },
+        {
+          "html": "<a class=\"skip-link sr-only sr-only-focusable\" href=\"#content\" style=\"font-size: 33px;\">Ir para o conteúdo</a>",
+          "scrollWidth": 284,
+          "clientWidth": 1,
+          "scrollHeight": 50,
+          "clientHeight": 1
+        },
+        {
+          "html": "<label class=\"sr-only\" for=\"s\" data-tcc-base-font-size=\"15\" data-tcc-base-font-family=\"museo_sans500, sans-serif\">Pesquisar</label>",
+          "scrollWidth": 66,
+          "clientWidth": 1,
+          "scrollHeight": 23,
+          "clientHeight": 1
+        },
+        {
+          "html": "<div class=\"wrapper mais-buscados\" id=\"wrapper-mais-buscados-mobile\">\n\n\t\t<div class=\"container\" id=\"wrapper-static-content\" tabindex=\"-1\">\n\n    <div class=\"row\">\n\n        <!--MAIS BUSCADOS-->\n\t\t\t                <span class=\"TitleMaisBuscados\" data-tcc-font-reference=\"17.5\" style=\"font-size: 35px;\">SERVIÇOS MAIS BUSCADOS</span>\n\n\t\t\t\t<ul class=\"ListaMaisBuscados\" style=\"font-size: 33px;\">\n\t\t\t\n\t\t\t\t\t\t",
+          "scrollWidth": 379,
+          "clientWidth": 320,
+          "scrollHeight": 2771,
+          "clientHeight": 2771
+        },
+        {
+          "html": "<span class=\"sr-only\" style=\"font-size: 34px;\">Previous</span>",
+          "scrollWidth": 134,
+          "clientWidth": 1,
+          "scrollHeight": 51,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"sr-only\" style=\"font-size: 34px;\">Next</span>",
+          "scrollWidth": 74,
+          "clientWidth": 1,
+          "scrollHeight": 51,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"sr-only\" style=\"font-size: 34px;\">Previous</span>",
+          "scrollWidth": 134,
+          "clientWidth": 1,
+          "scrollHeight": 51,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"sr-only\" style=\"font-size: 34px;\">Next</span>",
+          "scrollWidth": 74,
+          "clientWidth": 1,
+          "scrollHeight": 51,
+          "clientHeight": 1
+        }
+      ],
+      "raiz": "DOM_principal",
+      "toleranciaCssPx": 1
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "reflow-320",
+    "viewport": {
+      "width": 320,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-1.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-2.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-3.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-4.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-5.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-6.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-7.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-8.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-9.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-10.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-11.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-12.png",
+    "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-13.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 7788,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-10.png",
+        "scrollTop": 5508
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-11.png",
+        "scrollTop": 6120
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-12.png",
+        "scrollTop": 6732
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-rio-servicos-carioca-chromium-reflow-320-trecho-13.png",
+        "scrollTop": 7068
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T15:35:31.646Z"
+}

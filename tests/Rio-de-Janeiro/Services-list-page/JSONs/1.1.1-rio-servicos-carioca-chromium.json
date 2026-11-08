@@ -1,0 +1,1613 @@
+{
+  "criterio": "1.1.1",
+  "nome": "Non-text Content",
+  "inicio": "2026-11-08T15:29:56.839Z",
+  "url": "https://carioca.rio",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag111",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "aria-meter-name",
+    "aria-progressbar-name",
+    "image-alt",
+    "input-image-alt",
+    "object-alt",
+    "role-img-alt",
+    "svg-img-alt"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://carioca.rio/"
+    },
+    "comunicado": {
+      "exibido": true,
+      "fechadoPeloBotao": true
+    },
+    "aumentoFonte": {
+      "controle": ".aumentar-fonte a",
+      "acionamento": "cliques_reais_no_controle_do_site",
+      "limiteProgramadoIdentificado": false,
+      "cliques": 18,
+      "fatorAlvo": 2,
+      "fatorAtingidoNaReferencia": 2,
+      "referencia": "SERVIÇOS MAIS BUSCADOS",
+      "criterioDeParada": "atingir_o_fator_alvo_na_referencia_pois_o_controle_nao_tem_maximo",
+      "tamanhoOriginalPx": 17.5,
+      "tamanhoFinalPx": 35,
+      "escopo": "Aumento aplicado em todos os cenários; não pressupõe o mesmo fator em todos os elementos."
+    },
+    "fonteAmpliadaConfirmada": true,
+    "familiasDeFontePreservadas": true,
+    "idioma": {
+      "documento": "pt-BR",
+      "navegador": "pt-BR"
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
+    "estado": "fonte-ampliada-controle-nativo",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 1,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 6
+  },
+  "ocorrenciasAxe": {
+    "violations": 13,
+    "passes": 6,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".navbar-brand > img"
+      ],
+      "html": "<img src=\"https://carioca.rio/wp-content/uploads/2021/02/RIOPREFEITURA-horizontal-branco-e1614259697699.png\" style=\"font-size: 39px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        "a[href$=\"prefeitura.rio/\"][rel=\"home\"][itemprop=\"url\"]:nth-child(2) > img"
+      ],
+      "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/08/space.png\" style=\"font-size: 34px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".navbar-brand-1746 > img"
+      ],
+      "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/02/1746.png\" style=\"font-size: 34px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".navbar-brand-info > img"
+      ],
+      "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/02/acessoainfo.png\" style=\"font-size: 34px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        "li:nth-child(1) > a[target=\"_blank\"] > img"
+      ],
+      "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/01/tweet.png\" style=\"font-size: 36px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        "li:nth-child(2) > a[target=\"_blank\"] > img"
+      ],
+      "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/01/facebook-1.png\" style=\"font-size: 36px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        "li:nth-child(3) > a[target=\"_blank\"] > img"
+      ],
+      "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/01/insta.png\" style=\"font-size: 36px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        "li:nth-child(4) > a[target=\"_blank\"] > img"
+      ],
+      "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/01/youtube-1.png\" style=\"font-size: 36px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".row > .col-sm:nth-child(1) > .card-persona > .card-img-circle > .card-img-top"
+      ],
+      "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2022/01/propriedade.png\" style=\"font-size: 33px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".col-sm:nth-child(2) > .card-persona > .card-img-circle > .card-img-top"
+      ],
+      "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2022/01/empreendedor.png\" style=\"font-size: 33px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".col-sm:nth-child(3) > .card-persona > .card-img-circle > .card-img-top"
+      ],
+      "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2022/01/icotransporte.png\" style=\"font-size: 33px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".col-sm:nth-child(4) > .card-persona > .card-img-circle > .card-img-top"
+      ],
+      "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2022/01/motorista.png\" style=\"font-size: 33px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".img-fluid"
+      ],
+      "html": "<img class=\"img-fluid\" src=\"https://carioca.rio/wp-content/uploads/2021/02/RIOPREFEITURA-horizontal-branco-e1614259697699.png\" style=\"font-size: 34px;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    }
+  ],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 1280,
+      "windowHeight": 720,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-08T15:30:30.588Z",
+    "url": "https://carioca.rio/#",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "aria-meter-name",
+          "aria-progressbar-name",
+          "image-alt",
+          "input-image-alt",
+          "object-alt",
+          "role-img-alt",
+          "svg-img-alt"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [
+      {
+        "id": "aria-meter-name",
+        "impact": null,
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag111",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-11.1.1"
+        ],
+        "description": "Ensure every ARIA meter node has an accessible name",
+        "help": "ARIA meter nodes must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-meter-name?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "aria-progressbar-name",
+        "impact": null,
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag111",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-11.1.1"
+        ],
+        "description": "Ensure every ARIA progressbar node has an accessible name",
+        "help": "ARIA progressbar nodes must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-progressbar-name?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "input-image-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "EN-9.4.1.2",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.3"
+        ],
+        "description": "Ensure <input type=\"image\"> elements have alternative text",
+        "help": "Image buttons must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/input-image-alt?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "object-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-1.1.6"
+        ],
+        "description": "Ensure <object> elements have alternative text",
+        "help": "<object> elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/object-alt?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "role-img-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.1"
+        ],
+        "description": "Ensure [role=\"img\"] and [role=\"image\"] elements have alternative text",
+        "help": "[role=\"img\"] and [role=\"image\"] elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/role-img-alt?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "svg-img-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.5"
+        ],
+        "description": "Ensure <svg> elements with an img, image, graphics-document or graphics-symbol role have accessible text",
+        "help": "<svg> elements with an img or image role must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/svg-img-alt?application=playwright",
+        "nodes": []
+      }
+    ],
+    "passes": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.1"
+        ],
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": {
+                  "role": "presentation"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were overridden with role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img width=\"212\" height=\"77\" src=\"https://carioca.rio/wp-content/uploads/2020/01/logotipo-topo.png\" class=\"image wp-image-68668  attachment-full size-full\" alt=\"\" style=\"max-width: 100%; height: auto; font-size: 33px;\">",
+            "target": [
+              ".image"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": {
+                  "role": "presentation"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were overridden with role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img width=\"640\" height=\"auto\" src=\"https://carioca.rio/...\" class=\"attachment-large siz...\" alt=\"\" srcset=\"https://carioca.rio/...\" sizes=\"(max-width: 640px) 1...\" style=\"font-size: 34px;\">",
+            "target": [
+              "a[href$=\"iss/\"] > .attachment-large.size-large[width=\"640\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2020/07/proprietario-img.jpg\" alt=\"Card image cap\" style=\"font-size: 33px;\">",
+            "target": [
+              ".row > .col-sm:nth-child(1) > .card-persona > .card-img-top[alt=\"Card image cap\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2020/07/cidadao-img.jpg\" alt=\"Card image cap\" style=\"font-size: 33px;\">",
+            "target": [
+              ".col-sm:nth-child(2) > .card-persona > .card-img-top[alt=\"Card image cap\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2020/01/img-transporte.png\" alt=\"Card image cap\" style=\"font-size: 33px;\">",
+            "target": [
+              ".col-sm:nth-child(3) > .card-persona > .card-img-top[alt=\"Card image cap\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2020/07/motorista-img.jpg\" alt=\"Card image cap\" style=\"font-size: 33px;\">",
+            "target": [
+              ".col-sm:nth-child(4) > .card-persona > .card-img-top[alt=\"Card image cap\"]"
+            ]
+          }
+        ]
+      }
+    ],
+    "incomplete": [],
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.1"
+        ],
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"https://carioca.rio/wp-content/uploads/2021/02/RIOPREFEITURA-horizontal-branco-e1614259697699.png\" style=\"font-size: 39px;\">",
+            "target": [
+              ".navbar-brand > img"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/08/space.png\" style=\"font-size: 34px;\">",
+            "target": [
+              "a[href$=\"prefeitura.rio/\"][rel=\"home\"][itemprop=\"url\"]:nth-child(2) > img"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/02/1746.png\" style=\"font-size: 34px;\">",
+            "target": [
+              ".navbar-brand-1746 > img"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/02/acessoainfo.png\" style=\"font-size: 34px;\">",
+            "target": [
+              ".navbar-brand-info > img"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/01/tweet.png\" style=\"font-size: 36px;\">",
+            "target": [
+              "li:nth-child(1) > a[target=\"_blank\"] > img"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/01/facebook-1.png\" style=\"font-size: 36px;\">",
+            "target": [
+              "li:nth-child(2) > a[target=\"_blank\"] > img"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/01/insta.png\" style=\"font-size: 36px;\">",
+            "target": [
+              "li:nth-child(3) > a[target=\"_blank\"] > img"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"https://carioca.rio/wp-content/uploads/2020/01/youtube-1.png\" style=\"font-size: 36px;\">",
+            "target": [
+              "li:nth-child(4) > a[target=\"_blank\"] > img"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2022/01/propriedade.png\" style=\"font-size: 33px;\">",
+            "target": [
+              ".row > .col-sm:nth-child(1) > .card-persona > .card-img-circle > .card-img-top"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2022/01/empreendedor.png\" style=\"font-size: 33px;\">",
+            "target": [
+              ".col-sm:nth-child(2) > .card-persona > .card-img-circle > .card-img-top"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2022/01/icotransporte.png\" style=\"font-size: 33px;\">",
+            "target": [
+              ".col-sm:nth-child(3) > .card-persona > .card-img-circle > .card-img-top"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"card-img-top\" src=\"https://carioca.rio/wp-content/uploads/2022/01/motorista.png\" style=\"font-size: 33px;\">",
+            "target": [
+              ".col-sm:nth-child(4) > .card-persona > .card-img-circle > .card-img-top"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"img-fluid\" src=\"https://carioca.rio/wp-content/uploads/2021/02/RIOPREFEITURA-horizontal-branco-e1614259697699.png\" style=\"font-size: 34px;\">",
+            "target": [
+              ".img-fluid"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        ]
+      }
+    ]
+  },
+  "screenshots": [
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-1.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-2.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-3.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-4.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-5.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-6.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-7.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-8.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-9.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-10.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-11.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-12.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-13.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-14.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-15.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-16.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-17.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-18.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-19.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-20.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-21.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-22.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-23.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-24.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-25.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-26.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-27.png",
+    "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-28.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 16926,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-10.png",
+        "scrollTop": 5508
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-11.png",
+        "scrollTop": 6120
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-12.png",
+        "scrollTop": 6732
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-13.png",
+        "scrollTop": 7344
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-14.png",
+        "scrollTop": 7956
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-15.png",
+        "scrollTop": 8568
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-16.png",
+        "scrollTop": 9180
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-17.png",
+        "scrollTop": 9792
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-18.png",
+        "scrollTop": 10404
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-19.png",
+        "scrollTop": 11016
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-20.png",
+        "scrollTop": 11628
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-21.png",
+        "scrollTop": 12240
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-22.png",
+        "scrollTop": 12852
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-23.png",
+        "scrollTop": 13464
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-24.png",
+        "scrollTop": 14076
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-25.png",
+        "scrollTop": 14688
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-26.png",
+        "scrollTop": 15300
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-27.png",
+        "scrollTop": 15912
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-rio-servicos-carioca-chromium-fonte-ampliada-controle-nativo-trecho-28.png",
+        "scrollTop": 16206
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T15:30:30.866Z"
+}

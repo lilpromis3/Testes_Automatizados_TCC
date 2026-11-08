@@ -30,7 +30,7 @@ type Report = {
   criterio: string; nome: string; inicio: string; fim?: string; url: string;
   ambiente: Record<string, unknown>; regrasDisponiveis: string[];
   statusExecucao: string; preparacao: Record<string, unknown>;
-  analise: { varredurasExecutadas: number; escopo: 'criterio' | 'geral_complementar';
+  analise: { varredurasExecutadas: number; escopo: 'criterio'; coberturaAxe: 'parcial' | 'sem_regras'; limitacao: string;
     estado: string; viewport?: unknown; verificacaoCriterio?: string };
   resumoAxe: Counts | null; ocorrenciasAxe: Counts | null;
   localizacaoDosAchados: Record<string, unknown>[]; axe: AxeResults | null;
@@ -156,10 +156,13 @@ async function prepare(page: Page, report: Report) {
   report.preparacao.http = { status: response?.status(), url: page.url() };
   expect(response?.ok()).toBeTruthy();
   const notice = page.locator('#myModalIframe');
-  const noticeVisible = await notice.isVisible();
+  // O comunicado é aberto de forma assíncrona após o evento load.
+  // Uma consulta imediata a isVisible pode ocorrer antes de sua abertura.
+  const noticeVisible = await notice.waitFor({ state: 'visible', timeout: 5000 }).then(() => true, () => false);
   if (noticeVisible) {
     await notice.getByRole('button', { name: 'Fechar', exact: true }).click({ timeout: 10_000 });
     await expect(notice).toBeHidden();
+    await expect(page.locator('.modal-backdrop')).toHaveCount(0);
   }
   report.preparacao.comunicadoFechado = noticeVisible;
   await page.getByText('Consulta de Documentos (Protocolo)', { exact: true }).last().click();
@@ -235,6 +238,52 @@ async function prepareResize(page: Page, frame: Frame, report: Report, worker: W
   report.preparacao.layout = await layout(frame);
 }
 
+async function prepareSpacing(frame: Frame, report: Report) {
+  // A folha é inserida no documento interno do formulário, não no catálogo.
+  // Não cria espaçamento inline !important artificial para avoid-inline-spacing.
+  await frame.locator('body *').evaluateAll(elements => elements.forEach(el => {
+    if (el instanceof HTMLElement && !['SCRIPT', 'STYLE', 'NOSCRIPT', 'IFRAME'].includes(el.tagName) &&
+      el.getClientRects().length && getComputedStyle(el).visibility !== 'hidden' &&
+      parseFloat(getComputedStyle(el).fontSize) > 0 &&
+      (el.textContent?.trim() || ['INPUT', 'SELECT', 'TEXTAREA'].includes(el.tagName))) {
+      const style = getComputedStyle(el);
+      el.setAttribute('data-tcc-spacing', '');
+      el.setAttribute('data-tcc-spacing-font-family', style.fontFamily);
+      el.setAttribute('data-tcc-spacing-font-size', style.fontSize);
+    }
+  }));
+  await frame.addStyleTag({ content: `
+    :root:root:root:root:root body [data-tcc-spacing] {
+      line-height: 1.5 !important; letter-spacing: 0.12em !important; word-spacing: 0.16em !important;
+    }
+    :root:root:root:root:root body p[data-tcc-spacing] { margin-bottom: 2em !important; }
+  ` });
+  await settle(frame);
+  const values = await frame.locator('[data-tcc-spacing]').evaluateAll(elements => elements.map(el => {
+    const s = getComputedStyle(el), size = parseFloat(s.fontSize);
+    return { tag: el.tagName, id: el.id, alturaLinhaComputada: s.lineHeight,
+      linha: parseFloat(s.lineHeight) / size, letras: parseFloat(s.letterSpacing) / size,
+      palavras: parseFloat(s.wordSpacing) / size, paragrafo: el.tagName === 'P' ? parseFloat(s.marginBottom) / size : null,
+      familiaPreservada: s.fontFamily === el.getAttribute('data-tcc-spacing-font-family'),
+      tamanhoPreservado: s.fontSize === el.getAttribute('data-tcc-spacing-font-size') };
+  }));
+  expect(values.length).toBeGreaterThan(0);
+  const nativeSelects = values.filter(v => v.tag === 'SELECT' && v.alturaLinhaComputada === 'normal');
+  report.preparacao.espacamento = { aplicado: true, metodo: 'folha_de_estilo_no_iframe',
+    caminhoFrames: FORM_PATH, elementosMedidos: values.length,
+    linha: 1.5, paragrafoEm: 2, letrasEm: .12, palavrasEm: .16, medicoes: values,
+    paragrafosMedidos: values.filter(v => v.paragrafo !== null).length,
+    controlesNativosSemAlturaDeLinhaNumerica: nativeSelects,
+    limitacao: nativeSelects.length
+      ? 'Select nativo com line-height normal não confirma numericamente o espaçamento de linha; requer revisão visual.'
+      : 'A confirmação dos estilos não comprova ausência de recortes, sobreposições ou perda de funcionalidade.' };
+  expect(values.filter(v => !((v.linha >= 1.49 || nativeSelects.includes(v)) &&
+    v.letras >= .119 && v.palavras >= .159 && (v.paragrafo === null || v.paragrafo >= 1.99)))).toEqual([]);
+  expect(values.every(v => v.familiaPreservada && v.tamanhoPreservado),
+    'O cenário de espaçamento deve preservar a família e o tamanho de fonte').toBeTruthy();
+  report.preparacao.layout = await layout(frame);
+}
+
 async function prepareHover(page: Frame, report: Report) {
   // Busca possíveis gatilhos de conteúdo adicional exibido por hover.
   const selector = '[aria-haspopup="true"], [aria-haspopup="menu"], [aria-describedby], [title]:not(iframe):not(script):not(style)';
@@ -288,7 +337,10 @@ async function evaluateCriterion(criterion: typeof criteria[number][0], page: Pa
     ambiente: { navegador: info.project.name, versaoNavegador: page.context().browser()?.version(),
       axe: axe.version, playwright: require('@playwright/test/package.json').version, tag, retry: info.retry },
     regrasDisponiveis: rules, statusExecucao: 'em_execucao', preparacao: {},
-    analise: { varredurasExecutadas: 0, escopo: rules.length ? 'criterio' : 'geral_complementar',
+    analise: { varredurasExecutadas: 0, escopo: 'criterio', coberturaAxe: rules.length ? 'parcial' : 'sem_regras',
+      limitacao: rules.length
+        ? 'As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.'
+        : 'Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.',
       estado: 'formulario-parcialmente-preenchido-padrao' },
     resumoAxe: null, ocorrenciasAxe: null, localizacaoDosAchados: [], axe: null, screenshots: [], erros: [],
   };
@@ -305,13 +357,9 @@ async function evaluateCriterion(criterion: typeof criteria[number][0], page: Pa
       report.preparacao.layout = await layout(frame);
       report.analise.estado = 'reflow-320';
     } else if (criterion === '1.4.12') {
-      report.preparacao.espacamento = {
-        aplicado: false, metodo: 'estilos_originais_do_site',
-        observacao: 'O recorte solicitado não aplica CSS de espaçamento. A varredura no estado original não verifica a tolerância às alterações previstas no critério 1.4.12.',
-      };
-      report.analise.estado = 'formulario-original-sem-alterar-espacamento';
-      report.analise.verificacaoCriterio = 'nao_avaliado_neste_recorte';
-      info.annotations.push({ type: 'limitação', description: '1.4.12: coleta no estado original; tolerância a alterações de espaçamento não avaliada.' });
+      await prepareSpacing(frame, report);
+      report.analise.estado = 'quatro-espacamentos';
+      report.analise.verificacaoCriterio = 'preparacao_confirmada_cobertura_axe_parcial';
     } else if (criterion === '1.4.13') {
       await prepareHover(frame, report);
       report.analise.estado = 'hover-formulario';
@@ -340,10 +388,15 @@ async function evaluateCriterion(criterion: typeof criteria[number][0], page: Pa
       expect(await zoomWorker.evaluate('nativeZoom()')).toBe(2);
       report.preparacao.zoomAposCaptura = await zoomMetrics(page, frame);
     }
+    // Uma lista vazia não pode cair na análise padrão (geral) do axe.
+    if (!rules.length) {
+      report.statusExecucao = 'coleta_concluida_sem_cobertura_axe';
+      return;
+    }
     let builder = new AxeBuilder({ page }).include(FORM_PATH).options({ resultTypes: [...categories] });
-    if (rules.length) builder = builder.withRules(rules);
+    builder = builder.withRules(rules);
 
-    // Única chamada de análise do axe-core em cada teste.
+    // Única chamada ao axe, restrita às regras associadas ao critério.
     const result = await builder.analyze();
     report.axe = result;
     report.analise.varredurasExecutadas = 1;

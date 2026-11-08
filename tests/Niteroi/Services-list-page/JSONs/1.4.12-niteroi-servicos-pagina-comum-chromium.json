@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.12",
   "nome": "Text Spacing",
-  "inicio": "2026-11-08T00:55:46.995Z",
+  "inicio": "2026-11-08T14:46:53.188Z",
   "url": "https://niteroi360.niteroi.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -18,7 +18,7 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
       "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
     },
     "http": {
@@ -30,8 +30,8 @@
       "categoriaConfirmada": "Desenvolvimento Econômico"
     },
     "carregamento": {
-      "imagens": 40,
-      "alturaPercorrida": 4532,
+      "imagens": 39,
+      "alturaPercorrida": 4627,
       "superficieRolagem": "BODY",
       "imagensNaoCarregadas": []
     },
@@ -42,12 +42,12 @@
       "observacao": "Avaliação autorizada como página comum; não depende da autenticação do Hand Talk."
     },
     "verificacaoFamiliasDeFonte": {
-      "elementosMedidos": 396,
+      "elementosMedidos": 378,
       "alteracoes": []
     },
     "espacamento": {
       "metodo": "folha_de_estilo",
-      "elementosMedidos": 239,
+      "elementosMedidos": 233,
       "linha": 1.5,
       "paragrafoEm": 2,
       "letrasEm": 0.12,
@@ -296,54 +296,6 @@
         {
           "tag": "DIV",
           "alturaLinhaComputada": "30px",
-          "linha": 1.5,
-          "letras": 0.12,
-          "palavras": 0.16,
-          "paragrafo": null
-        },
-        {
-          "tag": "DIV",
-          "alturaLinhaComputada": "24px",
-          "linha": 1.5,
-          "letras": 0.12,
-          "palavras": 0.16,
-          "paragrafo": null
-        },
-        {
-          "tag": "DIV",
-          "alturaLinhaComputada": "24px",
-          "linha": 1.5,
-          "letras": 0.12,
-          "palavras": 0.16,
-          "paragrafo": null
-        },
-        {
-          "tag": "DIV",
-          "alturaLinhaComputada": "21px",
-          "linha": 1.5,
-          "letras": 0.12,
-          "palavras": 0.16,
-          "paragrafo": null
-        },
-        {
-          "tag": "DIV",
-          "alturaLinhaComputada": "21px",
-          "linha": 1.5,
-          "letras": 0.12,
-          "palavras": 0.16,
-          "paragrafo": null
-        },
-        {
-          "tag": "UL",
-          "alturaLinhaComputada": "21px",
-          "linha": 1.5,
-          "letras": 0.12,
-          "palavras": 0.16,
-          "paragrafo": null
-        },
-        {
-          "tag": "LI",
-          "alturaLinhaComputada": "21px",
           "linha": 1.5,
           "letras": 0.12,
           "palavras": 0.16,
@@ -1975,7 +1927,7 @@
       "rolagemHorizontal": true,
       "candidatosRecorte": [
         {
-          "html": "<div class=\"slick-list\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\"><div class=\"slick-track\" style=\"width: 6400px; opacity: 1; transform: translate3d(-2560px, 0px, 0px);\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\"><div data-index=\"-1\" tabindex=\"-1\" class=\"slick-slide slick-cloned\" aria-hidden=\"true\" style=\"width: 1280px;\" data-tcc-base-fon",
+          "html": "<div class=\"slick-list\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\"><div class=\"slick-track\" style=\"width: 6400px; opacity: 1; transform: translate3d(-1280px, 0px, 0px);\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\"><div data-index=\"-1\" tabindex=\"-1\" class=\"slick-slide slick-cloned\" aria-hidden=\"true\" style=\"width: 1280px;\" data-tcc-base-fon",
           "scrollWidth": 6400,
           "clientWidth": 1280,
           "scrollHeight": 400,
@@ -2031,6 +1983,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "quatro-espacamentos",
     "viewport": {
       "width": 1280,
@@ -2045,7 +1999,7 @@
   },
   "ocorrenciasAxe": {
     "violations": 0,
-    "passes": 94,
+    "passes": 86,
     "incomplete": 0,
     "inapplicable": 0
   },
@@ -2065,7 +2019,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T00:56:01.070Z",
+    "timestamp": "2026-11-08T14:47:03.143Z",
     "url": "https://niteroi360.niteroi.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -2510,9 +2464,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div data-role=\"none\" class=\"slick-arrow slick-prev\" currentslide=\"1\" slidecount=\"2\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "html": "<div data-role=\"none\" class=\"slick-arrow slick-prev\" currentslide=\"0\" slidecount=\"2\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".slick-prev[currentslide=\"1\"][slidecount=\"2\"]"
+              ".slick-prev.slick-arrow[slidecount=\"2\"]"
             ]
           },
           {
@@ -2544,7 +2498,7 @@
             "impact": null,
             "html": "<span role=\"img\" aria-label=\"arrow-left\" class=\"anticon anticon-arrow-left\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".slick-prev[currentslide=\"1\"][slidecount=\"2\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
+              ".slick-prev.slick-arrow[slidecount=\"2\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
             ]
           },
           {
@@ -2574,7 +2528,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"slick-track\" style=\"width: 6400px; opacity: 1; transform: translate3d(-2560px, 0px, 0px);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "html": "<div class=\"slick-track\" style=\"width: 6400px; opacity: 1; transform: translate3d(-1280px, 0px, 0px);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
               ".sc-egkSDF > .ant-carousel.css-bz06vj > .slick-slider.slick-initialized[dir=\"ltr\"] > .slick-list > .slick-track"
             ]
@@ -2606,9 +2560,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div data-index=\"1\" class=\"slick-slide slick-active slick-current\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 1280px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "html": "<div data-index=\"0\" class=\"slick-slide slick-active slick-current\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 1280px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".slick-current[data-index=\"1\"][aria-hidden=\"false\"]"
+              ".sc-egkSDF > .ant-carousel.css-bz06vj > .slick-slider.slick-initialized[dir=\"ltr\"] > .slick-list > .slick-track > .slick-current[data-index=\"0\"][aria-hidden=\"false\"]"
             ]
           },
           {
@@ -2640,7 +2594,7 @@
             "impact": null,
             "html": "<div tabindex=\"-1\" class=\"sc-fAUdSK eDMJhF\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".slick-current[data-index=\"1\"][aria-hidden=\"false\"] > div > .sc-fAUdSK.eDMJhF"
+              ".slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .sc-fAUdSK.eDMJhF"
             ]
           },
           {
@@ -2670,9 +2624,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div data-role=\"none\" class=\"slick-arrow slick-next\" currentslide=\"1\" slidecount=\"2\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "html": "<div data-role=\"none\" class=\"slick-arrow slick-next\" currentslide=\"0\" slidecount=\"2\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".slick-next[currentslide=\"1\"][slidecount=\"2\"]"
+              ".slick-next.slick-arrow[slidecount=\"2\"]"
             ]
           },
           {
@@ -2704,7 +2658,7 @@
             "impact": null,
             "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".slick-next[currentslide=\"1\"][slidecount=\"2\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
+              ".slick-next.slick-arrow[slidecount=\"2\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
             ]
           },
           {
@@ -2862,233 +2816,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"slick-arrow slick-prev\" data-role=\"none\" currentslide=\"0\" slidecount=\"1\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "html": "<div style=\"font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif; display: contents;\">",
             "target": [
-              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-prev[slidecount=\"1\"][currentslide=\"0\"]"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<span role=\"img\" aria-label=\"arrow-left\" class=\"anticon anticon-arrow-left\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
-            "target": [
-              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-prev[slidecount=\"1\"][currentslide=\"0\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<div class=\"slick-track\" style=\"width: 1123px; opacity: 1; transform: translate3d(0px, 0px, 0px);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
-            "target": [
-              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<div data-index=\"0\" class=\"slick-slide slick-active slick-current\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 1123px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
-            "target": [
-              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track > .slick-current[data-index=\"0\"][aria-hidden=\"false\"]"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<div class=\"flex flex-col items-center justify-center cursor-pointer transition-all p-4  rounded-lg\" tabindex=\"-1\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
-            "target": [
-              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track > .slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .transition-all.rounded-lg.p-4"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<div class=\"slick-arrow slick-next\" data-role=\"none\" currentslide=\"0\" slidecount=\"1\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
-            "target": [
-              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-next[slidecount=\"1\"][currentslide=\"0\"]"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
-            "target": [
-              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-next[slidecount=\"1\"][currentslide=\"0\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<ul class=\"slick-dots slick-dots-bottom\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
-            "target": [
-              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-dots.slick-dots-bottom"
+              ".px-4 > div:nth-child(2)"
             ]
           },
           {
@@ -3150,41 +2880,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div style=\"font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif; display: contents;\">",
-            "target": [
-              ".px-4 > div:nth-child(4)"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
             "html": "<div class=\"mt-5\" style=\"font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
             "target": [
-              "div:nth-child(4) > .mt-5"
+              "div:nth-child(3) > .mt-5"
             ]
           },
           {
@@ -3440,7 +3138,7 @@
             "impact": null,
             "html": "<div data-index=\"1\" class=\"slick-slide slick-active\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 188px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
             "target": [
-              ".sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track > .slick-active[data-index=\"1\"][aria-hidden=\"false\"]"
+              ".slick-active[data-index=\"1\"][aria-hidden=\"false\"]"
             ]
           },
           {
@@ -4240,7 +3938,7 @@
             "impact": null,
             "html": "<div class=\"slick-arrow slick-next\" data-role=\"none\" currentslide=\"0\" slidecount=\"12\" style=\"display: block;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".slick-next[slidecount=\"12\"][currentslide=\"0\"]"
+              ".slick-next.slick-arrow[slidecount=\"12\"]"
             ]
           },
           {
@@ -4272,7 +3970,7 @@
             "impact": null,
             "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".slick-next[slidecount=\"12\"][currentslide=\"0\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
+              ".slick-next.slick-arrow[slidecount=\"12\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
             ]
           },
           {
@@ -4368,7 +4066,7 @@
             "impact": null,
             "html": "<div class=\"slick-arrow slick-prev\" data-role=\"none\" currentslide=\"0\" slidecount=\"1\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-prev[slidecount=\"1\"][currentslide=\"0\"]"
+              ".slick-prev.slick-arrow[slidecount=\"1\"]"
             ]
           },
           {
@@ -4400,7 +4098,7 @@
             "impact": null,
             "html": "<span role=\"img\" aria-label=\"arrow-left\" class=\"anticon anticon-arrow-left\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-prev[slidecount=\"1\"][currentslide=\"0\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
+              ".slick-prev.slick-arrow[slidecount=\"1\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
             ]
           },
           {
@@ -4432,7 +4130,7 @@
             "impact": null,
             "html": "<div class=\"slick-track\" style=\"width: 1123px; opacity: 1; transform: translate3d(0px, 0px, 0px);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
             "target": [
-              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track"
+              ".ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track"
             ]
           },
           {
@@ -4464,7 +4162,7 @@
             "impact": null,
             "html": "<div data-index=\"0\" class=\"slick-slide slick-active slick-current\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 1123px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
             "target": [
-              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track > .slick-current[data-index=\"0\"][aria-hidden=\"false\"]"
+              ".ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track > .slick-current[data-index=\"0\"][aria-hidden=\"false\"]"
             ]
           },
           {
@@ -4496,7 +4194,7 @@
             "impact": null,
             "html": "<div class=\"flex items-center cursor-pointer transition-all p-4 rounded-lg mx-3\" tabindex=\"-1\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
             "target": [
-              ".mx-3"
+              ".transition-all"
             ]
           },
           {
@@ -4528,7 +4226,7 @@
             "impact": null,
             "html": "<span class=\"ant-typography css-bz06vj\" style=\"color: rgb(55, 55, 55); text-align: left; font-size: 14px;\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" data-tcc-spacing=\"\">Participe da Consulta Pública dos editais NAV 2026!</span>",
             "target": [
-              ".transition-colors.max-w-\\[400px\\].w-full > .css-bz06vj.ant-typography"
+              ".transition-colors > .css-bz06vj.ant-typography"
             ]
           },
           {
@@ -4560,7 +4258,7 @@
             "impact": null,
             "html": "<div class=\"slick-arrow slick-next\" data-role=\"none\" currentslide=\"0\" slidecount=\"1\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-next[slidecount=\"1\"][currentslide=\"0\"]"
+              ".slick-next.slick-arrow[slidecount=\"1\"]"
             ]
           },
           {
@@ -4592,7 +4290,7 @@
             "impact": null,
             "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
             "target": [
-              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-next[slidecount=\"1\"][currentslide=\"0\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
+              ".slick-next.slick-arrow[slidecount=\"1\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
             ]
           },
           {
@@ -4624,7 +4322,7 @@
             "impact": null,
             "html": "<ul class=\"slick-dots slick-dots-bottom\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
             "target": [
-              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-dots.slick-dots-bottom"
+              ".ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-dots.slick-dots-bottom"
             ]
           },
           {
@@ -4656,7 +4354,7 @@
             "impact": null,
             "html": "<div style=\"font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif; display: contents;\">",
             "target": [
-              ".px-4 > div:nth-child(6)"
+              ".px-4 > div:nth-child(5)"
             ]
           },
           {
@@ -5121,14 +4819,13 @@
     "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-5.png",
     "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-6.png",
     "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-7.png",
-    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-8.png",
-    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-9.png"
+    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-8.png"
   ],
   "erros": [],
   "captura": {
     "metodo": "viewports_por_rolagem_real",
     "superficie": "BODY",
-    "alturaConteudo": 5296,
+    "alturaConteudo": 4973,
     "alturaViewport": 720,
     "trechos": [
       {
@@ -5161,14 +4858,10 @@
       },
       {
         "arquivo": "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-8.png",
-        "scrollTop": 4284
-      },
-      {
-        "arquivo": "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-9.png",
-        "scrollTop": 4576
+        "scrollTop": 4253
       }
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T00:56:01.341Z"
+  "fim": "2026-11-08T14:47:03.440Z"
 }

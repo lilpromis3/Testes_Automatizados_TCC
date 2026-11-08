@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.3",
   "nome": "Contrast (Minimum)",
-  "inicio": "2026-11-08T00:54:45.197Z",
+  "inicio": "2026-11-08T14:46:10.556Z",
   "url": "https://niteroi360.niteroi.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -18,7 +18,7 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
       "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
     },
     "http": {
@@ -30,8 +30,8 @@
       "categoriaConfirmada": "Desenvolvimento Econômico"
     },
     "carregamento": {
-      "imagens": 40,
-      "alturaPercorrida": 4532,
+      "imagens": 39,
+      "alturaPercorrida": 4627,
       "superficieRolagem": "BODY",
       "imagensNaoCarregadas": []
     },
@@ -42,13 +42,15 @@
       "observacao": "Avaliação autorizada como página comum; não depende da autenticação do Hand Talk."
     },
     "verificacaoFamiliasDeFonte": {
-      "elementosMedidos": 396,
+      "elementosMedidos": 378,
       "alteracoes": []
     }
   },
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "catalogo-original-sem-ajustes-widget",
     "viewport": {
       "width": 1280,
@@ -324,7 +326,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T00:54:59.394Z",
+    "timestamp": "2026-11-08T14:46:19.995Z",
     "url": "https://niteroi360.niteroi.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -884,7 +886,7 @@
             "impact": null,
             "html": "<span class=\"ant-typography css-bz06vj\" style=\"color: rgb(55, 55, 55); text-align: left; font-size: 14px;\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">Participe da Consulta Pública dos editais NAV 2026!</span>",
             "target": [
-              ".transition-colors.max-w-\\[400px\\].w-full > .css-bz06vj.ant-typography"
+              ".transition-colors > .css-bz06vj.ant-typography"
             ]
           },
           {
@@ -1943,7 +1945,7 @@
   "captura": {
     "metodo": "viewports_por_rolagem_real",
     "superficie": "BODY",
-    "alturaConteudo": 4951,
+    "alturaConteudo": 4627,
     "alturaViewport": 720,
     "trechos": [
       {
@@ -1976,10 +1978,10 @@
       },
       {
         "arquivo": "Screenshots/1.4.3-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-8.png",
-        "scrollTop": 4231
+        "scrollTop": 3907
       }
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T00:54:59.650Z"
+  "fim": "2026-11-08T14:46:20.240Z"
 }

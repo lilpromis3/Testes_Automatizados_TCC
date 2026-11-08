@@ -1,7 +1,7 @@
 {
   "criterio": "1.1.1",
   "nome": "Non-text Content",
-  "inicio": "2026-11-07T23:56:24.963Z",
+  "inicio": "2026-11-08T14:49:38.740Z",
   "url": "https://saquarema.colab.re",
   "ambiente": {
     "navegador": "chromium",
@@ -152,6 +152,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "baixa-visao-widget-fechado",
     "painelFechado": true,
     "amostraTexto": {
@@ -406,7 +408,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-07T23:56:43.008Z",
+    "timestamp": "2026-11-08T14:49:49.624Z",
     "url": "https://saquarema.colab.re/",
     "toolOptions": {
       "resultTypes": [
@@ -1666,5 +1668,5 @@
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-07T23:56:43.301Z"
+  "fim": "2026-11-08T14:49:49.875Z"
 }

@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.4",
   "nome": "Resize Text",
-  "inicio": "2026-11-08T00:55:00.728Z",
+  "inicio": "2026-11-08T14:46:21.890Z",
   "url": "https://niteroi360.niteroi.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -18,7 +18,7 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
       "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
     },
     "http": {
@@ -30,8 +30,8 @@
       "categoriaConfirmada": "Desenvolvimento Econômico"
     },
     "carregamento": {
-      "imagens": 40,
-      "alturaPercorrida": 4532,
+      "imagens": 39,
+      "alturaPercorrida": 4627,
       "superficieRolagem": "BODY",
       "imagensNaoCarregadas": []
     },
@@ -42,7 +42,7 @@
       "observacao": "Avaliação autorizada como página comum; não depende da autenticação do Hand Talk."
     },
     "verificacaoFamiliasDeFonte": {
-      "elementosMedidos": 304,
+      "elementosMedidos": 289,
       "alteracoes": []
     },
     "redimensionamento": {
@@ -118,6 +118,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "zoom-nativo-200",
     "viewport": {
       "width": 1280,
@@ -152,7 +154,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T00:55:17.292Z",
+    "timestamp": "2026-11-08T14:46:33.744Z",
     "url": "https://niteroi360.niteroi.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -232,14 +234,13 @@
     "Screenshots/1.4.4-niteroi-servicos-pagina-comum-chromium-zoom-nativo-200-trecho-17.png",
     "Screenshots/1.4.4-niteroi-servicos-pagina-comum-chromium-zoom-nativo-200-trecho-18.png",
     "Screenshots/1.4.4-niteroi-servicos-pagina-comum-chromium-zoom-nativo-200-trecho-19.png",
-    "Screenshots/1.4.4-niteroi-servicos-pagina-comum-chromium-zoom-nativo-200-trecho-20.png",
-    "Screenshots/1.4.4-niteroi-servicos-pagina-comum-chromium-zoom-nativo-200-trecho-21.png"
+    "Screenshots/1.4.4-niteroi-servicos-pagina-comum-chromium-zoom-nativo-200-trecho-20.png"
   ],
   "erros": [],
   "captura": {
     "metodo": "viewports_por_rolagem_real",
     "superficie": "BODY",
-    "alturaConteudo": 6252,
+    "alturaConteudo": 6100,
     "alturaViewport": 360,
     "trechos": [
       {
@@ -320,14 +321,10 @@
       },
       {
         "arquivo": "Screenshots/1.4.4-niteroi-servicos-pagina-comum-chromium-zoom-nativo-200-trecho-20.png",
-        "scrollTop": 5814
-      },
-      {
-        "arquivo": "Screenshots/1.4.4-niteroi-servicos-pagina-comum-chromium-zoom-nativo-200-trecho-21.png",
-        "scrollTop": 5892
+        "scrollTop": 5740
       }
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T00:55:17.521Z"
+  "fim": "2026-11-08T14:46:34.005Z"
 }

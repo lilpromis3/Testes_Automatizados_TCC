@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.4",
   "nome": "Resize Text",
-  "inicio": "2026-11-08T00:33:43.191Z",
+  "inicio": "2026-11-08T14:44:52.841Z",
   "url": "https://niteroi.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -18,7 +18,7 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
       "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
     },
     "http": {
@@ -121,30 +121,6 @@
         {
           "original": 26,
           "atual": 32
-        },
-        {
-          "original": 26,
-          "atual": 32
-        },
-        {
-          "original": 26,
-          "atual": 32
-        },
-        {
-          "original": 5,
-          "atual": 11
-        },
-        {
-          "original": 5,
-          "atual": 11
-        },
-        {
-          "original": 5,
-          "atual": 11
-        },
-        {
-          "original": 5,
-          "atual": 11
         },
         {
           "original": 26,
@@ -3580,7 +3556,7 @@
       "metodo": "font_size_inline",
       "fator": 2,
       "referencia": "tamanho_computado_antes_do_widget",
-      "elementosMedidos": 939,
+      "elementosMedidos": 933,
       "zoomNativoExecutado": false
     },
     "layout": {
@@ -3592,22 +3568,22 @@
           "html": "<div id=\"tie-container\" class=\"site tie-container\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\n\t\t\n\t\t<div id=\"tie-wrapper\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\t\t\t\n<header id=\"theme-header\" class=\"theme-header header-layout-3 main-nav-light main-nav-d",
           "scrollWidth": 2005,
           "clientWidth": 1280,
-          "scrollHeight": 7233,
-          "clientHeight": 7233
+          "scrollHeight": 7457,
+          "clientHeight": 7457
         },
         {
-          "html": "<p id=\"ticker-content-1794098029461\" class=\"ticker-content\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"display: block; opacity: 1; transform: translateX(0px); font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\t\t\t\t\t\t\t\t<a href=\"https://niteroi.rj.gov.br/arena-niteroi-prefeitura-projeta-r-120-milhoes-em-retorno-economico-com-parceria-publico-privada/\" role=\"link\">Arena Niterói: ",
-          "scrollWidth": 1158,
-          "clientWidth": 39,
+          "html": "<p id=\"ticker-content-1794149094324\" class=\"ticker-content\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"display: block; opacity: 1; transform: translateX(0px); font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\t\t\t\t\t\t\t\t<a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-comeca-com-exposicao-sobre-infancias-e-natureza-no-campo-de-sao-bento/\" role=\"link\">Semana da Ed",
+          "scrollWidth": 1229,
+          "clientWidth": 21,
           "scrollHeight": 40,
           "clientHeight": 40
         },
         {
-          "html": "<li class=\"weather-menu-item menu-item custom-menu-link\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\t\t\t\t<div class=\"tie-weather-widget is-animated\" title=\"Rain\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\t\t\t\t\t<div class=\"weather-wrap\" data-tcc-base-font-si",
-          "scrollWidth": 208,
-          "clientWidth": 208,
-          "scrollHeight": 65,
-          "clientHeight": 47
+          "html": "<li class=\"weather-menu-item menu-item custom-menu-link\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\t\t\t\t<div class=\"tie-weather-widget is-animated\" title=\"Névoa\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\t\t\t\t\t<div class=\"weather-wrap\" data-tcc-base-font-s",
+          "scrollWidth": 207,
+          "clientWidth": 207,
+          "scrollHeight": 80,
+          "clientHeight": 74
         },
         {
           "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 32px !important;\" data-tcc-original-font-size=\"16\">Facebook</span>",
@@ -3687,88 +3663,102 @@
           "clientHeight": 500
         },
         {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-e-o-segundo-municipio-do-pais-a-realizar-simulado-da-opas-para-respostas-a-eventos-climaticos-extremos/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-",
-          "scrollWidth": 850,
-          "clientWidth": 850,
-          "scrollHeight": 1210,
-          "clientHeight": 360
-        },
-        {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Niterói entra em estágio de ",
-          "scrollWidth": 850,
-          "clientWidth": 850,
-          "scrollHeight": 490,
-          "clientHeight": 360
-        },
-        {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/arena-niteroi-prefeitura-projeta-r-120-milhoes-em-retorno-economico-com-parceria-publico-privada/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-fo",
-          "scrollWidth": 850,
-          "clientWidth": 850,
-          "scrollHeight": 970,
-          "clientHeight": 360
-        },
-        {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/brasil-vence-argentina-e-vai-decidir-a-finalissima-de-futsal-2026-contra-a-espanha/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">",
-          "scrollWidth": 850,
-          "clientWidth": 850,
-          "scrollHeight": 850,
-          "clientHeight": 360
-        },
-        {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/nittrans-prepara-esquema-especial-de-transito-para-evento-no-caminho-niemeyer/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Nittr",
-          "scrollWidth": 850,
-          "clientWidth": 850,
-          "scrollHeight": 850,
-          "clientHeight": 360
-        },
-        {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-amplia-apoio-a-instituicoes-de-reabilitacao-de-pessoas-com-deficiencia/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Nite",
-          "scrollWidth": 850,
-          "clientWidth": 850,
-          "scrollHeight": 730,
-          "clientHeight": 360
-        },
-        {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/prefeitura-de-niteroi-ativa-sistema-de-bombeamento-na-lagoa-de-piratininga/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Prefeitu",
-          "scrollWidth": 850,
-          "clientWidth": 850,
-          "scrollHeight": 730,
-          "clientHeight": 360
-        },
-        {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-ocupa-a-cidade-com-atividades-culturais-formacoes-e-experiencias-para-toda-a-populacao/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\"",
-          "scrollWidth": 850,
-          "clientWidth": 850,
-          "scrollHeight": 1210,
-          "clientHeight": 360
-        },
-        {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/prefeito-rodrigo-neves-participa-de-coletiva-da-finalissima-de-futsal-2026/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Prefeito",
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/prefeito-rodrigo-neves-participa-de-coletiva-da-finalissima-de-futsal-2026/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" style=\"font-size: 100px !important;\">Prefeito",
           "scrollWidth": 850,
           "clientWidth": 850,
           "scrollHeight": 610,
           "clientHeight": 360
         },
         {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-tera-reforco-nas-viagens-de-onibus-para-atender-estudantes-nos-dias-do-enem/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"",
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-antecipa-operacao-verao-para-20-de-novembro-e-reforca-seguranca-e-fiscalizacao-na-orla/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" style=\"font-size: 100px !",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 970,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-comeca-com-exposicao-sobre-infancias-e-natureza-no-campo-de-sao-bento/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" style=\"font-size: 100",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 970,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" style=\"font-size: 100px !important;\">Niterói entra em estágio de ",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 490,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/arena-niteroi-prefeitura-projeta-r-120-milhoes-em-retorno-economico-com-parceria-publico-privada/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" style=\"font-size: 100px",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 970,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/brasil-vence-argentina-e-vai-decidir-a-finalissima-de-futsal-2026-contra-a-espanha/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" style=\"font-size: 100px !important;\">",
           "scrollWidth": 850,
           "clientWidth": 850,
           "scrollHeight": 850,
           "clientHeight": 360
         },
         {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-e-o-segundo-municipio-do-pais-a-realizar-simulado-da-opas-para-respostas-a-eventos-climaticos-extremos/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-",
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/nittrans-prepara-esquema-especial-de-transito-para-evento-no-caminho-niemeyer/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" style=\"font-size: 100px !important;\">Nittr",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 850,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-amplia-apoio-a-instituicoes-de-reabilitacao-de-pessoas-com-deficiencia/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" style=\"font-size: 100px !important;\">Nite",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 730,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/prefeitura-de-niteroi-ativa-sistema-de-bombeamento-na-lagoa-de-piratininga/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" style=\"font-size: 100px !important;\">Prefeitu",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 730,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-ocupa-a-cidade-com-atividades-culturais-formacoes-e-experiencias-para-toda-a-populacao/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" sty",
           "scrollWidth": 850,
           "clientWidth": 850,
           "scrollHeight": 1210,
           "clientHeight": 360
         },
         {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Niterói entra em estágio de ",
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/prefeito-rodrigo-neves-participa-de-coletiva-da-finalissima-de-futsal-2026/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" style=\"font-size: 100px !important;\">Prefeito",
           "scrollWidth": 850,
           "clientWidth": 850,
-          "scrollHeight": 490,
+          "scrollHeight": 610,
           "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-antecipa-operacao-verao-para-20-de-novembro-e-reforca-seguranca-e-fiscalizacao-na-orla/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-original-font-size=\"50\" style=\"font-size: 100px !",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 970,
+          "clientHeight": 360
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">6 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">6 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
         },
         {
           "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">6 de novembro de 2026</span></div>",
@@ -3841,20 +3831,6 @@
           "clientHeight": 24
         },
         {
-          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">3 de novembro de 2026</span></div>",
-          "scrollWidth": 368,
-          "clientWidth": 368,
-          "scrollHeight": 28,
-          "clientHeight": 24
-        },
-        {
-          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">2 de novembro de 2026</span></div>",
-          "scrollWidth": 368,
-          "clientWidth": 368,
-          "scrollHeight": 28,
-          "clientHeight": 24
-        },
-        {
           "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">Facebook</span>",
           "scrollWidth": 109,
           "clientWidth": 1,
@@ -3911,6 +3887,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "texto-200-css",
     "painelFechado": true,
     "viewport": {
@@ -3946,7 +3924,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T00:33:57.765Z",
+    "timestamp": "2026-11-08T14:45:02.199Z",
     "url": "https://niteroi.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -4018,13 +3996,14 @@
     "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-9.png",
     "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-10.png",
     "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-11.png",
-    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-12.png"
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-12.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-13.png"
   ],
   "erros": [],
   "captura": {
     "metodo": "viewports_por_rolagem_real",
     "superficie": "HTML",
-    "alturaConteudo": 7335,
+    "alturaConteudo": 7559,
     "alturaViewport": 720,
     "trechos": [
       {
@@ -4073,10 +4052,14 @@
       },
       {
         "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-12.png",
-        "scrollTop": 6513
+        "scrollTop": 6732
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-13.png",
+        "scrollTop": 6737
       }
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T00:33:58.037Z"
+  "fim": "2026-11-08T14:45:02.591Z"
 }

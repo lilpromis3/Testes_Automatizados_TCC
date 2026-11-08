@@ -1,7 +1,7 @@
 {
   "criterio": "1.1.1",
   "nome": "Non-text Content",
-  "inicio": "2026-11-08T00:33:12.813Z",
+  "inicio": "2026-11-08T14:44:29.501Z",
   "url": "https://niteroi.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -24,7 +24,7 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
       "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
     },
     "http": {
@@ -127,30 +127,6 @@
         {
           "original": 26,
           "atual": 32
-        },
-        {
-          "original": 26,
-          "atual": 32
-        },
-        {
-          "original": 26,
-          "atual": 32
-        },
-        {
-          "original": 5,
-          "atual": 11
-        },
-        {
-          "original": 5,
-          "atual": 11
-        },
-        {
-          "original": 5,
-          "atual": 11
-        },
-        {
-          "original": 5,
-          "atual": 11
         },
         {
           "original": 26,
@@ -3586,6 +3562,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "baixa-visao-widget-fechado",
     "painelFechado": true,
     "viewport": {
@@ -3621,7 +3599,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T00:33:27.923Z",
+    "timestamp": "2026-11-08T14:44:42.296Z",
     "url": "https://niteroi.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -4231,9 +4209,79 @@
               }
             ],
             "impact": null,
-            "html": "<img width=\"390\" height=\"220\" src=\"https://niteroi.rj.gov.br/wp-content/uploads/2026/11/Foto3_credito-Enzo-Britto-390x220.jpeg\" class=\"attachment-jannah-image-large size-jannah-image-large wp-post-image\" alt=\"\" decoding=\"async\" fetchpriority=\"high\" data-tcc-base-font-size=\"13\">",
+            "html": "<img width=\"390\" height=\"220\" src=\"https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2025-02-01-at-10.49.52-1-390x220.jpeg\" class=\"attachment-jannah-image-large size-jannah-image-large wp-post-image\" alt=\"\" decoding=\"async\" fetchpriority=\"high\" data-tcc-base-font-size=\"13\">",
             "target": [
               "img[fetchpriority=\"high\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": {
+                  "role": "presentation"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were overridden with role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img width=\"390\" height=\"220\" src=\"https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-10.09.36-1-390x220.jpeg\" class=\"attachment-jannah-image-large size-jannah-image-large wp-post-image\" alt=\"\" decoding=\"async\" data-tcc-base-font-size=\"13\">",
+            "target": [
+              ".post-35238 > .post-thumb[role=\"link\"] > .attachment-jannah-image-large.size-jannah-image-large.wp-post-image"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": {
+                  "role": "presentation"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were overridden with role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img width=\"390\" height=\"220\" src=\"https://niteroi.rj.gov.br/wp-content/uploads/2026/11/Foto3_credito-Enzo-Britto-390x220.jpeg\" class=\"attachment-jannah-image-large size-jannah-image-large wp-post-image\" alt=\"\" decoding=\"async\" data-tcc-base-font-size=\"13\">",
+            "target": [
+              ".post-35256 > .post-thumb[role=\"link\"] > .attachment-jannah-image-large.size-jannah-image-large.wp-post-image"
             ]
           },
           {
@@ -4581,76 +4629,6 @@
               }
             ],
             "impact": null,
-            "html": "<img width=\"390\" height=\"220\" src=\"https://niteroi.rj.gov.br/wp-content/uploads/2026/11/CORTE-MOMESCA-CARNAVAL-NITEROI-2026-2-390x220.jpg\" class=\"attachment-jannah-image-large size-jannah-image-large wp-post-image\" alt=\"\" decoding=\"async\" data-tcc-base-font-size=\"13\">",
-            "target": [
-              ".post-35183 > .post-thumb[role=\"link\"] > .attachment-jannah-image-large.size-jannah-image-large.wp-post-image"
-            ]
-          },
-          {
-            "any": [
-              {
-                "id": "has-alt",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "alt-space-value",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element has a valid alt attribute value"
-              }
-            ],
-            "impact": null,
-            "html": "<img width=\"390\" height=\"220\" src=\"https://niteroi.rj.g...\" class=\"attachment-jannah-im...\" alt=\"\" decoding=\"async\" srcset=\"https://niteroi.rj.g...\" sizes=\"(max-width: 390px) 1...\" data-tcc-base-font-s...=\"13\">",
-            "target": [
-              ".post-35174 > .post-thumb[role=\"link\"] > .attachment-jannah-image-large.size-jannah-image-large.wp-post-image"
-            ]
-          },
-          {
-            "any": [
-              {
-                "id": "has-alt",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "alt-space-value",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element has a valid alt attribute value"
-              }
-            ],
-            "impact": null,
             "html": "<img src=\"https://niteroi.rj.gov.br/wp-content/uploads/2026/09/banners_BALCAO_GOV.png\" alt=\"\" width=\"729\" height=\"91\" data-tcc-base-font-size=\"13\">",
             "target": [
               "img[width=\"729\"]"
@@ -4835,7 +4813,7 @@
   "captura": {
     "metodo": "viewports_por_rolagem_real",
     "superficie": "HTML",
-    "alturaConteudo": 5949,
+    "alturaConteudo": 5985,
     "alturaViewport": 720,
     "trechos": [
       {
@@ -4876,10 +4854,10 @@
       },
       {
         "arquivo": "Screenshots/1.1.1-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-10.png",
-        "scrollTop": 5129
+        "scrollTop": 5165
       }
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T00:33:28.374Z"
+  "fim": "2026-11-08T14:44:42.790Z"
 }

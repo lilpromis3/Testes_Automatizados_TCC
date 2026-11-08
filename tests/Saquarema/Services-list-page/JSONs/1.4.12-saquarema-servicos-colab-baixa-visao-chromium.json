@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.12",
   "nome": "Text Spacing",
-  "inicio": "2026-11-07T23:57:58.597Z",
+  "inicio": "2026-11-08T14:50:35.648Z",
   "url": "https://saquarema.colab.re",
   "ambiente": {
     "navegador": "chromium",
@@ -212,6 +212,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "quatro-espacamentos",
     "painelFechado": true,
     "amostraTexto": {
@@ -254,7 +256,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-07T23:58:14.804Z",
+    "timestamp": "2026-11-08T14:50:46.232Z",
     "url": "https://saquarema.colab.re/",
     "toolOptions": {
       "resultTypes": [
@@ -7177,5 +7179,5 @@
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-07T23:58:15.169Z"
+  "fim": "2026-11-08T14:50:46.580Z"
 }

@@ -1,7 +1,7 @@
 {
   "criterio": "1.1.1",
   "nome": "Non-text Content",
-  "inicio": "2026-11-07T15:03:05.494Z",
+  "inicio": "2026-11-08T14:49:07.211Z",
   "url": "https://www.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -28,7 +28,7 @@
     },
     "carregamento": {
       "imagens": 16,
-      "alturaPercorrida": 3234,
+      "alturaPercorrida": 3032,
       "imagensNaoCarregadas": []
     },
     "perfil": "vision"
@@ -36,6 +36,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "perfil-baixa-visao-widget-fechado",
     "painelFechado": true,
     "viewport": {
@@ -88,7 +90,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-07T15:03:11.824Z",
+    "timestamp": "2026-11-08T14:49:10.138Z",
     "url": "https://www.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -420,8 +422,8 @@
     "violations": []
   },
   "screenshots": [
-    "Screenshots/1.1.1-chromium-2026-11-07T15-03-05-494Z-perfil-baixa-visao-widget-fechado.png"
+    "Screenshots/1.1.1-chromium-2026-11-08T14-49-07-211Z-perfil-baixa-visao-widget-fechado.png"
   ],
   "erros": [],
-  "fim": "2026-11-07T15:03:12.210Z"
+  "fim": "2026-11-08T14:49:10.493Z"
 }

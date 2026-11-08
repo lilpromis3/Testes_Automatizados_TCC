@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.12",
   "nome": "Text Spacing",
-  "inicio": "2026-11-07T15:03:29.977Z",
+  "inicio": "2026-11-08T14:49:24.513Z",
   "url": "https://www.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -22,7 +22,7 @@
     },
     "carregamento": {
       "imagens": 16,
-      "alturaPercorrida": 3101,
+      "alturaPercorrida": 3234,
       "imagensNaoCarregadas": []
     },
     "perfil": "vision",
@@ -75,6 +75,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "quatro-espacamentos-widget-fechado",
     "painelFechado": true,
     "viewport": {
@@ -127,7 +129,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-07T15:03:33.194Z",
+    "timestamp": "2026-11-08T14:49:28.108Z",
     "url": "https://www.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -15368,8 +15370,8 @@
     "violations": []
   },
   "screenshots": [
-    "Screenshots/1.4.12-chromium-2026-11-07T15-03-29-977Z-quatro-espacamentos-widget-fechado.png"
+    "Screenshots/1.4.12-chromium-2026-11-08T14-49-24-513Z-quatro-espacamentos-widget-fechado.png"
   ],
   "erros": [],
-  "fim": "2026-11-07T15:03:33.800Z"
+  "fim": "2026-11-08T14:49:28.844Z"
 }

@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.3",
   "nome": "Contrast (Minimum)",
-  "inicio": "2026-11-07T20:09:32.711Z",
+  "inicio": "2026-11-08T14:55:33.940Z",
   "url": "https://egov.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -46,6 +46,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "formulario-parcialmente-preenchido-padrao",
     "viewport": {
       "width": 1280,
@@ -85,7 +87,7 @@
         "iframe",
         "h6"
       ],
-      "html": "<h6 style=\"color:red;\" data-tcc-base-font-size=\"15.2\"><i class=\"fas fa-exclamation-circle\" data-tcc-base-font-size=\"15.2\"></i> Todos os campos acima são obrigatórios.</h6>",
+      "html": "<h6 style=\"color:red;\"><i class=\"fas fa-exclamation-circle\"></i> Todos os campos acima são obrigatórios.</h6>",
       "mensagem": "Elements must meet minimum color contrast ratio thresholds",
       "impacto": "serious",
       "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 11.4pt (15.2px), font weight: normal). Expected contrast ratio of 4.5:1",
@@ -107,7 +109,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-07T20:09:51.283Z",
+    "timestamp": "2026-11-08T14:55:40.206Z",
     "url": "https://egov.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -165,7 +167,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<span class=\"text-truncate\" data-tcc-base-font-size=\"13.68\">Consulta&nbsp;Documento</span>",
+            "html": "<span class=\"text-truncate\">Consulta&nbsp;Documento</span>",
             "target": [
               "#myIframe",
               "iframe",
@@ -192,7 +194,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<h1 data-tcc-base-font-size=\"37.28\"><i class=\"fas fa-search\" data-tcc-base-font-size=\"37.28\"></i> Consulta de Documentos</h1>",
+            "html": "<h1><i class=\"fas fa-search\"></i> Consulta de Documentos</h1>",
             "target": [
               "#myIframe",
               "iframe",
@@ -219,7 +221,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<label class=\"form-label top\" for=\"WFRInput1136235\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\" data-tcc-base-font-size=\"13.68\">Unidade Protocoladora <span style=\"color:red;\" data-tcc-base-font-size=\"13.68\">*</span></label>",
+            "html": "<label class=\"form-label top\" for=\"WFRInput1136235\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">Unidade Protocoladora <span style=\"color:red;\">*</span></label>",
             "target": [
               "#myIframe",
               "iframe",
@@ -246,7 +248,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<input class=\"form-control\" id=\"WFRInput1136235\" name=\"WFRInput1136235Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\" data-tcc-base-font-size=\"15.2\">",
+            "html": "<input class=\"form-control\" id=\"WFRInput1136235\" name=\"WFRInput1136235Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -273,7 +275,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<label class=\"form-label top\" for=\"WFRInput1136236\" data-tcc-base-font-size=\"13.68\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">Tipo de Documento <span style=\"color:red;\" data-tcc-base-font-size=\"13.68\">*</span></label>",
+            "html": "<label class=\"form-label top\" for=\"WFRInput1136236\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">Tipo de Documento <span style=\"color:red;\">*</span></label>",
             "target": [
               "#myIframe",
               "iframe",
@@ -300,7 +302,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<input class=\"form-control\" id=\"WFRInput1136236\" name=\"WFRInput1136236Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\" data-tcc-base-font-size=\"15.2\">",
+            "html": "<input class=\"form-control\" id=\"WFRInput1136236\" name=\"WFRInput1136236Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -327,7 +329,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<label class=\"form-label top\" for=\"WFRInput1136234\" data-tcc-base-font-size=\"13.68\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">N º Doc. (Ex: 400/2026) <span style=\"color:red;\" data-tcc-base-font-size=\"13.68\">*</span></label>",
+            "html": "<label class=\"form-label top\" for=\"WFRInput1136234\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">N º Doc. (Ex: 400/2026) <span style=\"color:red;\">*</span></label>",
             "target": [
               "#myIframe",
               "iframe",
@@ -354,7 +356,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<input class=\"form-control\" type=\"text\" autocomplete=\"on\" name=\"WFRInput1136234\" id=\"WFRInput1136234\" style=\"height: 35px; text-decoration: none;\" data-tcc-base-font-size=\"15.2\">",
+            "html": "<input class=\"form-control\" type=\"text\" autocomplete=\"on\" name=\"WFRInput1136234\" id=\"WFRInput1136234\" style=\"height: 35px; text-decoration: none;\">",
             "target": [
               "#myIframe",
               "iframe",
@@ -400,7 +402,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"card shadow p-3 mb-5 bg-body rounded\" webrun-type=\"HTMLContainer\" id=\"MakerContainer3\" data-tcc-base-font-size=\"15.2\" style=\"left: 1.24417%; top: 24px; width: 97.7449%; height: 625px; min-height: 625px; z-index: 0;\">",
+                    "html": "<div class=\"card shadow p-3 mb-5 bg-body rounded\" webrun-type=\"HTMLContainer\" id=\"MakerContainer3\" style=\"left: 1.24417%; top: 24px; width: 97.7449%; height: 625px; min-height: 625px; z-index: 0;\">",
                     "target": [
                       "#myIframe",
                       "iframe",
@@ -415,7 +417,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<h6 style=\"color:red;\" data-tcc-base-font-size=\"15.2\"><i class=\"fas fa-exclamation-circle\" data-tcc-base-font-size=\"15.2\"></i> Todos os campos acima são obrigatórios.</h6>",
+            "html": "<h6 style=\"color:red;\"><i class=\"fas fa-exclamation-circle\"></i> Todos os campos acima são obrigatórios.</h6>",
             "target": [
               "#myIframe",
               "iframe",
@@ -428,7 +430,7 @@
     ]
   },
   "screenshots": [
-    "Screenshots/1.4.3-saquarema-protocolo-chromium-2026-11-07T20-09-32-711Z-formulario-parcialmente-preenchido-padrao-trecho-1.png"
+    "Screenshots/1.4.3-saquarema-protocolo-chromium-2026-11-08T14-55-33-940Z-formulario-parcialmente-preenchido-padrao-trecho-1.png"
   ],
   "erros": [],
   "captura": {
@@ -440,10 +442,10 @@
     },
     "trechos": [
       {
-        "arquivo": "Screenshots/1.4.3-saquarema-protocolo-chromium-2026-11-07T20-09-32-711Z-formulario-parcialmente-preenchido-padrao-trecho-1.png",
+        "arquivo": "Screenshots/1.4.3-saquarema-protocolo-chromium-2026-11-08T14-55-33-940Z-formulario-parcialmente-preenchido-padrao-trecho-1.png",
         "scrollTop": 0
       }
     ]
   },
-  "fim": "2026-11-07T20:09:51.748Z"
+  "fim": "2026-11-08T14:55:40.673Z"
 }

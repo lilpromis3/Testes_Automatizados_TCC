@@ -1,0 +1,1460 @@
+{
+  "criterio": "1.4.11",
+  "nome": "Non-text Contrast",
+  "inicio": "2026-11-08T14:23:49.043Z",
+  "url": "https://prefeitura.rio",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1411",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://prefeitura.rio/"
+    },
+    "cookies": "nao_essenciais_rejeitados_pelo_botao_do_banner",
+    "widgetBaixaVisao": {
+      "fornecedor": "Pojo Accessibility",
+      "niveisAposCadaClique": [
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200
+      ],
+      "nivelFonte": 200,
+      "cliquesParaMaximo": 8,
+      "maximoConfirmadoPorCliqueAdicional": true,
+      "verificacaoMaximo": "classe_e_nivel_persistido_iguais_a_200_antes_e_depois_do_clique_adicional",
+      "ordem": [
+        "high-contrast",
+        "links-underline",
+        "readable-font",
+        "resize-plus_8_vezes",
+        "resize-plus_confirmacao",
+        "fechar_painel"
+      ],
+      "altoContraste": true,
+      "linksSublinhados": true,
+      "fonteLegivel": true,
+      "observacao": "Nível 200 do widget não equivale necessariamente a 200% do tamanho original em todos os elementos; o CSS usa percentuais herdados."
+    },
+    "idioma": {
+      "documento": "pt-BR",
+      "navegador": "pt-BR"
+    },
+    "componentesGraficos": [
+      {
+        "html": "<button aria-label=\"Definições de cookies\" class=\"cky-btn-revisit\" aria-controls=\"ckyPreferenceCenter\" aria-haspopup=\"dialog\" data-tcc-base-font-size=\"14\"><img alt=\"Revisit consent button\" src=\"https://cdn-cookieyes.com/assets/images/revisit.svg\" data-tcc-base-font-size=\"14\"></button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button aria-label=\"Fechar\" class=\"cky-btn-close\" data-cky-tag=\"detail-close\" data-tcc-base-font-size=\"14\"><img alt=\"\" src=\"https://cdn-cookieyes.com/assets/images/close.svg\" data-tcc-base-font-size=\"14\"></button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button class=\"cky-show-desc-btn\" data-cky-tag=\"show-desc-button\" aria-label=\"Mostrar mais\" data-tcc-base-font-size=\"14\">Mostrar mais</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button class=\"cky-accordion-btn\" aria-expanded=\"false\" aria-controls=\"ckyDetailCategorynecessaryBody\" aria-label=\"Necessário\" data-cky-tag=\"detail-category-title\" style=\"color: #212121;\" data-tcc-base-font-size=\"16\">Necessário</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button class=\"cky-accordion-btn\" aria-expanded=\"false\" aria-controls=\"ckyDetailCategoryfunctionalBody\" aria-label=\"Funcional\" data-cky-tag=\"detail-category-title\" style=\"color: #212121;\" data-tcc-base-font-size=\"16\">Funcional</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button class=\"cky-accordion-btn\" aria-expanded=\"false\" aria-controls=\"ckyDetailCategoryanalyticsBody\" aria-label=\"Analíticos\" data-cky-tag=\"detail-category-title\" style=\"color: #212121;\" data-tcc-base-font-size=\"16\">Analíticos</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button class=\"cky-accordion-btn\" aria-expanded=\"false\" aria-controls=\"ckyDetailCategoryperformanceBody\" aria-label=\"Desempenho\" data-cky-tag=\"detail-category-title\" style=\"color: #212121;\" data-tcc-base-font-size=\"16\">Desempenho</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button class=\"cky-accordion-btn\" aria-expanded=\"false\" aria-controls=\"ckyDetailCategoryadvertisementBody\" aria-label=\"Anúncio\" data-cky-tag=\"detail-category-title\" style=\"color: #212121;\" data-tcc-base-font-size=\"16\">Anúncio</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button aria-label=\"Rejeitar\" class=\"cky-btn cky-btn-reject\" data-cky-tag=\"detail-reject-button\" style=\"color: #1863DC; border-color: #1863DC; background-color: transparent;\" data-tcc-base-font-size=\"14\">Rejeitar</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button aria-label=\"Salve minhas preferências\" class=\"cky-btn cky-btn-preferences\" data-cky-tag=\"detail-save-button\" style=\"color: #1863DC; border-color: #1863DC; background-color: transparent;\" data-tcc-base-font-size=\"14\">Salve minhas preferências</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button aria-label=\"Aceitar tudo\" class=\"cky-btn cky-btn-accept\" data-cky-tag=\"detail-accept-button\" style=\"color: #FFFFFF; border-color: #1863DC; background-color: #1863DC;\" data-tcc-base-font-size=\"14\">Aceitar tudo</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&amp;utm_source=cookie-banner&amp;utm_medium=powered-by-cookieyes\" rel=\"noopener\" style=\"margin-left:5px;line-height:0\" target=\"_blank\" data-tcc-base-font-size=\"12\"><img alt=\"Cookieyes logo\" src=\"https://cdn-cookieyes.com/assets/i",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a id=\"pojo-a11y-skip-content\" class=\"pojo-skip-link pojo-skip-content\" tabindex=\"1\" accesskey=\"s\" href=\"#content\" role=\"link\" data-tcc-base-font-size=\"14\">Pular para o conteúdo</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"pojo-a11y-toolbar-link pojo-a11y-toolbar-toggle-link\" href=\"javascript:void(0);\" title=\"Acessibilidade\" role=\"link\" tabindex=\"-1\">\n\t\t\t\t\t<span class=\"pojo-sr-only sr-only\">Barra de Ferramentas Aberta</span>\n\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" fill=\"currentColo",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" fill=\"currentColor\" width=\"1em\">\n\t\t\t\t\t\t<title>Acessibilidade</title>\n\t\t\t\t\t\t<g><path d=\"M60.4,78.9c-2.2,4.1-5.3,7.4-9.2,9.8c-4,2.4-8.3,3.6-13,3.6c-6.9,0-12.8-2.4-17.7-7.3c-4.9-4.9-7.3-10.8-7.3-17.7c0-5,1.4-9.5,4.1-13.7c2.7-4.2,6.4-7.2,10.9",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(255, 255, 255)"
+      },
+      {
+        "html": "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-plus active\" data-action=\"resize-plus\" data-action-group=\"resize\" tabindex=\"-1\" role=\"link\">\n\t\t\t\t\t\t\t\t\t<span class=\"pojo-a11y-toolbar-icon\"><svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBo",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0 448 448\"><title>Aumentar Texto</title><path fill=\"currentColor\" d=\"M256 200v16c0 4.25-3.75 8-8 8h-56v56c0 4.25-3.75 8-8 8h-16c-4.25 0-8-3.75-8-8v-56h-56c-4.25 0-8-3.75-8-8v-16c0-4.25 3.75-8 8-8h56v-56c0-4.25 3.75-8 8-8h16",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-minus\" data-action=\"resize-minus\" data-action-group=\"resize\" tabindex=\"-1\" role=\"link\">\n\t\t\t\t\t\t\t\t\t<span class=\"pojo-a11y-toolbar-icon\"><svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 ",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0 448 448\"><title>Diminuir Texto</title><path fill=\"currentColor\" d=\"M256 200v16c0 4.25-3.75 8-8 8h-144c-4.25 0-8-3.75-8-8v-16c0-4.25 3.75-8 8-8h144c4.25 0 8 3.75 8 8zM288 208c0-61.75-50.25-112-112-112s-112 50.25-112 112 50",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-grayscale\" data-action=\"grayscale\" data-action-group=\"schema\" tabindex=\"-1\" role=\"link\">\n\t\t\t\t\t\t\t\t\t<span class=\"pojo-a11y-toolbar-icon\"><svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0 448 448\"><title>Escala de cinza</title><path fill=\"currentColor\" d=\"M15.75 384h-15.75v-352h15.75v352zM31.5 383.75h-8v-351.75h8v351.75zM55 383.75h-7.75v-351.75h7.75v351.75zM94.25 383.75h-7.75v-351.75h7.75v351.75zM133.5 383",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-high-contrast active\" data-action=\"high-contrast\" data-action-group=\"schema\" tabindex=\"-1\" role=\"link\">\n\t\t\t\t\t\t\t\t\t<span class=\"pojo-a11y-toolbar-icon\"><svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1e",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0 448 448\"><title>Alto contraste</title><path fill=\"currentColor\" d=\"M192 360v-272c-75 0-136 61-136 136s61 136 136 136zM384 224c0 106-86 192-192 192s-192-86-192-192 86-192 192-192 192 86 192 192z\"></path></svg>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-negative-contrast\" data-action=\"negative-contrast\" data-action-group=\"schema\" tabindex=\"-1\" role=\"link\">\n\n\t\t\t\t\t\t\t\t\t<span class=\"pojo-a11y-toolbar-icon\"><svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0 448 448\"><title>Contraste  negativo</title><path fill=\"currentColor\" d=\"M416 240c-23.75-36.75-56.25-68.25-95.25-88.25 10 17 15.25 36.5 15.25 56.25 0 61.75-50.25 112-112 112s-112-50.25-112-112c0-19.75 5.25-39.25 15.25-56.2",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-links-underline active\" data-action=\"links-underline\" data-action-group=\"toggle\" tabindex=\"-1\" role=\"link\">\n\t\t\t\t\t\t\t\t\t<span class=\"pojo-a11y-toolbar-icon\"><svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0 448 448\"><t",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0 448 448\"><title>Links Sublinhados</title><path fill=\"currentColor\" d=\"M364 304c0-6.5-2.5-12.5-7-17l-52-52c-4.5-4.5-10.75-7-17-7-7.25 0-13 2.75-18 8 8.25 8.25 18 15.25 18 28 0 13.25-10.75 24-24 24-12.75 0-19.75-9.75-28-18-",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-readable-font active\" data-action=\"readable-font\" data-action-group=\"toggle\" tabindex=\"-1\" role=\"link\">\n\t\t\t\t\t\t\t\t\t<span class=\"pojo-a11y-toolbar-icon\"><svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0 448 448\"><title",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0 448 448\"><title>Fonte Legível</title><path fill=\"currentColor\" d=\"M181.25 139.75l-42.5 112.5c24.75 0.25 49.5 1 74.25 1 4.75 0 9.5-0.25 14.25-0.5-13-38-28.25-76.75-46-113zM0 416l0.5-19.75c23.5-7.25 49-2.25 59.5-29.25l59.25",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-reset\" data-action=\"reset\" tabindex=\"-1\" role=\"link\">\n\t\t\t\t\t\t\t\t<span class=\"pojo-a11y-toolbar-icon\"><svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0 448 448\"><title>Reiniciar</title><path fill=\"currentColor\" d=\"M384",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" viewBox=\"0 0 448 448\"><title>Reiniciar</title><path fill=\"currentColor\" d=\"M384 224c0 105.75-86.25 192-192 192-57.25 0-111.25-25.25-147.75-69.25-2.5-3.25-2.25-8 0.5-10.75l34.25-34.5c1.75-1.5 4-2.25 6.25-2.25 2.25 0.25 4.5 1.25 5.75 3 ",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" role=\"link\" data-tcc-base-font-size=\"14\">-A</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" role=\"link\" data-tcc-base-font-size=\"14\">+A</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://carioca.rio/\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\"><img class=\"logo-carioca\" src=\"https://prefeitura.rio/wp-content/themes/prefeitura-rio/layouts/images/header/logo-carioca.png\" data-tcc-base-font-size=\"14\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.1746.rio/\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\"><img class=\"logo-1746\" src=\"https://prefeitura.rio/wp-content/themes/prefeitura-rio/layouts/images/header/logo-1746.png\" data-tcc-base-font-size=\"14\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://transparencia.prefeitura.rio/\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\"><img class=\"logo-informacao\" src=\"https://prefeitura.rio/wp-content/themes/prefeitura-rio/layouts/images/header/acesso-a-informacao-v2.png\" data-tcc-base-font-size=\"14\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://lgpd.prefeitura.rio\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><img class=\"logo-lgpd\" src=\"https://prefeitura.rio/wp-content/themes/prefeitura-rio/layouts/images/header/lgpd4.png\" data-tcc-base-font-size=\"14\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://twitter.com/Prefeitura_Rio\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\"><img class=\"midias-sociais\" src=\"https://prefeitura.rio/wp-content/themes/prefeitura-rio/layouts/images/header/logo-twitter.png\" data-tcc-base-font-size=\"14\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.facebook.com/PrefeituradoRio\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\"><img class=\"midias-sociais\" src=\"https://prefeitura.rio/wp-content/themes/prefeitura-rio/layouts/images/header/logo-facebook.png\" data-tcc-base-font-size=\"14\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.instagram.com/prefeitura_rio\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\"><img class=\"midias-sociais\" src=\"https://prefeitura.rio/wp-content/themes/prefeitura-rio/layouts/images/header/logo-instagram.png\" data-tcc-base-font-size=\"14\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.youtube.com/prefeiturario\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\"><img class=\"midias-sociais\" src=\"https://prefeitura.rio/wp-content/themes/prefeitura-rio/layouts/images/header/logo-youtube.png\" data-tcc-base-font-size=\"14\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://prefeitura.rio\" role=\"link\" data-tcc-base-font-size=\"14\"><img class=\"logo-prefeitura\" src=\"https://prefeitura.rio/wp-content/themes/prefeitura-rio/layouts/images/header/logo-pref-2025.png\" data-tcc-base-font-size=\"14\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<input type=\"search\" class=\"form-control search-input mr-sm-2\" id=\"s\" name=\"s\" placeholder=\"O que você procura?\" value=\"\" title=\"Search for:\" data-tcc-base-font-size=\"11\">",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button type=\"submit\" class=\"btn btn-default right\" aria-label=\"Pesquisar\" data-tcc-base-font-size=\"13\">\n                                    <img style=\"width: 20px\" src=\"https://prefeitura.rio/wp-content/themes/prefeitura-rio/layouts/images/header/search.svg\" alt=\"\" data-tcc-base-font-size=\"13\">\n  ",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(96, 0, 64)",
+        "borda": "1px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" role=\"link\" data-tcc-base-font-size=\"13\">A PREFEITURA</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" role=\"link\" data-tcc-base-font-size=\"13\">TURISMO</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" role=\"link\" data-tcc-base-font-size=\"13\">CIDADÃO</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" role=\"link\" data-tcc-base-font-size=\"13\">SERVIDOR</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" role=\"link\" data-tcc-base-font-size=\"13\">EMPRESA</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://ouvidoria.prefeitura.rio\" role=\"link\" data-tcc-base-font-size=\"13\">OUVIDORIA</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://cariocaemdia.prefeitura.rio\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\"><img src=\"https://prefeitura.rio/wp-content/uploads/2026/10/2026_10_22_BANNERS_SITE_CARIOCA_EM_DIA_V2_PGM_1170X280.png\" data-tcc-base-font-size=\"14\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://forcamunicipal.prefeitura.rio\" target=\"blank\" role=\"link\"><img src=\"https://prefeitura.rio/wp-content/uploads/2026/07/banner-forca-nacional.jpg\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"left carousel-control\" href=\"#myCarousel\" data-slide=\"prev\" role=\"link\" data-tcc-base-font-size=\"20\">\n                    <span class=\"glyphicon glyphicon-chevron-left\" data-tcc-base-font-size=\"30\"></span>\n                    <span class=\"sr-only\" data-tcc-base-font-size=\"20\">Previous</spa",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"right carousel-control\" href=\"#myCarousel\" data-slide=\"next\" role=\"link\" data-tcc-base-font-size=\"20\">\n                    <span class=\"glyphicon glyphicon-chevron-right\" data-tcc-base-font-size=\"30\"></span>\n                    <span class=\"sr-only\" data-tcc-base-font-size=\"20\">Next</span>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://prefeitura.rio/transportes/prefeitura-lanca-duas-linhas-de-conexao-brt-na-ilha-do-governador/\" role=\"link\" data-tcc-base-font-size=\"20\">\n                <h3 data-tcc-base-font-size=\"22\">Município lança duas linhas de Conexão BRT na Ilha do Governador. Confira</h3></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/transportes/prefeitura-lanca-duas-linhas-de-conexao-brt-na-ilha-do-governador/\" role=\"link\" data-tcc-base-font-size=\"20\">\n                <figure data-tcc-base-font-size=\"20\">\n                    <img width=\"",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://prefeitura.rio/noticias/prefeitura-do-rio-convoca-2-mil-motoristas-auxiliares-para-habilitacao-de-novas-autorizacoes-de-taxi/\" role=\"link\" data-tcc-base-font-size=\"20\">\n                                    <h3 data-tcc-base-font-size=\"22\">Prefeitura do Rio convoca 2 mil motoristas au",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/noticias/prefeitura-do-rio-convoca-2-mil-motoristas-auxiliares-para-habilitacao-de-novas-autorizacoes-de-taxi/\" role=\"link\" data-tcc-base-font-size=\"20\">\n                <figure data-tcc-base-font-size=\"20\">\n",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/saude/rio-retoma-vacinacao-contra-a-mpox-para-pessoas-com-hiv-aids/\" role=\"link\" data-tcc-base-font-size=\"14\">\n                            <figure data-tcc-base-font-size=\"14\">\n                               ",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://prefeitura.rio/saude/rio-retoma-vacinacao-contra-a-mpox-para-pessoas-com-hiv-aids/\" role=\"link\" data-tcc-base-font-size=\"20\">\n                            <h3 data-tcc-base-font-size=\"18\">Cidade do Rio retoma vacinação contra a MPOX para pessoas com HIV/AIDS</h3></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/noticias/rede-municipal-de-ensino-do-rio-premia-1-373-estudantes-medalhistas-no-concurso-canguru-de-matematica-2026/\" role=\"link\" data-tcc-base-font-size=\"14\">\n                            <figure data-tcc-bas",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://prefeitura.rio/noticias/rede-municipal-de-ensino-do-rio-premia-1-373-estudantes-medalhistas-no-concurso-canguru-de-matematica-2026/\" role=\"link\" data-tcc-base-font-size=\"20\">\n                            <h3 data-tcc-base-font-size=\"18\">Rede municipal premia 1.373 alunos no Canguru d",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/cidade/carioca-em-dia-2026-programa-oferece-descontos-para-pagamento-de-debitos-inscritos-em-divida-ativa/\" role=\"link\" data-tcc-base-font-size=\"14\">\n                            <figure data-tcc-base-font-siz",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://prefeitura.rio/cidade/carioca-em-dia-2026-programa-oferece-descontos-para-pagamento-de-debitos-inscritos-em-divida-ativa/\" role=\"link\" data-tcc-base-font-size=\"20\">\n                            <h3 data-tcc-base-font-size=\"18\">Carioca em Dia oferece desconto para débitos inscritos em",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/transportes/prefeitura-do-rio-garante-transporte-gratuito-a-inscritos-no-enem-nos-dias-de-prova/\" role=\"link\" data-tcc-base-font-size=\"14\">\n                            <figure data-tcc-base-font-size=\"14\">\n  ",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://prefeitura.rio/transportes/prefeitura-do-rio-garante-transporte-gratuito-a-inscritos-no-enem-nos-dias-de-prova/\" role=\"link\" data-tcc-base-font-size=\"20\">\n                                                            <h3 data-tcc-base-font-size=\"18\">Inscritos no Enem terão transporte ",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"/todas-as-noticias/\" role=\"link\" data-tcc-base-font-size=\"16\">Todas as Notícias</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://doweb.rio.rj.gov.br/\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\"> <img src=\"https://doweb.rio.rj.gov.br/apifront/portal/edicoes/imagem_diario/\" data-tcc-base-font-size=\"14\"> \n<!--<img src=\"https://prefeitura.rio/wp-content/uploads/2024/07/do-pe.jpg\" witdh=170 height=200",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://doweb.rio.rj.gov.br/\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\">D.O. Online</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://servidor.prefeitura.rio\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\"><img src=\"https://prefeitura.rio/wp-content/uploads/2019/12/portal-servidor.jpg\" data-tcc-base-font-size=\"14\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://servidor.prefeitura.rio/\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\">Portal do Servidor</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.facebook.com/PrefeituradoRio/\" role=\"link\" data-tcc-base-font-size=\"14\">\n\t\t\t\t\t\t \t\t<img class=\"icon-facebook-fale-conosco\" src=\"https://prefeitura.rio/wp-content/uploads/2020/03/facebook.png\" data-tcc-base-font-size=\"14\">\n\t\t\t\t\t\t\t\t<h2 class=\"titulo titulo-redes\" data-tcc-base-font",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"\" href=\"https://www.instagram.com/prefeitura_rio/\" target=\"_blank\" title=\"Instagram da Prefeitura do Rio\" role=\"link\" data-tcc-base-font-size=\"14\">\n\t\t\t\t\t\t\t\t<img class=\"icon-instagram-fale-conosco\" src=\"https://prefeitura.rio/wp-content/uploads/2020/03/instagram_PNG3.png\" data-tcc-base-font",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://twitter.com/Prefeitura_Rio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\" role=\"link\" data-tcc-base-font-size=\"14\">\n\t\t\t\t\t\t\t\t<img class=\"icon-twitter-fale-conosco\" src=\"https://prefeitura.rio/wp-content/uploads/2020/03/twitter.png\" data-tcc-base-font-size=\"14\">\n\t\t\t\t\t\t\t\t<h2 c",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"numero-whatsapp\" href=\"https://api.whatsapp.com/send?phone=552134601746&amp;text=Oi%20preciso%20de%20ajuda\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"23\"></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"numero-whatsapp call\" href=\"https://api.whatsapp.com/send?phone=552134601746&amp;text=Oi%20preciso%20de%20ajuda\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"23\">Ligue 1746</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"item-app\" href=\"https://taxi.rio/portuguese/cidades/\" target=\"_blank\" title=\"Aplicativo Taxi Rio\" role=\"link\" data-tcc-base-font-size=\"14\"> \n\t\t\t\t\t\t\t<img src=\"https://prefeitura.rio/wp-content/uploads/2022/09/app-taxi-1.png\" alt=\"Aplicativo Taxi Rio\" title=\"Aplicativo Taxi Rio\" data-tcc-bas",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"item-app\" href=\"https://www.1746.rio\" target=\"_blank\" title=\"Aplicativo da Central de Atendimento 1746\" role=\"link\" data-tcc-base-font-size=\"14\"> \n\t\t\t\t\t\t\t<img src=\"https://prefeitura.rio/wp-content/uploads/2019/11/icone-1746-90x901.png\" alt=\"Aplicativo da Central de Atendimento 1746\" title",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"item-app\" href=\"http://cor.rio/cor%20app/\" target=\"_blank\" title=\"Aplicativo Valeu\" role=\"link\" data-tcc-base-font-size=\"14\"> \n\t\t\t\t\t\t\t<img src=\"https://prefeitura.rio/wp-content/uploads/2022/09/app-cor-2.png\" alt=\"Aplicativo Saude Rio\" title=\"Aplicativo Saude Rio\" data-tcc-base-font-size=\"",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"\" href=\"https://riotur.rio/\" target=\"_blank\" title=\"Riotur\" role=\"link\" data-tcc-base-font-size=\"14\"> \n\t\t\t\t\t\t<img src=\"https://prefeitura.rio/wp-content/uploads/2022/09/logo-riotur-azul.png\" alt=\"Riotur\" title=\"Riotur\" data-tcc-base-font-size=\"14\"> \n\t\t\t\t\t</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"\" href=\"http://www.data.rio/\" target=\"_blank\" title=\"Data.Rio\" role=\"link\" data-tcc-base-font-size=\"14\"> \n\t\t\t\t\t\t<img src=\"https://prefeitura.rio/wp-content/uploads/2019/11/data-rio.png\" alt=\"Data.Rio\" title=\"Data.Rio\" data-tcc-base-font-size=\"14\"> \n\t\t\t\t\t</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://transparencia.prefeitura.rio/\" role=\"link\" data-tcc-base-font-size=\"12.6\">LEI DE ACESSO À INFORMAÇÃO</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://prefeitura.rio/area-de-imprensa/\" role=\"link\" data-tcc-base-font-size=\"12.6\">ÁREA DE IMPRENSA</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://prefeitura.rio/id-visual/\" role=\"link\" data-tcc-base-font-size=\"12.6\">IDENTIDADE VISUAL DA MARCA</a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://prefeitura.rio/orgaos_municipais/\" target=\"_self\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Órgãos Municipais</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.rio.rj.gov.br/web/arquivogeral\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Arquivo da Cidade</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://transparencia.prefeitura.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Acesso à Informação</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://meudominio.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Domínio.Rio</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.data.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Data.Rio</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://transparencia.prefeitura.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Transparência</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://ouvidoria.prefeitura.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Ouvidoria</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://riotur.prefeitura.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Riotur</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"http://riotur.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Riotur.Rio</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://cidadedasartes.prefeitura.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Cidade das Artes</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://portomaravilha.com.br/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Porto Maravilha</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.rio.rj.gov.br/web/riozoo\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Zoológico</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.rio.rj.gov.br/web/planetario\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Planetário</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.rio.rj.gov.br/web/smc/bibliotecas\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Bibliotecas</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.rio.rj.gov.br/web/smc/centros-culturais\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Centros Culturais</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.rio.rj.gov.br/web/smc/lonas-culturais\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Lonas Culturais</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.rio.rj.gov.br/web/smc/museus\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Museus</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.rio.rj.gov.br/web/smc/arenas\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Arenas Cariocas</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.rio.rj.gov.br/web/smc/teatros\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Teatros</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.rio.rj.gov.br/web/smc/teatros-de-guignol\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Teatros de Guignol</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://www.1746.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Central de Atendimento 1746</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://proconcarioca.prefeitura.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Procon Carioca</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Carioca Digital</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Rio mais Fácil</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://processo.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Processo.Rio</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://servidor.prefeitura.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Portal do Servidor</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://previrio.prefeitura.rio/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Previrio</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"http://www2.rio.rj.gov.br/sicop/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Consulta a Processos</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"http://smaonline.rio.rj.gov.br/conlegis/ConLegislacao.asp\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Consulta às Legislações</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://fazenda.prefeitura.rio/gente-e-gestao-compartilhada/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Gente e Gestão Compartilhada</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/objetivo/consultar-contracheque/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Contracheques</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://ecomprasrio.rio.rj.gov.br/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">E-Compras Rio</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"http://www.rio.rj.gov.br/web/smf/alvara\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Licenciamento e Fiscalização</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/servicos/emissao-de-alvara-pela-internet/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Alvará</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/servicos/licenciamento-de-eventos/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Eventos</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/servicos/fiscalizacao-da-exposicao-de-publicidade/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Publicidade</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/servicos/fiscalizacao-da-ocupacao-de-area-publica-por-mercadorias/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Mesas e Cadeiras</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/?my_aiowz_update_setting=e72add4107&amp;_sf_s=com%C3%A9rcio+ambulante&amp;post_type=servicos&amp;submit=\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Comércio Ambulante</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/?my_aiowz_update_setting=e72add4107&amp;_sf_s=banca+de+jornal&amp;post_type=servicos&amp;submit=\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">Bancas de Jornais</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/tema/iptu/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">IPTU</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/tema/iss/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">ISS</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://carioca.rio/tema/itbi/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">ITBI</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"link\" href=\"https://fazenda.prefeitura.rio/taxas-municipais/\" target=\"_blank\" role=\"link\" data-tcc-base-font-size=\"14\"><span data-tcc-base-font-size=\"14\">TIS e Outros</span></a>",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "borda": "0px none rgb(0, 128, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\" data-tcc-base-font-size=\"13.3333\"> <img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\" data-tcc-base",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(240, 240, 240)",
+        "borda": "0px none rgb(0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      }
+    ]
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "baixa-visao-widget-fechado",
+    "amostraTexto": [
+      {
+        "tag": "P",
+        "texto": "Utilizamos cookies para ajudar você a navegar com eficiência e executar certas funções. Você encontrará informações deta",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "28px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "none"
+      },
+      {
+        "tag": "P",
+        "texto": "Os cookies que são classificados com a marcação “Necessário” são armazenados em seu navegador, pois são essenciais para ",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "28px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "none"
+      },
+      {
+        "tag": "P",
+        "texto": "Os cookies necessários são cruciais para as funções básicas do site e o site não funcionará como pretendido sem eles. Es",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "28px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "none"
+      },
+      {
+        "tag": "P",
+        "texto": "Cookies funcionais ajudam a executar certas funcionalidades, como compartilhar o conteúdo do site em plataformas de mídi",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "28px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "none"
+      },
+      {
+        "tag": "P",
+        "texto": "Cookies analíticos são usados para entender como os visitantes interagem com o site. Esses cookies ajudam a fornecer inf",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "28px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "none"
+      },
+      {
+        "tag": "P",
+        "texto": "Os cookies de desempenho são usados para entender e analisar os principais índices de desempenho do site, o que ajuda a ",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "28px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "none"
+      },
+      {
+        "tag": "P",
+        "texto": "Os cookies de anúncios são usados para entregar aos visitantes anúncios personalizados com base nas páginas que visitara",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "28px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "none"
+      },
+      {
+        "tag": "A",
+        "texto": "Pular para o conteúdo",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "20px",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "A",
+        "texto": "-A",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "20px",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "A",
+        "texto": "+A",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "20px",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "A",
+        "texto": "A PREFEITURA",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "13px",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "A",
+        "texto": "TURISMO",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "13px",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "A",
+        "texto": "CIDADÃO",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "13px",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "A",
+        "texto": "SERVIDOR",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "13px",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "A",
+        "texto": "EMPRESA",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "13px",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "A",
+        "texto": "OUVIDORIA",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "13px",
+        "cor": "rgb(0, 128, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "H1",
+        "texto": "O QUE EU PRECISO?",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "53.2px",
+        "cor": "rgb(64, 192, 144)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "none"
+      },
+      {
+        "tag": "P",
+        "texto": "Onde Ser Atendido",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "IPTU",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Dívida Ativa",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Centro de Operações",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Central Anticorrupção",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Veículos Rebocados",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Infrações de Trânsito",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Previ-Rio",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Ordem Pública",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Transparência Rio",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Alvará",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "ITBI",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Certidão Fiscal do IPTU",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Concursos",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Calendário Escolar",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Matrícula On-line",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Vigilância Sanitária",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Escritório de Dados",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Consulta a Processos",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Consulta à Legislação",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Licitações de Imóveis",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Portais de Transparência da Saúde",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      },
+      {
+        "tag": "P",
+        "texto": "Estágio",
+        "fonte": "Verdana, Arial, Helvetica, sans-serif",
+        "tamanho": "40px",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 0, 0)",
+        "sublinhado": "underline"
+      }
+    ],
+    "painelFechado": true,
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-1.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-2.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-3.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-4.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-5.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-6.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-7.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-8.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-9.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-10.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-11.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-12.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-13.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-14.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-15.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-16.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-17.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-18.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-19.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-20.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-21.png",
+    "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-22.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 13094,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-10.png",
+        "scrollTop": 5508
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-11.png",
+        "scrollTop": 6120
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-12.png",
+        "scrollTop": 6732
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-13.png",
+        "scrollTop": 7344
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-14.png",
+        "scrollTop": 7956
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-15.png",
+        "scrollTop": 8568
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-16.png",
+        "scrollTop": 9180
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-17.png",
+        "scrollTop": 9792
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-18.png",
+        "scrollTop": 10404
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-19.png",
+        "scrollTop": 11016
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-20.png",
+        "scrollTop": 11628
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-21.png",
+        "scrollTop": 12240
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-rio-home-chromium-baixa-visao-widget-fechado-trecho-22.png",
+        "scrollTop": 12374
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T14:24:01.831Z"
+}

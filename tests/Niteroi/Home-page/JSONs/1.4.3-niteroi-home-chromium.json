@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.3",
   "nome": "Contrast (Minimum)",
-  "inicio": "2026-11-08T00:33:28.568Z",
+  "inicio": "2026-11-08T14:44:42.930Z",
   "url": "https://niteroi.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -18,7 +18,7 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
       "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
     },
     "http": {
@@ -121,30 +121,6 @@
         {
           "original": 26,
           "atual": 32
-        },
-        {
-          "original": 26,
-          "atual": 32
-        },
-        {
-          "original": 26,
-          "atual": 32
-        },
-        {
-          "original": 5,
-          "atual": 11
-        },
-        {
-          "original": 5,
-          "atual": 11
-        },
-        {
-          "original": 5,
-          "atual": 11
-        },
-        {
-          "original": 5,
-          "atual": 11
         },
         {
           "original": 26,
@@ -3580,6 +3556,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "baixa-visao-widget-fechado",
     "painelFechado": true,
     "viewport": {
@@ -3618,7 +3596,7 @@
       "alvo": [
         ".topbar-today-date"
       ],
-      "html": "<div class=\"topbar-today-date\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">\n\t\t\t\t\t\tsábado, 7 novembro  2026\t\t\t\t\t</div>",
+      "html": "<div class=\"topbar-today-date\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">\n\t\t\t\t\t\tdomingo, 8 novembro  2026\t\t\t\t\t</div>",
       "mensagem": "Elements must meet minimum color contrast ratio thresholds",
       "impacto": "serious",
       "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 3.79 (foreground color: #838383, background color: #ffffff, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1",
@@ -3640,9 +3618,9 @@
         "RGAA-3.2.1"
       ],
       "alvo": [
-        "#ticker-content-1794098014245 > a[role=\"link\"]"
+        "#ticker-content-1794149084219 > a[role=\"link\"]"
       ],
-      "html": "<a href=\"https://niteroi.rj.gov.br/brasil-vence-argentina-e-vai-decidir-a-finalissima-de-futsal-2026-contra-a-espanha/\" role=\"link\">Brasil vence Argentina e vai decidir a Finalíssima de Futsal 2026 contra a Espanha</a>",
+      "html": "<a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" role=\"link\">Niterói entra em estágio de alerta devido ao mau tempo</a>",
       "mensagem": "Elements must meet minimum color contrast ratio thresholds",
       "impacto": "serious",
       "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 3.79 (foreground color: #838383, background color: #ffffff, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1",
@@ -3690,7 +3668,7 @@
       "alvo": [
         ".weather-current-temp"
       ],
-      "html": "<span class=\"weather-current-temp\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 22px;\">\n\t\t\t\t\t\t\t\t25\t\t\t\t\t\t\t\t<sup data-tcc-base-font-size=\"9\">℃</sup>\n\t\t\t\t\t\t\t</span>",
+      "html": "<span class=\"weather-current-temp\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 22px;\">\n\t\t\t\t\t\t\t\t21\t\t\t\t\t\t\t\t<sup data-tcc-base-font-size=\"9\">℃</sup>\n\t\t\t\t\t\t\t</span>",
       "mensagem": "Elements must meet minimum color contrast ratio thresholds",
       "impacto": "serious",
       "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 3.79 (foreground color: #838383, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1",
@@ -3742,6 +3720,102 @@
       "mensagem": "Elements must meet minimum color contrast ratio thresholds",
       "impacto": "serious",
       "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 2.44 (foreground color: #e89236, background color: #ffffff, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        ".post-35232 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
+      ],
+      "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        ".post-35232 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
+      ],
+      "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/niteroi-tera-reforco-nas-viagens-de-onibus-para-atender-estudantes-nos-dias-do-enem/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        ".post-35238 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
+      ],
+      "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        ".post-35238 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
+      ],
+      "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/niteroi-e-o-segundo-municipio-do-pais-a-realizar-simulado-da-opas-para-respostas-a-eventos-climaticos-extremos/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
       "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
     },
     {
@@ -4240,102 +4314,6 @@
         "RGAA-3.2.1"
       ],
       "alvo": [
-        ".post-35183 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
-      ],
-      "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
-      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
-      "impacto": "serious",
-      "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
-    },
-    {
-      "categoria": "violations",
-      "regra": "color-contrast",
-      "tagsDaRegra": [
-        "cat.color",
-        "wcag2aa",
-        "wcag143",
-        "TTv5",
-        "TT13.c",
-        "EN-301-549",
-        "EN-9.1.4.3",
-        "ACT",
-        "RGAAv4",
-        "RGAA-3.2.1"
-      ],
-      "alvo": [
-        ".post-35183 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
-      ],
-      "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/corte-momesca-2027-de-niteroi-sera-escolhida-no-proximo-sabado/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
-      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
-      "impacto": "serious",
-      "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
-    },
-    {
-      "categoria": "violations",
-      "regra": "color-contrast",
-      "tagsDaRegra": [
-        "cat.color",
-        "wcag2aa",
-        "wcag143",
-        "TTv5",
-        "TT13.c",
-        "EN-301-549",
-        "EN-9.1.4.3",
-        "ACT",
-        "RGAAv4",
-        "RGAA-3.2.1"
-      ],
-      "alvo": [
-        ".post-35174 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
-      ],
-      "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
-      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
-      "impacto": "serious",
-      "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
-    },
-    {
-      "categoria": "violations",
-      "regra": "color-contrast",
-      "tagsDaRegra": [
-        "cat.color",
-        "wcag2aa",
-        "wcag143",
-        "TTv5",
-        "TT13.c",
-        "EN-301-549",
-        "EN-9.1.4.3",
-        "ACT",
-        "RGAAv4",
-        "RGAA-3.2.1"
-      ],
-      "alvo": [
-        ".post-35174 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
-      ],
-      "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/prefeitura-de-niteroi-vai-revitalizar-praca-cesar-tinoco-no-inga/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
-      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
-      "impacto": "serious",
-      "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
-    },
-    {
-      "categoria": "violations",
-      "regra": "color-contrast",
-      "tagsDaRegra": [
-        "cat.color",
-        "wcag2aa",
-        "wcag143",
-        "TTv5",
-        "TT13.c",
-        "EN-301-549",
-        "EN-9.1.4.3",
-        "ACT",
-        "RGAAv4",
-        "RGAA-3.2.1"
-      ],
-      "alvo": [
         "td"
       ],
       "html": "<td style=\"padding: 16px 20px; text-align: center; vertical-align: middle; color: #fff; font-size: 18px; font-weight: bold;\" data-tcc-base-font-size=\"18\">▶&nbsp;&nbsp;Assista todos os episódios</td>",
@@ -4432,7 +4410,7 @@
         "RGAA-3.2.1"
       ],
       "alvo": [
-        ".slide-id-35250 > .thumb-overlay > .container > .thumb-content > .thumb-meta > .date.meta-item.tie-icon"
+        ".slide-id-35266 > .thumb-overlay > .container > .thumb-content > .thumb-meta > .date.meta-item.tie-icon"
       ],
       "html": "<span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">7 de novembro de 2026</span>",
       "mensagem": "Elements must meet minimum color contrast ratio thresholds",
@@ -4456,9 +4434,9 @@
         "RGAA-3.2.1"
       ],
       "alvo": [
-        ".slide-id-35250 > .thumb-overlay > .container > .thumb-content > .thumb-title[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"] > a[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"][role=\"link\"]"
+        ".slide-id-35266 > .thumb-overlay > .container > .thumb-content > .thumb-title[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"] > a[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"][role=\"link\"]"
       ],
-      "html": "<a href=\"https://niteroi.rj.gov.br/brasil-vence-argentina-e-vai-decidir-a-finalissima-de-futsal-2026-contra-a-espanha/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">",
+      "html": "<a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Niterói entra em estágio de alerta devido ao mau tempo</a>",
       "mensagem": "Elements must meet minimum color contrast ratio thresholds",
       "impacto": "serious",
       "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
@@ -4480,7 +4458,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T00:33:42.530Z",
+    "timestamp": "2026-11-08T14:44:52.176Z",
     "url": "https://niteroi.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -4716,6 +4694,106 @@
             "html": "<a href=\"https://servicos.niteroi.rj.gov.br/#/main/dyview\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Serviços</a>",
             "target": [
               "#menu-item-21216 > a[data-tcc-base-font-size=\"14\"][data-raofz=\"14\"][role=\"link\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#686868",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 5.57,
+                  "fontSize": "13.5pt (18px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 5.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 18px;\">6 de novembro de 2026</span>",
+            "target": [
+              ".post-35232 > .post-details > .post-meta.clearfix[data-tcc-base-font-size=\"12\"] > .date.meta-item.tie-icon"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#2e3136",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 13.05,
+                  "fontSize": "19.5pt (26px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 13.05"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://niteroi.rj.gov.br/niteroi-tera-reforco-nas-viagens-de-onibus-para-atender-estudantes-nos-dias-do-enem/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Niterói terá reforço nas viagens de ônibus para atender estudantes nos dias do Enem</a>",
+            "target": [
+              ".post-35232 > .post-details > .post-title[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"] > a[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"][role=\"link\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#686868",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 5.57,
+                  "fontSize": "13.5pt (18px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 5.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 18px;\">6 de novembro de 2026</span>",
+            "target": [
+              ".post-35238 > .post-details > .post-meta.clearfix[data-tcc-base-font-size=\"12\"] > .date.meta-item.tie-icon"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#2e3136",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 13.05,
+                  "fontSize": "19.5pt (26px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 13.05"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://niteroi.rj.gov.br/niteroi-e-o-segundo-municipio-do-pais-a-realizar-simulado-da-opas-para-respostas-a-eventos-climaticos-extremos/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">",
+            "target": [
+              ".post-35238 > .post-details > .post-title[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"] > a[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"][role=\"link\"]"
             ]
           },
           {
@@ -5216,106 +5294,6 @@
             "html": "<a href=\"https://niteroi.rj.gov.br/niteroi-conquista-r-1-milhao-para-investir-em-energia-limpa-e-eficiencia-energetica/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Niterói conquista R$ 1 milhão para investir em energia limpa e eficiência energética</a>",
             "target": [
               ".post-35187 > .post-details > .post-title[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"] > a[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"][role=\"link\"]"
-            ]
-          },
-          {
-            "any": [
-              {
-                "id": "color-contrast",
-                "data": {
-                  "fgColor": "#686868",
-                  "bgColor": "#ffffff",
-                  "contrastRatio": 5.57,
-                  "fontSize": "13.5pt (18px)",
-                  "fontWeight": "normal",
-                  "expectedContrastRatio": "4.5:1"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has sufficient color contrast of 5.57"
-              }
-            ],
-            "all": [],
-            "none": [],
-            "impact": null,
-            "html": "<span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 18px;\">3 de novembro de 2026</span>",
-            "target": [
-              ".post-35183 > .post-details > .post-meta.clearfix[data-tcc-base-font-size=\"12\"] > .date.meta-item.tie-icon"
-            ]
-          },
-          {
-            "any": [
-              {
-                "id": "color-contrast",
-                "data": {
-                  "fgColor": "#2e3136",
-                  "bgColor": "#ffffff",
-                  "contrastRatio": 13.05,
-                  "fontSize": "19.5pt (26px)",
-                  "fontWeight": "normal",
-                  "expectedContrastRatio": "3:1"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has sufficient color contrast of 13.05"
-              }
-            ],
-            "all": [],
-            "none": [],
-            "impact": null,
-            "html": "<a href=\"https://niteroi.rj.gov.br/corte-momesca-2027-de-niteroi-sera-escolhida-no-proximo-sabado/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Corte Momesca 2027 de Niterói será escolhida no próximo sábado</a>",
-            "target": [
-              ".post-35183 > .post-details > .post-title[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"] > a[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"][role=\"link\"]"
-            ]
-          },
-          {
-            "any": [
-              {
-                "id": "color-contrast",
-                "data": {
-                  "fgColor": "#686868",
-                  "bgColor": "#ffffff",
-                  "contrastRatio": 5.57,
-                  "fontSize": "13.5pt (18px)",
-                  "fontWeight": "normal",
-                  "expectedContrastRatio": "4.5:1"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has sufficient color contrast of 5.57"
-              }
-            ],
-            "all": [],
-            "none": [],
-            "impact": null,
-            "html": "<span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 18px;\">2 de novembro de 2026</span>",
-            "target": [
-              ".post-35174 > .post-details > .post-meta.clearfix[data-tcc-base-font-size=\"12\"] > .date.meta-item.tie-icon"
-            ]
-          },
-          {
-            "any": [
-              {
-                "id": "color-contrast",
-                "data": {
-                  "fgColor": "#2e3136",
-                  "bgColor": "#ffffff",
-                  "contrastRatio": 13.05,
-                  "fontSize": "19.5pt (26px)",
-                  "fontWeight": "normal",
-                  "expectedContrastRatio": "3:1"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has sufficient color contrast of 13.05"
-              }
-            ],
-            "all": [],
-            "none": [],
-            "impact": null,
-            "html": "<a href=\"https://niteroi.rj.gov.br/prefeitura-de-niteroi-vai-revitalizar-praca-cesar-tinoco-no-inga/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Prefeitura de Niterói vai revitalizar Praça César Tinoco, no Ingá</a>",
-            "target": [
-              ".post-35174 > .post-details > .post-title[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"] > a[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"][role=\"link\"]"
             ]
           },
           {
@@ -6949,7 +6927,7 @@
                   {
                     "html": "<div class=\"thumb-overlay\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">",
                     "target": [
-                      ".slide-id-35250 > .thumb-overlay"
+                      ".slide-id-35266 > .thumb-overlay"
                     ]
                   }
                 ],
@@ -6962,7 +6940,7 @@
             "impact": "serious",
             "html": "<span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">7 de novembro de 2026</span>",
             "target": [
-              ".slide-id-35250 > .thumb-overlay > .container > .thumb-content > .thumb-meta > .date.meta-item.tie-icon"
+              ".slide-id-35266 > .thumb-overlay > .container > .thumb-content > .thumb-meta > .date.meta-item.tie-icon"
             ],
             "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
           },
@@ -6980,7 +6958,7 @@
                   {
                     "html": "<div class=\"thumb-overlay\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">",
                     "target": [
-                      ".slide-id-35250 > .thumb-overlay"
+                      ".slide-id-35266 > .thumb-overlay"
                     ]
                   }
                 ],
@@ -6991,9 +6969,9 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"https://niteroi.rj.gov.br/brasil-vence-argentina-e-vai-decidir-a-finalissima-de-futsal-2026-contra-a-espanha/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">",
+            "html": "<a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Niterói entra em estágio de alerta devido ao mau tempo</a>",
             "target": [
-              ".slide-id-35250 > .thumb-overlay > .container > .thumb-content > .thumb-title[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"] > a[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"][role=\"link\"]"
+              ".slide-id-35266 > .thumb-overlay > .container > .thumb-content > .thumb-title[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"] > a[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"][role=\"link\"]"
             ],
             "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
           }
@@ -7048,7 +7026,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"topbar-today-date\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">\n\t\t\t\t\t\tsábado, 7 novembro  2026\t\t\t\t\t</div>",
+            "html": "<div class=\"topbar-today-date\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">\n\t\t\t\t\t\tdomingo, 8 novembro  2026\t\t\t\t\t</div>",
             "target": [
               ".topbar-today-date"
             ],
@@ -7069,9 +7047,9 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p id=\"ticker-content-1794098014245\" class=\"ticker-content\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"display: block; opacity: 1; transform: translateX(0px); font-size: 19px;\">",
+                    "html": "<p id=\"ticker-content-1794149084219\" class=\"ticker-content\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"display: block; opacity: 1; transform: translateX(0px); font-size: 19px;\">",
                     "target": [
-                      "#ticker-content-1794098014245"
+                      "#ticker-content-1794149084219"
                     ]
                   }
                 ],
@@ -7082,9 +7060,9 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"https://niteroi.rj.gov.br/brasil-vence-argentina-e-vai-decidir-a-finalissima-de-futsal-2026-contra-a-espanha/\" role=\"link\">Brasil vence Argentina e vai decidir a Finalíssima de Futsal 2026 contra a Espanha</a>",
+            "html": "<a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" role=\"link\">Niterói entra em estágio de alerta devido ao mau tempo</a>",
             "target": [
-              "#ticker-content-1794098014245 > a[role=\"link\"]"
+              "#ticker-content-1794149084219 > a[role=\"link\"]"
             ],
             "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.79 (foreground color: #838383, background color: #ffffff, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
           },
@@ -7150,7 +7128,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span class=\"weather-current-temp\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 22px;\">\n\t\t\t\t\t\t\t\t25\t\t\t\t\t\t\t\t<sup data-tcc-base-font-size=\"9\">℃</sup>\n\t\t\t\t\t\t\t</span>",
+            "html": "<span class=\"weather-current-temp\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 22px;\">\n\t\t\t\t\t\t\t\t21\t\t\t\t\t\t\t\t<sup data-tcc-base-font-size=\"9\">℃</sup>\n\t\t\t\t\t\t\t</span>",
             "target": [
               ".weather-current-temp"
             ],
@@ -7229,6 +7207,142 @@
               "h3"
             ],
             "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.44 (foreground color: #e89236, background color: #ffffff, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#fffefd",
+                  "bgColor": "#e89236",
+                  "contrastRatio": 2.42,
+                  "fontSize": "14.3pt (19px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
+                    "target": [
+                      ".post-35232 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
+            "target": [
+              ".post-35232 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#fffefd",
+                  "bgColor": "#e89236",
+                  "contrastRatio": 2.42,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/niteroi-tera-reforco-nas-viagens-de-onibus-para-atender-estudantes-nos-dias-do-enem/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
+                    "target": [
+                      ".post-35232 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/niteroi-tera-reforco-nas-viagens-de-onibus-para-atender-estudantes-nos-dias-do-enem/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
+            "target": [
+              ".post-35232 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#fffefd",
+                  "bgColor": "#e89236",
+                  "contrastRatio": 2.42,
+                  "fontSize": "14.3pt (19px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
+                    "target": [
+                      ".post-35238 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
+            "target": [
+              ".post-35238 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#fffefd",
+                  "bgColor": "#e89236",
+                  "contrastRatio": 2.42,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/niteroi-e-o-segundo-municipio-do-pais-a-realizar-simulado-da-opas-para-respostas-a-eventos-climaticos-extremos/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
+                    "target": [
+                      ".post-35238 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/niteroi-e-o-segundo-municipio-do-pais-a-realizar-simulado-da-opas-para-respostas-a-eventos-climaticos-extremos/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
+            "target": [
+              ".post-35238 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
           },
           {
             "any": [
@@ -7916,142 +8030,6 @@
                 "id": "color-contrast",
                 "data": {
                   "fgColor": "#fffefd",
-                  "bgColor": "#e89236",
-                  "contrastRatio": 2.42,
-                  "fontSize": "14.3pt (19px)",
-                  "fontWeight": "normal",
-                  "messageKey": null,
-                  "expectedContrastRatio": "4.5:1"
-                },
-                "relatedNodes": [
-                  {
-                    "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
-                    "target": [
-                      ".post-35183 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
-                    ]
-                  }
-                ],
-                "impact": "serious",
-                "message": "Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
-              }
-            ],
-            "all": [],
-            "none": [],
-            "impact": "serious",
-            "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
-            "target": [
-              ".post-35183 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
-            ],
-            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
-          },
-          {
-            "any": [
-              {
-                "id": "color-contrast",
-                "data": {
-                  "fgColor": "#fffefd",
-                  "bgColor": "#e89236",
-                  "contrastRatio": 2.42,
-                  "fontSize": "15.0pt (20px)",
-                  "fontWeight": "normal",
-                  "messageKey": null,
-                  "expectedContrastRatio": "4.5:1"
-                },
-                "relatedNodes": [
-                  {
-                    "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/corte-momesca-2027-de-niteroi-sera-escolhida-no-proximo-sabado/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
-                    "target": [
-                      ".post-35183 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
-                    ]
-                  }
-                ],
-                "impact": "serious",
-                "message": "Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
-              }
-            ],
-            "all": [],
-            "none": [],
-            "impact": "serious",
-            "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/corte-momesca-2027-de-niteroi-sera-escolhida-no-proximo-sabado/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
-            "target": [
-              ".post-35183 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
-            ],
-            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
-          },
-          {
-            "any": [
-              {
-                "id": "color-contrast",
-                "data": {
-                  "fgColor": "#fffefd",
-                  "bgColor": "#e89236",
-                  "contrastRatio": 2.42,
-                  "fontSize": "14.3pt (19px)",
-                  "fontWeight": "normal",
-                  "messageKey": null,
-                  "expectedContrastRatio": "4.5:1"
-                },
-                "relatedNodes": [
-                  {
-                    "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
-                    "target": [
-                      ".post-35174 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
-                    ]
-                  }
-                ],
-                "impact": "serious",
-                "message": "Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
-              }
-            ],
-            "all": [],
-            "none": [],
-            "impact": "serious",
-            "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Prefeitura de Niterói</span>",
-            "target": [
-              ".post-35174 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
-            ],
-            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
-          },
-          {
-            "any": [
-              {
-                "id": "color-contrast",
-                "data": {
-                  "fgColor": "#fffefd",
-                  "bgColor": "#e89236",
-                  "contrastRatio": 2.42,
-                  "fontSize": "15.0pt (20px)",
-                  "fontWeight": "normal",
-                  "messageKey": null,
-                  "expectedContrastRatio": "4.5:1"
-                },
-                "relatedNodes": [
-                  {
-                    "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/prefeitura-de-niteroi-vai-revitalizar-praca-cesar-tinoco-no-inga/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
-                    "target": [
-                      ".post-35174 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
-                    ]
-                  }
-                ],
-                "impact": "serious",
-                "message": "Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
-              }
-            ],
-            "all": [],
-            "none": [],
-            "impact": "serious",
-            "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/prefeitura-de-niteroi-vai-revitalizar-praca-cesar-tinoco-no-inga/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\">Leia mais »</a>",
-            "target": [
-              ".post-35174 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
-            ],
-            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #fffefd, background color: #e89236, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
-          },
-          {
-            "any": [
-              {
-                "id": "color-contrast",
-                "data": {
-                  "fgColor": "#fffefd",
                   "bgColor": "#d97808",
                   "contrastRatio": 3.13,
                   "fontSize": "13.5pt (18px)",
@@ -8100,7 +8078,7 @@
   "captura": {
     "metodo": "viewports_por_rolagem_real",
     "superficie": "HTML",
-    "alturaConteudo": 5949,
+    "alturaConteudo": 5985,
     "alturaViewport": 720,
     "trechos": [
       {
@@ -8141,10 +8119,10 @@
       },
       {
         "arquivo": "Screenshots/1.4.3-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-10.png",
-        "scrollTop": 5129
+        "scrollTop": 5165
       }
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T00:33:43.047Z"
+  "fim": "2026-11-08T14:44:52.673Z"
 }

@@ -24,7 +24,7 @@ type Report = {
   criterio: string; nome: string; inicio: string; fim?: string; url: string;
   ambiente: Record<string, unknown>; regrasDisponiveis: string[];
   statusExecucao: string; preparacao: Record<string, unknown>;
-  analise: { varredurasExecutadas: number; escopo: 'criterio' | 'geral_complementar';
+  analise: { varredurasExecutadas: number; escopo: 'criterio'; coberturaAxe: 'parcial' | 'sem_regras'; limitacao: string;
     estado: string; viewport?: unknown; painelFechado?: boolean; amostraTexto?: unknown };
   resumoAxe: Counts | null; ocorrenciasAxe: Counts | null;
   localizacaoDosAchados: Record<string, unknown>[]; axe: AxeResults | null;
@@ -292,7 +292,10 @@ async function evaluateCriterion(criterion: typeof criteria[number][0], page: Pa
     ambiente: { navegador: info.project.name, versaoNavegador: page.context().browser()?.version(),
       axe: axe.version, playwright: require('@playwright/test/package.json').version, tag, retry: info.retry },
     regrasDisponiveis: rules, statusExecucao: 'em_execucao', preparacao: {},
-    analise: { varredurasExecutadas: 0, escopo: rules.length ? 'criterio' : 'geral_complementar',
+    analise: { varredurasExecutadas: 0, escopo: 'criterio', coberturaAxe: rules.length ? 'parcial' : 'sem_regras',
+      limitacao: rules.length
+        ? 'As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.'
+        : 'Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.',
       estado: 'formulario-localizar-processo-aberto' },
     resumoAxe: null, ocorrenciasAxe: null, localizacaoDosAchados: [], axe: null, screenshots: [], erros: [],
   };
@@ -300,7 +303,7 @@ async function evaluateCriterion(criterion: typeof criteria[number][0], page: Pa
   try {
     report.preparacao.limitesDaAvaliacao = {
       resultado: 'coleta_de_evidencias_nao_certifica_conformidade',
-      criteriosSemRegraAxe: 'varredura_geral_complementar_sem_atribuicao_ao_criterio',
+      criteriosSemRegraAxe: 'somente_evidencias_especificas_sem_executar_axe',
       revisaoManual: 'Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação.',
     };
     await prepare(page, report);
@@ -340,10 +343,15 @@ async function evaluateCriterion(criterion: typeof criteria[number][0], page: Pa
     await verifyPrepared(page, report);
     report.analise.viewport = page.viewportSize();
     await screenshot(page, info, report, report.analise.estado, !['1.4.13', '2.4.7', '2.4.13'].includes(criterion));
+    // Uma lista vazia não pode cair na análise padrão (geral) do axe.
+    if (!rules.length) {
+      report.statusExecucao = 'coleta_concluida_sem_cobertura_axe';
+      return;
+    }
     let builder = new AxeBuilder({ page }).options({ resultTypes: [...categories] });
-    if (rules.length) builder = builder.withRules(rules);
+    builder = builder.withRules(rules);
 
-    // Única chamada de análise do axe-core em cada teste.
+    // Única chamada ao axe, restrita às regras associadas ao critério.
     const result = await builder.analyze();
     report.axe = result;
     report.analise.varredurasExecutadas = 1;

@@ -1,0 +1,87 @@
+{
+  "criterio": "1.4.13",
+  "nome": "Content on Hover or Focus",
+  "inicio": "2026-11-08T15:36:40.168Z",
+  "url": "https://carioca.rio",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1413",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://carioca.rio/"
+    },
+    "comunicado": {
+      "exibido": true,
+      "fechadoPeloBotao": true
+    },
+    "aumentoFonte": {
+      "controle": ".aumentar-fonte a",
+      "acionamento": "cliques_reais_no_controle_do_site",
+      "limiteProgramadoIdentificado": false,
+      "cliques": 18,
+      "fatorAlvo": 2,
+      "fatorAtingidoNaReferencia": 2,
+      "referencia": "SERVIÇOS MAIS BUSCADOS",
+      "criterioDeParada": "atingir_o_fator_alvo_na_referencia_pois_o_controle_nao_tem_maximo",
+      "tamanhoOriginalPx": 17.5,
+      "tamanhoFinalPx": 35,
+      "escopo": "Aumento aplicado em todos os cenários; não pressupõe o mesmo fator em todos os elementos."
+    },
+    "familiasDeFontePreservadas": true,
+    "fonteAmpliadaConfirmada": true,
+    "idioma": {
+      "documento": "pt-BR",
+      "navegador": "pt-BR"
+    },
+    "hover": {
+      "seletor": "nav li:has(> ul)",
+      "gatilhoVisivelEncontrado": false
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "inspecao-hover",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.13-rio-servicos-carioca-chromium-inspecao-hover-trecho-1.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 16926,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.13-rio-servicos-carioca-chromium-inspecao-hover-trecho-1.png",
+        "scrollTop": 0
+      }
+    ],
+    "cobertura": "estado_hover_ou_foco_ou_erro"
+  },
+  "fim": "2026-11-08T15:37:08.983Z"
+}

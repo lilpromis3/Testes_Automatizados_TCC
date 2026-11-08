@@ -1,0 +1,1166 @@
+{
+  "criterio": "1.4.12",
+  "nome": "Text Spacing",
+  "inicio": "2026-11-08T14:24:01.942Z",
+  "url": "https://prefeitura.rio",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1412",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "avoid-inline-spacing"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://prefeitura.rio/"
+    },
+    "cookies": "nao_essenciais_rejeitados_pelo_botao_do_banner",
+    "widgetBaixaVisao": {
+      "fornecedor": "Pojo Accessibility",
+      "niveisAposCadaClique": [
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200
+      ],
+      "nivelFonte": 200,
+      "cliquesParaMaximo": 8,
+      "maximoConfirmadoPorCliqueAdicional": true,
+      "verificacaoMaximo": "classe_e_nivel_persistido_iguais_a_200_antes_e_depois_do_clique_adicional",
+      "ordem": [
+        "high-contrast",
+        "links-underline",
+        "readable-font",
+        "resize-plus_8_vezes",
+        "resize-plus_confirmacao",
+        "fechar_painel"
+      ],
+      "altoContraste": true,
+      "linksSublinhados": true,
+      "fonteLegivel": true,
+      "observacao": "Nível 200 do widget não equivale necessariamente a 200% do tamanho original em todos os elementos; o CSS usa percentuais herdados."
+    },
+    "idioma": {
+      "documento": "pt-BR",
+      "navegador": "pt-BR"
+    },
+    "espacamento": {
+      "metodo": "folha_de_estilo",
+      "elementosMedidos": 454,
+      "linha": 1.5,
+      "paragrafoEm": 2,
+      "letrasEm": 0.12,
+      "palavrasEm": 0.16
+    },
+    "layout": {
+      "larguraViewport": 1280,
+      "larguraDocumento": 2057,
+      "rolagemHorizontal": true,
+      "candidatosRecorte": [
+        {
+          "html": "<span class=\"pojo-sr-only sr-only\" data-tcc-spacing=\"\">Barra de Ferramentas Aberta</span>",
+          "scrollWidth": 541,
+          "clientWidth": 1,
+          "scrollHeight": 384,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"sr-only\" data-tcc-base-font-size=\"20\" data-tcc-spacing=\"\">Previous</span>",
+          "scrollWidth": 234,
+          "clientWidth": 1,
+          "scrollHeight": 60,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"sr-only\" data-tcc-base-font-size=\"20\" data-tcc-spacing=\"\">Next</span>",
+          "scrollWidth": 125,
+          "clientWidth": 1,
+          "scrollHeight": 60,
+          "clientHeight": 1
+        },
+        {
+          "html": "<h3 data-tcc-base-font-size=\"22\" data-tcc-spacing=\"\">Município lança duas linhas de Conexão BRT na Ilha do Governador. Confira</h3>",
+          "scrollWidth": 538,
+          "clientWidth": 538,
+          "scrollHeight": 559,
+          "clientHeight": 239
+        },
+        {
+          "html": "<h3 data-tcc-base-font-size=\"22\" data-tcc-spacing=\"\">Prefeitura do Rio convoca 2 mil motoristas auxiliares para habilitação de novas autorizações de táxi</h3>",
+          "scrollWidth": 538,
+          "clientWidth": 538,
+          "scrollHeight": 718,
+          "clientHeight": 239
+        },
+        {
+          "html": "<h3 data-tcc-base-font-size=\"18\" data-tcc-spacing=\"\">Cidade do Rio retoma vacinação contra a MPOX para pessoas com HIV/AIDS</h3>",
+          "scrollWidth": 354,
+          "clientWidth": 308,
+          "scrollHeight": 798,
+          "clientHeight": 239
+        },
+        {
+          "html": "<h3 data-tcc-base-font-size=\"18\" data-tcc-spacing=\"\">Rede municipal premia 1.373 alunos no Canguru de Matemática 2026</h3>",
+          "scrollWidth": 410,
+          "clientWidth": 308,
+          "scrollHeight": 798,
+          "clientHeight": 239
+        },
+        {
+          "html": "<h3 data-tcc-base-font-size=\"18\" data-tcc-spacing=\"\">Carioca em Dia oferece desconto para débitos inscritos em dívida ativa</h3>",
+          "scrollWidth": 322,
+          "clientWidth": 308,
+          "scrollHeight": 798,
+          "clientHeight": 239
+        },
+        {
+          "html": "<h3 data-tcc-base-font-size=\"18\" data-tcc-spacing=\"\">Inscritos no Enem terão transporte gratuito nos dias de prova</h3>",
+          "scrollWidth": 379,
+          "clientWidth": 308,
+          "scrollHeight": 718,
+          "clientHeight": 239
+        }
+      ],
+      "raiz": "DOM_principal",
+      "toleranciaCssPx": 1
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
+    "estado": "quatro-espacamentos",
+    "painelFechado": true,
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 0,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "ocorrenciasAxe": {
+    "violations": 0,
+    "passes": 25,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 1280,
+      "windowHeight": 720,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-08T14:24:15.656Z",
+    "url": "https://prefeitura.rio/",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "avoid-inline-spacing"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [],
+    "passes": [
+      {
+        "id": "avoid-inline-spacing",
+        "impact": null,
+        "tags": [
+          "cat.structure",
+          "wcag21aa",
+          "wcag1412",
+          "EN-301-549",
+          "EN-9.1.4.12",
+          "ACT"
+        ],
+        "description": "Ensure that text spacing set through style attributes can be adjusted with custom stylesheets",
+        "help": "Inline text spacing must be adjustable with custom stylesheets",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/avoid-inline-spacing?application=playwright",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"cky-btn-revisit-wrapper cky-revisit-bottom-left\" data-cky-tag=\"revisit-consent\" data-tooltip=\"Definições de cookies\" style=\"background-color: #0056A7;\" data-tcc-base-font-size=\"14\">",
+            "target": [
+              ".cky-btn-revisit-wrapper"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"container-fluid header\" style=\"background-color:#004a80\" data-tcc-base-font-size=\"14\" data-tcc-spacing=\"\">",
+            "target": [
+              ".header"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<input type=\"search\" class=\"form-control search-input mr-sm-2\" id=\"s\" name=\"s\" placeholder=\"O que você procura?\" value=\"\" title=\"Search for:\" data-tcc-base-font-size=\"11\" style=\"\">",
+            "target": [
+              "#s"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<img style=\"width: 20px\" src=\"https://prefeitura.rio/wp-content/themes/prefeitura-rio/layouts/images/header/search.svg\" alt=\"\" data-tcc-base-font-size=\"13\">",
+            "target": [
+              "img[data-tcc-base-font-size=\"13\"][alt=\"\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"col-md-12\" style=\"width: 100%\" data-tcc-base-font-size=\"14\" data-tcc-spacing=\"\">",
+            "target": [
+              ".row > .col-md-12"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"lista\" style=\"width: 100%\" data-tcc-base-font-size=\"14\" data-tcc-spacing=\"\">",
+            "target": [
+              ".lista"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/transportes/prefeitura-lanca-duas-linhas-de-conexao-brt-na-ilha-do-governador/\" role=\"link\" data-tcc-base-font-size=\"20\">",
+            "target": [
+              ".post-thumbnail-large-2 > a[data-tcc-base-font-size=\"20\"][role=\"link\"]:nth-child(2)"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/noticias/prefeitura-do-rio-convoca-2-mil-motoristas-auxiliares-para-habilitacao-de-novas-autorizacoes-de-taxi/\" role=\"link\" data-tcc-base-font-size=\"20\">",
+            "target": [
+              ".post-thumbnail-large-1 > a[data-tcc-base-font-size=\"20\"][role=\"link\"]:nth-child(2)"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"wrapper-little-post\" style=\"display: flex; align-items: center\" data-tcc-base-font-size=\"14\" data-tcc-spacing=\"\">",
+            "target": [
+              ".little-post-acontece-1 > .wrapper-little-post"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"col-xs-4 thumb-little\" style=\"padding-left: 0\" data-tcc-base-font-size=\"14\">",
+            "target": [
+              ".little-post-acontece-1 > .wrapper-little-post > .thumb-little.col-xs-4"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/saude/rio-retoma-vacinacao-contra-a-mpox-para-pessoas-com-hiv-aids/\" role=\"link\" data-tcc-base-font-size=\"14\">",
+            "target": [
+              ".little-post-acontece-1 > .wrapper-little-post > .thumb-little.col-xs-4 > a[role=\"link\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"wrapper-little-post\" style=\"display: flex; align-items: center\" data-tcc-base-font-size=\"14\" data-tcc-spacing=\"\">",
+            "target": [
+              ".little-post-faz-1 > .wrapper-little-post"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"col-xs-4 thumb-little\" style=\"padding-left: 0\" data-tcc-base-font-size=\"14\">",
+            "target": [
+              ".little-post-faz-1 > .wrapper-little-post > .thumb-little.col-xs-4"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/noticias/rede-municipal-de-ensino-do-rio-premia-1-373-estudantes-medalhistas-no-concurso-canguru-de-matematica-2026/\" role=\"link\" data-tcc-base-font-size=\"14\">",
+            "target": [
+              ".little-post-faz-1 > .wrapper-little-post > .thumb-little.col-xs-4 > a[role=\"link\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"wrapper-little-post\" style=\"display: flex; align-items: center\" data-tcc-base-font-size=\"14\" data-tcc-spacing=\"\">",
+            "target": [
+              ".little-post-acontece-2 > .wrapper-little-post"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"col-xs-4 thumb-little\" style=\"padding-left: 0\" data-tcc-base-font-size=\"14\">",
+            "target": [
+              ".little-post-acontece-2 > .wrapper-little-post > .thumb-little.col-xs-4"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/cidade/carioca-em-dia-2026-programa-oferece-descontos-para-pagamento-de-debitos-inscritos-em-divida-ativa/\" role=\"link\" data-tcc-base-font-size=\"14\">",
+            "target": [
+              ".little-post-acontece-2 > .wrapper-little-post > .thumb-little.col-xs-4 > a[role=\"link\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"wrapper-little-post\" style=\"display: flex; align-items: center\" data-tcc-base-font-size=\"14\" data-tcc-spacing=\"\">",
+            "target": [
+              ".little-post-faz-2 > .wrapper-little-post"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"col-xs-4 thumb-little\" style=\"padding-left: 0\" data-tcc-base-font-size=\"14\">",
+            "target": [
+              ".little-post-faz-2 > .wrapper-little-post > .thumb-little.col-xs-4"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/transportes/prefeitura-do-rio-garante-transporte-gratuito-a-inscritos-no-enem-nos-dias-de-prova/\" role=\"link\" data-tcc-base-font-size=\"14\">",
+            "target": [
+              ".little-post-faz-2 > .wrapper-little-post > .thumb-little.col-xs-4 > a[role=\"link\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"links-footer\" style=\"background-color: #e7e7e7; height: 115px; clear: both;\" data-tcc-base-font-size=\"14\" data-tcc-spacing=\"\">",
+            "target": [
+              ".links-footer"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"https://prefeitura.rio/wp-content/uploads/2025/01/logo-sitelink-pref-2025-425x600.png\" alt=\"\" style=\"width:100%\" data-tcc-base-font-size=\"14\">",
+            "target": [
+              ".imagem-rodape-sitemap > img[alt=\"\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"https://prefeitura.rio/wp-content/uploads/2025/01/logo-prefeitura-2025-branco-600x243.png\" alt=\"\" style=\"width:100%\" data-tcc-base-font-size=\"14\">",
+            "target": [
+              ".logo-rodape > img[alt=\"\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div id=\"gt_float_wrapper\" style=\"position:fixed;bottom:20px;right:20px;z-index:999999;\" data-tcc-base-font-size=\"14\" data-tcc-spacing=\"\">",
+            "target": [
+              "#gt_float_wrapper"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"gt_float_switcher notranslate\" style=\"opacity: 1;\" data-tcc-base-font-size=\"20\" data-tcc-spacing=\"\">",
+            "target": [
+              ".gt_float_switcher"
+            ]
+          }
+        ]
+      }
+    ],
+    "incomplete": [],
+    "violations": []
+  },
+  "screenshots": [
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-1.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-2.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-3.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-4.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-5.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-6.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-7.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-8.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-9.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-10.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-11.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-12.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-13.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-14.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-15.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-16.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-17.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-18.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-19.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-20.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-21.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-22.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-23.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-24.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-25.png",
+    "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-26.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 16012,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-10.png",
+        "scrollTop": 5508
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-11.png",
+        "scrollTop": 6120
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-12.png",
+        "scrollTop": 6732
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-13.png",
+        "scrollTop": 7344
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-14.png",
+        "scrollTop": 7956
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-15.png",
+        "scrollTop": 8568
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-16.png",
+        "scrollTop": 9180
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-17.png",
+        "scrollTop": 9792
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-18.png",
+        "scrollTop": 10404
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-19.png",
+        "scrollTop": 11016
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-20.png",
+        "scrollTop": 11628
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-21.png",
+        "scrollTop": 12240
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-22.png",
+        "scrollTop": 12852
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-23.png",
+        "scrollTop": 13464
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-24.png",
+        "scrollTop": 14076
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-25.png",
+        "scrollTop": 14688
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-rio-home-chromium-quatro-espacamentos-trecho-26.png",
+        "scrollTop": 15292
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T14:24:15.885Z"
+}

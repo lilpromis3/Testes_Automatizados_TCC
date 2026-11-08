@@ -11,7 +11,9 @@
     "test:niteroi": "playwright test tests/Niteroi --project=chromium --workers=1",
     "test:niteroi:home": "playwright test tests/Niteroi/Home-page/home-page.spec.ts --project=chromium --workers=1",
     "test:niteroi:servicos": "playwright test tests/Niteroi/Services-list-page/services-page.spec.ts --project=chromium --workers=1",
-    "test:niteroi:processos": "playwright test tests/Niteroi/Specific-service-page/specific-service-page.spec.ts --project=chromium --workers=1"
+    "test:niteroi:processos": "playwright test tests/Niteroi/Specific-service-page/specific-service-page.spec.ts --project=chromium --workers=1",
+    "test:rio:home": "playwright test tests/Rio-de-Janeiro/Home-page/home-page.spec.ts --project=chromium --workers=1",
+    "test:rio:servicos": "playwright test tests/Rio-de-Janeiro/Services-list-page/services-page.spec.ts --project=chromium --workers=1"
   },
   "repository": {
     "type": "git",

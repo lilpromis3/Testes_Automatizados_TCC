@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.4",
   "nome": "Resize Text",
-  "inicio": "2026-11-07T15:03:16.277Z",
+  "inicio": "2026-11-08T14:49:14.129Z",
   "url": "https://www.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -115,6 +115,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "texto-200-css-widget-fechado",
     "painelFechado": true,
     "viewport": {
@@ -167,7 +169,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-07T15:03:19.624Z",
+    "timestamp": "2026-11-08T14:49:17.391Z",
     "url": "https://www.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -228,8 +230,8 @@
     "violations": []
   },
   "screenshots": [
-    "Screenshots/1.4.4-chromium-2026-11-07T15-03-16-277Z-texto-200-css-widget-fechado.png"
+    "Screenshots/1.4.4-chromium-2026-11-08T14-49-14-129Z-texto-200-css-widget-fechado.png"
   ],
   "erros": [],
-  "fim": "2026-11-07T15:03:19.936Z"
+  "fim": "2026-11-08T14:49:17.753Z"
 }

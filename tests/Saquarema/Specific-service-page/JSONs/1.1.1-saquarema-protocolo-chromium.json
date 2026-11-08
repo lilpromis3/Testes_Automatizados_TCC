@@ -1,7 +1,7 @@
 {
   "criterio": "1.1.1",
   "nome": "Non-text Content",
-  "inicio": "2026-11-07T20:09:14.587Z",
+  "inicio": "2026-11-08T14:55:24.796Z",
   "url": "https://egov.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -52,6 +52,8 @@
   "analise": {
     "varredurasExecutadas": 1,
     "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
     "estado": "formulario-parcialmente-preenchido-padrao",
     "viewport": {
       "width": 1280,
@@ -86,7 +88,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-07T20:09:32.168Z",
+    "timestamp": "2026-11-08T14:55:33.386Z",
     "url": "https://egov.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -260,7 +262,7 @@
     "violations": []
   },
   "screenshots": [
-    "Screenshots/1.1.1-saquarema-protocolo-chromium-2026-11-07T20-09-14-587Z-formulario-parcialmente-preenchido-padrao-trecho-1.png"
+    "Screenshots/1.1.1-saquarema-protocolo-chromium-2026-11-08T14-55-24-796Z-formulario-parcialmente-preenchido-padrao-trecho-1.png"
   ],
   "erros": [],
   "captura": {
@@ -272,10 +274,10 @@
     },
     "trechos": [
       {
-        "arquivo": "Screenshots/1.1.1-saquarema-protocolo-chromium-2026-11-07T20-09-14-587Z-formulario-parcialmente-preenchido-padrao-trecho-1.png",
+        "arquivo": "Screenshots/1.1.1-saquarema-protocolo-chromium-2026-11-08T14-55-24-796Z-formulario-parcialmente-preenchido-padrao-trecho-1.png",
         "scrollTop": 0
       }
     ]
   },
-  "fim": "2026-11-07T20:09:32.561Z"
+  "fim": "2026-11-08T14:55:33.754Z"
 }
