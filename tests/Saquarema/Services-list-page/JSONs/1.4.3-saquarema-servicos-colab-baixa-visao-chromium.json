@@ -1,0 +1,1227 @@
+{
+  "criterio": "1.4.3",
+  "nome": "Contrast (Minimum)",
+  "inicio": "2026-11-07T23:56:43.412Z",
+  "url": "https://saquarema.colab.re",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag143",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "color-contrast"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://saquarema.colab.re/"
+    },
+    "catalogo": {
+      "secao": "Categorias de serviços",
+      "categoriaConfirmada": "Desenvolvimento Econômico"
+    },
+    "carregamento": {
+      "imagens": 26,
+      "alturaPercorrida": 3230,
+      "superficieRolagem": "BODY",
+      "imagensNaoCarregadas": []
+    },
+    "acesso": "direto_a_pagina_alvo",
+    "perfil": "baixa_visao_personalizado_colab",
+    "widgetBaixaVisao": {
+      "fornecedor": "Hand Talk",
+      "amostraAntes": {
+        "fontePx": 30,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 700,
+        "linhaPx": 39,
+        "letrasPx": 0
+      },
+      "configuracao": "nivel_maximo_de_cada_recurso",
+      "recursos": [
+        {
+          "recurso": "Tamanho de Fonte",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Tamanho de Fonte, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Letras Destacadas",
+          "selecionado": true,
+          "nivelAplicado": null,
+          "nivelMaximo": null,
+          "rotulo": "Letras Destacadas Ativo"
+        },
+        {
+          "recurso": "Espaçamento Entre Linhas",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Espaçamento Entre Linhas, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Espaço entre Letras",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Espaço entre Letras, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Destacar Cabeçalho",
+          "selecionado": true,
+          "nivelAplicado": null,
+          "nivelMaximo": null,
+          "rotulo": "Destacar Cabeçalho, ativo"
+        },
+        {
+          "recurso": "Contraste de Cores",
+          "selecionado": true,
+          "nivelAplicado": 2,
+          "nivelMaximo": 2,
+          "rotulo": "Contraste de Cores, ativo, opção 2 de 2"
+        }
+      ],
+      "estiloDeTexto": {
+        "alterado": false,
+        "rotulo": "Ativar Estilo de Texto, 3 opções"
+      },
+      "verificacaoFamiliasDeFonte": {
+        "elementosMedidos": 235,
+        "alteracoes": []
+      },
+      "controlesAposFechar": [
+        {
+          "rotulo": "Tamanho de Fonte, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Ativar Estilo de Texto, 3 opções",
+          "selecionado": null
+        },
+        {
+          "rotulo": "Letras Destacadas Ativo",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Espaçamento Entre Linhas, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Espaço entre Letras, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Destacar Cabeçalho, ativo",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Contraste de Cores, ativo, opção 2 de 2",
+          "selecionado": "true"
+        }
+      ],
+      "perfilAplicado": true,
+      "painelFechado": true,
+      "amostraAtivada": {
+        "fontePx": 60,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 900,
+        "linhaPx": 156,
+        "letrasPx": 6
+      },
+      "amostraAposFechar": {
+        "fontePx": 60,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 900,
+        "linhaPx": 156,
+        "letrasPx": 6
+      },
+      "verificacao": "controles_selecionados_e_estilos_computados_de_um_titulo"
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "estado": "baixa-visao-widget-fechado",
+    "painelFechado": true,
+    "amostraTexto": {
+      "fontePx": 60,
+      "familia": "\"Open Sans\", system-ui, sans-serif",
+      "peso": 900,
+      "linhaPx": 156,
+      "letrasPx": 6
+    },
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 0,
+    "passes": 1,
+    "incomplete": 1,
+    "inapplicable": 0
+  },
+  "ocorrenciasAxe": {
+    "violations": 0,
+    "passes": 33,
+    "incomplete": 1,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        ".p-5.pt-\\[27px\\].shadow-sm:nth-child(10) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+      ],
+      "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    }
+  ],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 1280,
+      "windowHeight": 720,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-07T23:57:00.128Z",
+    "url": "https://saquarema.colab.re/",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "color-contrast"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [],
+    "passes": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "27.0pt (36px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography css-uqbq7b\" style=\"font-size: 36px; color: rgb(255, 255, 255); line-height: 3.14286; letter-spacing: 6px;\" data-tcc-base-font-size=\"18\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">Entrar</span>",
+            "target": [
+              ".ant-dropdown-trigger > .ant-typography.css-uqbq7b[data-tcc-base-font-size=\"18\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "45.0pt (60px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h2 class=\"leading-[1.3] sm:mb-[15px] font-bold text-[#343434] max-w-2xl text-[26px] lg:text-[30px] \" data-tcc-base-font-size=\"30\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 60px; line-height: 2.6; letter-spacing: 6px;\">",
+            "target": [
+              ".flex-col.flex[data-tcc-base-font-size=\"16\"] > .\\!p-4.sm\\:mb-7.mb-2 > .sm\\:mb-\\[15px\\]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<p class=\"max-w-2xl leading-[1.5] text-gray-500 mb-0 text-[16px] lg:text-[20px]\" data-tcc-base-font-size=\"20\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 40px; line-height: 3; letter-spacing: 6px;\">",
+            "target": [
+              ".flex-col.flex[data-tcc-base-font-size=\"16\"] > .\\!p-4.sm\\:mb-7.mb-2 > .leading-\\[1\\.5\\].text-\\[16px\\].lg\\:text-\\[20px\\]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"p-3 lg:p-[30px] w-5/6 h-full flex items-center text-sm md:text-xl lg:text-xl text-gray-500\" data-tcc-base-font-size=\"20\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 40px; line-height: 2.8; letter-spacing: 6px;\">",
+            "target": [
+              ".p-3"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "45.0pt (60px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h2 class=\"leading-[1.3] font-bold text-[#343434] mb-0 break-words text-center mx-auto max-w-2xl text-[26px] lg:text-[30px]\" data-tcc-base-font-size=\"30\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 60px; line-height: 2.6; letter-spacing: 6px;\">",
+            "target": [
+              ".break-words"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"pl-[15px] text-xs leading-[18px] sm:text-sm md:text-xl md:leading-[2.4375rem] font-normal text-[#343434]\" data-tcc-base-font-size=\"20\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 40px; line-height: 3.9; letter-spacing: 6px;\">",
+            "target": [
+              ".ant-list-item.h-full.w-full:nth-child(1) > .p-4.justify-between.h-full > .rounded.items-center.flex > .pl-\\[15px\\].leading-\\[18px\\].md\\:leading-\\[2\\.4375rem\\]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"pl-[15px] text-xs leading-[18px] sm:text-sm md:text-xl md:leading-[2.4375rem] font-normal text-[#343434]\" data-tcc-base-font-size=\"20\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 40px; line-height: 3.9; letter-spacing: 6px;\">",
+            "target": [
+              ".ant-list-item.h-full.w-full:nth-child(2) > .p-4.justify-between.h-full > .rounded.items-center.flex > .pl-\\[15px\\].leading-\\[18px\\].md\\:leading-\\[2\\.4375rem\\]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"pl-[15px] text-xs leading-[18px] sm:text-sm md:text-xl md:leading-[2.4375rem] font-normal text-[#343434]\" data-tcc-base-font-size=\"20\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 40px; line-height: 3.9; letter-spacing: 6px;\">",
+            "target": [
+              ".ant-list-item.h-full.w-full:nth-child(3) > .p-4.justify-between.h-full > .rounded.items-center.flex > .pl-\\[15px\\].leading-\\[18px\\].md\\:leading-\\[2\\.4375rem\\]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "21.0pt (28px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"text-sm font-bold tracking-wider text-indigo-600 uppercase\" style=\"color: rgb(54, 120, 56); font-size: 28px; line-height: 2.85714; letter-spacing: 1.4px;\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">Ocorrências</div>",
+            "target": [
+              ".tracking-wider"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "45.0pt (60px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h2 class=\"leading-[1.3] sm:mb-[15px] font-bold text-[#343434] max-w-2xl text-[26px] lg:text-[30px] \" data-tcc-base-font-size=\"30\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 60px; line-height: 2.6; letter-spacing: 6px;\">",
+            "target": [
+              ".mt-5[data-tcc-base-font-size=\"16\"] > .\\!p-4.sm\\:mb-7.mb-2 > .sm\\:mb-\\[15px\\]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<p class=\"max-w-2xl leading-[1.5] text-gray-500 mb-0 text-[16px] lg:text-[20px]\" data-tcc-base-font-size=\"20\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 40px; line-height: 3; letter-spacing: 6px;\">",
+            "target": [
+              ".mt-5[data-tcc-base-font-size=\"16\"] > .\\!p-4.sm\\:mb-7.mb-2 > .leading-\\[1\\.5\\].text-\\[16px\\].lg\\:text-\\[20px\\]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "27.0pt (36px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography text-xs sm:text-sm md:text-lg css-uqbq7b\" style=\"color: rgb(55, 55, 55); margin-top: 12px; font-size: 36px; line-height: 3.11111; letter-spacing: 6px;\" data-tcc-base-font-size=\"18\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">Conservação</span>",
+            "target": [
+              ".slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div[data-tcc-base-font-size=\"14\"] > .\\!flex.justify-center.cursor-pointer > .md\\:text-lg.text-xs.sm\\:text-sm"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "27.0pt (36px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography text-xs sm:text-sm md:text-lg css-uqbq7b\" style=\"color: rgb(55, 55, 55); margin-top: 12px; font-size: 36px; line-height: 3.11111; letter-spacing: 6px;\" data-tcc-base-font-size=\"18\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-active[data-index=\"1\"][aria-hidden=\"false\"] > div[data-tcc-base-font-size=\"14\"] > .\\!flex.justify-center.cursor-pointer > .md\\:text-lg.text-xs.sm\\:text-sm"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "27.0pt (36px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography text-xs sm:text-sm md:text-lg css-uqbq7b\" style=\"color: rgb(55, 55, 55); margin-top: 12px; font-size: 36px; line-height: 3.11111; letter-spacing: 6px;\" data-tcc-base-font-size=\"18\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-active[data-index=\"2\"][aria-hidden=\"false\"] > div[data-tcc-base-font-size=\"14\"] > .\\!flex.justify-center.cursor-pointer > .md\\:text-lg.text-xs.sm\\:text-sm"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "27.0pt (36px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography text-xs sm:text-sm md:text-lg css-uqbq7b\" style=\"color: rgb(55, 55, 55); margin-top: 12px; font-size: 36px; line-height: 3.11111; letter-spacing: 6px;\" data-tcc-base-font-size=\"18\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-active[data-index=\"3\"][aria-hidden=\"false\"] > div[data-tcc-base-font-size=\"14\"] > .\\!flex.justify-center.cursor-pointer > .md\\:text-lg.text-xs.sm\\:text-sm"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "27.0pt (36px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography text-xs sm:text-sm md:text-lg css-uqbq7b\" style=\"color: rgb(55, 55, 55); margin-top: 12px; font-size: 36px; line-height: 3.11111; letter-spacing: 6px;\" data-tcc-base-font-size=\"18\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-active[data-index=\"4\"][aria-hidden=\"false\"] > div[data-tcc-base-font-size=\"14\"] > .\\!flex.justify-center.cursor-pointer > .md\\:text-lg.text-xs.sm\\:text-sm"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "45.0pt (60px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h2 class=\"leading-[1.3] sm:mb-[15px] font-bold text-[#343434] max-w-2xl text-[26px] lg:text-[30px] \" data-tcc-base-font-size=\"30\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 60px; line-height: 2.6; letter-spacing: 6px;\">Categorias de serviços</h2>",
+            "target": [
+              ".xl\\:mt-20 > .\\!p-4.sm\\:mb-7.mb-2 > .sm\\:mb-\\[15px\\]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<p class=\"max-w-2xl leading-[1.5] text-gray-500 mb-0 text-[16px] lg:text-[20px]\" data-tcc-base-font-size=\"20\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 40px; line-height: 3; letter-spacing: 6px;\">Acesse os serviços disponíveis para você</p>",
+            "target": [
+              ".xl\\:mt-20 > .\\!p-4.sm\\:mb-7.mb-2 > .leading-\\[1\\.5\\].text-\\[16px\\].lg\\:text-\\[20px\\]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(1) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(2) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(3) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(4) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(5) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(6) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(7) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(8) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(9) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(11) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(12) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(13) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(14) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "24.0pt (32px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"max-w-md mt-4 text-gray-400\" style=\"color: rgb(255, 255, 255); font-size: 32px; line-height: 2.3; letter-spacing: 6px;\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">Portal Cidadão da Prefeitura de Saquarema</div>",
+            "target": [
+              ".max-w-md"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#000000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 21,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h3 class=\" text-[20px] font-semibold leading-[30px] text-left underline-from-font no-decoration-skip-ink mb-2\" style=\"color: rgb(255, 255, 255); font-size: 40px; line-height: 3; letter-spacing: 6px;\" data-tcc-base-font-size=\"20\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              "div[data-tcc-base-font-size=\"16\"] > h3"
+            ]
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "34.5pt (46px)",
+                  "fontWeight": "bold",
+                  "messageKey": "elmPartiallyObscured",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+                    "target": [
+                      ".p-5.pt-\\[27px\\].shadow-sm:nth-child(10) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it's partially obscured by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"flex flex-col items-center text-xl xl:text-[23px] font-normal text-[#434343] text-center\" data-tcc-base-font-size=\"23\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" style=\"font-size: 46px; line-height: 2.43478; letter-spacing: 6px;\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(10) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          }
+        ]
+      }
+    ],
+    "violations": []
+  },
+  "screenshots": [
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-1.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-2.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-3.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-4.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-5.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-6.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-7.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-8.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-9.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-10.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-11.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-12.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-13.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-14.png",
+    "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-15.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "BODY",
+    "alturaConteudo": 8846,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-10.png",
+        "scrollTop": 5508
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-11.png",
+        "scrollTop": 6120
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-12.png",
+        "scrollTop": 6732
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-13.png",
+        "scrollTop": 7344
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-14.png",
+        "scrollTop": 7956
+      },
+      {
+        "arquivo": "Screenshots/1.4.3-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-15.png",
+        "scrollTop": 8126
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-07T23:57:00.359Z"
+}

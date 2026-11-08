@@ -1,0 +1,4316 @@
+{
+  "criterio": "1.4.3",
+  "nome": "Contrast (Minimum)",
+  "inicio": "2026-11-07T15:03:12.399Z",
+  "url": "https://www.saquarema.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag143",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "color-contrast"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://www.saquarema.rj.gov.br/"
+    },
+    "carregamento": {
+      "imagens": 16,
+      "alturaPercorrida": 3032,
+      "imagensNaoCarregadas": []
+    },
+    "perfil": "vision"
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "estado": "perfil-baixa-visao-widget-fechado",
+    "painelFechado": true,
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "widget": {
+      "preferencias": {
+        "profile": "vision",
+        "on": {
+          "headings": true,
+          "links": true,
+          "cursor": true
+        },
+        "contrast": 1,
+        "align": 0,
+        "size": 2,
+        "lh": 0,
+        "ls": 0
+      },
+      "classes": "ra-fx-ready ra-c-high ra-links ra-headings ra-cursor",
+      "painelAberto": false
+    }
+  },
+  "resumoAxe": {
+    "violations": 0,
+    "passes": 1,
+    "incomplete": 1,
+    "inapplicable": 0
+  },
+  "ocorrenciasAxe": {
+    "violations": 0,
+    "passes": 101,
+    "incomplete": 30,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "article:nth-child(1) > .article-title > a"
+      ],
+      "html": "<a href=\"https://www.saquarema.rj.gov.br/prefeitura-vai-iniciar-cadastro-unificado-das-creches-para-2027/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Prefeitura vai iniciar Cadastro Unificado das Creches para 2027</a>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        ".c-article-list.m-has-icon:nth-child(3) > .c-content-box > .article-list-inner > .article-list-title[data-ra-fs=\"24\"]"
+      ],
+      "html": "<h2 class=\"article-list-title\" data-ra-fs=\"24\" data-ra-fs-in=\"\" style=\"font-size: 30px !important;\"><i class=\"ico fa fa-youtube\" data-ra-fs=\"36\" data-ra-fs-in=\"\" style=\"font-size: 45px !important;\"></i>TV Saquarema</h2>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#text-11 > .widget-inner[data-ra-fs=\"14\"] > .widget-title.m-has-ico[data-ra-fs=\"18.004\"]"
+      ],
+      "html": "<h3 class=\"widget-title m-has-ico\" data-ra-fs=\"18.004\" data-ra-fs-in=\"\" style=\"font-size: 22.51px !important;\"><i class=\"widget-ico tp tp-envelope\" data-ra-fs=\"20\" data-ra-fs-in=\"\" style=\"font-size: 25px !important;\"></i>PMS</h3>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#text-11 > .widget-inner[data-ra-fs=\"14\"] > .textwidget[data-ra-fs=\"14\"] > p:nth-child(1)"
+      ],
+      "html": "<p data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">CNPJ: 32.147.670/0001-21<br>\nRua Coronel Madureira, 77<br>\nCentro – Saquarema – RJ<br>\nCEP: 28990-756</p>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        ".textwidget[data-ra-fs=\"14\"] > .show-all-btn"
+      ],
+      "html": "<p class=\"show-all-btn\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Telefone:&nbsp;(22) 2655-6400<br>\nE-mail: <a href=\"mailto:pms@saquarema.rj.gov.br\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">pms@saquarema.rj.gov.br</a></p>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "a[href=\"mailto:pms@saquarema.rj.gov.br\"]"
+      ],
+      "html": "<a href=\"mailto:pms@saquarema.rj.gov.br\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">pms@saquarema.rj.gov.br</a>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#text-12 > .widget-inner[data-ra-fs=\"14\"] > .widget-title.m-has-ico[data-ra-fs=\"18.004\"]"
+      ],
+      "html": "<h3 class=\"widget-title m-has-ico\" data-ra-fs=\"18.004\" data-ra-fs-in=\"\" style=\"font-size: 22.51px !important;\"><i class=\"widget-ico tp tp-clock2\" data-ra-fs=\"20\" data-ra-fs-in=\"\" style=\"font-size: 25px !important;\"></i>Horário de Atendimento</h3>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#text-12 > .widget-inner[data-ra-fs=\"14\"] > .textwidget[data-ra-fs=\"14\"] > p:nth-child(1)"
+      ],
+      "html": "<p data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">De segunda a sexta<br>\ndas 9h às 17h<br>\n<!--p class=\"show-all-btn\">Telefones: (21) 2220-0029 / (21) 2215-0561</p-->\n</p>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#text-12 > .widget-inner[data-ra-fs=\"14\"] > .textwidget[data-ra-fs=\"14\"] > p:nth-child(2)"
+      ],
+      "html": "<p data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">*Consulte o horário de cada unidade</p>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#lsvr_definition_list_widget-1 > .widget-inner[data-ra-fs=\"14\"] > .widget-title.m-has-ico[data-ra-fs=\"18.004\"]"
+      ],
+      "html": "<h3 class=\"widget-title m-has-ico\" data-ra-fs=\"18.004\" data-ra-fs-in=\"\" style=\"font-size: 22.51px !important;\"><i class=\"widget-ico tp tp-telephone\" data-ra-fs=\"20\" data-ra-fs-in=\"\" style=\"font-size: 25px !important;\"></i>Telefones Úteis</h3>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "dt:nth-child(1)"
+      ],
+      "html": "<dt data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Bombeiros</dt>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "dd:nth-child(2)"
+      ],
+      "html": "<dd data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">193</dd>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "dt:nth-child(3)"
+      ],
+      "html": "<dt data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Policia Militar</dt>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "dd:nth-child(4)"
+      ],
+      "html": "<dd data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">190</dd>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "dt:nth-child(5)"
+      ],
+      "html": "<dt data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Defesa Civil</dt>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "dd:nth-child(6)"
+      ],
+      "html": "<dd data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">(22) 99211-5580</dd>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "dt:nth-child(7)"
+      ],
+      "html": "<dt data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Delegacia Especializada de Atendimento à Mulher</dt>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "dd:nth-child(8)"
+      ],
+      "html": "<dd data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">180</dd>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "dt:nth-child(9)"
+      ],
+      "html": "<dt data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Guarda Civil</dt>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "dd:nth-child(10)"
+      ],
+      "html": "<dd data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">153</dd>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        ".show-all-btn > a[href$=\"telefones-uteis/\"]"
+      ],
+      "html": "<a href=\"/telefones-uteis/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Veja a lista completa de telefones úteis</a>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#lsvr_mailchimp_subscribe_widget-1 > .widget-inner[data-ra-fs=\"14\"] > .widget-title.m-has-ico[data-ra-fs=\"18.004\"]"
+      ],
+      "html": "<h3 class=\"widget-title m-has-ico\" data-ra-fs=\"18.004\" data-ra-fs-in=\"\" style=\"font-size: 22.51px !important;\"><i class=\"widget-ico tp tp-at-sign\" data-ra-fs=\"20\" data-ra-fs-in=\"\" style=\"font-size: 25px !important;\"></i>Receba nossos comunicados</h3>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        ".description > p"
+      ],
+      "html": "<p data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Inscreva-se para receber comunicados e notícias sobre o município no seu e-mail.</p>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        ".m-required"
+      ],
+      "html": "<input class=\"m-required m-email\" type=\"text\" name=\"EMAIL\" placeholder=\"Your Email Address\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#menu-item-32 > a > span"
+      ],
+      "html": "<span data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Nota Fiscal Eletrônica</span>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#menu-item-3171 > a > span"
+      ],
+      "html": "<span data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Central de Atendimento ao Cidadão – E-Cac</span>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#menu-item-6700 > a > span"
+      ],
+      "html": "<span data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">IPTU</span>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#menu-item-6710 > a > span"
+      ],
+      "html": "<span data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Declaração Eletrônica ISS</span>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#menu-item-76 > a > span"
+      ],
+      "html": "<span data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Portal do Cidadão</span>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    },
+    {
+      "categoria": "incomplete",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "p[data-ra-fs=\"12\"]"
+      ],
+      "html": "<p data-ra-fs=\"12\" data-ra-fs-in=\"\" style=\"font-size: 15px !important;\">Copyright © 2023 - DTI - Prefeitura Municipal de Saquarema</p>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    }
+  ],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 1280,
+      "windowHeight": 720,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-07T15:03:15.640Z",
+    "url": "https://www.saquarema.rj.gov.br/",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "color-contrast"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [],
+    "passes": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<input type=\"text\" name=\"s\" placeholder=\"Pesquisar...\" value=\"\" id=\"wpa_label_s\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">",
+            "target": [
+              "#wpa_label_s"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "messageKey": "hidden"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is hidden"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<select class=\"gt_selector notranslate\" aria-label=\"Select Language\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              "select"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#cccccc",
+                  "bgColor": "#000000",
+                  "contrastRatio": 13.07,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 13.07"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<div data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Clique aqui e retire sua guia do IPTU e FORO 2026</div>",
+            "target": [
+              ".nivo-caption > div"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "22.5pt (30px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/category/mais-noticias/\" data-ra-fs=\"24\" data-ra-fs-in=\"\" style=\"font-size: 30px !important;\">Notícias</a>",
+            "target": [
+              "a[data-ra-fs=\"24\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"article-date\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"><i class=\"fa fa-calendar\" aria-hidden=\"true\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"></i> 6/11</div>",
+            "target": [
+              "article:nth-child(1) > .article-date"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/escolas-de-saquarema-sao-premiadas-por-acoes-voltadas-a-cultura-oceanica/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Escolas de Saquarema são premiadas por ações voltadas à cultura oceânica</a>",
+            "target": [
+              "article:nth-child(2) > .article-title > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"article-date\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"><i class=\"fa fa-calendar\" aria-hidden=\"true\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"></i> 6/11</div>",
+            "target": [
+              "article:nth-child(2) > .article-date"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/saquarema-amplia-acesso-ao-diagnostico-e-tratamento-do-cancer-de-prostata/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Saquarema amplia acesso ao diagnóstico e tratamento do câncer de próstata</a>",
+            "target": [
+              "article:nth-child(3) > .article-title > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"article-date\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"><i class=\"fa fa-calendar\" aria-hidden=\"true\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"></i> 5/11</div>",
+            "target": [
+              "article:nth-child(3) > .article-date"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/em-um-ano-de-geosaqua-saquarema-alia-royalties-e-inteligencia-geografica-no-planejamento-urbano/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">",
+            "target": [
+              "article:nth-child(4) > .article-title > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"article-date\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"><i class=\"fa fa-calendar\" aria-hidden=\"true\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"></i> 5/11</div>",
+            "target": [
+              "article:nth-child(4) > .article-date"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/teatro-mario-lago-tera-dois-eventos-no-final-de-semana-em-saquarema-sendo-um-deles-gratuito/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">",
+            "target": [
+              "article:nth-child(5) > .article-title > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"article-date\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"><i class=\"fa fa-calendar\" aria-hidden=\"true\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"></i> 5/11</div>",
+            "target": [
+              "article:nth-child(5) > .article-date"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/comunicado-inscricoes-para-o-concurso-de-remocao/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">COMUNICADO: Inscrições para o Concurso de Remoção</a>",
+            "target": [
+              "article:nth-child(6) > .article-title > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"article-date\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"><i class=\"fa fa-calendar\" aria-hidden=\"true\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"></i> 5/11</div>",
+            "target": [
+              "article:nth-child(6) > .article-date"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/category/mais-noticias/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Veja mais notícias</a>",
+            "target": [
+              ".more-btn-holder > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h2 data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Município</h2>",
+            "target": [
+              ".side-menu > h2:nth-child(1)"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/plano-de-mobilidade-urbana/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Plano de Mobilidade Urbana</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153708.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/pmsb/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Plano Municipal de Saneamento Básico</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153766.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://planodiretor.saquarema.rj.gov.br/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Plano Diretor</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153709.menu-item-type-custom.menu-item-object-custom > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/plano-municipal-de-seguranca-publica/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Plano Municipal de Segurança Pública</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153710.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/cultura/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Cultura</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153711.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/historia/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">História</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153712.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/hino/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Hino</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153713.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/simbolos/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Símbolos</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153714.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/dados/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Dados</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153715.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/gestao-de-praias/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Gestão de Praias – Secretaria de Meio Ambiente</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153717.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/turismo/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Turismo</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153718.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/bandeira-azul/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Bandeira Azul</a>",
+            "target": [
+              "#menu-municipio-1 > .menu-item-153719.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h2 data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Coronavírus</h2>",
+            "target": [
+              ".side-menu > h2:nth-child(3)"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/coronavirus/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Informações e Boletim</a>",
+            "target": [
+              "#menu-coronavirus-1 > .menu-item-41292.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://licitacoes.saquarema.rj.gov.br/covid-19-aquisicoes/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Aquisições</a>",
+            "target": [
+              "#menu-coronavirus-1 > .menu-item-41293.menu-item-type-custom.menu-item-object-custom > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h2 data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Governo</h2>",
+            "target": [
+              ".side-menu > h2:nth-child(5)"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://transparencia.saquarema.rj.gov.br/prefeitura/secretarias-e-orgaos/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Secretarias e Órgãos</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-172165.menu-item-type-custom.menu-item-object-custom > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/legislacao/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Legislação</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-3100.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a tabindex=\"0\" class=\"wpa-focusable\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Serviços</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-has-children.menu-item-2766.m-has-submenu > .wpa-focusable"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/fila-de-espera-creches-municipais/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Fila de espera – Creches municipais</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-176049.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/conselho-municipal-de-educacao/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Conselho Municipal de Educação</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-133483.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/casa-da-alfabetizacao/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Casa da Alfabetização</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-176955.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/conselho-de-acompanhamento-e-controle-social-cacs-fundeb/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Conselho de Acompanhamento e Controle Social – CACS FUNDEB</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-72907.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/conselho-municipal-dos-direitos-da-mulher/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Conselho Municipal dos Direitos da Mulher</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-109262.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/conselho-municipal-de-meio-ambiente/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Conselho Municipal de Meio Ambiente</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-69321.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/conselho-municipal-de-saude/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Conselho Municipal de Saúde</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-74715.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/conselho-municipal-dos-direitos-da-pessoa-idosa/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Conselho Municipal dos Direitos da Pessoa Idosa</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-172595.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/conselho-municipal-de-assistencia-social/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Conselho Municipal de Assistência Social</a>",
+            "target": [
+              "#menu-governo-1 > .menu-item-175441.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h2 data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Serviços Públicos</h2>",
+            "target": [
+              ".side-menu > h2:nth-child(7)"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/coleta-de-lixo-calendario/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Coleta de Lixo (Calendário)</a>",
+            "target": [
+              "#menu-servicos-publicos-1 > .menu-item-153720.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://saquarema.aprova.com.br/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Ouvidoria</a>",
+            "target": [
+              "#menu-servicos-publicos-1 > .menu-item-172161.menu-item-type-custom.menu-item-object-custom > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/pagamento-da-taxa-de-turismo/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Pagamento da Taxa de Turismo</a>",
+            "target": [
+              "#menu-servicos-publicos-1 > .menu-item-173572.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h2 data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Servidor</h2>",
+            "target": [
+              ".side-menu > h2:nth-child(9)"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/chamamento-publico/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Chamamento Público</a>",
+            "target": [
+              "#menu-servidor-1 > .menu-item-20379.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/concursos/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Concursos</a>",
+            "target": [
+              "#menu-servidor-1 > .menu-item-3078.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/cursos-do-tribunal-de-contas-para-os-servidores-municipais/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Cursos do Tribunal de Contas para os Servidores Municipais</a>",
+            "target": [
+              "#menu-servidor-1 > .menu-item-172980.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/processos-seletivos/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Processos Seletivos</a>",
+            "target": [
+              "#menu-servidor-1 > .menu-item-3077.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://loginunico.saquarema.rj.gov.br/loginunico/open.do?sys=SLU&amp;sis=ecac\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Contracheque</a>",
+            "target": [
+              "#menu-servidor-1 > .menu-item-2814.menu-item-type-custom.menu-item-object-custom > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/auxilio-transporte/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Auxilio Transporte</a>",
+            "target": [
+              "#menu-servidor-1 > .menu-item-2815.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/suntentai/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">SuntentAí</a>",
+            "target": [
+              "#menu-servidor-1 > .menu-item-171021.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://webmail.saquarema.rj.gov.br\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Webmail</a>",
+            "target": [
+              "#menu-servidor-1 > .menu-item-2817.menu-item-type-custom.menu-item-object-custom > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://saquarema.aprova.com.br/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Ouvidoria</a>",
+            "target": [
+              "#menu-servidor-1 > .menu-item-172160.menu-item-type-custom.menu-item-object-custom > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/atendimento-em-ti/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Abrir Chamado</a>",
+            "target": [
+              "#menu-servidor-1 > .menu-item-173950.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#000000",
+                  "contrastRatio": 21,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 21"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h2 data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Notícias</h2>",
+            "target": [
+              ".side-menu > h2:nth-child(11)"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/noticias/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Arquivo</a>",
+            "target": [
+              "#menu-noticias-1 > .menu-item-133236.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/saiu-na-midia/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Saiu na mídia</a>",
+            "target": [
+              "#menu-noticias-1 > .menu-item-133237.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/videos-saquarema/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Videos</a>",
+            "target": [
+              "#menu-noticias-1 > .menu-item-173119.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/sala-de-imprensa/\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">Sala de Imprensa</a>",
+            "target": [
+              "#menu-noticias-1 > .menu-item-133239.menu-item-type-post_type.menu-item-object-page > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://loginunico.saquarema.rj.gov.br/loginunico/open.do?sys=SLU&sis=ecac\" class=\"processo link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".processo"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://egov.saquarema.rj.gov.br/\" class=\"cidadao link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-user-circle-o\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nPortal do Cidadão\n</a>",
+            "target": [
+              "#lsvr_custom_code_widget-22 > .widget-inner[data-ra-fs=\"14\"] > .widget-content[data-ra-fs=\"14\"] > .widget-inner[data-ra-fs=\"14\"] > .custom-html-widget.textwidget[data-ra-fs=\"14\"] > .cidadao.link-banner"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/lgpd/\" class=\"lgpd link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-book\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nLGPD\n</a>",
+            "target": [
+              ".lgpd"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://egov.saquarema.rj.gov.br/?serv=104\" class=\"iptu link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-home\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nIPTU 2026 / FORO\n</a>",
+            "target": [
+              "#lsvr_custom_code_widget-7 > .widget-inner[data-ra-fs=\"14\"] > .widget-content[data-ra-fs=\"14\"] > .widget-inner[data-ra-fs=\"14\"] > .custom-html-widget.textwidget[data-ra-fs=\"14\"] > .iptu.link-banner"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://trb.saquarema.rj.gov.br/trb5/form.jsp?sys=TR2&action=openform&formID=464570825\" class=\"iptu link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              "#lsvr_custom_code_widget-46 > .widget-inner[data-ra-fs=\"14\"] > .widget-content[data-ra-fs=\"14\"] > .widget-inner[data-ra-fs=\"14\"] > .custom-html-widget.textwidget[data-ra-fs=\"14\"] > .iptu.link-banner"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://meidesaqua.saquarema.rj.gov.br/\" class=\"meidesaqua link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-rocket\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nMeideSaquá\n</a>",
+            "target": [
+              ".meidesaqua"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://aquitemods.saquarema.rj.gov.br/\" class=\"aquitemods link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-tasks\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nAquiTemODS\n</a>",
+            "target": [
+              ".aquitemods"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://egov.saquarema.rj.gov.br/?serv=298\" class=\"dec link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-briefcase\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nTaxas\n</a>",
+            "target": [
+              "#lsvr_custom_code_widget-29 > .widget-inner[data-ra-fs=\"14\"] > .widget-content[data-ra-fs=\"14\"] > .widget-inner[data-ra-fs=\"14\"] > .custom-html-widget.textwidget[data-ra-fs=\"14\"] > .dec.link-banner"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://egov.saquarema.rj.gov.br/?serv=176\" class=\"iptu certidao link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-home\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nCERTIDÕES\n</a>",
+            "target": [
+              ".certidao"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://nfs-e.saquarema.rj.gov.br/\" class=\"nfe link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-file-text\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nNota Fiscal Eletrônica\n</a>",
+            "target": [
+              ".nfe"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://saquarema.colab.re\" class=\"cidadao link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-contao\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nServiços ao Cidadão\n</a>",
+            "target": [
+              "a[href$=\"saquarema.colab.re\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/emprega-saqua/\" class=\"empregasaqua link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-users\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nEmprega Saquá\n</a>",
+            "target": [
+              ".empregasaqua"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://geosaqua.saquarema.rj.gov.br/\" class=\"surfs link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-map-marker\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nGeoSaquá\n</a>",
+            "target": [
+              "#lsvr_custom_code_widget-41 > .widget-inner[data-ra-fs=\"14\"] > .widget-content[data-ra-fs=\"14\"] > .widget-inner[data-ra-fs=\"14\"] > .custom-html-widget.textwidget[data-ra-fs=\"14\"] > .surfs.link-banner"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://saquarema.aprova.com.br\" class=\"surfs link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              "#lsvr_custom_code_widget-28 > .widget-inner[data-ra-fs=\"14\"] > .widget-content[data-ra-fs=\"14\"] > .widget-inner[data-ra-fs=\"14\"] > .custom-html-widget.textwidget[data-ra-fs=\"14\"] > .surfs.link-banner"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://saquarema.aprova.com.br/home\" class=\"surfs link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-building\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nMEIO AMBIENTE DIGITAL\n</a>",
+            "target": [
+              "#lsvr_custom_code_widget-44 > .widget-inner[data-ra-fs=\"14\"] > .widget-content[data-ra-fs=\"14\"] > .widget-inner[data-ra-fs=\"14\"] > .custom-html-widget.textwidget[data-ra-fs=\"14\"] > .surfs.link-banner"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://tributacao.saquarema.rj.gov.br/\" class=\"receita link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".receita"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/saquarema-viveiro-da-vida/\" class=\"viveiro link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".viveiro"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://licitacoes.saquarema.rj.gov.br/\" class=\"licitacoes link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".licitacoes"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://loginunico.saquarema.rj.gov.br/loginunico/open.do?sys=SLU&sis=ecac\" class=\"deiss link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".deiss"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://nfs-e.saquarema.rj.gov.br/\" class=\"dec link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-file-text\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nDES-IF\n</a>",
+            "target": [
+              "#lsvr_custom_code_widget-43 > .widget-inner[data-ra-fs=\"14\"] > .widget-content[data-ra-fs=\"14\"] > .widget-inner[data-ra-fs=\"14\"] > .custom-html-widget.textwidget[data-ra-fs=\"14\"] > .dec.link-banner"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://dos.saquarema.rj.gov.br/\" class=\"diario link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-newspaper-o\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nDiário Oficial de Saquarema\n</a>",
+            "target": [
+              ".diario"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/prefeitura-de-saquarema-lanca-alvara-on-line-para-empreendedores-2/\" class=\"alvara link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".alvara"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://falabr.cgu.gov.br/web/RJ/Saquarema\" class=\"acesso link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<i class=\"fa fa-comments\" aria-hidden=\"true\" data-ra-fs=\"30\" data-ra-fs-in=\"\" style=\"font-size: 37.5px !important;\"></i>\nAcesso à <br>Informação\n</a>",
+            "target": [
+              ".acesso"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://portaltransparencia.saquarema.rj.gov.br\" class=\"transparencia link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".transparencia"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://transparencia.saquarema.rj.gov.br/planejamento-e-orcamento/\" class=\"planejamento link-banner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".planejamento"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/acompanhamento-da-lei-12-232-10/\" class=\"soundcloud rede-social\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".soundcloud"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/acompanhamento-das-obras/\" class=\"link-banner obras\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".obras"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a target=\"_blank\" href=\"https://www.facebook.com/PrefeituradeSaquarema\" class=\"facebook rede-social\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".facebook"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.instagram.com/prefeiturasaquarema/\" class=\"instagram rede-social\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".instagram"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffe600",
+                  "bgColor": "#000000",
+                  "contrastRatio": 16.57,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 16.57"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://www.youtube.com/channel/UCEHwn576eDDRw9PJnBlI3-A\" class=\"youtube rede-social\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+            "target": [
+              ".youtube"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "messageKey": "hidden"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is hidden"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<input type=\"file\" id=\"basic-addon1\" capture=\"\" name=\"arquivo\" data-ra-fs=\"15\" data-ra-fs-in=\"\" style=\"font-size: 18.75px !important;\">",
+            "target": [
+              "#basic-addon1"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#1a73e8",
+                  "contrastRatio": 4.5,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 4.5"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span>protected by <strong>reCAPTCHA</strong></span>",
+            "target": [
+              "iframe[title=\"reCAPTCHA\"]",
+              ".rc-anchor-invisible-text > span"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#1a73e8",
+                  "contrastRatio": 4.5,
+                  "fontSize": "9.8pt (13px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 4.5"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<strong>reCAPTCHA</strong>",
+            "target": [
+              "iframe[title=\"reCAPTCHA\"]",
+              "strong"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#1a73e8",
+                  "contrastRatio": 4.5,
+                  "fontSize": "6.8pt (9px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 4.5"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<div>reCAPTCHA is changing its terms of service. <a class=\"migrate-link\" href=\"https://google.com/recaptcha/admin/migrate\" target=\"_blank\">Take action.</a></div>",
+            "target": [
+              "iframe[title=\"reCAPTCHA\"]",
+              "#rc-anchor-invisible-classic-warning > div"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#1a73e8",
+                  "contrastRatio": 4.5,
+                  "fontSize": "6.8pt (9px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 4.5"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<a class=\"migrate-link\" href=\"https://google.com/recaptcha/admin/migrate\" target=\"_blank\">Take action.</a>",
+            "target": [
+              "iframe[title=\"reCAPTCHA\"]",
+              "a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "messageKey": "hidden"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is hidden"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<textarea id=\"g-recaptcha-response-100000\" name=\"g-recaptcha-response\" class=\"g-recaptcha-response\" style=\"width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none; font-size: 20px !important;\" data-ra-fs=\"16\" ...>",
+            "target": [
+              "#g-recaptcha-response-100000"
+            ]
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "elmPartiallyObscuring",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it partially overlaps other elements"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/prefeitura-vai-iniciar-cadastro-unificado-das-creches-para-2027/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Prefeitura vai iniciar Cadastro Unificado das Creches para 2027</a>",
+            "target": [
+              "article:nth-child(1) > .article-title > a"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "22.5pt (30px)",
+                  "fontWeight": "normal",
+                  "messageKey": "elmPartiallyObscured",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<h2 class=\"article-list-title\" data-ra-fs=\"24\" data-ra-fs-in=\"\" style=\"font-size: 30px !important;\"><i class=\"ico fa fa-youtube\" data-ra-fs=\"36\" data-ra-fs-in=\"\" style=\"font-size: 45px !important;\"></i>TV Saquarema</h2>",
+                    "target": [
+                      ".c-article-list.m-has-icon:nth-child(3) > .c-content-box > .article-list-inner > .article-list-title[data-ra-fs=\"24\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it's partially obscured by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<h2 class=\"article-list-title\" data-ra-fs=\"24\" data-ra-fs-in=\"\" style=\"font-size: 30px !important;\"><i class=\"ico fa fa-youtube\" data-ra-fs=\"36\" data-ra-fs-in=\"\" style=\"font-size: 45px !important;\"></i>TV Saquarema</h2>",
+            "target": [
+              ".c-article-list.m-has-icon:nth-child(3) > .c-content-box > .article-list-inner > .article-list-title[data-ra-fs=\"24\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "16.9pt (22.51px)",
+                  "fontWeight": "bold",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<h3 class=\"widget-title m-has-ico\" data-ra-fs=\"18.004\" data-ra-fs-in=\"\" style=\"font-size: 22.51px !important;\"><i class=\"widget-ico tp tp-envelope\" data-ra-fs=\"20\" data-ra-fs-in=\"\" style=\"font-size: 25px !important;\"></i>PMS</h3>",
+            "target": [
+              "#text-11 > .widget-inner[data-ra-fs=\"14\"] > .widget-title.m-has-ico[data-ra-fs=\"18.004\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">CNPJ: 32.147.670/0001-21<br>\nRua Coronel Madureira, 77<br>\nCentro – Saquarema – RJ<br>\nCEP: 28990-756</p>",
+            "target": [
+              "#text-11 > .widget-inner[data-ra-fs=\"14\"] > .textwidget[data-ra-fs=\"14\"] > p:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"show-all-btn\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Telefone:&nbsp;(22) 2655-6400<br>\nE-mail: <a href=\"mailto:pms@saquarema.rj.gov.br\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">pms@saquarema.rj.gov.br</a></p>",
+            "target": [
+              ".textwidget[data-ra-fs=\"14\"] > .show-all-btn"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "bold",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"mailto:pms@saquarema.rj.gov.br\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">pms@saquarema.rj.gov.br</a>",
+            "target": [
+              "a[href=\"mailto:pms@saquarema.rj.gov.br\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "16.9pt (22.51px)",
+                  "fontWeight": "bold",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<h3 class=\"widget-title m-has-ico\" data-ra-fs=\"18.004\" data-ra-fs-in=\"\" style=\"font-size: 22.51px !important;\"><i class=\"widget-ico tp tp-clock2\" data-ra-fs=\"20\" data-ra-fs-in=\"\" style=\"font-size: 25px !important;\"></i>Horário de Atendimento</h3>",
+            "target": [
+              "#text-12 > .widget-inner[data-ra-fs=\"14\"] > .widget-title.m-has-ico[data-ra-fs=\"18.004\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">De segunda a sexta<br>\ndas 9h às 17h<br>\n<!--p class=\"show-all-btn\">Telefones: (21) 2220-0029 / (21) 2215-0561</p-->\n</p>",
+            "target": [
+              "#text-12 > .widget-inner[data-ra-fs=\"14\"] > .textwidget[data-ra-fs=\"14\"] > p:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">*Consulte o horário de cada unidade</p>",
+            "target": [
+              "#text-12 > .widget-inner[data-ra-fs=\"14\"] > .textwidget[data-ra-fs=\"14\"] > p:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "16.9pt (22.51px)",
+                  "fontWeight": "bold",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<h3 class=\"widget-title m-has-ico\" data-ra-fs=\"18.004\" data-ra-fs-in=\"\" style=\"font-size: 22.51px !important;\"><i class=\"widget-ico tp tp-telephone\" data-ra-fs=\"20\" data-ra-fs-in=\"\" style=\"font-size: 25px !important;\"></i>Telefones Úteis</h3>",
+            "target": [
+              "#lsvr_definition_list_widget-1 > .widget-inner[data-ra-fs=\"14\"] > .widget-title.m-has-ico[data-ra-fs=\"18.004\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "bold",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<dt data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Bombeiros</dt>",
+            "target": [
+              "dt:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<dd data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">193</dd>",
+            "target": [
+              "dd:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "bold",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<dt data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Policia Militar</dt>",
+            "target": [
+              "dt:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<dd data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">190</dd>",
+            "target": [
+              "dd:nth-child(4)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "bold",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<dt data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Defesa Civil</dt>",
+            "target": [
+              "dt:nth-child(5)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<dd data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">(22) 99211-5580</dd>",
+            "target": [
+              "dd:nth-child(6)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "bold",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<dt data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Delegacia Especializada de Atendimento à Mulher</dt>",
+            "target": [
+              "dt:nth-child(7)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<dd data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">180</dd>",
+            "target": [
+              "dd:nth-child(8)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "bold",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<dt data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Guarda Civil</dt>",
+            "target": [
+              "dt:nth-child(9)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<dd data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">153</dd>",
+            "target": [
+              "dd:nth-child(10)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "bold",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"/telefones-uteis/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Veja a lista completa de telefones úteis</a>",
+            "target": [
+              ".show-all-btn > a[href$=\"telefones-uteis/\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "16.9pt (22.51px)",
+                  "fontWeight": "bold",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<h3 class=\"widget-title m-has-ico\" data-ra-fs=\"18.004\" data-ra-fs-in=\"\" style=\"font-size: 22.51px !important;\"><i class=\"widget-ico tp tp-at-sign\" data-ra-fs=\"20\" data-ra-fs-in=\"\" style=\"font-size: 25px !important;\"></i>Receba nossos comunicados</h3>",
+            "target": [
+              "#lsvr_mailchimp_subscribe_widget-1 > .widget-inner[data-ra-fs=\"14\"] > .widget-title.m-has-ico[data-ra-fs=\"18.004\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Inscreva-se para receber comunicados e notícias sobre o município no seu e-mail.</p>",
+            "target": [
+              ".description > p"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bg\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bg"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<input class=\"m-required m-email\" type=\"text\" name=\"EMAIL\" placeholder=\"Your Email Address\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">",
+            "target": [
+              ".m-required"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bottom\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bottom"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Nota Fiscal Eletrônica</span>",
+            "target": [
+              "#menu-item-32 > a > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bottom\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bottom"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Central de Atendimento ao Cidadão – E-Cac</span>",
+            "target": [
+              "#menu-item-3171 > a > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bottom\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bottom"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">IPTU</span>",
+            "target": [
+              "#menu-item-6700 > a > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bottom\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bottom"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Declaração Eletrônica ISS</span>",
+            "target": [
+              "#menu-item-6710 > a > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "13.1pt (17.5px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bottom\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bottom"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\">Portal do Cidadão</span>",
+            "target": [
+              "#menu-item-76 > a > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fontSize": "11.3pt (15px)",
+                  "fontWeight": "normal",
+                  "messageKey": "pseudoContent",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"footer-bottom\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">",
+                    "target": [
+                      ".footer-bottom"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a pseudo element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p data-ra-fs=\"12\" data-ra-fs-in=\"\" style=\"font-size: 15px !important;\">Copyright © 2023 - DTI - Prefeitura Municipal de Saquarema</p>",
+            "target": [
+              "p[data-ra-fs=\"12\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          }
+        ]
+      }
+    ],
+    "violations": []
+  },
+  "screenshots": [
+    "Screenshots/1.4.3-chromium-2026-11-07T15-03-12-399Z-perfil-baixa-visao-widget-fechado.png"
+  ],
+  "erros": [],
+  "fim": "2026-11-07T15:03:16.157Z"
+}

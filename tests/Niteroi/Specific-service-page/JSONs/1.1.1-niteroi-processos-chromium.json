@@ -1,0 +1,958 @@
+{
+  "criterio": "1.1.1",
+  "nome": "Non-text Content",
+  "inicio": "2026-11-08T01:12:01.205Z",
+  "url": "https://processo.niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag111",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "aria-meter-name",
+    "aria-progressbar-name",
+    "image-alt",
+    "input-image-alt",
+    "object-alt",
+    "role-img-alt",
+    "svg-img-alt"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://processo.niteroi.rj.gov.br/"
+    },
+    "formularioVisivelAntesDoAxe": true,
+    "animacoesDeEntrada": {
+      "metodo": "titulo_completo_opacidade_e_animacoes_finitas_concluidas",
+      "titulo": "Processo.Nit",
+      "tituloEsperado": "Processo.Nit",
+      "formulario": [
+        {
+          "tag": "INPUT",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "form-control animate-box fadeInUp animated-fast"
+        },
+        {
+          "tag": "SELECT",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "form-control animate-box fadeInUp animated-fast"
+        },
+        {
+          "tag": "BUTTON",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+        }
+      ]
+    },
+    "formulario": {
+      "abertoPor": "Localizar Processo",
+      "enviado": false,
+      "numero": "",
+      "ano": "2026",
+      "controles": [
+        "<input type=\"text\" required=\"\" class=\"form-control animate-box fadeInUp animated-fast\" oninvalid=\"this.setCustomValidity('Campo Obrigatório. Digite apenas os números')\" name=\"processo\" pattern=\"[0-9]+$\" placeholder=\"Nº Processo\">",
+        "<select type=\"text\" required=\"\" class=\"form-control animate-box fadeInUp animated-fast\" name=\"ano\" minlength=\"4\" maxlength=\"4\" pattern=\"[0-9]+$\" oninvalid=\"this.setCustomValidity('Campo Obrigatório. Digite apenas os números com ano completo Ex.:2022')\" placeholder=\"Ano\">\n                                                            <option value=\"2026\">2026</option><option value=\"2025\">2025</option><option value=\"2024\">2024</option><option value=\"2023\">2023</option><option value=\"2022\">2022</option><option value=\"2021\">2021</option><option value=\"2020\">2020</option><option value=\"2019\">2019</option><option value=\"2018\">2018</option><option value=\"2017\">2017</option><option value=\"2016\">2016</option><option value=\"2015\">2015</option><option value=\"2014\">2014</option><option value=\"2013\">2013</option><option value=\"2012\">2012</option><option value=\"2011\">2011</option>                                                        </select>",
+        "<button type=\"submit\" class=\"btn btn-primary btn-block animate-box fadeInUp animated-fast\">\n                                                        <b>Pesquisar</b></button>"
+      ]
+    },
+    "perfil": "original_sem_widget_visual"
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "estado": "formulario-localizar-processo-aberto",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 1,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 6
+  },
+  "ocorrenciasAxe": {
+    "violations": 3,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        "#altocontraste"
+      ],
+      "html": "<img class=\"display-4\" style=\"color:#fff;cursor:pointer;display:inline;width:1.5rem\" href=\"#altocontraste\" id=\"altocontraste\" accesskey=\"3\" onclick=\"window.toggleContrast()\" onkeydown=\"window.toggleContrast()\" src=\"images/contraste_black.png\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        "img[src$=\"logo.png\"]"
+      ],
+      "html": "<img src=\"images/logo.png\" style=\"width: 20rem;margin-top:-6%;\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        "img[src$=\"logo_footer.png\"]"
+      ],
+      "html": "<img src=\"images/logo_footer.png\" style=\"width:100%\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    }
+  ],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 1280,
+      "windowHeight": 720,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-08T01:12:15.392Z",
+    "url": "https://processo.niteroi.rj.gov.br/#",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "aria-meter-name",
+          "aria-progressbar-name",
+          "image-alt",
+          "input-image-alt",
+          "object-alt",
+          "role-img-alt",
+          "svg-img-alt"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [
+      {
+        "id": "aria-meter-name",
+        "impact": null,
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag111",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-11.1.1"
+        ],
+        "description": "Ensure every ARIA meter node has an accessible name",
+        "help": "ARIA meter nodes must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-meter-name?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "aria-progressbar-name",
+        "impact": null,
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag111",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-11.1.1"
+        ],
+        "description": "Ensure every ARIA progressbar node has an accessible name",
+        "help": "ARIA progressbar nodes must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-progressbar-name?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "input-image-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "EN-9.4.1.2",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.3"
+        ],
+        "description": "Ensure <input type=\"image\"> elements have alternative text",
+        "help": "Image buttons must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/input-image-alt?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "object-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-1.1.6"
+        ],
+        "description": "Ensure <object> elements have alternative text",
+        "help": "<object> elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/object-alt?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "role-img-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.1"
+        ],
+        "description": "Ensure [role=\"img\"] and [role=\"image\"] elements have alternative text",
+        "help": "[role=\"img\"] and [role=\"image\"] elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/role-img-alt?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "svg-img-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.5"
+        ],
+        "description": "Ensure <svg> elements with an img, image, graphics-document or graphics-symbol role have accessible text",
+        "help": "<svg> elements with an img or image role must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/svg-img-alt?application=playwright",
+        "nodes": []
+      }
+    ],
+    "passes": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.1"
+        ],
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img id=\"vlibras-popup\" src=\"https://vlibras.gov.br/app/assets/images/vlibras-popup.webp\" alt=\"Acessível com VLibras\">",
+            "target": [
+              [
+                "#vlibras-access-wrapper",
+                "#vlibras-popup"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "incomplete": [],
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.1"
+        ],
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"display-4\" style=\"color:#fff;cursor:pointer;display:inline;width:1.5rem\" href=\"#altocontraste\" id=\"altocontraste\" accesskey=\"3\" onclick=\"window.toggleContrast()\" onkeydown=\"window.toggleContrast()\" src=\"images/contraste_black.png\">",
+            "target": [
+              "#altocontraste"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"images/logo.png\" style=\"width: 20rem;margin-top:-6%;\">",
+            "target": [
+              "img[src$=\"logo.png\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img src=\"images/logo_footer.png\" style=\"width:100%\">",
+            "target": [
+              "img[src$=\"logo_footer.png\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        ]
+      }
+    ]
+  },
+  "screenshots": [
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-1.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-formulario.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-3.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-4.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-5.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-6.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-7.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-8.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-9.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-10.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-11.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-12.png",
+    "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-13.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 7229,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-1.png",
+        "scrollTop": 0,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-formulario.png",
+        "scrollTop": 549,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-3.png",
+        "scrollTop": 612,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-4.png",
+        "scrollTop": 1224,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-5.png",
+        "scrollTop": 1836,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-6.png",
+        "scrollTop": 2448,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-7.png",
+        "scrollTop": 3060,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-8.png",
+        "scrollTop": 3672,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-9.png",
+        "scrollTop": 4284,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-10.png",
+        "scrollTop": 4896,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-11.png",
+        "scrollTop": 5508,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-12.png",
+        "scrollTop": 6120,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-13.png",
+        "scrollTop": 6509,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T01:12:15.640Z"
+}

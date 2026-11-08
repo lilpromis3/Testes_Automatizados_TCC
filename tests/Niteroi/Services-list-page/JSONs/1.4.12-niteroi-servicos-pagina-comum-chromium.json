@@ -1,0 +1,5174 @@
+{
+  "criterio": "1.4.12",
+  "nome": "Text Spacing",
+  "inicio": "2026-11-08T00:55:46.995Z",
+  "url": "https://niteroi360.niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1412",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "avoid-inline-spacing"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://niteroi360.niteroi.rj.gov.br/"
+    },
+    "catalogo": {
+      "secao": "Categorias de serviços",
+      "categoriaConfirmada": "Desenvolvimento Econômico"
+    },
+    "carregamento": {
+      "imagens": 40,
+      "alturaPercorrida": 4532,
+      "superficieRolagem": "BODY",
+      "imagensNaoCarregadas": []
+    },
+    "perfil": "pagina_comum_sem_ajustes_widget",
+    "widget": {
+      "acionado": false,
+      "recursosAssistivosAplicados": false,
+      "observacao": "Avaliação autorizada como página comum; não depende da autenticação do Hand Talk."
+    },
+    "verificacaoFamiliasDeFonte": {
+      "elementosMedidos": 396,
+      "alteracoes": []
+    },
+    "espacamento": {
+      "metodo": "folha_de_estilo",
+      "elementosMedidos": 239,
+      "linha": 1.5,
+      "paragrafoEm": 2,
+      "letrasEm": 0.12,
+      "palavrasEm": 0.16,
+      "medicoes": [
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "HEADER",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "UL",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "A",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "A",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "A",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "A",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "A",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "UL",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "H2",
+          "alturaLinhaComputada": "45px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "P",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": 2
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "UL",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "H2",
+          "alturaLinhaComputada": "45px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "UL",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "H2",
+          "alturaLinhaComputada": "45px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "UL",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "H2",
+          "alturaLinhaComputada": "45px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "P",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": 2
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "27px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "UL",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "H2",
+          "alturaLinhaComputada": "45px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "P",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": 2
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "UL",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "21px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "H2",
+          "alturaLinhaComputada": "45px",
+          "linha": 1.5,
+          "letras": 0.12000000000000001,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "P",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": 2
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "34.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "H3",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "UL",
+          "alturaLinhaComputada": "25.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "LI",
+          "alturaLinhaComputada": "25.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "A",
+          "alturaLinhaComputada": "25.5px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "H3",
+          "alturaLinhaComputada": "30px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "DIV",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "BUTTON",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "P",
+          "alturaLinhaComputada": "18px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": 2
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "18px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "BUTTON",
+          "alturaLinhaComputada": "24px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        },
+        {
+          "tag": "P",
+          "alturaLinhaComputada": "18px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": 2
+        },
+        {
+          "tag": "SPAN",
+          "alturaLinhaComputada": "18px",
+          "linha": 1.5,
+          "letras": 0.12,
+          "palavras": 0.16,
+          "paragrafo": null
+        }
+      ],
+      "controlesNativosSemAlturaDeLinhaNumerica": [],
+      "limitacao": "Select nativo com line-height normal não confirma numericamente o espaçamento de linha; requer revisão visual."
+    },
+    "layout": {
+      "larguraViewport": 1280,
+      "larguraDocumento": 1284,
+      "rolagemHorizontal": true,
+      "candidatosRecorte": [
+        {
+          "html": "<div class=\"slick-list\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\"><div class=\"slick-track\" style=\"width: 6400px; opacity: 1; transform: translate3d(-2560px, 0px, 0px);\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\"><div data-index=\"-1\" tabindex=\"-1\" class=\"slick-slide slick-cloned\" aria-hidden=\"true\" style=\"width: 1280px;\" data-tcc-base-fon",
+          "scrollWidth": 6400,
+          "clientWidth": 1280,
+          "scrollHeight": 400,
+          "clientHeight": 400
+        },
+        {
+          "html": "<div class=\"slick-list\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\" data-tcc-spacing=\"\"><div class=\"slick-track\" style=\"width: 2256px; opacity: 1; transform: translate3d(0px, 0px, 0px);\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\" data-tcc-spacing=\"\"><div data-index=\"0\" class=\"slic",
+          "scrollWidth": 2256,
+          "clientWidth": 1123,
+          "scrollHeight": 245,
+          "clientHeight": 245
+        },
+        {
+          "html": "<div class=\"slick-list\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" data-tcc-spacing=\"\"><div class=\"slick-track\" style=\"width: 1123px; opacity: 1; transform: translate3d(0px, 0px, 0px);\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" data-tcc-spacing=\"\"><div data-index=\"0\" class=\"slick-slide slick-active slick-current\" tabindex=\"-1\" aria-hidde",
+          "scrollWidth": 1147,
+          "clientWidth": 1123,
+          "scrollHeight": 344,
+          "clientHeight": 344
+        },
+        {
+          "html": "<p side=\"right\" oppositeside=\"left\" color-button=\"#003087\" class=\"sc-dlfmnT gxUnvk\" data-tcc-base-font-family=\"Lato, sans-serif\" data-tcc-spacing=\"\"><span class=\"sc-hKgJyM eJOTAo\" data-tcc-base-font-family=\"Lato, sans-serif\" data-tcc-spacing=\"\">Recursos Assistivos</span></p>",
+          "scrollWidth": 8,
+          "clientWidth": 0,
+          "scrollHeight": 42,
+          "clientHeight": 42
+        },
+        {
+          "html": "<span class=\"sc-hKgJyM eJOTAo\" data-tcc-base-font-family=\"Lato, sans-serif\" data-tcc-spacing=\"\">Recursos Assistivos</span>",
+          "scrollWidth": 142,
+          "clientWidth": 8,
+          "scrollHeight": 18,
+          "clientHeight": 18
+        },
+        {
+          "html": "<p side=\"right\" oppositeside=\"left\" color-button=\"#003087\" class=\"sc-dlfmnT gxUnvk\" data-tcc-base-font-family=\"Lato, sans-serif\" data-tcc-spacing=\"\"><span class=\"sc-hKgJyM eJOTAo\" data-tcc-base-font-family=\"Lato, sans-serif\" data-tcc-spacing=\"\">Acessível em Libras</span></p>",
+          "scrollWidth": 8,
+          "clientWidth": 0,
+          "scrollHeight": 42,
+          "clientHeight": 42
+        },
+        {
+          "html": "<span class=\"sc-hKgJyM eJOTAo\" data-tcc-base-font-family=\"Lato, sans-serif\" data-tcc-spacing=\"\">Acessível em Libras</span>",
+          "scrollWidth": 143,
+          "clientWidth": 8,
+          "scrollHeight": 18,
+          "clientHeight": 18
+        }
+      ],
+      "raiz": "DOM_principal",
+      "toleranciaCssPx": 1
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "estado": "quatro-espacamentos",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 0,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "ocorrenciasAxe": {
+    "violations": 0,
+    "passes": 94,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 1280,
+      "windowHeight": 720,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-08T00:56:01.070Z",
+    "url": "https://niteroi360.niteroi.rj.gov.br/",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "avoid-inline-spacing"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [],
+    "passes": [
+      {
+        "id": "avoid-inline-spacing",
+        "impact": null,
+        "tags": [
+          "cat.structure",
+          "wcag21aa",
+          "wcag1412",
+          "EN-301-549",
+          "EN-9.1.4.12",
+          "ACT"
+        ],
+        "description": "Ensure that text spacing set through style attributes can be adjusted with custom stylesheets",
+        "help": "Inline text spacing must be adjustable with custom stylesheets",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/avoid-inline-spacing?application=playwright",
+        "nodes": [
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<html lang=\"pt-BR\" style=\"--portal-font-family: 'Open Sans', system-ui, sans-serif;\">",
+            "target": [
+              "html"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<header class=\"p-4 md:p-6 lg:p-8 h-16 md:h-[132px] lg:h-[132px] flex xl:justify-center w-full\" style=\"background: rgb(237, 115, 4);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              "header"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"https://workflow-content.colab.re/1764092925763_$colab_citizen_portal_file%25_niteroi_360_HORIZONTAL_BRANCO.png\" alt=\"logo\" class=\"\" style=\"width: auto; object-fit: contain; height: 70px;\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".active > img[alt=\"logo\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://niteroi360.n...\" target=\"_blank\" class=\"flex items-center px...\" style=\"color: rgb(255, 255,...\" data-tcc-base-font-f...=\"\"Open Sans\", system-...\" data-tcc-spacing=\"\">",
+            "target": [
+              "li:nth-child(1) > .text-lg.rounded-md.py-2"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://niteroi360.n...\" target=\"_blank\" class=\"flex items-center px...\" style=\"color: rgb(255, 255,...\" data-tcc-base-font-f...=\"\"Open Sans\", system-...\" data-tcc-spacing=\"\">",
+            "target": [
+              "li:nth-child(2) > .text-lg.rounded-md.py-2"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://niteroi360.n...\" target=\"_blank\" class=\"flex items-center px...\" style=\"color: rgb(255, 255,...\" data-tcc-base-font-f...=\"\"Open Sans\", system-...\" data-tcc-spacing=\"\">",
+            "target": [
+              "li:nth-child(3) > .text-lg.rounded-md.py-2"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://niteroi360.n...\" target=\"_blank\" class=\"flex items-center px...\" style=\"color: rgb(255, 255,...\" data-tcc-base-font-f...=\"\"Open Sans\", system-...\" data-tcc-spacing=\"\">",
+            "target": [
+              "li:nth-child(4) > .text-lg.rounded-md.py-2"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"ant-divider css-bz06vj ant-divider-vertical mx-4\" role=\"separator\" style=\"height: 36px; background-color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\"></div>",
+            "target": [
+              ".ant-divider"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a class=\"ant-dropdown-trigger flex items-center gap-3 ml-4 px-4 py-2 rounded-lg hover:bg-black hover:bg-opacity-10\" disabled=\"\" style=\"cursor: pointer; background-color: rgb(237, 115, 4);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".ant-dropdown-trigger"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography css-bz06vj\" style=\"font-size: 18px; color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" data-tcc-spacing=\"\">Entrar</span>",
+            "target": [
+              ".ant-dropdown-trigger > .css-bz06vj.ant-typography"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-avatar ant-avatar-circle ant-avatar-icon css-bz06vj\" style=\"outline: none;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".ant-avatar"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"slick-slider slick-initialized\" dir=\"ltr\" style=\"height: 100%;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".sc-egkSDF > .ant-carousel.css-bz06vj > .slick-slider.slick-initialized[dir=\"ltr\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-role=\"none\" class=\"slick-arrow slick-prev\" currentslide=\"1\" slidecount=\"2\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-prev[currentslide=\"1\"][slidecount=\"2\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"arrow-left\" class=\"anticon anticon-arrow-left\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-prev[currentslide=\"1\"][slidecount=\"2\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"slick-track\" style=\"width: 6400px; opacity: 1; transform: translate3d(-2560px, 0px, 0px);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".sc-egkSDF > .ant-carousel.css-bz06vj > .slick-slider.slick-initialized[dir=\"ltr\"] > .slick-list > .slick-track"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-index=\"1\" class=\"slick-slide slick-active slick-current\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 1280px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-current[data-index=\"1\"][aria-hidden=\"false\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div tabindex=\"-1\" class=\"sc-fAUdSK eDMJhF\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-current[data-index=\"1\"][aria-hidden=\"false\"] > div > .sc-fAUdSK.eDMJhF"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-role=\"none\" class=\"slick-arrow slick-next\" currentslide=\"1\" slidecount=\"2\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-next[currentslide=\"1\"][slidecount=\"2\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-next[currentslide=\"1\"][slidecount=\"2\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<ul class=\"slick-dots slick-dots-bottom\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".sc-egkSDF > .ant-carousel.css-bz06vj > .slick-slider.slick-initialized[dir=\"ltr\"] > .slick-dots.slick-dots-bottom"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"relative flex-1\" style=\"background-color: rgba(237, 115, 4, 0.05);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".relative.flex-1"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"flex justify-between...\" style=\"background-color: rg...\" data-tcc-base-font-f...=\"\"Open Sans\", system-...\" data-tcc-spacing=\"\">",
+            "target": [
+              ".cursor-text"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"flex items-center justify-center rounded-r-lg text-[#FFFFFF] h-full w-[52px] sm:w-[52px] md:w-[92px] lg:w-[92px]\" style=\"background-color: rgb(237, 115, 4);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".rounded-r-lg"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"slick-arrow slick-prev\" data-role=\"none\" currentslide=\"0\" slidecount=\"1\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-prev[slidecount=\"1\"][currentslide=\"0\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"arrow-left\" class=\"anticon anticon-arrow-left\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-prev[slidecount=\"1\"][currentslide=\"0\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"slick-track\" style=\"width: 1123px; opacity: 1; transform: translate3d(0px, 0px, 0px);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-index=\"0\" class=\"slick-slide slick-active slick-current\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 1123px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track > .slick-current[data-index=\"0\"][aria-hidden=\"false\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"flex flex-col items-center justify-center cursor-pointer transition-all p-4  rounded-lg\" tabindex=\"-1\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track > .slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .transition-all.rounded-lg.p-4"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"slick-arrow slick-next\" data-role=\"none\" currentslide=\"0\" slidecount=\"1\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-next[slidecount=\"1\"][currentslide=\"0\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-next[slidecount=\"1\"][currentslide=\"0\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<ul class=\"slick-dots slick-dots-bottom\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".lg\\:p-0 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-dots.slick-dots-bottom"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div style=\"font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif; display: contents;\">",
+            "target": [
+              ".px-4 > div:nth-child(3)"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div style=\"font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif; display: contents;\">",
+            "target": [
+              ".px-4 > div:nth-child(4)"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"mt-5\" style=\"font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              "div:nth-child(4) > .mt-5"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"text-sm font-bold tracking-wider text-indigo-600 uppercase\" style=\"color: rgb(237, 115, 4);\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\" data-tcc-spacing=\"\">Ocorrências</div>",
+            "target": [
+              ".tracking-wider"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"slick-track\" style=\"width: 2256px; opacity: 1; transform: translate3d(0px, 0px, 0px);\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".ant-carousel.css-iaswcl > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-index=\"0\" class=\"slick-slide slick-active slick-current\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 188px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".ant-carousel.css-iaswcl > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track > .slick-current[data-index=\"0\"][aria-hidden=\"false\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"!flex flex-col  items-center justify-center cursor-pointer\" tabindex=\"-1\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"rounded-full w-[100px] h-[100px] sm:w-[130px] sm:h-[130px] lg:w-[179px] lg:h-[179px] mx-auto flex items-center justify-center\" style=\"background-color: rgba(237, 115, 4, 0.1);\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .rounded-full.w-\\[100px\\].h-\\[100px\\]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/traffic_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              ".slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography text-xs sm:text-sm md:text-lg css-iaswcl\" style=\"color: rgb(55, 55, 55); margin-top: 12px; font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .md\\:text-lg.text-xs.sm\\:text-sm"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-index=\"1\" class=\"slick-slide slick-active\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 188px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track > .slick-active[data-index=\"1\"][aria-hidden=\"false\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"!flex flex-col  items-center justify-center cursor-pointer\" tabindex=\"-1\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".slick-active[data-index=\"1\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"rounded-full w-[100px] h-[100px] sm:w-[130px] sm:h-[130px] lg:w-[179px] lg:h-[179px] mx-auto flex items-center justify-center\" style=\"background-color: rgba(237, 115, 4, 0.1);\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-active[data-index=\"1\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .rounded-full.w-\\[100px\\].h-\\[100px\\]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/nature_people_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              ".slick-active[data-index=\"1\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography text-xs sm:text-sm md:text-lg css-iaswcl\" style=\"color: rgb(55, 55, 55); margin-top: 12px; font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".slick-active[data-index=\"1\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .md\\:text-lg.text-xs.sm\\:text-sm"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-index=\"2\" class=\"slick-slide slick-active\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 188px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".slick-active[data-index=\"2\"][aria-hidden=\"false\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"!flex flex-col  items-center justify-center cursor-pointer\" tabindex=\"-1\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".slick-active[data-index=\"2\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"rounded-full w-[100px] h-[100px] sm:w-[130px] sm:h-[130px] lg:w-[179px] lg:h-[179px] mx-auto flex items-center justify-center\" style=\"background-color: rgba(237, 115, 4, 0.1);\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-active[data-index=\"2\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .rounded-full.w-\\[100px\\].h-\\[100px\\]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/transfer_within_a_station_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              ".slick-active[data-index=\"2\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography text-xs sm:text-sm md:text-lg css-iaswcl\" style=\"color: rgb(55, 55, 55); margin-top: 12px; font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".slick-active[data-index=\"2\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .md\\:text-lg.text-xs.sm\\:text-sm"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-index=\"3\" class=\"slick-slide slick-active\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 188px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".slick-active[data-index=\"3\"][aria-hidden=\"false\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"!flex flex-col  items-center justify-center cursor-pointer\" tabindex=\"-1\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".slick-active[data-index=\"3\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"rounded-full w-[100px] h-[100px] sm:w-[130px] sm:h-[130px] lg:w-[179px] lg:h-[179px] mx-auto flex items-center justify-center\" style=\"background-color: rgba(237, 115, 4, 0.1);\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-active[data-index=\"3\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .rounded-full.w-\\[100px\\].h-\\[100px\\]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/directions_bike_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              ".slick-active[data-index=\"3\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography text-xs sm:text-sm md:text-lg css-iaswcl\" style=\"color: rgb(55, 55, 55); margin-top: 12px; font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".slick-active[data-index=\"3\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.cursor-pointer > .md\\:text-lg.text-xs.sm\\:text-sm"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-index=\"4\" class=\"slick-slide slick-active\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 188px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              "div[data-index=\"4\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"!flex flex-col  items-center justify-center cursor-pointer\" tabindex=\"-1\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              "div[data-index=\"4\"] > div > .\\!flex.justify-center.cursor-pointer"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"rounded-full w-[100px] h-[100px] sm:w-[130px] sm:h-[130px] lg:w-[179px] lg:h-[179px] mx-auto flex items-center justify-center\" style=\"background-color: rgba(237, 115, 4, 0.1);\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              "div[data-index=\"4\"] > div > .\\!flex.justify-center.cursor-pointer > .rounded-full.w-\\[100px\\].h-\\[100px\\]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 24 24\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/water_damage_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              "svg[enable-background=\"new 0 0 24 24\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography text-xs sm:text-sm md:text-lg css-iaswcl\" style=\"color: rgb(55, 55, 55); margin-top: 12px; font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              "div[data-index=\"4\"] > div > .\\!flex.justify-center.cursor-pointer > .md\\:text-lg.text-xs.sm\\:text-sm"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-index=\"5\" class=\"slick-slide slick-active\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 188px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              "div[data-index=\"5\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"!flex flex-col  items-center justify-center cursor-pointer\" tabindex=\"-1\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              "div[data-index=\"5\"] > div > .\\!flex.justify-center.cursor-pointer"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"rounded-full w-[100px] h-[100px] sm:w-[130px] sm:h-[130px] lg:w-[179px] lg:h-[179px] mx-auto flex items-center justify-center\" style=\"background-color: rgba(237, 115, 4, 0.1);\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              "div[data-index=\"5\"] > div > .\\!flex.justify-center.cursor-pointer > .rounded-full.w-\\[100px\\].h-\\[100px\\]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/delete_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              "div[data-index=\"5\"] > div > .\\!flex.justify-center.cursor-pointer > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography text-xs sm:text-sm md:text-lg css-iaswcl\" style=\"color: rgb(55, 55, 55); margin-top: 12px; font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              "div[data-index=\"5\"] > div > .\\!flex.justify-center.cursor-pointer > .md\\:text-lg.text-xs.sm\\:text-sm"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"slick-arrow slick-next\" data-role=\"none\" currentslide=\"0\" slidecount=\"12\" style=\"display: block;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-next[slidecount=\"12\"][currentslide=\"0\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-next[slidecount=\"12\"][currentslide=\"0\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<ul class=\"slick-dots slick-dots-bottom\" style=\"display: block;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".ant-carousel.css-iaswcl > .sc-gtLWhw.fBAOuo.slick-slider > .slick-dots.slick-dots-bottom"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"pt-8\" style=\"font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".pt-8"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"slick-arrow slick-prev\" data-role=\"none\" currentslide=\"0\" slidecount=\"1\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-prev[slidecount=\"1\"][currentslide=\"0\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"arrow-left\" class=\"anticon anticon-arrow-left\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-prev[slidecount=\"1\"][currentslide=\"0\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"slick-track\" style=\"width: 1123px; opacity: 1; transform: translate3d(0px, 0px, 0px);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-index=\"0\" class=\"slick-slide slick-active slick-current\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 1123px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-list > .slick-track > .slick-current[data-index=\"0\"][aria-hidden=\"false\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"flex items-center cursor-pointer transition-all p-4 rounded-lg mx-3\" tabindex=\"-1\" style=\"width: 100%; display: inline-block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".mx-3"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"ant-typography css-bz06vj\" style=\"color: rgb(55, 55, 55); text-align: left; font-size: 14px;\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" data-tcc-spacing=\"\">Participe da Consulta Pública dos editais NAV 2026!</span>",
+            "target": [
+              ".transition-colors.max-w-\\[400px\\].w-full > .css-bz06vj.ant-typography"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"slick-arrow slick-next\" data-role=\"none\" currentslide=\"0\" slidecount=\"1\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-next[slidecount=\"1\"][currentslide=\"0\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-next[slidecount=\"1\"][currentslide=\"0\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<ul class=\"slick-dots slick-dots-bottom\" style=\"display: block;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".sc-blHHSb.gcpQEY.p-8 > .sc-blHHSb.gcpQEY.xl\\:px-0 > .ant-carousel.css-bz06vj > .sc-gtLWhw.fBAOuo.slick-slider > .slick-dots.slick-dots-bottom"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div style=\"font-family: \"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif; display: contents;\">",
+            "target": [
+              ".px-4 > div:nth-child(6)"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"relative border-t w-full\" style=\"margin-top: 500px; background: rgb(237, 115, 4);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".border-t"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"https://workflow-content.colab.re/1764094008682_$colab_citizen_portal_file%25_novo-logo-niteroi-horizontal-branco.png\" alt=\"logo\" style=\"height: 49.6px; width: auto; object-fit: contain;\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".font-medium > img[alt=\"logo\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"max-w-md mt-4 text-gray-400\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\"></div>",
+            "target": [
+              ".max-w-md"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<h3 class=\" text-[20px] font-semibold leading-[30px] text-left underline-from-font no-decoration-skip-ink mb-2\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" data-tcc-spacing=\"\">Prefeitura Municipal de Niterói</h3>",
+            "target": [
+              ".w-full > h3"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<ul class=\" text-[17px] font-normal leading-[25.5px] text-left underline-from-font no-decoration-skip-ink list-none pl-0\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".text-\\[17px\\]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://niteroi.rj.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"no-underline hover:underline \" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" data-tcc-spacing=\"\">🌐Site Prefeitura</a>",
+            "target": [
+              ".hover\\:underline"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<h3 class=\" text-[20px] font-semibold leading-[30px] text-left underline-from-font no-decoration-skip-ink mb-2\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" data-tcc-spacing=\"\">Redes Sociais</h3>",
+            "target": [
+              ".md\\:flex > div:nth-child(2) > div > div > h3"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"facebook\" class=\"anticon anticon-facebook text-gray-500 text-3xl\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".md\\:flex > div:nth-child(2) > div > div > div > .grid-cols-5.w-48.gap-4 > a[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(1) > .anticon-facebook.text-3xl[aria-label=\"facebook\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"instagram\" class=\"anticon anticon-instagram text-gray-500 text-3xl\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".md\\:flex > div:nth-child(2) > div > div > div > .grid-cols-5.w-48.gap-4 > a[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(2) > .anticon-instagram.text-3xl[aria-label=\"instagram\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"tik-tok\" class=\"anticon anticon-tik-tok text-gray-500 text-3xl\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".md\\:flex > div:nth-child(2) > div > div > div > .grid-cols-5.w-48.gap-4 > a[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(3) > .anticon-tik-tok.text-3xl[aria-label=\"tik-tok\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"youtube\" class=\"anticon anticon-youtube text-gray-500 text-3xl\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".md\\:flex > div:nth-child(2) > div > div > div > .grid-cols-5.w-48.gap-4 > a[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(4) > .anticon-youtube.text-3xl[aria-label=\"youtube\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"link\" class=\"anticon anticon-link text-gray-500 text-3xl\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".md\\:flex > div:nth-child(2) > div > div > div > .grid-cols-5.w-48.gap-4 > a[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(5) > .anticon-link.text-3xl[aria-label=\"link\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"ht-skip\" style=\"z-index: 1000000;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\" data-tcc-spacing=\"\">",
+            "target": [
+              ".ht-skip"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div data-ht-draggable=\"true\" style=\"display: contents;\">",
+            "target": [
+              "div[data-ht-draggable=\"true\"]"
+            ]
+          }
+        ]
+      }
+    ],
+    "incomplete": [],
+    "violations": []
+  },
+  "screenshots": [
+    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-1.png",
+    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-2.png",
+    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-3.png",
+    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-4.png",
+    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-5.png",
+    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-6.png",
+    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-7.png",
+    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-8.png",
+    "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-9.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "BODY",
+    "alturaConteudo": 5296,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.4.12-niteroi-servicos-pagina-comum-chromium-quatro-espacamentos-trecho-9.png",
+        "scrollTop": 4576
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T00:56:01.341Z"
+}

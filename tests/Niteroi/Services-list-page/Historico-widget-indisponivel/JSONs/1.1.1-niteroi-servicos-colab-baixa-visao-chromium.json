@@ -1,0 +1,113 @@
+{
+  "criterio": "1.1.1",
+  "nome": "Non-text Content",
+  "inicio": "2026-11-08T00:48:49.832Z",
+  "url": "https://niteroi360.niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag111",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "aria-meter-name",
+    "aria-progressbar-name",
+    "image-alt",
+    "input-image-alt",
+    "object-alt",
+    "role-img-alt",
+    "svg-img-alt"
+  ],
+  "statusExecucao": "erro_de_execucao_ou_precondicao",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://niteroi360.niteroi.rj.gov.br/"
+    },
+    "catalogo": {
+      "secao": "Categorias de serviços",
+      "categoriaConfirmada": "Desenvolvimento Econômico"
+    },
+    "carregamento": {
+      "imagens": 40,
+      "alturaPercorrida": 4532,
+      "superficieRolagem": "BODY",
+      "imagensNaoCarregadas": []
+    },
+    "acesso": "direto_a_pagina_alvo",
+    "perfil": "baixa_visao_personalizado_colab",
+    "widgetBaixaVisao": {
+      "fornecedor": "Hand Talk",
+      "amostraAntes": {
+        "fontePx": 30,
+        "familia": "\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif",
+        "peso": 700,
+        "linhaPx": 39,
+        "letrasPx": 0
+      },
+      "configuracao": "nivel_maximo_de_cada_recurso",
+      "recursos": [],
+      "disponibilidade": {
+        "disponivel": false,
+        "mensagem": "Plugin indisponível — Ops! Site sem Hand Talk Plugin.",
+        "perfilAplicado": false,
+        "opcoesNaoAcionadas": [
+          "Tamanho de Fonte",
+          "Letras Destacadas",
+          "Espaçamento Entre Linhas",
+          "Espaço entre Letras",
+          "Destacar Cabeçalho",
+          "Contraste de Cores"
+        ],
+        "estiloDeTextoAlterado": false
+      }
+    },
+    "autenticacaoHandTalk": {
+      "endpoint": "https://translation-v3.handtalk.me/api/v2/addons/auth",
+      "statusHttp": 401,
+      "autorizado": false,
+      "mensagem": "Token não autorizado."
+    },
+    "indisponibilidadeWidget": {
+      "mensagem": "Plugin indisponível — Ops! Site sem Hand Talk Plugin.",
+      "perfilSolicitadoConfirmado": false,
+      "fonteDoErro": "widget_do_site"
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "estado": "baixa-visao-widget-fechado"
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.1.1-niteroi-servicos-colab-baixa-visao-chromium-erro-trecho-1.png"
+  ],
+  "erros": [
+    "Error: Hand Talk indisponível no Niterói 360: o site exibe \"Ops! Site sem Hand Talk Plugin.\". Perfil solicitado não aplicado; axe não executado.\n    at prepareAssistiveResources (C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\tests\\Niteroi\\Services-list-page\\services-page.spec.ts:132:11)\n    at prepare (C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\tests\\Niteroi\\Services-list-page\\services-page.spec.ts:246:3)\n    at evaluateCriterion (C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\tests\\Niteroi\\Services-list-page\\services-page.spec.ts:384:5)\n    at C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\tests\\Niteroi\\Services-list-page\\services-page.spec.ts:465:3\n    at C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\node_modules\\playwright\\lib\\worker\\workerProcessEntry.js:1655:9\n    at C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\node_modules\\playwright\\lib\\worker\\workerProcessEntry.js:1135:11\n    at TimeoutManager.withRunnable (C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\node_modules\\playwright\\lib\\worker\\workerProcessEntry.js:403:14)\n    at TestInfoImpl._runWithTimeout (C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\node_modules\\playwright\\lib\\worker\\workerProcessEntry.js:1133:7)\n    at C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\node_modules\\playwright\\lib\\worker\\workerProcessEntry.js:1653:7\n    at WorkerMain._runTest (C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\node_modules\\playwright\\lib\\worker\\workerProcessEntry.js:1626:5)\n    at WorkerMain.runTestGroup (C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\node_modules\\playwright\\lib\\worker\\workerProcessEntry.js:1521:9)\n    at process.<anonymous> (C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\node_modules\\playwright\\lib\\common\\index.js:1941:25)"
+  ],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "BODY",
+    "alturaConteudo": 4951,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-servicos-colab-baixa-visao-chromium-erro-trecho-1.png",
+        "scrollTop": 0
+      }
+    ],
+    "cobertura": "estado_hover_ou_foco_ou_erro"
+  },
+  "fim": "2026-11-08T00:49:04.388Z"
+}

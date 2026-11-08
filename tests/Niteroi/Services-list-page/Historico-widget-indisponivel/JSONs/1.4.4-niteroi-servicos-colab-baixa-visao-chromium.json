@@ -1,0 +1,82 @@
+{
+  "criterio": "1.4.4",
+  "nome": "Resize Text",
+  "inicio": "2026-11-08T00:38:07.974Z",
+  "url": "https://niteroi360.niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag144",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "meta-viewport"
+  ],
+  "statusExecucao": "erro_de_execucao_ou_precondicao",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://niteroi360.niteroi.rj.gov.br/"
+    },
+    "catalogo": {
+      "secao": "Categorias de serviços",
+      "categoriaConfirmada": "Desenvolvimento Econômico"
+    },
+    "carregamento": {
+      "imagens": 40,
+      "alturaPercorrida": 4532,
+      "superficieRolagem": "BODY",
+      "imagensNaoCarregadas": []
+    },
+    "acesso": "direto_a_pagina_alvo",
+    "perfil": "baixa_visao_personalizado_colab",
+    "widgetBaixaVisao": {
+      "fornecedor": "Hand Talk",
+      "amostraAntes": {
+        "fontePx": 30,
+        "familia": "\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif",
+        "peso": 700,
+        "linhaPx": 39,
+        "letrasPx": 0
+      },
+      "configuracao": "nivel_maximo_de_cada_recurso",
+      "recursos": []
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "estado": "baixa-visao-widget-fechado"
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.4-niteroi-servicos-colab-baixa-visao-chromium-erro-trecho-1.png"
+  ],
+  "erros": [
+    "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: /^Ativar Estilo de Texto,/i })\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('button', { name: /^Ativar Estilo de Texto,/i }) with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: /^Ativar Estilo de Texto,/i })\u001b[22m\n\n    at prepareAssistiveResources (C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\tests\\Niteroi\\Services-list-page\\services-page.spec.ts:134:27)\n    at prepare (C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\tests\\Niteroi\\Services-list-page\\services-page.spec.ts:230:3)\n    at evaluateCriterion (C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\tests\\Niteroi\\Services-list-page\\services-page.spec.ts:368:5)\n    at C:\\FACULDADE\\TCC\\Testes_Automatizados_TCC\\tests\\Niteroi\\Services-list-page\\services-page.spec.ts:449:3"
+  ],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "BODY",
+    "alturaConteudo": 4951,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-colab-baixa-visao-chromium-erro-trecho-1.png",
+        "scrollTop": 0
+      }
+    ],
+    "cobertura": "estado_hover_ou_foco_ou_erro"
+  },
+  "fim": "2026-11-08T00:39:21.038Z"
+}

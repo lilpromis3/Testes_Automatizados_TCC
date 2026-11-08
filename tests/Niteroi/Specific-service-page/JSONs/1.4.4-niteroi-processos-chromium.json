@@ -1,0 +1,1139 @@
+{
+  "criterio": "1.4.4",
+  "nome": "Resize Text",
+  "inicio": "2026-11-08T01:12:33.072Z",
+  "url": "https://processo.niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag144",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "meta-viewport"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://processo.niteroi.rj.gov.br/"
+    },
+    "formularioVisivelAntesDoAxe": true,
+    "animacoesDeEntrada": {
+      "metodo": "titulo_completo_opacidade_e_animacoes_finitas_concluidas",
+      "titulo": "Processo.Nit",
+      "tituloEsperado": "Processo.Nit",
+      "formulario": [
+        {
+          "tag": "INPUT",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "form-control animate-box fadeInUp animated-fast"
+        },
+        {
+          "tag": "SELECT",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "form-control animate-box fadeInUp animated-fast"
+        },
+        {
+          "tag": "BUTTON",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+        }
+      ]
+    },
+    "formulario": {
+      "abertoPor": "Localizar Processo",
+      "enviado": false,
+      "numero": "",
+      "ano": "2026",
+      "controles": [
+        "<input type=\"text\" required=\"\" class=\"form-control animate-box fadeInUp animated-fast\" oninvalid=\"this.setCustomValidity('Campo Obrigatório. Digite apenas os números')\" name=\"processo\" pattern=\"[0-9]+$\" placeholder=\"Nº Processo\">",
+        "<select type=\"text\" required=\"\" class=\"form-control animate-box fadeInUp animated-fast\" name=\"ano\" minlength=\"4\" maxlength=\"4\" pattern=\"[0-9]+$\" oninvalid=\"this.setCustomValidity('Campo Obrigatório. Digite apenas os números com ano completo Ex.:2022')\" placeholder=\"Ano\">\n                                                            <option value=\"2026\">2026</option><option value=\"2025\">2025</option><option value=\"2024\">2024</option><option value=\"2023\">2023</option><option value=\"2022\">2022</option><option value=\"2021\">2021</option><option value=\"2020\">2020</option><option value=\"2019\">2019</option><option value=\"2018\">2018</option><option value=\"2017\">2017</option><option value=\"2016\">2016</option><option value=\"2015\">2015</option><option value=\"2014\">2014</option><option value=\"2013\">2013</option><option value=\"2012\">2012</option><option value=\"2011\">2011</option>                                                        </select>",
+        "<button type=\"submit\" class=\"btn btn-primary btn-block animate-box fadeInUp animated-fast\">\n                                                        <b>Pesquisar</b></button>"
+      ]
+    },
+    "perfil": "original_sem_widget_visual",
+    "redimensionamento": {
+      "metodo": "zoom_nativo_chromium_tabs_setZoom",
+      "fator": 2,
+      "zoomNativoExecutado": true,
+      "antes": {
+        "larguraCss": 1280,
+        "alturaCss": 720,
+        "devicePixelRatio": 1,
+        "escalaVisual": 1
+      },
+      "depois": {
+        "larguraCss": 640,
+        "alturaCss": 360,
+        "devicePixelRatio": 2,
+        "escalaVisual": 1
+      },
+      "referencia": "https://www.w3.org/WAI/WCAG22/Techniques/general/G142"
+    },
+    "layout": {
+      "larguraViewport": 640,
+      "larguraDocumento": 640,
+      "rolagemHorizontal": false,
+      "candidatosRecorte": [
+        {
+          "html": "<div id=\"page\"><a href=\"#\" class=\"js-gtco-nav-toggle gtco-nav-toggle gtco-nav-white\"><i></i></a><div id=\"gtco-offcanvas\"><ul class=\"\" style=\"z-index:-1!important\">\n                                <li class=\"active\"><a href=\"#page\">Início</a></li>\n                                <li><a href=\"#gtco-features-2\">Sobre</a></li>\n                                <li style=\"z-index:-1!important\"><a href=\"l",
+          "scrollWidth": 910,
+          "clientWidth": 640,
+          "scrollHeight": 9389,
+          "clientHeight": 9389
+        }
+      ],
+      "raiz": "DOM_principal",
+      "toleranciaCssPx": 1
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "estado": "zoom-nativo-200",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 0,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "ocorrenciasAxe": {
+    "violations": 0,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 640,
+      "windowHeight": 360,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-08T01:12:55.094Z",
+    "url": "https://processo.niteroi.rj.gov.br/#",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "meta-viewport"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [],
+    "passes": [
+      {
+        "id": "meta-viewport",
+        "impact": null,
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag2aa",
+          "wcag144",
+          "EN-301-549",
+          "EN-9.1.4.4",
+          "ACT",
+          "RGAAv4",
+          "RGAA-10.4.2"
+        ],
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/meta-viewport?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "meta-viewport",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "<meta> tag does not disable zooming on mobile devices"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "target": [
+              "meta[name=\"viewport\"]"
+            ]
+          }
+        ]
+      }
+    ],
+    "incomplete": [],
+    "violations": []
+  },
+  "screenshots": [
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-1.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-2.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-formulario.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-4.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-5.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-6.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-7.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-8.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-9.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-10.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-11.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-12.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-13.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-14.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-15.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-16.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-17.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-18.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-19.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-20.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-21.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-22.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-23.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-24.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-25.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-26.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-27.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-28.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-29.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-30.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-31.png",
+    "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-32.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 9419,
+    "alturaViewport": 360,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-1.png",
+        "scrollTop": 0,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-2.png",
+        "scrollTop": 306,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-formulario.png",
+        "scrollTop": 347,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-4.png",
+        "scrollTop": 612,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-5.png",
+        "scrollTop": 918,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-6.png",
+        "scrollTop": 1224,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-7.png",
+        "scrollTop": 1530,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-8.png",
+        "scrollTop": 1836,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-9.png",
+        "scrollTop": 2142,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-10.png",
+        "scrollTop": 2448,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-11.png",
+        "scrollTop": 2754,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-12.png",
+        "scrollTop": 3060,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-13.png",
+        "scrollTop": 3366,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-14.png",
+        "scrollTop": 3672,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-15.png",
+        "scrollTop": 3978,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-16.png",
+        "scrollTop": 4284,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-17.png",
+        "scrollTop": 4590,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-18.png",
+        "scrollTop": 4896,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-19.png",
+        "scrollTop": 5202,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-20.png",
+        "scrollTop": 5508,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-21.png",
+        "scrollTop": 5814,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-22.png",
+        "scrollTop": 6120,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-23.png",
+        "scrollTop": 6426,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-24.png",
+        "scrollTop": 6732,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-25.png",
+        "scrollTop": 7038,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-26.png",
+        "scrollTop": 7344,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-27.png",
+        "scrollTop": 7650,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-28.png",
+        "scrollTop": 7956,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-29.png",
+        "scrollTop": 8262,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-30.png",
+        "scrollTop": 8568,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-31.png",
+        "scrollTop": 8874,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-processos-chromium-zoom-nativo-200-trecho-32.png",
+        "scrollTop": 9059,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T01:12:55.397Z"
+}

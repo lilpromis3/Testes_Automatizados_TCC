@@ -1,0 +1,281 @@
+{
+  "criterio": "1.1.1",
+  "nome": "Non-text Content",
+  "inicio": "2026-11-07T20:09:14.587Z",
+  "url": "https://egov.saquarema.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag111",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "aria-meter-name",
+    "aria-progressbar-name",
+    "image-alt",
+    "input-image-alt",
+    "object-alt",
+    "role-img-alt",
+    "svg-img-alt"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://egov.saquarema.rj.gov.br/"
+    },
+    "comunicadoFechado": true,
+    "tutorial": {
+      "exibido": true,
+      "dispensado": true,
+      "metodo": "Escape"
+    },
+    "formulario": {
+      "unidade": "1 | PMS",
+      "tipo": "1 | Processo Eletrônico",
+      "numero": "",
+      "url": "https://egov.saquarema.rj.gov.br/adm/openform.do?sys=PRO&action=openform&formID=7175",
+      "enviado": false
+    },
+    "perfil": "padrao_sem_ajustes_assistivos",
+    "escopo": {
+      "caminhoFrames": [
+        "#myIframe",
+        "iframe[name=\"mainform\"]",
+        "body"
+      ],
+      "descricao": "Documento do formulário aberto; exclui o catálogo externo do e-Gov."
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "estado": "formulario-parcialmente-preenchido-padrao",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 0,
+    "passes": 0,
+    "incomplete": 0,
+    "inapplicable": 7
+  },
+  "ocorrenciasAxe": {
+    "violations": 0,
+    "passes": 0,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 1280,
+      "windowHeight": 720,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-07T20:09:32.168Z",
+    "url": "https://egov.saquarema.rj.gov.br/",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "aria-meter-name",
+          "aria-progressbar-name",
+          "image-alt",
+          "input-image-alt",
+          "object-alt",
+          "role-img-alt",
+          "svg-img-alt"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [
+      {
+        "id": "aria-meter-name",
+        "impact": null,
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag111",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-11.1.1"
+        ],
+        "description": "Ensure every ARIA meter node has an accessible name",
+        "help": "ARIA meter nodes must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-meter-name?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "aria-progressbar-name",
+        "impact": null,
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag111",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-11.1.1"
+        ],
+        "description": "Ensure every ARIA progressbar node has an accessible name",
+        "help": "ARIA progressbar nodes must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-progressbar-name?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "image-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.1"
+        ],
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "input-image-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "EN-9.4.1.2",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.3"
+        ],
+        "description": "Ensure <input type=\"image\"> elements have alternative text",
+        "help": "Image buttons must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/input-image-alt?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "object-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-1.1.6"
+        ],
+        "description": "Ensure <object> elements have alternative text",
+        "help": "<object> elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/object-alt?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "role-img-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.1"
+        ],
+        "description": "Ensure [role=\"img\"] and [role=\"image\"] elements have alternative text",
+        "help": "[role=\"img\"] and [role=\"image\"] elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/role-img-alt?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "svg-img-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.5"
+        ],
+        "description": "Ensure <svg> elements with an img, image, graphics-document or graphics-symbol role have accessible text",
+        "help": "<svg> elements with an img or image role must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/svg-img-alt?application=playwright",
+        "nodes": []
+      }
+    ],
+    "passes": [],
+    "incomplete": [],
+    "violations": []
+  },
+  "screenshots": [
+    "Screenshots/1.1.1-saquarema-protocolo-chromium-2026-11-07T20-09-14-587Z-formulario-parcialmente-preenchido-padrao-trecho-1.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "iframe_por_trechos_da_rolagem_interna",
+    "geometria": {
+      "top": 0,
+      "height": 758,
+      "viewport": 758
+    },
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.1.1-saquarema-protocolo-chromium-2026-11-07T20-09-14-587Z-formulario-parcialmente-preenchido-padrao-trecho-1.png",
+        "scrollTop": 0
+      }
+    ]
+  },
+  "fim": "2026-11-07T20:09:32.561Z"
+}

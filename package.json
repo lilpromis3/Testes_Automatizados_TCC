@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:saquarema": "playwright test tests/Saquarema/Home-page/home-page.spec.ts --project=chromium --workers=1",
+    "relatorio:saquarema": "node scripts/relatorio-saquarema.cjs",
+    "test:saquarema:servicos": "playwright test tests/Saquarema/Services-list-page/services-page.spec.ts --project=chromium --workers=1",
+    "test:saquarema:protocolo": "playwright test tests/Saquarema/Specific-service-page/specific-service-page.spec.ts --project=chromium --workers=1",
+    "test:niteroi": "playwright test tests/Niteroi --project=chromium --workers=1",
+    "test:niteroi:home": "playwright test tests/Niteroi/Home-page/home-page.spec.ts --project=chromium --workers=1",
+    "test:niteroi:servicos": "playwright test tests/Niteroi/Services-list-page/services-page.spec.ts --project=chromium --workers=1",
+    "test:niteroi:processos": "playwright test tests/Niteroi/Specific-service-page/specific-service-page.spec.ts --project=chromium --workers=1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lilpromis3/Testes_Automatizados_TCC.git"
@@ -19,6 +28,7 @@
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
     "@playwright/test": "^1.63.0",
-    "@types/node": "^26.6.4"
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
   }
 }

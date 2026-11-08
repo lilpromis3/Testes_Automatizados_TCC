@@ -1,0 +1,4082 @@
+{
+  "criterio": "1.4.4",
+  "nome": "Resize Text",
+  "inicio": "2026-11-08T00:33:43.191Z",
+  "url": "https://niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag144",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "meta-viewport"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "varredura_geral_complementar_sem_atribuicao_ao_criterio",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://niteroi.rj.gov.br/"
+    },
+    "widgetBaixaVisao": {
+      "fornecedor": "Real Accessability",
+      "nivelFonte": 3,
+      "incrementoPx": 6,
+      "maximoConfirmadoPorCliqueAdicional": true,
+      "inverterCores": true,
+      "destacarLinks": true,
+      "fonteRegular": false,
+      "tamanhos": [
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 5,
+          "atual": 11
+        },
+        {
+          "original": 5,
+          "atual": 11
+        },
+        {
+          "original": 5,
+          "atual": 11
+        },
+        {
+          "original": 5,
+          "atual": 11
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 41,
+          "atual": 47
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 18,
+          "atual": 24
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 22,
+          "atual": 28
+        },
+        {
+          "original": 22,
+          "atual": 28
+        },
+        {
+          "original": 22,
+          "atual": 28
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        }
+      ]
+    },
+    "redimensionamento": {
+      "metodo": "font_size_inline",
+      "fator": 2,
+      "referencia": "tamanho_computado_antes_do_widget",
+      "elementosMedidos": 939,
+      "zoomNativoExecutado": false
+    },
+    "layout": {
+      "larguraViewport": 1280,
+      "larguraDocumento": 1480,
+      "rolagemHorizontal": true,
+      "candidatosRecorte": [
+        {
+          "html": "<div id=\"tie-container\" class=\"site tie-container\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\n\t\t\n\t\t<div id=\"tie-wrapper\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\t\t\t\n<header id=\"theme-header\" class=\"theme-header header-layout-3 main-nav-light main-nav-d",
+          "scrollWidth": 2005,
+          "clientWidth": 1280,
+          "scrollHeight": 7233,
+          "clientHeight": 7233
+        },
+        {
+          "html": "<p id=\"ticker-content-1794098029461\" class=\"ticker-content\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"display: block; opacity: 1; transform: translateX(0px); font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\t\t\t\t\t\t\t\t<a href=\"https://niteroi.rj.gov.br/arena-niteroi-prefeitura-projeta-r-120-milhoes-em-retorno-economico-com-parceria-publico-privada/\" role=\"link\">Arena Niterói: ",
+          "scrollWidth": 1158,
+          "clientWidth": 39,
+          "scrollHeight": 40,
+          "clientHeight": 40
+        },
+        {
+          "html": "<li class=\"weather-menu-item menu-item custom-menu-link\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\t\t\t\t<div class=\"tie-weather-widget is-animated\" title=\"Rain\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\t\t\t\t\t<div class=\"weather-wrap\" data-tcc-base-font-si",
+          "scrollWidth": 208,
+          "clientWidth": 208,
+          "scrollHeight": 65,
+          "clientHeight": 47
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 32px !important;\" data-tcc-original-font-size=\"16\">Facebook</span>",
+          "scrollWidth": 135,
+          "clientWidth": 1,
+          "scrollHeight": 41,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 32px !important;\" data-tcc-original-font-size=\"16\">X</span>",
+          "scrollWidth": 19,
+          "clientWidth": 1,
+          "scrollHeight": 41,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 32px !important;\" data-tcc-original-font-size=\"16\">YouTube</span>",
+          "scrollWidth": 122,
+          "clientWidth": 1,
+          "scrollHeight": 41,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 32px !important;\" data-tcc-original-font-size=\"16\">Instagram</span>",
+          "scrollWidth": 141,
+          "clientWidth": 1,
+          "scrollHeight": 41,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 32px !important;\" data-tcc-original-font-size=\"16\">Telegram</span>",
+          "scrollWidth": 129,
+          "clientWidth": 1,
+          "scrollHeight": 41,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 32px !important;\" data-tcc-original-font-size=\"16\">TikTok</span>",
+          "scrollWidth": 89,
+          "clientWidth": 1,
+          "scrollHeight": 41,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"15\" data-raofz=\"15\" style=\"font-size: 30px !important;\" data-tcc-original-font-size=\"15\">Procurar por</span>",
+          "scrollWidth": 116,
+          "clientWidth": 1,
+          "scrollHeight": 74,
+          "clientHeight": 1
+        },
+        {
+          "html": "<div aria-live=\"polite\" class=\"slick-list draggable\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\"><div class=\"slick-track\" role=\"listbox\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"opacity: 1; width: 21060px; transform: translate3d(-2340px, 0px, 0px); font-size: 26px !important;\" data-tcc-original-font-size=\"13\"><div sty",
+          "scrollWidth": 21060,
+          "clientWidth": 1170,
+          "scrollHeight": 500,
+          "clientHeight": 500
+        },
+        {
+          "html": "<div class=\"tie-slick-slider slick-initialized slick-slider slick-dotted\" role=\"toolbar\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">\n\n\t\t\t\t\t\t\t\t\t\t<div aria-live=\"polite\" class=\"slick-list draggable\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\"><div class=\"slick-",
+          "scrollWidth": 1185,
+          "clientWidth": 1170,
+          "scrollHeight": 202,
+          "clientHeight": 201
+        },
+        {
+          "html": "<div aria-live=\"polite\" class=\"slick-list draggable\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\"><div class=\"slick-track\" role=\"listbox\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"opacity: 1; width: 6240px; transform: translate3d(-2400px, 0px, 0px); font-size: 26px !important;\" data-tcc-original-font-size=\"13\"><div styl",
+          "scrollWidth": 6240,
+          "clientWidth": 1200,
+          "scrollHeight": 155,
+          "clientHeight": 155
+        },
+        {
+          "html": "<div aria-live=\"polite\" class=\"slick-list draggable\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\"><div class=\"slick-track\" role=\"listbox\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"opacity: 1; width: 14040px; transform: translate3d(-2340px, 0px, 0px); font-size: 26px !important;\" data-tcc-original-font-size=\"13\"><div sty",
+          "scrollWidth": 14040,
+          "clientWidth": 1170,
+          "scrollHeight": 500,
+          "clientHeight": 500
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-e-o-segundo-municipio-do-pais-a-realizar-simulado-da-opas-para-respostas-a-eventos-climaticos-extremos/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 1210,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Niterói entra em estágio de ",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 490,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/arena-niteroi-prefeitura-projeta-r-120-milhoes-em-retorno-economico-com-parceria-publico-privada/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-fo",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 970,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/brasil-vence-argentina-e-vai-decidir-a-finalissima-de-futsal-2026-contra-a-espanha/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 850,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/nittrans-prepara-esquema-especial-de-transito-para-evento-no-caminho-niemeyer/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Nittr",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 850,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-amplia-apoio-a-instituicoes-de-reabilitacao-de-pessoas-com-deficiencia/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Nite",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 730,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/prefeitura-de-niteroi-ativa-sistema-de-bombeamento-na-lagoa-de-piratininga/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Prefeitu",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 730,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-ocupa-a-cidade-com-atividades-culturais-formacoes-e-experiencias-para-toda-a-populacao/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\"",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 1210,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/prefeito-rodrigo-neves-participa-de-coletiva-da-finalissima-de-futsal-2026/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Prefeito",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 610,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-tera-reforco-nas-viagens-de-onibus-para-atender-estudantes-nos-dias-do-enem/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 850,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-e-o-segundo-municipio-do-pais-a-realizar-simulado-da-opas-para-respostas-a-eventos-climaticos-extremos/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 1210,
+          "clientHeight": 360
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\"><a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 100px !important;\" data-tcc-original-font-size=\"50\">Niterói entra em estágio de ",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 490,
+          "clientHeight": 360
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">6 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">5 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">5 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">5 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">5 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">5 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">4 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">4 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">3 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">3 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">3 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 24px !important;\" data-tcc-original-font-size=\"12\">2 de novembro de 2026</span></div>",
+          "scrollWidth": 368,
+          "clientWidth": 368,
+          "scrollHeight": 28,
+          "clientHeight": 24
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">Facebook</span>",
+          "scrollWidth": 109,
+          "clientWidth": 1,
+          "scrollHeight": 29,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">X</span>",
+          "scrollWidth": 15,
+          "clientWidth": 1,
+          "scrollHeight": 29,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">YouTube</span>",
+          "scrollWidth": 99,
+          "clientWidth": 1,
+          "scrollHeight": 29,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">Instagram</span>",
+          "scrollWidth": 115,
+          "clientWidth": 1,
+          "scrollHeight": 29,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">Telegram</span>",
+          "scrollWidth": 105,
+          "clientWidth": 1,
+          "scrollHeight": 29,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 26px !important;\" data-tcc-original-font-size=\"13\">TikTok</span>",
+          "scrollWidth": 72,
+          "clientWidth": 1,
+          "scrollHeight": 29,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"22\" data-raofz=\"22\" style=\"font-size: 44px !important;\" data-tcc-original-font-size=\"22\">Botão Voltar ao topo</span>",
+          "scrollWidth": 114,
+          "clientWidth": 1,
+          "scrollHeight": 169,
+          "clientHeight": 1
+        }
+      ],
+      "raiz": "DOM_principal",
+      "toleranciaCssPx": 1
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "estado": "texto-200-css",
+    "painelFechado": true,
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 0,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "ocorrenciasAxe": {
+    "violations": 0,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 1280,
+      "windowHeight": 720,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-08T00:33:57.765Z",
+    "url": "https://niteroi.rj.gov.br/",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "meta-viewport"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [],
+    "passes": [
+      {
+        "id": "meta-viewport",
+        "impact": null,
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag2aa",
+          "wcag144",
+          "EN-301-549",
+          "EN-9.1.4.4",
+          "ACT",
+          "RGAAv4",
+          "RGAA-10.4.2"
+        ],
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/meta-viewport?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "meta-viewport",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "<meta> tag does not disable zooming on mobile devices"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "target": [
+              "meta[name=\"viewport\"]"
+            ]
+          }
+        ]
+      }
+    ],
+    "incomplete": [],
+    "violations": []
+  },
+  "screenshots": [
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-1.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-2.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-3.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-4.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-5.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-6.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-7.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-8.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-9.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-10.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-11.png",
+    "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-12.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 7335,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-10.png",
+        "scrollTop": 5508
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-11.png",
+        "scrollTop": 6120
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-home-chromium-texto-200-css-trecho-12.png",
+        "scrollTop": 6513
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T00:33:58.037Z"
+}

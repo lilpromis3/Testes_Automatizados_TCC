@@ -1,0 +1,226 @@
+{
+  "criterio": "1.4.4",
+  "nome": "Resize Text",
+  "inicio": "2026-11-07T20:38:36.977Z",
+  "url": "https://egov.saquarema.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag144",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "meta-viewport"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://egov.saquarema.rj.gov.br/"
+    },
+    "comunicadoFechado": true,
+    "tutorial": {
+      "exibido": true,
+      "dispensado": true,
+      "metodo": "Escape"
+    },
+    "formulario": {
+      "unidade": "1 | PMS",
+      "tipo": "1 | Processo Eletrônico",
+      "numero": "",
+      "url": "https://egov.saquarema.rj.gov.br/adm/openform.do?sys=PRO&action=openform&formID=7175",
+      "enviado": false
+    },
+    "perfil": "padrao_sem_ajustes_assistivos",
+    "escopo": {
+      "caminhoFrames": [
+        "#myIframe",
+        "iframe[name=\"mainform\"]",
+        "body"
+      ],
+      "descricao": "Documento do formulário aberto; exclui o catálogo externo do e-Gov."
+    },
+    "redimensionamento": {
+      "metodo": "zoom_nativo_chromium_tabs_setZoom",
+      "fator": 2,
+      "zoomNativoExecutado": true,
+      "zoomConfirmado": 2,
+      "antes": {
+        "pagina": {
+          "larguraCss": 1280,
+          "alturaCss": 720,
+          "devicePixelRatio": 1,
+          "escalaVisual": 1
+        },
+        "formulario": {
+          "fonteCssPx": 37.28,
+          "larguraCss": 1092,
+          "alturaCss": 758,
+          "devicePixelRatio": 1
+        }
+      },
+      "depois": {
+        "pagina": {
+          "larguraCss": 640,
+          "alturaCss": 360,
+          "devicePixelRatio": 2,
+          "escalaVisual": 1
+        },
+        "formulario": {
+          "fonteCssPx": 28.28,
+          "larguraCss": 492,
+          "alturaCss": 758,
+          "devicePixelRatio": 2
+        }
+      },
+      "referencia": "https://www.w3.org/WAI/WCAG22/Techniques/general/G142",
+      "observacao": "Zoom da página inteira. O font-size não é alterado pelo teste; media queries do site podem mudar os tamanhos CSS."
+    },
+    "layout": {
+      "larguraViewport": 492,
+      "larguraDocumento": 492,
+      "rolagemHorizontal": false,
+      "candidatosRecorte": [],
+      "raiz": "iframe_do_formulario",
+      "toleranciaCssPx": 1
+    },
+    "zoomAposCaptura": {
+      "pagina": {
+        "larguraCss": 640,
+        "alturaCss": 360,
+        "devicePixelRatio": 2,
+        "escalaVisual": 1
+      },
+      "formulario": {
+        "fonteCssPx": 28.28,
+        "larguraCss": 492,
+        "alturaCss": 758,
+        "devicePixelRatio": 2
+      }
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "estado": "zoom-nativo-200",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 0,
+    "passes": 0,
+    "incomplete": 0,
+    "inapplicable": 1
+  },
+  "ocorrenciasAxe": {
+    "violations": 0,
+    "passes": 0,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 640,
+      "windowHeight": 360,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-07T20:38:56.850Z",
+    "url": "https://egov.saquarema.rj.gov.br/",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "meta-viewport"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [
+      {
+        "id": "meta-viewport",
+        "impact": null,
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag2aa",
+          "wcag144",
+          "EN-301-549",
+          "EN-9.1.4.4",
+          "ACT",
+          "RGAAv4",
+          "RGAA-10.4.2"
+        ],
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/meta-viewport?application=playwright",
+        "nodes": []
+      }
+    ],
+    "passes": [],
+    "incomplete": [],
+    "violations": []
+  },
+  "screenshots": [
+    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-07T20-38-36-977Z-zoom-nativo-200-trecho-1.png",
+    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-07T20-38-36-977Z-zoom-nativo-200-trecho-2.png",
+    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-07T20-38-36-977Z-zoom-nativo-200-trecho-3.png",
+    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-07T20-38-36-977Z-zoom-nativo-200-trecho-4.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_zoom_nativo_sem_redimensionar_janela",
+    "geometria": {
+      "top": 589.96875,
+      "height": 758,
+      "available": 280,
+      "nav": 68,
+      "viewportCss": {
+        "width": 640,
+        "height": 360
+      },
+      "scroll": 435
+    },
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-07T20-38-36-977Z-zoom-nativo-200-trecho-1.png",
+        "scrollExterno": 516,
+        "scrollInterno": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-07T20-38-36-977Z-zoom-nativo-200-trecho-2.png",
+        "scrollExterno": 754,
+        "scrollInterno": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-07T20-38-36-977Z-zoom-nativo-200-trecho-3.png",
+        "scrollExterno": 992,
+        "scrollInterno": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-07T20-38-36-977Z-zoom-nativo-200-trecho-4.png",
+        "scrollExterno": 994,
+        "scrollInterno": 0
+      }
+    ]
+  },
+  "fim": "2026-11-07T20:38:57.298Z"
+}

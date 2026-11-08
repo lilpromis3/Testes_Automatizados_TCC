@@ -1,0 +1,449 @@
+{
+  "criterio": "1.4.3",
+  "nome": "Contrast (Minimum)",
+  "inicio": "2026-11-07T20:09:32.711Z",
+  "url": "https://egov.saquarema.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag143",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "color-contrast"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://egov.saquarema.rj.gov.br/"
+    },
+    "comunicadoFechado": true,
+    "tutorial": {
+      "exibido": true,
+      "dispensado": true,
+      "metodo": "Escape"
+    },
+    "formulario": {
+      "unidade": "1 | PMS",
+      "tipo": "1 | Processo Eletrônico",
+      "numero": "",
+      "url": "https://egov.saquarema.rj.gov.br/adm/openform.do?sys=PRO&action=openform&formID=7175",
+      "enviado": false
+    },
+    "perfil": "padrao_sem_ajustes_assistivos",
+    "escopo": {
+      "caminhoFrames": [
+        "#myIframe",
+        "iframe[name=\"mainform\"]",
+        "body"
+      ],
+      "descricao": "Documento do formulário aberto; exclui o catálogo externo do e-Gov."
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "estado": "formulario-parcialmente-preenchido-padrao",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 1,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "ocorrenciasAxe": {
+    "violations": 1,
+    "passes": 8,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [
+    {
+      "categoria": "violations",
+      "regra": "color-contrast",
+      "tagsDaRegra": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "alvo": [
+        "#myIframe",
+        "iframe",
+        "h6"
+      ],
+      "html": "<h6 style=\"color:red;\" data-tcc-base-font-size=\"15.2\"><i class=\"fas fa-exclamation-circle\" data-tcc-base-font-size=\"15.2\"></i> Todos os campos acima são obrigatórios.</h6>",
+      "mensagem": "Elements must meet minimum color contrast ratio thresholds",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 11.4pt (15.2px), font weight: normal). Expected contrast ratio of 4.5:1",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright"
+    }
+  ],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 1280,
+      "windowHeight": 720,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-07T20:09:51.283Z",
+    "url": "https://egov.saquarema.rj.gov.br/",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "color-contrast"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [],
+    "passes": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#212529",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 15.42,
+                  "fontSize": "10.3pt (13.68px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 15.42"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"text-truncate\" data-tcc-base-font-size=\"13.68\">Consulta&nbsp;Documento</span>",
+            "target": [
+              "#myIframe",
+              "iframe",
+              "#tabButton0 > .text-truncate"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#212529",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 15.42,
+                  "fontSize": "28.0pt (37.28px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 15.42"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<h1 data-tcc-base-font-size=\"37.28\"><i class=\"fas fa-search\" data-tcc-base-font-size=\"37.28\"></i> Consulta de Documentos</h1>",
+            "target": [
+              "#myIframe",
+              "iframe",
+              "h1"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#212529",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 15.42,
+                  "fontSize": "10.3pt (13.68px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 15.42"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<label class=\"form-label top\" for=\"WFRInput1136235\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\" data-tcc-base-font-size=\"13.68\">Unidade Protocoladora <span style=\"color:red;\" data-tcc-base-font-size=\"13.68\">*</span></label>",
+            "target": [
+              "#myIframe",
+              "iframe",
+              "label[for=\"WFRInput1136235\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#212529",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 15.42,
+                  "fontSize": "11.4pt (15.2px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 15.42"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<input class=\"form-control\" id=\"WFRInput1136235\" name=\"WFRInput1136235Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\" data-tcc-base-font-size=\"15.2\">",
+            "target": [
+              "#myIframe",
+              "iframe",
+              "#WFRInput1136235"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#212529",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 15.42,
+                  "fontSize": "10.3pt (13.68px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 15.42"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<label class=\"form-label top\" for=\"WFRInput1136236\" data-tcc-base-font-size=\"13.68\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">Tipo de Documento <span style=\"color:red;\" data-tcc-base-font-size=\"13.68\">*</span></label>",
+            "target": [
+              "#myIframe",
+              "iframe",
+              "label[for=\"WFRInput1136236\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#212529",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 15.42,
+                  "fontSize": "11.4pt (15.2px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 15.42"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<input class=\"form-control\" id=\"WFRInput1136236\" name=\"WFRInput1136236Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\" data-tcc-base-font-size=\"15.2\">",
+            "target": [
+              "#myIframe",
+              "iframe",
+              "#WFRInput1136236"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#212529",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 15.42,
+                  "fontSize": "10.3pt (13.68px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 15.42"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<label class=\"form-label top\" for=\"WFRInput1136234\" data-tcc-base-font-size=\"13.68\" style=\"white-space: pre; bottom: calc(100% + 0.25rem);\">N º Doc. (Ex: 400/2026) <span style=\"color:red;\" data-tcc-base-font-size=\"13.68\">*</span></label>",
+            "target": [
+              "#myIframe",
+              "iframe",
+              "label[for=\"WFRInput1136234\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#212529",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 15.42,
+                  "fontSize": "11.4pt (15.2px)",
+                  "fontWeight": "normal",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has sufficient color contrast of 15.42"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<input class=\"form-control\" type=\"text\" autocomplete=\"on\" name=\"WFRInput1136234\" id=\"WFRInput1136234\" style=\"height: 35px; text-decoration: none;\" data-tcc-base-font-size=\"15.2\">",
+            "target": [
+              "#myIframe",
+              "iframe",
+              "#WFRInput1136234"
+            ]
+          }
+        ]
+      }
+    ],
+    "incomplete": [],
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ff0000",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.99,
+                  "fontSize": "11.4pt (15.2px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"card shadow p-3 mb-5 bg-body rounded\" webrun-type=\"HTMLContainer\" id=\"MakerContainer3\" data-tcc-base-font-size=\"15.2\" style=\"left: 1.24417%; top: 24px; width: 97.7449%; height: 625px; min-height: 625px; z-index: 0;\">",
+                    "target": [
+                      "#myIframe",
+                      "iframe",
+                      "#MakerContainer3"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 11.4pt (15.2px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<h6 style=\"color:red;\" data-tcc-base-font-size=\"15.2\"><i class=\"fas fa-exclamation-circle\" data-tcc-base-font-size=\"15.2\"></i> Todos os campos acima são obrigatórios.</h6>",
+            "target": [
+              "#myIframe",
+              "iframe",
+              "h6"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 11.4pt (15.2px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  "screenshots": [
+    "Screenshots/1.4.3-saquarema-protocolo-chromium-2026-11-07T20-09-32-711Z-formulario-parcialmente-preenchido-padrao-trecho-1.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "iframe_por_trechos_da_rolagem_interna",
+    "geometria": {
+      "top": 0,
+      "height": 758,
+      "viewport": 758
+    },
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.3-saquarema-protocolo-chromium-2026-11-07T20-09-32-711Z-formulario-parcialmente-preenchido-padrao-trecho-1.png",
+        "scrollTop": 0
+      }
+    ]
+  },
+  "fim": "2026-11-07T20:09:51.748Z"
+}
