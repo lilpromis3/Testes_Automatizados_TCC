@@ -90,7 +90,6 @@ Testes_Automatizados_TCC/
 ├── playwright.config.ts
 ├── tsconfig.json
 ├── scripts/
-│   ├── relatorio-saquarema.cjs
 │   └── diagnostico-handtalk.cjs
 └── tests/
     ├── Saquarema/
