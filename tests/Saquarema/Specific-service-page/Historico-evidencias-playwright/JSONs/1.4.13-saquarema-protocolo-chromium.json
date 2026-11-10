@@ -1,0 +1,87 @@
+{
+  "criterio": "1.4.13",
+  "nome": "Content on Hover or Focus",
+  "inicio": "2026-11-08T14:56:08.242Z",
+  "url": "https://egov.saquarema.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1413",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://egov.saquarema.rj.gov.br/"
+    },
+    "comunicadoFechado": true,
+    "tutorial": {
+      "exibido": true,
+      "dispensado": true,
+      "metodo": "Escape"
+    },
+    "formulario": {
+      "unidade": "1 | PMS",
+      "tipo": "1 | Processo Eletrônico",
+      "numero": "",
+      "url": "https://egov.saquarema.rj.gov.br/adm/openform.do?sys=PRO&action=openform&formID=7175",
+      "enviado": false
+    },
+    "perfil": "padrao_sem_ajustes_assistivos",
+    "escopo": {
+      "caminhoFrames": [
+        "#myIframe",
+        "iframe[name=\"mainform\"]",
+        "body"
+      ],
+      "descricao": "Documento do formulário aberto; exclui o catálogo externo do e-Gov."
+    },
+    "hover": {
+      "seletor": "[aria-haspopup=\"true\"], [aria-haspopup=\"menu\"], [aria-describedby], [title]:not(iframe):not(script):not(style)",
+      "indice": 0,
+      "gatilho": "<a id=\"tabButton0\" href=\"#tab0\" class=\"nav-link mb-0 overflow-hidden w-auto outline-0 px-3 py-1 active\" title=\"Consulta Documento\" role=\"tab\" data-bs-toggle=\"tab\" aria-controls=\"tab0\" aria-selected=\"true\" style=\"font-size: 0.9rem; text-overflow: ellipsis;\"><span class=\"text-truncate\">Consulta&nbsp;Documento</span></a>",
+      "popupsVisiveisAntes": 0,
+      "popupsVisiveisDepois": 0,
+      "esperaMs": 350,
+      "observacao": "A detecção por atributos não cobre todos os conteúdos exibidos por CSS ou JavaScript."
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "hover-formulario",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.13-saquarema-protocolo-chromium-2026-11-08T14-56-08-242Z-hover-formulario-trecho-1.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewport_estado_interacao_ou_erro",
+    "geometria": {
+      "top": 0,
+      "height": 758,
+      "viewport": 758
+    },
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.13-saquarema-protocolo-chromium-2026-11-08T14-56-08-242Z-hover-formulario-trecho-1.png",
+        "scrollTop": 0
+      }
+    ]
+  },
+  "fim": "2026-11-08T14:56:14.973Z"
+}

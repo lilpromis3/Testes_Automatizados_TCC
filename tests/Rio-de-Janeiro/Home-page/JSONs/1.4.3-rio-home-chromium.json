@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.3",
   "nome": "Contrast (Minimum)",
-  "inicio": "2026-11-08T14:23:11.611Z",
+  "inicio": "2026-11-09T14:03:25.737Z",
   "url": "https://prefeitura.rio",
   "ambiente": {
     "navegador": "chromium",
@@ -18,8 +18,8 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
-      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+      "criteriosSemRegraAxe": "nao_avaliados_sem_varredura_axe_ou_verificacao_playwright",
+      "revisaoManual": "A avaliação manual está fora do escopo desta suíte; ausência de achados não certifica conformidade."
     },
     "http": {
       "status": 200,
@@ -2095,7 +2095,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:23:24.671Z",
+    "timestamp": "2026-11-09T14:03:38.927Z",
     "url": "https://prefeitura.rio/",
     "toolOptions": {
       "resultTypes": [
@@ -2828,7 +2828,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<h3 data-tcc-base-font-size=\"22\">Município lança duas linhas de Conexão BRT na Ilha do Governador. Confira</h3>",
+            "html": "<h3 data-tcc-base-font-size=\"22\">Prefeitura acompanha obras contra enchentes em diferentes regiões e anuncia novas intervenções</h3>",
             "target": [
               ".post-thumbnail-large-2 > a[data-tcc-base-font-size=\"20\"][role=\"link\"]:nth-child(1) > h3[data-tcc-base-font-size=\"22\"]"
             ]
@@ -2853,7 +2853,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<h3 data-tcc-base-font-size=\"22\">Prefeitura do Rio convoca 2 mil motoristas auxiliares para habilitação de novas autorizações de táxi</h3>",
+            "html": "<h3 data-tcc-base-font-size=\"22\">Município lança duas linhas de Conexão BRT na Ilha do Governador. Confira</h3>",
             "target": [
               ".post-thumbnail-large-1 > a[data-tcc-base-font-size=\"20\"][role=\"link\"]:nth-child(1) > h3[data-tcc-base-font-size=\"22\"]"
             ]
@@ -2903,7 +2903,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<h3 data-tcc-base-font-size=\"18\">Rede municipal premia 1.373 alunos no Canguru de Matemática 2026</h3>",
+            "html": "<h3 data-tcc-base-font-size=\"18\">Dois mil motoristas auxiliares são convocados para habilitação de novas autorizações de táxi</h3>",
             "target": [
               ".little-post-faz-1 > .wrapper-little-post > .title-post.col-xs-8 > a[data-tcc-base-font-size=\"20\"][role=\"link\"] > h3[data-tcc-base-font-size=\"18\"]"
             ]
@@ -2953,7 +2953,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<h3 data-tcc-base-font-size=\"18\">Inscritos no Enem terão transporte gratuito nos dias de prova</h3>",
+            "html": "<h3 data-tcc-base-font-size=\"18\">Rede municipal premia 1.373 alunos no Canguru de Matemática 2026</h3>",
             "target": [
               ".little-post-faz-2 > .wrapper-little-post > .title-post.col-xs-8 > a[data-tcc-base-font-size=\"20\"][role=\"link\"] > h3[data-tcc-base-font-size=\"18\"]"
             ]
@@ -5655,5 +5655,5 @@
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T14:23:24.950Z"
+  "fim": "2026-11-09T14:03:39.212Z"
 }

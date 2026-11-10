@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.4",
   "nome": "Resize Text",
-  "inicio": "2026-11-08T14:55:41.410Z",
+  "inicio": "2026-11-09T14:07:35.888Z",
   "url": "https://egov.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -140,7 +140,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:55:49.272Z",
+    "timestamp": "2026-11-09T14:07:44.423Z",
     "url": "https://egov.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -182,10 +182,10 @@
     "violations": []
   },
   "screenshots": [
-    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-08T14-55-41-410Z-zoom-nativo-200-trecho-1.png",
-    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-08T14-55-41-410Z-zoom-nativo-200-trecho-2.png",
-    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-08T14-55-41-410Z-zoom-nativo-200-trecho-3.png",
-    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-08T14-55-41-410Z-zoom-nativo-200-trecho-4.png"
+    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-09T14-07-35-888Z-zoom-nativo-200-trecho-1.png",
+    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-09T14-07-35-888Z-zoom-nativo-200-trecho-2.png",
+    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-09T14-07-35-888Z-zoom-nativo-200-trecho-3.png",
+    "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-09T14-07-35-888Z-zoom-nativo-200-trecho-4.png"
   ],
   "erros": [],
   "captura": {
@@ -203,26 +203,26 @@
     },
     "trechos": [
       {
-        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-08T14-55-41-410Z-zoom-nativo-200-trecho-1.png",
+        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-09T14-07-35-888Z-zoom-nativo-200-trecho-1.png",
         "scrollExterno": 516,
         "scrollInterno": 0
       },
       {
-        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-08T14-55-41-410Z-zoom-nativo-200-trecho-2.png",
+        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-09T14-07-35-888Z-zoom-nativo-200-trecho-2.png",
         "scrollExterno": 754,
         "scrollInterno": 0
       },
       {
-        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-08T14-55-41-410Z-zoom-nativo-200-trecho-3.png",
+        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-09T14-07-35-888Z-zoom-nativo-200-trecho-3.png",
         "scrollExterno": 992,
         "scrollInterno": 0
       },
       {
-        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-08T14-55-41-410Z-zoom-nativo-200-trecho-4.png",
+        "arquivo": "Screenshots/1.4.4-saquarema-protocolo-chromium-2026-11-09T14-07-35-888Z-zoom-nativo-200-trecho-4.png",
         "scrollExterno": 994,
         "scrollInterno": 0
       }
     ]
   },
-  "fim": "2026-11-08T14:55:49.626Z"
+  "fim": "2026-11-09T14:07:44.826Z"
 }

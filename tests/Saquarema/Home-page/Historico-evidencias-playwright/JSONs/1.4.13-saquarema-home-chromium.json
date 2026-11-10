@@ -1,0 +1,74 @@
+{
+  "criterio": "1.4.13",
+  "nome": "Content on Hover or Focus",
+  "inicio": "2026-11-08T14:49:28.983Z",
+  "url": "https://www.saquarema.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1413",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://www.saquarema.rj.gov.br/"
+    },
+    "carregamento": {
+      "imagens": 16,
+      "alturaPercorrida": 3032,
+      "imagensNaoCarregadas": []
+    },
+    "perfil": "vision",
+    "hover": {
+      "seletor": "nav li:has(> ul)",
+      "indice": 1,
+      "gatilho": "SERVIÇOS",
+      "visivelAntes": false,
+      "visivelNaPreparacao": true,
+      "esperaMs": 350
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "primeiro-submenu-visivel-hover-widget-fechado",
+    "painelFechado": true,
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "widget": {
+      "preferencias": {
+        "profile": "vision",
+        "on": {
+          "headings": true,
+          "links": true,
+          "cursor": true
+        },
+        "contrast": 1,
+        "align": 0,
+        "size": 2,
+        "lh": 0,
+        "ls": 0
+      },
+      "classes": "ra-fx-ready ra-c-high ra-links ra-headings ra-cursor",
+      "painelAberto": false
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.13-chromium-2026-11-08T14-49-28-983Z-primeiro-submenu-visivel-hover-widget-fechado.png"
+  ],
+  "erros": [],
+  "fim": "2026-11-08T14:49:31.963Z"
+}

@@ -245,44 +245,6 @@ async function prepareSpacing(page: Page, report: Report) {
   report.preparacao.layout = await layout(page);
 }
 
-async function prepareHover(page: Page, report: Report) {
-  const menus = page.locator('nav li:has(> ul)');
-  for (let i = 0; i < await menus.count(); i++) {
-    const trigger = menus.nth(i).locator(':scope > a').first();
-    if (!await trigger.isVisible()) continue;
-    const popup = menus.nth(i).locator(':scope > ul').first();
-    const before = await popup.isVisible();
-    await trigger.hover();
-    await page.waitForTimeout(350);
-    report.preparacao.hover = { seletor: 'nav li:has(> ul)', indice: i, gatilho: await trigger.innerText(),
-      visivelAntes: before, visivelNaPreparacao: await popup.isVisible(), esperaMs: 350 };
-    return;
-  }
-  report.preparacao.hover = { seletor: 'nav li:has(> ul)', gatilhoVisivelEncontrado: false };
-}
-
-async function prepareFocus(page: Page, report: Report) {
-  const surface = await scrollingSurface(page);
-  await surface.evaluate(el => { el.scrollTop = 0; });
-  await page.evaluate(() => {
-    (document.activeElement as HTMLElement)?.blur();
-    document.body.setAttribute('tabindex', '-1');
-    document.body.focus();
-    document.body.removeAttribute('tabindex');
-  });
-  await page.keyboard.press('Tab');
-  await settle(page);
-  report.preparacao.foco = await page.evaluate(() => {
-    let el = document.activeElement as HTMLElement | null;
-    while (el?.shadowRoot?.activeElement) el = el.shadowRoot.activeElement as HTMLElement;
-    if (!el || el === document.body) return { elementoAlcancado: false };
-    const s = getComputedStyle(el), r = el.getBoundingClientRect();
-    return { elementoAlcancado: true, metodo: 'primeiro_Tab', html: el.outerHTML.slice(0, 600),
-      focoVisivelPseudoClasse: el.matches(':focus-visible'), outline: s.outline, boxShadow: s.boxShadow,
-      retangulo: { x: r.x, y: r.y, largura: r.width, altura: r.height }, medicaoDePixelsExecutada: false };
-  });
-}
-
 async function evaluateCriterion(criterion: typeof criteria[number][0], page: Page, info: TestInfo) {
   const [, name] = criteria.find(([id]) => id === criterion)!;
   await mkdir(path.join(ROOT, 'JSONs'), { recursive: true });
@@ -297,59 +259,37 @@ async function evaluateCriterion(criterion: typeof criteria[number][0], page: Pa
     analise: { varredurasExecutadas: 0, escopo: 'criterio', coberturaAxe: rules.length ? 'parcial' : 'sem_regras',
       limitacao: rules.length
         ? 'As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.'
-        : 'Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.',
+        : 'Sem regra axe associada ao critério nesta versão. A acessibilidade deste critério não foi verificada nesta avaliação automatizada.',
       estado: 'baixa-visao-widget-fechado' },
     resumoAxe: null, ocorrenciasAxe: null, localizacaoDosAchados: [], axe: null, screenshots: [], erros: [],
   };
 
   try {
+
+    if (!rules.length) {
+      report.statusExecucao = 'nao_avaliado_sem_regra_axe';
+      report.analise.estado = 'nao_avaliado';
+      info.skip(true, report.analise.limitacao);
+    }
     report.preparacao.limitesDaAvaliacao = {
       resultado: 'coleta_de_evidencias_nao_certifica_conformidade',
-      criteriosSemRegraAxe: 'somente_evidencias_especificas_sem_executar_axe',
-      revisaoManual: 'Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação.',
+      criteriosSemRegraAxe: 'nao_avaliados_sem_varredura_axe_ou_verificacao_playwright',
+      revisaoManual: 'A avaliação manual está fora do escopo desta suíte; ausência de achados não certifica conformidade.',
     };
     await prepare(page, report);
     if (criterion === '1.4.4') {
       await prepareResize(page, report);
       report.analise.estado = 'texto-maximo-widget';
-    } else if (criterion === '1.4.10') {
-      await page.setViewportSize({ width: 320, height: 720 });
-      await settle(page);
-      report.preparacao.layout = await layout(page);
-      report.analise.estado = 'reflow-320';
     } else if (criterion === '1.4.12') {
       await prepareSpacing(page, report);
       report.analise.estado = 'quatro-espacamentos';
-    } else if (criterion === '1.4.13') {
-      await prepareHover(page, report);
-      report.analise.estado = 'inspecao-hover';
-    } else if (criterion === '2.4.7' || criterion === '2.4.13') {
-      await prepareFocus(page, report);
-      report.analise.estado = 'primeiro-tab';
-    } else if (criterion === '2.4.6') {
-      report.preparacao.titulosERotulos = await page.locator('h1,h2,h3,h4,h5,h6,label,input,select,textarea,button')
-        .evaluateAll(elements => elements.filter(el => el.getClientRects().length).map(el => ({
-          html: el.outerHTML.slice(0, 500), texto: el.textContent?.trim(), ariaLabel: el.getAttribute('aria-label'),
-          ariaLabelledby: el.getAttribute('aria-labelledby'),
-        })));
-    } else if (criterion === '1.4.11') {
-      report.preparacao.componentesGraficos = await page.locator('a,button,input,select,textarea,[role="button"],svg')
-        .evaluateAll(elements => elements.filter(el => el.getClientRects().length).map(el => {
-          const s = getComputedStyle(el);
-          return { html: el.outerHTML.slice(0, 300), cor: s.color, fundo: s.backgroundColor, borda: s.border, preenchimento: s.fill };
-        }));
     }
 
     await settle(page);
     await verifyPrepared(page, report);
     report.analise.viewport = page.viewportSize();
-    await screenshot(page, info, report, report.analise.estado, !['1.4.13', '2.4.7', '2.4.13'].includes(criterion));
+    await screenshot(page, info, report, report.analise.estado, true);
     await verifyPrepared(page, report);
-    // Uma lista vazia não pode cair na análise padrão (geral) do axe.
-    if (!rules.length) {
-      report.statusExecucao = 'coleta_concluida_sem_cobertura_axe';
-      return;
-    }
     let builder = new AxeBuilder({ page }).options({ resultTypes: [...categories] });
     builder = builder.withRules(rules);
 
@@ -369,6 +309,8 @@ async function evaluateCriterion(criterion: typeof criteria[number][0], page: Pa
       }))));
     report.statusExecucao = 'coleta_concluida';
   } catch (error) {
+    // O skip mantém o registro de não avaliação e segue para o finally.
+    if (!rules.length) throw error;
     report.statusExecucao = 'erro_de_execucao_ou_precondicao';
     report.erros.push(error instanceof Error ? error.stack || error.message : String(error));
     if (!page.isClosed()) await screenshot(page, info, report, 'erro', false).catch(e => report.erros.push(String(e)));

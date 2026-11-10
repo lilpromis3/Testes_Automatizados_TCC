@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.4",
   "nome": "Resize Text",
-  "inicio": "2026-11-08T14:50:01.581Z",
+  "inicio": "2026-11-09T14:06:58.146Z",
   "url": "https://saquarema.colab.re",
   "ambiente": {
     "navegador": "chromium",
@@ -25,8 +25,8 @@
       "categoriaConfirmada": "Desenvolvimento Econômico"
     },
     "carregamento": {
-      "imagens": 26,
-      "alturaPercorrida": 3230,
+      "imagens": 23,
+      "alturaPercorrida": 3261,
       "superficieRolagem": "BODY",
       "imagensNaoCarregadas": []
     },
@@ -91,7 +91,7 @@
         "rotulo": "Ativar Estilo de Texto, 3 opções"
       },
       "verificacaoFamiliasDeFonte": {
-        "elementosMedidos": 235,
+        "elementosMedidos": 209,
         "alteracoes": []
       },
       "controlesAposFechar": [
@@ -146,7 +146,7 @@
       "metodo": "font_size_inline",
       "fator": 2,
       "referencia": "tamanho_computado_antes_do_widget",
-      "elementosMedidos": 232,
+      "elementosMedidos": 206,
       "zoomNativoExecutado": false
     },
     "layout": {
@@ -255,7 +255,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:50:12.250Z",
+    "timestamp": "2026-11-09T14:07:09.281Z",
     "url": "https://saquarema.colab.re/",
     "toolOptions": {
       "resultTypes": [
@@ -402,5 +402,5 @@
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T14:50:12.455Z"
+  "fim": "2026-11-09T14:07:09.484Z"
 }

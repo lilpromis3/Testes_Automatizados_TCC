@@ -1,0 +1,96 @@
+{
+  "criterio": "1.4.10",
+  "nome": "Reflow",
+  "inicio": "2026-11-08T14:49:17.879Z",
+  "url": "https://www.saquarema.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1410",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://www.saquarema.rj.gov.br/"
+    },
+    "carregamento": {
+      "imagens": 16,
+      "alturaPercorrida": 3234,
+      "imagensNaoCarregadas": []
+    },
+    "perfil": "vision",
+    "layout": {
+      "larguraViewport": 320,
+      "larguraDocumento": 320,
+      "rolagemHorizontal": false,
+      "candidatosRecorte": [
+        {
+          "html": "<div class=\"c-content-box\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"><div class=\"article-list-inner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"><i class=\"ico-shadow tp tp-text\" data-ra-fs=\"120\" data-ra-fs-in=\"\" style=\"font-size: 150px !important;\"></i><h2 class=\"article-list-title\" data-ra-fs=\"24\" data-ra-fs-in=\"\" style=\"font-size: 30px !importa",
+          "scrollWidth": 330,
+          "clientWidth": 290,
+          "scrollHeight": 885,
+          "clientHeight": 885
+        },
+        {
+          "html": "<div class=\"c-content-box\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\">\n<div class=\"article-list-inner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"><i class=\"ico-shadow fa fa-youtube\" data-ra-fs=\"120\" data-ra-fs-in=\"\" style=\"font-size: 150px !important;\"></i><p data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"></p>\n<h2 class=\"art",
+          "scrollWidth": 330,
+          "clientWidth": 290,
+          "scrollHeight": 302,
+          "clientHeight": 302
+        },
+        {
+          "html": "<div class=\"grecaptcha-badge\" data-style=\"bottomright\" style=\"width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden; font-size: 20px !important;\" data-ra-fs=\"16\" data-ra-fs-in=\"\"><div class=\"grecaptcha-logo\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !importan",
+          "scrollWidth": 256,
+          "clientWidth": 256,
+          "scrollHeight": 153,
+          "clientHeight": 60
+        }
+      ],
+      "raiz": "DOM_principal",
+      "toleranciaCssPx": 1
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "reflow-320-widget-fechado",
+    "painelFechado": true,
+    "viewport": {
+      "width": 320,
+      "height": 720
+    },
+    "widget": {
+      "preferencias": {
+        "profile": "vision",
+        "on": {
+          "headings": true,
+          "links": true,
+          "cursor": true
+        },
+        "contrast": 1,
+        "align": 0,
+        "size": 2,
+        "lh": 0,
+        "ls": 0
+      },
+      "classes": "ra-fx-ready ra-c-high ra-links ra-headings ra-cursor",
+      "painelAberto": false
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.10-chromium-2026-11-08T14-49-17-879Z-reflow-320-widget-fechado.png"
+  ],
+  "erros": [],
+  "fim": "2026-11-08T14:49:21.577Z"
+}

@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.12",
   "nome": "Text Spacing",
-  "inicio": "2026-11-08T14:49:24.513Z",
+  "inicio": "2026-11-09T14:06:32.929Z",
   "url": "https://www.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -22,7 +22,7 @@
     },
     "carregamento": {
       "imagens": 16,
-      "alturaPercorrida": 3234,
+      "alturaPercorrida": 3032,
       "imagensNaoCarregadas": []
     },
     "perfil": "vision",
@@ -50,8 +50,8 @@
           "html": "<div class=\"c-content-box\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\" data-tcc-spacing=\"\"><div class=\"article-list-inner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\" data-tcc-spacing=\"\"><i class=\"ico-shadow tp tp-text\" data-ra-fs=\"120\" data-ra-fs-in=\"\" style=\"font-size: 150px !important;\"></i><h2 class=\"article-list-title\" data-ra-fs=\"24\" data-ra-",
           "scrollWidth": 625,
           "clientWidth": 595,
-          "scrollHeight": 754,
-          "clientHeight": 754
+          "scrollHeight": 780,
+          "clientHeight": 780
         },
         {
           "html": "<div class=\"c-content-box\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\" data-tcc-spacing=\"\">\n<div class=\"article-list-inner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\" data-tcc-spacing=\"\"><i class=\"ico-shadow fa fa-youtube\" data-ra-fs=\"120\" data-ra-fs-in=\"\" style=\"font-size: 150px !important;\"></i><p data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-siz",
@@ -129,7 +129,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:49:28.108Z",
+    "timestamp": "2026-11-09T14:06:36.393Z",
     "url": "https://www.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -2238,7 +2238,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a href=\"https://www.saquarema.rj.gov.br/prefeitura-vai-iniciar-cadastro-unificado-das-creches-para-2027/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">Prefeitura vai iniciar Cadastro Unificado das Creches para 2027</a>",
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/prefeitura-de-saquarema-atua-com-equipes-de-diversas-secretarias-para-atender-populacao-apos-fortes-chuvas/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">",
             "target": [
               "article:nth-child(1) > .article-title > a"
             ]
@@ -2270,7 +2270,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"article-date\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\" data-tcc-spacing=\"\"><i class=\"fa fa-calendar\" aria-hidden=\"true\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"></i> 6/11</div>",
+            "html": "<div class=\"article-date\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\" data-tcc-spacing=\"\"><i class=\"fa fa-calendar\" aria-hidden=\"true\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"></i> 8/11</div>",
             "target": [
               "article:nth-child(1) > .article-date"
             ]
@@ -2366,7 +2366,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a href=\"https://www.saquarema.rj.gov.br/escolas-de-saquarema-sao-premiadas-por-acoes-voltadas-a-cultura-oceanica/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">Escolas de Saquarema são premiadas por ações voltadas à cultura oceânica</a>",
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/prefeitura-vai-iniciar-cadastro-unificado-das-creches-para-2027/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">Prefeitura vai iniciar Cadastro Unificado das Creches para 2027</a>",
             "target": [
               "article:nth-child(2) > .article-title > a"
             ]
@@ -2494,7 +2494,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a href=\"https://www.saquarema.rj.gov.br/saquarema-amplia-acesso-ao-diagnostico-e-tratamento-do-cancer-de-prostata/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">Saquarema amplia acesso ao diagnóstico e tratamento do câncer de próstata</a>",
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/escolas-de-saquarema-sao-premiadas-por-acoes-voltadas-a-cultura-oceanica/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">Escolas de Saquarema são premiadas por ações voltadas à cultura oceânica</a>",
             "target": [
               "article:nth-child(3) > .article-title > a"
             ]
@@ -2526,7 +2526,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"article-date\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\" data-tcc-spacing=\"\"><i class=\"fa fa-calendar\" aria-hidden=\"true\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"></i> 5/11</div>",
+            "html": "<div class=\"article-date\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\" data-tcc-spacing=\"\"><i class=\"fa fa-calendar\" aria-hidden=\"true\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"></i> 6/11</div>",
             "target": [
               "article:nth-child(3) > .article-date"
             ]
@@ -2622,7 +2622,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a href=\"https://www.saquarema.rj.gov.br/em-um-ano-de-geosaqua-saquarema-alia-royalties-e-inteligencia-geografica-no-planejamento-urbano/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">",
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/saquarema-amplia-acesso-ao-diagnostico-e-tratamento-do-cancer-de-prostata/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">Saquarema amplia acesso ao diagnóstico e tratamento do câncer de próstata</a>",
             "target": [
               "article:nth-child(4) > .article-title > a"
             ]
@@ -2750,7 +2750,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a href=\"https://www.saquarema.rj.gov.br/teatro-mario-lago-tera-dois-eventos-no-final-de-semana-em-saquarema-sendo-um-deles-gratuito/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">",
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/em-um-ano-de-geosaqua-saquarema-alia-royalties-e-inteligencia-geografica-no-planejamento-urbano/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">",
             "target": [
               "article:nth-child(5) > .article-title > a"
             ]
@@ -2878,7 +2878,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a href=\"https://www.saquarema.rj.gov.br/comunicado-inscricoes-para-o-concurso-de-remocao/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">COMUNICADO: Inscrições para o Concurso de Remoção</a>",
+            "html": "<a href=\"https://www.saquarema.rj.gov.br/teatro-mario-lago-tera-dois-eventos-no-final-de-semana-em-saquarema-sendo-um-deles-gratuito/\" data-ra-fs=\"14\" data-ra-fs-in=\"\" style=\"font-size: 17.5px !important;\" data-tcc-spacing=\"\">",
             "target": [
               "article:nth-child(6) > .article-title > a"
             ]
@@ -15370,8 +15370,8 @@
     "violations": []
   },
   "screenshots": [
-    "Screenshots/1.4.12-chromium-2026-11-08T14-49-24-513Z-quatro-espacamentos-widget-fechado.png"
+    "Screenshots/1.4.12-chromium-2026-11-09T14-06-32-929Z-quatro-espacamentos-widget-fechado.png"
   ],
   "erros": [],
-  "fim": "2026-11-08T14:49:28.844Z"
+  "fim": "2026-11-09T14:06:37.033Z"
 }

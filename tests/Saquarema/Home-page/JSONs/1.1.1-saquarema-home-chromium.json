@@ -1,7 +1,7 @@
 {
   "criterio": "1.1.1",
   "nome": "Non-text Content",
-  "inicio": "2026-11-08T14:49:07.211Z",
+  "inicio": "2026-11-09T14:06:22.482Z",
   "url": "https://www.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -28,7 +28,7 @@
     },
     "carregamento": {
       "imagens": 16,
-      "alturaPercorrida": 3032,
+      "alturaPercorrida": 3101,
       "imagensNaoCarregadas": []
     },
     "perfil": "vision"
@@ -90,7 +90,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:49:10.138Z",
+    "timestamp": "2026-11-09T14:06:25.294Z",
     "url": "https://www.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -422,8 +422,8 @@
     "violations": []
   },
   "screenshots": [
-    "Screenshots/1.1.1-chromium-2026-11-08T14-49-07-211Z-perfil-baixa-visao-widget-fechado.png"
+    "Screenshots/1.1.1-chromium-2026-11-09T14-06-22-482Z-perfil-baixa-visao-widget-fechado.png"
   ],
   "erros": [],
-  "fim": "2026-11-08T14:49:10.493Z"
+  "fim": "2026-11-09T14:06:25.683Z"
 }

@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.4",
   "nome": "Resize Text",
-  "inicio": "2026-11-08T14:47:59.829Z",
+  "inicio": "2026-11-09T14:02:42.135Z",
   "url": "https://processo.niteroi.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -18,8 +18,8 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
-      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+      "criteriosSemRegraAxe": "nao_avaliados_sem_varredura_axe_ou_verificacao_playwright",
+      "revisaoManual": "A avaliação manual está fora do escopo desta suíte; ausência de achados não certifica conformidade."
     },
     "http": {
       "status": 200,
@@ -137,7 +137,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:48:16.570Z",
+    "timestamp": "2026-11-09T14:02:58.951Z",
     "url": "https://processo.niteroi.rj.gov.br/#",
     "toolOptions": {
       "resultTypes": [
@@ -1137,5 +1137,5 @@
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T14:48:16.806Z"
+  "fim": "2026-11-09T14:02:59.190Z"
 }

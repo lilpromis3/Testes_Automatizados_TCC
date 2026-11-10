@@ -1,7 +1,7 @@
 {
   "criterio": "1.1.1",
   "nome": "Non-text Content",
-  "inicio": "2026-11-08T14:44:29.501Z",
+  "inicio": "2026-11-09T14:00:44.502Z",
   "url": "https://niteroi.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -24,8 +24,8 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
-      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+      "criteriosSemRegraAxe": "nao_avaliados_sem_varredura_axe_ou_verificacao_playwright",
+      "revisaoManual": "A avaliação manual está fora do escopo desta suíte; ausência de achados não certifica conformidade."
     },
     "http": {
       "status": 200,
@@ -123,6 +123,18 @@
         {
           "original": 13,
           "atual": 19
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 26,
+          "atual": 32
         },
         {
           "original": 26,
@@ -3599,7 +3611,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:44:42.296Z",
+    "timestamp": "2026-11-09T14:00:58.212Z",
     "url": "https://niteroi.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -4209,9 +4221,44 @@
               }
             ],
             "impact": null,
-            "html": "<img width=\"390\" height=\"220\" src=\"https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2025-02-01-at-10.49.52-1-390x220.jpeg\" class=\"attachment-jannah-image-large size-jannah-image-large wp-post-image\" alt=\"\" decoding=\"async\" fetchpriority=\"high\" data-tcc-base-font-size=\"13\">",
+            "html": "<img width=\"390\" height=\"220\" src=\"https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-15.39.30-1-1-390x220.jpeg\" class=\"attachment-jannah-image-large size-jannah-image-large wp-post-image\" alt=\"\" decoding=\"async\" fetchpriority=\"high\" data-tcc-base-font-size=\"13\">",
             "target": [
               "img[fetchpriority=\"high\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": {
+                  "role": "presentation"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were overridden with role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img width=\"390\" height=\"220\" src=\"https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2025-02-01-at-10.49.52-1-390x220.jpeg\" class=\"attachment-jannah-image-large size-jannah-image-large wp-post-image\" alt=\"\" decoding=\"async\" data-tcc-base-font-size=\"13\">",
+            "target": [
+              ".post-35232 > .post-thumb[role=\"link\"] > .attachment-jannah-image-large.size-jannah-image-large.wp-post-image"
             ]
           },
           {
@@ -4594,41 +4641,6 @@
               }
             ],
             "impact": null,
-            "html": "<img width=\"390\" height=\"220\" src=\"https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-10-29-at-14.58.49-1-390x220.jpeg\" class=\"attachment-jannah-image-large size-jannah-image-large wp-post-image\" alt=\"\" decoding=\"async\" data-tcc-base-font-size=\"13\">",
-            "target": [
-              ".post-35187 > .post-thumb[role=\"link\"] > .attachment-jannah-image-large.size-jannah-image-large.wp-post-image"
-            ]
-          },
-          {
-            "any": [
-              {
-                "id": "has-alt",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "alt-space-value",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element has a valid alt attribute value"
-              }
-            ],
-            "impact": null,
             "html": "<img src=\"https://niteroi.rj.gov.br/wp-content/uploads/2026/09/banners_BALCAO_GOV.png\" alt=\"\" width=\"729\" height=\"91\" data-tcc-base-font-size=\"13\">",
             "target": [
               "img[width=\"729\"]"
@@ -4859,5 +4871,5 @@
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T14:44:42.790Z"
+  "fim": "2026-11-09T14:00:58.662Z"
 }

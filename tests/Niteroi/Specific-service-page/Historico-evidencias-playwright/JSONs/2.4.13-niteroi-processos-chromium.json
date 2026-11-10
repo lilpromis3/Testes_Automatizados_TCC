@@ -1,0 +1,137 @@
+{
+  "criterio": "2.4.13",
+  "nome": "Focus Appearance",
+  "inicio": "2026-11-08T14:49:03.625Z",
+  "url": "https://processo.niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag2413",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://processo.niteroi.rj.gov.br/"
+    },
+    "formularioVisivelAntesDoAxe": true,
+    "animacoesDeEntrada": {
+      "metodo": "titulo_completo_opacidade_e_animacoes_finitas_concluidas",
+      "titulo": "Processo.Nit",
+      "tituloEsperado": "Processo.Nit",
+      "formulario": [
+        {
+          "tag": "INPUT",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "form-control animate-box fadeInUp animated-fast"
+        },
+        {
+          "tag": "SELECT",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "form-control animate-box fadeInUp animated-fast"
+        },
+        {
+          "tag": "BUTTON",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+        }
+      ]
+    },
+    "formulario": {
+      "abertoPor": "Localizar Processo",
+      "enviado": false,
+      "numero": "",
+      "ano": "2026",
+      "controles": [
+        "<input type=\"text\" required=\"\" class=\"form-control animate-box fadeInUp animated-fast\" oninvalid=\"this.setCustomValidity('Campo Obrigatório. Digite apenas os números')\" name=\"processo\" pattern=\"[0-9]+$\" placeholder=\"Nº Processo\">",
+        "<select type=\"text\" required=\"\" class=\"form-control animate-box fadeInUp animated-fast\" name=\"ano\" minlength=\"4\" maxlength=\"4\" pattern=\"[0-9]+$\" oninvalid=\"this.setCustomValidity('Campo Obrigatório. Digite apenas os números com ano completo Ex.:2022')\" placeholder=\"Ano\">\n                                                            <option value=\"2026\">2026</option><option value=\"2025\">2025</option><option value=\"2024\">2024</option><option value=\"2023\">2023</option><option value=\"2022\">2022</option><option value=\"2021\">2021</option><option value=\"2020\">2020</option><option value=\"2019\">2019</option><option value=\"2018\">2018</option><option value=\"2017\">2017</option><option value=\"2016\">2016</option><option value=\"2015\">2015</option><option value=\"2014\">2014</option><option value=\"2013\">2013</option><option value=\"2012\">2012</option><option value=\"2011\">2011</option>                                                        </select>",
+        "<button type=\"submit\" class=\"btn btn-primary btn-block animate-box fadeInUp animated-fast\">\n                                                        <b>Pesquisar</b></button>"
+      ]
+    },
+    "perfil": "original_sem_widget_visual",
+    "foco": {
+      "elementoAlcancado": true,
+      "metodo": "primeiro_Tab",
+      "html": "<a href=\"http://www.niteroi.rj.gov.br\" class=\"item link-nav\" target=\"_blank\">Prefeitura de Niterói</a>",
+      "focoVisivelPseudoClasse": true,
+      "outline": "rgb(0, 0, 0) none 3px",
+      "boxShadow": "none",
+      "retangulo": {
+        "x": 75,
+        "y": 5,
+        "largura": 113.015625,
+        "altura": 20.390625
+      },
+      "medicaoDePixelsExecutada": false
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "primeiro-tab",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/2.4.13-niteroi-processos-chromium-primeiro-tab-trecho-1.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 7229,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/2.4.13-niteroi-processos-chromium-primeiro-tab-trecho-1.png",
+        "scrollTop": 0,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      }
+    ],
+    "cobertura": "estado_hover_ou_foco_ou_erro"
+  },
+  "fim": "2026-11-08T14:49:07.082Z"
+}

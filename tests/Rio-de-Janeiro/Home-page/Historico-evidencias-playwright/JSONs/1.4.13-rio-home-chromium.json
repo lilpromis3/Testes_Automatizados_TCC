@@ -1,0 +1,103 @@
+{
+  "criterio": "1.4.13",
+  "nome": "Content on Hover or Focus",
+  "inicio": "2026-11-08T14:24:15.988Z",
+  "url": "https://prefeitura.rio",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1413",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://prefeitura.rio/"
+    },
+    "cookies": "nao_essenciais_rejeitados_pelo_botao_do_banner",
+    "widgetBaixaVisao": {
+      "fornecedor": "Pojo Accessibility",
+      "niveisAposCadaClique": [
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200
+      ],
+      "nivelFonte": 200,
+      "cliquesParaMaximo": 8,
+      "maximoConfirmadoPorCliqueAdicional": true,
+      "verificacaoMaximo": "classe_e_nivel_persistido_iguais_a_200_antes_e_depois_do_clique_adicional",
+      "ordem": [
+        "high-contrast",
+        "links-underline",
+        "readable-font",
+        "resize-plus_8_vezes",
+        "resize-plus_confirmacao",
+        "fechar_painel"
+      ],
+      "altoContraste": true,
+      "linksSublinhados": true,
+      "fonteLegivel": true,
+      "observacao": "Nível 200 do widget não equivale necessariamente a 200% do tamanho original em todos os elementos; o CSS usa percentuais herdados."
+    },
+    "idioma": {
+      "documento": "pt-BR",
+      "navegador": "pt-BR"
+    },
+    "hover": {
+      "seletor": "nav li:has(> ul)",
+      "indice": 0,
+      "gatilho": "A PREFEITURA",
+      "visivelAntes": false,
+      "visivelNaPreparacao": true,
+      "esperaMs": 350
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "inspecao-hover",
+    "painelFechado": true,
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.13-rio-home-chromium-inspecao-hover-trecho-1.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 13094,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.13-rio-home-chromium-inspecao-hover-trecho-1.png",
+        "scrollTop": 0
+      }
+    ],
+    "cobertura": "estado_hover_ou_foco_ou_erro"
+  },
+  "fim": "2026-11-08T14:24:23.712Z"
+}

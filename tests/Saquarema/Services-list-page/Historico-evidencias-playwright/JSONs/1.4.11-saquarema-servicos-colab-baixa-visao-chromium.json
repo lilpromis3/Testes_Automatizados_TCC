@@ -1,0 +1,817 @@
+{
+  "criterio": "1.4.11",
+  "nome": "Non-text Contrast",
+  "inicio": "2026-11-08T14:50:25.239Z",
+  "url": "https://saquarema.colab.re",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1411",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://saquarema.colab.re/"
+    },
+    "catalogo": {
+      "secao": "Categorias de serviços",
+      "categoriaConfirmada": "Desenvolvimento Econômico"
+    },
+    "carregamento": {
+      "imagens": 26,
+      "alturaPercorrida": 3230,
+      "superficieRolagem": "BODY",
+      "imagensNaoCarregadas": []
+    },
+    "acesso": "direto_a_pagina_alvo",
+    "perfil": "baixa_visao_personalizado_colab",
+    "widgetBaixaVisao": {
+      "fornecedor": "Hand Talk",
+      "amostraAntes": {
+        "fontePx": 30,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 700,
+        "linhaPx": 39,
+        "letrasPx": 0
+      },
+      "configuracao": "nivel_maximo_de_cada_recurso",
+      "recursos": [
+        {
+          "recurso": "Tamanho de Fonte",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Tamanho de Fonte, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Letras Destacadas",
+          "selecionado": true,
+          "nivelAplicado": null,
+          "nivelMaximo": null,
+          "rotulo": "Letras Destacadas Ativo"
+        },
+        {
+          "recurso": "Espaçamento Entre Linhas",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Espaçamento Entre Linhas, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Espaço entre Letras",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Espaço entre Letras, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Destacar Cabeçalho",
+          "selecionado": true,
+          "nivelAplicado": null,
+          "nivelMaximo": null,
+          "rotulo": "Destacar Cabeçalho, ativo"
+        },
+        {
+          "recurso": "Contraste de Cores",
+          "selecionado": true,
+          "nivelAplicado": 2,
+          "nivelMaximo": 2,
+          "rotulo": "Contraste de Cores, ativo, opção 2 de 2"
+        }
+      ],
+      "estiloDeTexto": {
+        "alterado": false,
+        "rotulo": "Ativar Estilo de Texto, 3 opções"
+      },
+      "verificacaoFamiliasDeFonte": {
+        "elementosMedidos": 235,
+        "alteracoes": []
+      },
+      "controlesAposFechar": [
+        {
+          "rotulo": "Tamanho de Fonte, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Ativar Estilo de Texto, 3 opções",
+          "selecionado": null
+        },
+        {
+          "rotulo": "Letras Destacadas Ativo",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Espaçamento Entre Linhas, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Espaço entre Letras, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Destacar Cabeçalho, ativo",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Contraste de Cores, ativo, opção 2 de 2",
+          "selecionado": "true"
+        }
+      ],
+      "perfilAplicado": true,
+      "painelFechado": true,
+      "amostraAtivada": {
+        "fontePx": 60,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 900,
+        "linhaPx": 156,
+        "letrasPx": 6
+      },
+      "amostraAposFechar": {
+        "fontePx": 60,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 900,
+        "linhaPx": 156,
+        "letrasPx": 6
+      },
+      "verificacao": "controles_selecionados_e_estilos_computados_de_um_titulo"
+    },
+    "componentesGraficos": [
+      {
+        "html": "<a aria-current=\"page\" class=\"flex items-center space-x-2 text-2xl active\" href=\"/\" data-tcc-base-font-size=\"24\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 48px; line-height: 2.66667; letter-spacing: 6px;\"><img src=\"https://workflow-content.colab.re/17",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"ant-dropdown-trigger flex items-center gap-3 ml-4 px-4 py-2 rounded-lg hover:bg-black hover:bg-opacity-10\" disabled=\"\" style=\"cursor: pointer; background-color: rgb(54, 120, 56); font-size: 32px; line-height: 2.3; letter-spacing: 6px;\" data-tcc-base-font-size=\"16\" data-tcc-base-font-family",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"user\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\" style=\"font-size: 36px; line-height: 2; letter-spacing: 6px;\"><path d=\"M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 ",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"arrow-left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\" style=\"font-size: 32px; line-height: 2; letter-spacing: 6px;\"><path d=\"M872 474H286.9l350.2-304c5.6-4.9 2.2-14-5.2-14h-88.5c-3.9 0-7.6 1.4-10.5 3.9L155 487.8a31.96 31",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://empregasaqua.saquarema.rj.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; line-height: 3.14286; letter-spacing: 6px;\"></a>",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.saquarema.rj.gov.br/prefeitura-vai-disponibilizar-aplicativo-colab-para-gestao-participativa-da-populacao/\" target=\"_blank\" rel=\"noopener noreferrer\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; lin",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://meidesaqua.saquarema.rj.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; line-height: 3.14286; letter-spacing: 6px;\"></a>",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://empregasaqua.saquarema.rj.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; line-height: 3.14286; letter-spacing: 6px;\"></a>",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.saquarema.rj.gov.br/prefeitura-vai-disponibilizar-aplicativo-colab-para-gestao-participativa-da-populacao/\" target=\"_blank\" rel=\"noopener noreferrer\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; lin",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://meidesaqua.saquarema.rj.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; line-height: 3.14286; letter-spacing: 6px;\"></a>",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://empregasaqua.saquarema.rj.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; line-height: 3.14286; letter-spacing: 6px;\"></a>",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"arrow-right\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\" style=\"font-size: 32px; line-height: 2; letter-spacing: 6px;\"><path d=\"M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 0px; letter-spacing: 6px;\">1</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(22, 22, 22)",
+        "borda": "0px none rgb(151, 151, 151)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 0px; letter-spacing: 6px;\">2</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(22, 22, 22)",
+        "borda": "0px none rgb(151, 151, 151)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 0px; letter-spacing: 6px;\">3</button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(22, 22, 22)",
+        "borda": "0px none rgb(151, 151, 151)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"search\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\" style=\"font-size: 72px; line-height: 2; letter-spacing: 6px;\"><path d=\"M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"arrow-left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\" style=\"font-size: 40px; line-height: 2; letter-spacing: 6px;\"><path d=\"M872 474H286.9l350.2-304c5.6-4.9 2.2-14-5.2-14h-88.5c-3.9 0-7.6 1.4-10.5 3.9L155 487.8a31.96 31",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 20 20\" viewBox=\"0 0 20 20\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/handyman_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: rgb(54, 120, 56); font-size: 28px; lin",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(54, 120, 56)"
+      },
+      {
+        "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/local_hospital_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: rgb(54, 120, 56); font-size: 28px; line-height: 3.14286; letter-sp",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(54, 120, 56)"
+      },
+      {
+        "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/bus_alert_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: rgb(54, 120, 56); font-size: 28px; line-height: 3.14286; letter-spacing",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(54, 120, 56)"
+      },
+      {
+        "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/local_hospital_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: rgb(54, 120, 56); font-size: 28px; line-height: 3.14286; letter-sp",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(54, 120, 56)"
+      },
+      {
+        "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 24 24\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/local_police_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: rgb(54, 120, 56); font-size: 28px;",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(54, 120, 56)"
+      },
+      {
+        "html": "<svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"arrow-right\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\" style=\"font-size: 40px; line-height: 2; letter-spacing: 6px;\"><path d=\"M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" class=\"flex items-center space-x-2 text-2xl font-medium\" data-tcc-base-font-size=\"24\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 48px; line-height: 2.66667; letter-spacing: 6px;\"><img src=\"https://workflow-content.colab.re/1779826339102_$co",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"ant-typography css-uqbq7b\" href=\"https://www.facebook.com/PrefeituradeSaquarema\" target=\"_blank\" rel=\"noopener noreferrer\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; line-height: 3.14286; letter-spacing: 6px",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px none rgb(0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"facebook\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\" style=\"font-size: 60px; line-height: 2; letter-spacing: 6px;\"><path d=\"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-1",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"ant-typography css-uqbq7b\" href=\"https://www.instagram.com/prefeiturasaquarema/\" target=\"_blank\" rel=\"noopener noreferrer\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; line-height: 3.14286; letter-spacing: 6px",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px none rgb(0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"instagram\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\" style=\"font-size: 60px; line-height: 2; letter-spacing: 6px;\"><path d=\"M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1 717.1 625.5 717.1 512 625.5 306",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a class=\"ant-typography css-uqbq7b\" href=\"https://www.youtube.com/channel/UCEHwn576eDDRw9PJnBlI3-A\" target=\"_blank\" rel=\"noopener noreferrer\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; line-height: 3.14286; letter-sp",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px none rgb(0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"youtube\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\" style=\"font-size: 60px; line-height: 2; letter-spacing: 6px;\"><path d=\"M960 509.2c0-2.2 0-4.7-.1-7.6-.1-8.1-.3-17.2-.5-26.9-.8-27.9-2.2-55.7-4.4-81.9-3-36.1-7.4-66.2-13.",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button aria-label=\"Abrir recursos assistivos.\" class=\"sc-bdfCkl bgiDBt ht-translator-exception\" configborderradius=\"\n        border-top-left-radius: 12px;\n      \" side=\"right\" oppositeside=\"left\" color-button=\"#003087\" text-color=\"#FFFFFF\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#0000",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 48, 135)",
+        "borda": "",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.75 6.99C20.61 6.44 20.06 6.12 19.51 6.24C17.13 6.77 14.48 7 12 7C9.52002 7 6.87002 6.77 4.49002 6.24C3.94002 6.12 3.39002 6.44 3.25002 6.99C3.11002 7.55 3.45002 8.12 4.00002 8.25C5.61002 8.",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#333333\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8.8 15.905L5.3 12.405C4.91 12.015 4.29 12.015 3.9 12.405C3.51 12.795 3.51 13.415 3.9 13.805L8.09 17.995C8.48 18.385 9.11 18.385 9.5 17.995L20.1 7.40499C20.49 7.01499 20.49 6.39499 20.1 6.00499",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(51, 51, 51)"
+      },
+      {
+        "html": "<button aria-label=\"Abrir tradutor de língua de sinais.\" class=\"sc-bdfCkl ftzxil ht-translator-exception\" configborderradius=\"\n        border-bottom-left-radius: 12px;\n      \" side=\"right\" oppositeside=\"left\" color-button=\"#003087\" text-color=\"#FFFFFF\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(0, 48, 135)",
+        "borda": "",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M22.6288 12.7392C22.6536 12.6999 22.8732 12.3289 22.9801 11.4231C23.0862 10.525 22.7342 9.7973 22.7194 9.76667C22.7037 9.73472 22.6806 9.7082 22.6531 9.68828C22.5897 9.64217 22.5027 9.63081 22.",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Abrir tradutor de língua de sinais.\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M22.6288",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M22.6288 12.7392C22.6536 12.6999 22.8732 12.3289 22.9801 11.4231C23.0862 10.525 22.7342 9.7973 22.7194 9.76667C22.7037 9.73472 22.6806 9.7082 22.6531 9.68828C22.5897 9.64217 22.5027 9.63081 22.",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Abrir Sinônimos e significados\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M17.5 4.5C15.",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M17.5 4.5C15.55 4.5 13.45 4.9 12 6C10.55 4.9 8.45 4.5 6.5 4.5C5.05 4.5 3.51 4.72 2.22 5.29C1.49 5.62 1 6.33 1 7.14V18.42C1 19.72 2.22 20.68 3.48 20.36C4.46 20.11 5.5 20 6.5 20C8.06 20 9.72 20.2",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Tamanho de Fonte, ativo, opção 3 de 3\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG bkUgmL\" selected=\"true\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgb(198, 79, 1)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2.36707 19C2.84707 19 3.27707 18.7 3.42707 18.25L4.43707 15.42H10.0871L11.0771 18.24C11.2371 18.7 11.6671 19 12.1471 19C12.9371 19 13.4771 18.21 13.1971 17.48L8.94707 6.17C8.68707 5.47 8.00707",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Ativar Estilo de Texto, 3 opções\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20 2H4C2.9",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20 2H4C2.9 2 2 2.9 2 4V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20V4C22 2.9 21.1 2 20 2ZM20 20H4V4H20V20Z\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15.7101 17.88L14.8101 15.",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Letras Destacadas Ativo\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG bkUgmL\" selected=\"true\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15.",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgb(198, 79, 1)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15.225 11.79C16.195 11.12 16.875 10.02 16.875 9C16.875 6.74 15.125 5 12.875 5H7.625C7.075 5 6.625 5.45 6.625 6V18C6.625 18.55 7.075 19 7.625 19H13.405C15.475 19 17.365 17.31 17.375 15.23C17.38",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Espaçamento Entre Linhas, ativo, opção 3 de 3\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG bkUgmL\" selected=\"true\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgb(198, 79, 1)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.18728 7.00499C7.63728 7.00499 7.85728 6.46499 7.53728 6.15499L5.24728 3.85499C5.04728 3.65499 4.73728 3.65499 4.53728 3.85499L2.24728 6.15499C1.93728 6.46499 2.15728 7.00499 2.60728 7.00499H",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Espaço entre Letras, ativo, opção 3 de 3\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG bkUgmL\" selected=\"true\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/s",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgb(198, 79, 1)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12.0741 12.9399H13.8031L10.0811 3.32471H7.79771L4.07568 12.9399H5.81791C6.00269 12.9399 6.15667 12.8915 6.27986 12.7947C6.40745 12.6936 6.49544 12.5814 ",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Ativar Leitor de sites, 3 opções\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9.50464 13",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9.50464 13.7689C11.7138 13.7689 13.5046 11.9781 13.5046 9.76895C13.5046 7.55981 11.7138 5.76895 9.50464 5.76895C7.2955 5.76895 5.50464 7.55981 5.50464 9.76895C5.50464 11.9781 7.2955 13.7689 9.",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Modo de leitura indisponível. Esse site não suporta esta ferramenta.\" context=\"light\" disabled=\"\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(189, 189, 189)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M21.0181 4H4.08177C3.04677 4 2.19995 4.88941 2.19995 5.97647V18.8235C2.19995 19.9106 3.04677 20.8 4.08177 20.8H21.0181C22.0531 20.8 22.9 19.9106 22.9 18.8235V5.97647C22.9 4.88941 22.0531 4 21.0",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Ativar Máscara de leitura, 3 opções\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2 6C2 4",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2 6C2 4.89543 2.89543 4 4 4H20C21.1046 4 22 4.89543 22 6V8H2V6Z\"></path><path d=\"M2 16H22V18C22 19.1046 21.1046 20 20 20H4C2.89543 20 2 19.1046 2 18V16Z\"></path><path fill-rule=\"evenodd\" clip-",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Ativar Guia de leitura, 2 opções\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4 6H20V10H",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4 6H20V10H22V6C22 4.89543 21.1046 4 20 4H4C2.89543 4 2 4.89543 2 6V10H4V6Z\"></path><path d=\"M4 17H2V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V17H20V18H4V17Z\"></path><path d=\"",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Ativar Destaque de Link, 3 opções\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"ev",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V6C22 4.89543 21.1046 4 20 4H4ZM6.877 14.1224C7.46214 14.7075 8.1",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Abrir Estrutura de Página. Clique para abrir.\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12.6051 18.535C12.2451 18.815 11.7351 18.815 11.3751 18.535L5.22506 13.755C4.86506 13.475 4.36506 13.475 4.00506 13.755C3.49506 14.155 3.49506 14.925 4.00506 15.325L10.7651 20.585C11.4851 21.1",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Ativar Lupa de Conteúdo\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15.9766 14.4716H15.",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15.9766 14.4716H15.1866L14.9066 14.2016C16.1066 12.8016 16.7266 10.8916 16.3866 8.86157C15.9166 6.08157 13.5966 3.86157 10.7966 3.52157C6.56658 3.00157 3.00658 6.56157 3.52658 10.7916C3.86658 ",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Ativar Esconder Imagens\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M21 5V15.725C21 15.9",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M21 5V15.725C21 15.9583 20.9416 16.15 20.825 16.3C20.7083 16.45 20.5583 16.5667 20.375 16.65C20.1916 16.7333 20.0083 16.7625 19.825 16.7375C19.6416 16.7125 19.4666 16.6167 19.3 16.45L7.54995 4.",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Destacar Cabeçalho, ativo\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG bkUgmL\" selected=\"true\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgb(198, 79, 1)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 21C4.45 21 3.97917 20.8042 3.5875 20.4125C3.19583 20.0208 3 19.55 3 19V5C3 4.45 3.19583 3.97917 3.5875 3.5875C3.97917 3.19583 4.45 3 5 3H19C19.55 3 20.0208 3.19583 20.4125 3.5875C20.8042 3.9",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Ativar Pausar Animações\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 15C10.2833 15 10",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 15C10.2833 15 10.5208 14.9042 10.7125 14.7125C10.9042 14.5208 11 14.2833 11 14V10C11 9.71667 10.9042 9.47917 10.7125 9.2875C10.5208 9.09583 10.2833 9 10 9C9.71667 9 9.47917 9.09583 9.2875 9",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Ativar parar sons\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M17.2506 18.2609C16.9899 1",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M17.2506 18.2609C16.9899 18.445 16.7177 18.6138 16.434 18.7673C16.1503 18.9207 15.8551 19.0588 15.5484 19.1816C15.3644 19.2583 15.1766 19.2583 14.9849 19.1816C14.7932 19.1049 14.659 18.9744 14.",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Contraste de Cores, ativo, opção 2 de 2\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG bkUgmL\" selected=\"true\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/sv",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgb(198, 79, 1)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 7C9.24 7 7 9.24 7 12C7 14.76 9.24 17 12 17C14.76 17 17 14.76 17 12C17 9.24 14.76 7 12 7ZM2 13H4C4.55 13 5 12.55 5 12C5 11.45 4.55 11 4 11H2C1.45 11 1 11.45 1 12C1 12.55 1.45 13 2 13ZM20 13H",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Ativar Intensidade de cores, 3 opções\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 5.",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 5.10751V19.2975C8.69 19.2975 6 16.6675 6 13.4275C6 11.8675 6.62 10.3975 7.75 9.28751L12 5.10751ZM6.35 7.85751C4.9 9.28751 4 11.2575 4 13.4275C4 17.7775 7.58 21.2975 12 21.2975C16.42 21.2975",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button tabindex=\"-1\" aria-label=\"Ativar Modo Daltônico, 3 opções\" context=\"light\" borderradius=\"16\" class=\"sc-ehSBuG gYxXwh\"><span class=\"sc-lcujkj kswAjO ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 3C7.03 3",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgba(0, 0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#000000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 3C7.03 3 3 7.03 3 12C3 16.97 7.03 21 12 21C12.83 21 13.5 20.33 13.5 19.5C13.5 19.11 13.35 18.76 13.11 18.49C12.88 18.23 12.73 17.88 12.73 17.5C12.73 16.67 13.4 16 14.23 16H16C18.76 16 21 13",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"201\" height=\"20\" viewBox=\"0 0 201 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"Logo da Hand Talk, Feito com amor e inteligência artificial\"><g clip-path=\"url(#clip0_695_35)\"><path d=\"M59.1564 12.015C58.9998 11.9704 58.8412 11.9886 58.6805 12.0738C58.5199 12.157 58.404 1",
+        "cor": "rgb(51, 51, 51)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "none"
+      },
+      {
+        "html": "<button aria-label=\"Restaurar recursos\" borderradius=\"16\" class=\"sc-dkIYth esRKTV\"><div class=\"sc-XhVCI fJJbGZ ht-translator-exception\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#2E2E2E\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M6.35816 6.35146C7.98816 4.72146 10.2982 3.78146 12.8382 ",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(198, 79, 1)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"#2E2E2E\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M6.35816 6.35146C7.98816 4.72146 10.2982 3.78146 12.8382 4.04146C16.5082 4.41146 19.5282 7.39146 19.9382 11.0615C20.4882 15.9115 16.7382 20.0015 12.0082 20.0015C8.81816 20.0015 6.07816 18.1315 ",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px solid rgb(229, 231, 235)",
+        "preenchimento": "rgb(46, 46, 46)"
+      }
+    ]
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "baixa-visao-widget-fechado",
+    "painelFechado": true,
+    "amostraTexto": {
+      "fontePx": 60,
+      "familia": "\"Open Sans\", system-ui, sans-serif",
+      "peso": 900,
+      "linhaPx": 156,
+      "letrasPx": 6
+    },
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-1.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-2.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-3.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-4.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-5.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-6.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-7.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-8.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-9.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-10.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-11.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-12.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-13.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-14.png",
+    "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-15.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "BODY",
+    "alturaConteudo": 8846,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-10.png",
+        "scrollTop": 5508
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-11.png",
+        "scrollTop": 6120
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-12.png",
+        "scrollTop": 6732
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-13.png",
+        "scrollTop": 7344
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-14.png",
+        "scrollTop": 7956
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-colab-baixa-visao-chromium-baixa-visao-widget-fechado-trecho-15.png",
+        "scrollTop": 8126
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T14:50:35.539Z"
+}

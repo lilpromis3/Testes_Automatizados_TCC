@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.12",
   "nome": "Text Spacing",
-  "inicio": "2026-11-08T15:36:04.928Z",
+  "inicio": "2026-11-09T14:05:47.069Z",
   "url": "https://carioca.rio",
   "ambiente": {
     "navegador": "chromium",
@@ -18,8 +18,8 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
-      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+      "criteriosSemRegraAxe": "nao_avaliados_sem_varredura_axe_ou_verificacao_playwright",
+      "revisaoManual": "A avaliação manual está fora do escopo desta suíte; ausência de achados não certifica conformidade."
     },
     "http": {
       "status": 200,
@@ -140,7 +140,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T15:36:39.498Z",
+    "timestamp": "2026-11-09T14:06:21.488Z",
     "url": "https://carioca.rio/#",
     "toolOptions": {
       "resultTypes": [
@@ -17901,5 +17901,5 @@
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T15:36:40.054Z"
+  "fim": "2026-11-09T14:06:22.022Z"
 }

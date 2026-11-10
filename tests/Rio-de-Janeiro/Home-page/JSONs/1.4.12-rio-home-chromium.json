@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.12",
   "nome": "Text Spacing",
-  "inicio": "2026-11-08T14:24:01.942Z",
+  "inicio": "2026-11-09T14:03:52.740Z",
   "url": "https://prefeitura.rio",
   "ambiente": {
     "navegador": "chromium",
@@ -18,8 +18,8 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
-      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+      "criteriosSemRegraAxe": "nao_avaliados_sem_varredura_axe_ou_verificacao_playwright",
+      "revisaoManual": "A avaliação manual está fora do escopo desta suíte; ausência de achados não certifica conformidade."
     },
     "http": {
       "status": 200,
@@ -80,6 +80,13 @@
           "clientHeight": 1
         },
         {
+          "html": "<div class=\"carousel-inner\" data-tcc-base-font-size=\"14\">\n                                        <div class=\"item\" data-tcc-base-font-size=\"14\">\n                            <a href=\"https://cariocaemdia.prefeitura.rio\" target=\"blank\" role=\"link\" data-tcc-base-font-size=\"14\"><img src=\"https://prefeitura.rio/wp-content/uploads/2026/10/2026_10_22_BANNERS_SITE_CARIOCA_EM_DIA_V2_PGM_1170X280.png\" data",
+          "scrollWidth": 1177,
+          "clientWidth": 1170,
+          "scrollHeight": 267,
+          "clientHeight": 267
+        },
+        {
           "html": "<span class=\"sr-only\" data-tcc-base-font-size=\"20\" data-tcc-spacing=\"\">Previous</span>",
           "scrollWidth": 234,
           "clientWidth": 1,
@@ -94,17 +101,17 @@
           "clientHeight": 1
         },
         {
+          "html": "<h3 data-tcc-base-font-size=\"22\" data-tcc-spacing=\"\">Prefeitura acompanha obras contra enchentes em diferentes regiões e anuncia novas intervenções</h3>",
+          "scrollWidth": 538,
+          "clientWidth": 538,
+          "scrollHeight": 638,
+          "clientHeight": 239
+        },
+        {
           "html": "<h3 data-tcc-base-font-size=\"22\" data-tcc-spacing=\"\">Município lança duas linhas de Conexão BRT na Ilha do Governador. Confira</h3>",
           "scrollWidth": 538,
           "clientWidth": 538,
           "scrollHeight": 559,
-          "clientHeight": 239
-        },
-        {
-          "html": "<h3 data-tcc-base-font-size=\"22\" data-tcc-spacing=\"\">Prefeitura do Rio convoca 2 mil motoristas auxiliares para habilitação de novas autorizações de táxi</h3>",
-          "scrollWidth": 538,
-          "clientWidth": 538,
-          "scrollHeight": 718,
           "clientHeight": 239
         },
         {
@@ -115,10 +122,10 @@
           "clientHeight": 239
         },
         {
-          "html": "<h3 data-tcc-base-font-size=\"18\" data-tcc-spacing=\"\">Rede municipal premia 1.373 alunos no Canguru de Matemática 2026</h3>",
-          "scrollWidth": 410,
+          "html": "<h3 data-tcc-base-font-size=\"18\" data-tcc-spacing=\"\">Dois mil motoristas auxiliares são convocados para habilitação de novas autorizações de táxi</h3>",
+          "scrollWidth": 457,
           "clientWidth": 308,
-          "scrollHeight": 798,
+          "scrollHeight": 878,
           "clientHeight": 239
         },
         {
@@ -129,10 +136,10 @@
           "clientHeight": 239
         },
         {
-          "html": "<h3 data-tcc-base-font-size=\"18\" data-tcc-spacing=\"\">Inscritos no Enem terão transporte gratuito nos dias de prova</h3>",
-          "scrollWidth": 379,
+          "html": "<h3 data-tcc-base-font-size=\"18\" data-tcc-spacing=\"\">Rede municipal premia 1.373 alunos no Canguru de Matemática 2026</h3>",
+          "scrollWidth": 410,
           "clientWidth": 308,
-          "scrollHeight": 718,
+          "scrollHeight": 798,
           "clientHeight": 239
         }
       ],
@@ -180,7 +187,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:24:15.656Z",
+    "timestamp": "2026-11-09T14:04:06.402Z",
     "url": "https://prefeitura.rio/",
     "toolOptions": {
       "resultTypes": [
@@ -433,7 +440,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/transportes/prefeitura-lanca-duas-linhas-de-conexao-brt-na-ilha-do-governador/\" role=\"link\" data-tcc-base-font-size=\"20\">",
+            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/cidade/prefeito-eduardo-cavaliere-acompanha-obras-de-prevencao-a-enchentes-em-diferentes-regioes-do-rio-e-anuncia-novas-intervencoes/\" role=\"link\" data-tcc-base-font-size=\"20\">",
             "target": [
               ".post-thumbnail-large-2 > a[data-tcc-base-font-size=\"20\"][role=\"link\"]:nth-child(2)"
             ]
@@ -465,7 +472,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/noticias/prefeitura-do-rio-convoca-2-mil-motoristas-auxiliares-para-habilitacao-de-novas-autorizacoes-de-taxi/\" role=\"link\" data-tcc-base-font-size=\"20\">",
+            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/transportes/prefeitura-lanca-duas-linhas-de-conexao-brt-na-ilha-do-governador/\" role=\"link\" data-tcc-base-font-size=\"20\">",
             "target": [
               ".post-thumbnail-large-1 > a[data-tcc-base-font-size=\"20\"][role=\"link\"]:nth-child(2)"
             ]
@@ -657,7 +664,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/noticias/rede-municipal-de-ensino-do-rio-premia-1-373-estudantes-medalhistas-no-concurso-canguru-de-matematica-2026/\" role=\"link\" data-tcc-base-font-size=\"14\">",
+            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/noticias/prefeitura-do-rio-convoca-2-mil-motoristas-auxiliares-para-habilitacao-de-novas-autorizacoes-de-taxi/\" role=\"link\" data-tcc-base-font-size=\"14\">",
             "target": [
               ".little-post-faz-1 > .wrapper-little-post > .thumb-little.col-xs-4 > a[role=\"link\"]"
             ]
@@ -849,7 +856,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/transportes/prefeitura-do-rio-garante-transporte-gratuito-a-inscritos-no-enem-nos-dias-de-prova/\" role=\"link\" data-tcc-base-font-size=\"14\">",
+            "html": "<a style=\"position: relative;display: block;overflow: hidden;\" href=\"https://prefeitura.rio/noticias/rede-municipal-de-ensino-do-rio-premia-1-373-estudantes-medalhistas-no-concurso-canguru-de-matematica-2026/\" role=\"link\" data-tcc-base-font-size=\"14\">",
             "target": [
               ".little-post-faz-2 > .wrapper-little-post > .thumb-little.col-xs-4 > a[role=\"link\"]"
             ]
@@ -1162,5 +1169,5 @@
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T14:24:15.885Z"
+  "fim": "2026-11-09T14:04:06.611Z"
 }

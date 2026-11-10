@@ -1,0 +1,248 @@
+
+Running 80 tests using 1 worker
+
+(node:10016) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+WCAG 1.1.1: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":6}
+  ok  1 [chromium] › tests\Niteroi\Home-page\home-page.spec.ts:296:5 › 1.1.1 - Non-text Content (14.4s)
+WCAG 1.4.3: coleta_concluida | 1 varredura | criterio
+{"violations":1,"passes":1,"incomplete":1,"inapplicable":0}
+  ok  2 [chromium] › tests\Niteroi\Home-page\home-page.spec.ts:299:5 › 1.4.3 - Contrast (Minimum) (10.1s)
+WCAG 1.4.4: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok  3 [chromium] › tests\Niteroi\Home-page\home-page.spec.ts:302:5 › 1.4.4 - Resize Text (10.8s)
+WCAG 1.4.10: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -   4 [chromium] › tests\Niteroi\Home-page\home-page.spec.ts:305:5 › 1.4.10 - Reflow
+WCAG 1.4.11: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -   5 [chromium] › tests\Niteroi\Home-page\home-page.spec.ts:308:5 › 1.4.11 - Non-text Contrast
+WCAG 1.4.12: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok  6 [chromium] › tests\Niteroi\Home-page\home-page.spec.ts:311:5 › 1.4.12 - Text Spacing (10.0s)
+WCAG 1.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -   7 [chromium] › tests\Niteroi\Home-page\home-page.spec.ts:314:5 › 1.4.13 - Content on Hover or Focus
+WCAG 2.4.6: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -   8 [chromium] › tests\Niteroi\Home-page\home-page.spec.ts:317:5 › 2.4.6 - Headings and Labels
+WCAG 2.4.7: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -   9 [chromium] › tests\Niteroi\Home-page\home-page.spec.ts:320:5 › 2.4.7 - Focus Visible
+WCAG 2.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  10 [chromium] › tests\Niteroi\Home-page\home-page.spec.ts:323:5 › 2.4.13 - Focus Appearance
+WCAG 1.1.1: coleta_concluida | 1 varredura | criterio
+{"violations":2,"passes":2,"incomplete":0,"inapplicable":4}
+  ok 11 [chromium] › tests\Niteroi\Services-list-page\services-page.spec.ts:307:5 › 1.1.1 - Non-text Content (10.3s)
+WCAG 1.4.3: coleta_concluida | 1 varredura | criterio
+{"violations":1,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 12 [chromium] › tests\Niteroi\Services-list-page\services-page.spec.ts:311:5 › 1.4.3 - Contrast (Minimum) (10.6s)
+WCAG 1.4.4: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 13 [chromium] › tests\Niteroi\Services-list-page\services-page.spec.ts:315:5 › 1.4.4 - Resize Text (19.2s)
+WCAG 1.4.10: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  14 [chromium] › tests\Niteroi\Services-list-page\services-page.spec.ts:331:5 › 1.4.10 - Reflow
+WCAG 1.4.11: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  15 [chromium] › tests\Niteroi\Services-list-page\services-page.spec.ts:335:5 › 1.4.11 - Non-text Contrast
+WCAG 1.4.12: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 16 [chromium] › tests\Niteroi\Services-list-page\services-page.spec.ts:339:5 › 1.4.12 - Text Spacing (10.6s)
+WCAG 1.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  17 [chromium] › tests\Niteroi\Services-list-page\services-page.spec.ts:343:5 › 1.4.13 - Content on Hover or Focus
+WCAG 2.4.6: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  18 [chromium] › tests\Niteroi\Services-list-page\services-page.spec.ts:347:5 › 2.4.6 - Headings and Labels
+WCAG 2.4.7: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  19 [chromium] › tests\Niteroi\Services-list-page\services-page.spec.ts:351:5 › 2.4.7 - Focus Visible
+WCAG 2.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  20 [chromium] › tests\Niteroi\Services-list-page\services-page.spec.ts:355:5 › 2.4.13 - Focus Appearance
+WCAG 1.1.1: coleta_concluida | 1 varredura | criterio
+{"violations":1,"passes":1,"incomplete":0,"inapplicable":6}
+  ok 21 [chromium] › tests\Niteroi\Specific-service-page\specific-service-page.spec.ts:324:5 › 1.1.1 - Non-text Content (9.9s)
+WCAG 1.4.3: coleta_concluida | 1 varredura | criterio
+{"violations":1,"passes":1,"incomplete":1,"inapplicable":0}
+  ok 22 [chromium] › tests\Niteroi\Specific-service-page\specific-service-page.spec.ts:327:5 › 1.4.3 - Contrast (Minimum) (9.9s)
+WCAG 1.4.4: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 23 [chromium] › tests\Niteroi\Specific-service-page\specific-service-page.spec.ts:330:5 › 1.4.4 - Resize Text (18.2s)
+WCAG 1.4.10: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  24 [chromium] › tests\Niteroi\Specific-service-page\specific-service-page.spec.ts:345:5 › 1.4.10 - Reflow
+WCAG 1.4.11: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  25 [chromium] › tests\Niteroi\Specific-service-page\specific-service-page.spec.ts:348:5 › 1.4.11 - Non-text Contrast
+WCAG 1.4.12: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 26 [chromium] › tests\Niteroi\Specific-service-page\specific-service-page.spec.ts:351:5 › 1.4.12 - Text Spacing (10.7s)
+WCAG 1.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  27 [chromium] › tests\Niteroi\Specific-service-page\specific-service-page.spec.ts:354:5 › 1.4.13 - Content on Hover or Focus
+WCAG 2.4.6: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  28 [chromium] › tests\Niteroi\Specific-service-page\specific-service-page.spec.ts:357:5 › 2.4.6 - Headings and Labels
+WCAG 2.4.7: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  29 [chromium] › tests\Niteroi\Specific-service-page\specific-service-page.spec.ts:360:5 › 2.4.7 - Focus Visible
+WCAG 2.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  30 [chromium] › tests\Niteroi\Specific-service-page\specific-service-page.spec.ts:363:5 › 2.4.13 - Focus Appearance
+WCAG 1.1.1: coleta_concluida | 1 varredura | criterio
+{"violations":1,"passes":1,"incomplete":0,"inapplicable":6}
+  ok 31 [chromium] › tests\Rio-de-Janeiro\Home-page\home-page.spec.ts:330:5 › 1.1.1 - Non-text Content (14.7s)
+WCAG 1.4.3: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":1,"inapplicable":0}
+  ok 32 [chromium] › tests\Rio-de-Janeiro\Home-page\home-page.spec.ts:333:5 › 1.4.3 - Contrast (Minimum) (13.6s)
+WCAG 1.4.4: coleta_concluida | 1 varredura | criterio
+{"violations":1,"passes":0,"incomplete":0,"inapplicable":0}
+  ok 33 [chromium] › tests\Rio-de-Janeiro\Home-page\home-page.spec.ts:336:5 › 1.4.4 - Resize Text (13.2s)
+WCAG 1.4.10: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  34 [chromium] › tests\Rio-de-Janeiro\Home-page\home-page.spec.ts:339:5 › 1.4.10 - Reflow
+WCAG 1.4.11: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  35 [chromium] › tests\Rio-de-Janeiro\Home-page\home-page.spec.ts:342:5 › 1.4.11 - Non-text Contrast
+WCAG 1.4.12: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 36 [chromium] › tests\Rio-de-Janeiro\Home-page\home-page.spec.ts:345:5 › 1.4.12 - Text Spacing (14.0s)
+WCAG 1.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  37 [chromium] › tests\Rio-de-Janeiro\Home-page\home-page.spec.ts:348:5 › 1.4.13 - Content on Hover or Focus
+WCAG 2.4.6: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  38 [chromium] › tests\Rio-de-Janeiro\Home-page\home-page.spec.ts:351:5 › 2.4.6 - Headings and Labels
+WCAG 2.4.7: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  39 [chromium] › tests\Rio-de-Janeiro\Home-page\home-page.spec.ts:354:5 › 2.4.7 - Focus Visible
+WCAG 2.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  40 [chromium] › tests\Rio-de-Janeiro\Home-page\home-page.spec.ts:357:5 › 2.4.13 - Focus Appearance
+WCAG 1.1.1: coleta_concluida | 1 varredura | criterio
+{"violations":1,"passes":1,"incomplete":0,"inapplicable":6}
+  ok 41 [chromium] › tests\Rio-de-Janeiro\Services-list-page\services-page.spec.ts:317:5 › 1.1.1 - Non-text Content (32.7s)
+WCAG 1.4.3: coleta_concluida | 1 varredura | criterio
+{"violations":1,"passes":1,"incomplete":1,"inapplicable":0}
+  ok 42 [chromium] › tests\Rio-de-Janeiro\Services-list-page\services-page.spec.ts:320:5 › 1.4.3 - Contrast (Minimum) (33.8s)
+WCAG 1.4.4: coleta_concluida | 1 varredura | criterio
+{"violations":1,"passes":0,"incomplete":0,"inapplicable":0}
+  ok 43 [chromium] › tests\Rio-de-Janeiro\Services-list-page\services-page.spec.ts:323:5 › 1.4.4 - Resize Text (33.3s)
+WCAG 1.4.10: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  44 [chromium] › tests\Rio-de-Janeiro\Services-list-page\services-page.spec.ts:326:5 › 1.4.10 - Reflow
+WCAG 1.4.11: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  45 [chromium] › tests\Rio-de-Janeiro\Services-list-page\services-page.spec.ts:329:5 › 1.4.11 - Non-text Contrast
+WCAG 1.4.12: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 46 [chromium] › tests\Rio-de-Janeiro\Services-list-page\services-page.spec.ts:332:5 › 1.4.12 - Text Spacing (35.0s)
+WCAG 1.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  47 [chromium] › tests\Rio-de-Janeiro\Services-list-page\services-page.spec.ts:335:5 › 1.4.13 - Content on Hover or Focus
+WCAG 2.4.6: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  48 [chromium] › tests\Rio-de-Janeiro\Services-list-page\services-page.spec.ts:338:5 › 2.4.6 - Headings and Labels
+WCAG 2.4.7: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  49 [chromium] › tests\Rio-de-Janeiro\Services-list-page\services-page.spec.ts:341:5 › 2.4.7 - Focus Visible
+WCAG 2.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  50 [chromium] › tests\Rio-de-Janeiro\Services-list-page\services-page.spec.ts:344:5 › 2.4.13 - Focus Appearance
+WCAG 1.1.1: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":6}
+  ok 51 [chromium] › tests\Saquarema\Home-page\home-page.spec.ts:243:5 › 1.1.1 - Non-text Content (3.3s)
+WCAG 1.4.3: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":1,"inapplicable":0}
+  ok 52 [chromium] › tests\Saquarema\Home-page\home-page.spec.ts:246:5 › 1.4.3 - Contrast (Minimum) (3.4s)
+WCAG 1.4.4: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 53 [chromium] › tests\Saquarema\Home-page\home-page.spec.ts:249:5 › 1.4.4 - Resize Text (3.5s)
+WCAG 1.4.10: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  54 [chromium] › tests\Saquarema\Home-page\home-page.spec.ts:252:5 › 1.4.10 - Reflow
+WCAG 1.4.11: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  55 [chromium] › tests\Saquarema\Home-page\home-page.spec.ts:255:5 › 1.4.11 - Non-text Contrast
+WCAG 1.4.12: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 56 [chromium] › tests\Saquarema\Home-page\home-page.spec.ts:258:5 › 1.4.12 - Text Spacing (4.2s)
+WCAG 1.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  57 [chromium] › tests\Saquarema\Home-page\home-page.spec.ts:261:5 › 1.4.13 - Content on Hover or Focus
+WCAG 2.4.6: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  58 [chromium] › tests\Saquarema\Home-page\home-page.spec.ts:264:5 › 2.4.6 - Headings and Labels
+WCAG 2.4.7: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  59 [chromium] › tests\Saquarema\Home-page\home-page.spec.ts:267:5 › 2.4.7 - Focus Visible
+WCAG 2.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  60 [chromium] › tests\Saquarema\Home-page\home-page.spec.ts:270:5 › 2.4.13 - Focus Appearance
+WCAG 1.1.1: coleta_concluida | 1 varredura | criterio
+{"violations":2,"passes":2,"incomplete":0,"inapplicable":4}
+  ok 61 [chromium] › tests\Saquarema\Services-list-page\services-page.spec.ts:373:5 › 1.1.1 - Non-text Content (10.4s)
+WCAG 1.4.3: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":1,"inapplicable":0}
+  ok 62 [chromium] › tests\Saquarema\Services-list-page\services-page.spec.ts:376:5 › 1.4.3 - Contrast (Minimum) (10.2s)
+WCAG 1.4.4: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 63 [chromium] › tests\Saquarema\Services-list-page\services-page.spec.ts:379:5 › 1.4.4 - Resize Text (11.4s)
+WCAG 1.4.10: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  64 [chromium] › tests\Saquarema\Services-list-page\services-page.spec.ts:382:5 › 1.4.10 - Reflow
+WCAG 1.4.11: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  65 [chromium] › tests\Saquarema\Services-list-page\services-page.spec.ts:385:5 › 1.4.11 - Non-text Contrast
+WCAG 1.4.12: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 66 [chromium] › tests\Saquarema\Services-list-page\services-page.spec.ts:388:5 › 1.4.12 - Text Spacing (11.0s)
+WCAG 1.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  67 [chromium] › tests\Saquarema\Services-list-page\services-page.spec.ts:391:5 › 1.4.13 - Content on Hover or Focus
+WCAG 2.4.6: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  68 [chromium] › tests\Saquarema\Services-list-page\services-page.spec.ts:394:5 › 2.4.6 - Headings and Labels
+WCAG 2.4.7: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  69 [chromium] › tests\Saquarema\Services-list-page\services-page.spec.ts:397:5 › 2.4.7 - Focus Visible
+WCAG 2.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  70 [chromium] › tests\Saquarema\Services-list-page\services-page.spec.ts:400:5 › 2.4.13 - Focus Appearance
+WCAG 1.1.1: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":0,"incomplete":0,"inapplicable":7}
+  ok 71 [chromium] › tests\Saquarema\Specific-service-page\specific-service-page.spec.ts:375:5 › 1.1.1 - Non-text Content (6.6s)
+WCAG 1.4.3: coleta_concluida | 1 varredura | criterio
+{"violations":1,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 72 [chromium] › tests\Saquarema\Specific-service-page\specific-service-page.spec.ts:378:5 › 1.4.3 - Contrast (Minimum) (7.1s)
+WCAG 1.4.4: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":0,"incomplete":0,"inapplicable":1}
+  ok 73 [chromium] › tests\Saquarema\Specific-service-page\specific-service-page.spec.ts:381:5 › 1.4.4 - Resize Text (10.2s)
+WCAG 1.4.10: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  74 [chromium] › tests\Saquarema\Specific-service-page\specific-service-page.spec.ts:396:5 › 1.4.10 - Reflow
+WCAG 1.4.11: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  75 [chromium] › tests\Saquarema\Specific-service-page\specific-service-page.spec.ts:399:5 › 1.4.11 - Non-text Contrast
+WCAG 1.4.12: coleta_concluida | 1 varredura | criterio
+{"violations":0,"passes":1,"incomplete":0,"inapplicable":0}
+  ok 76 [chromium] › tests\Saquarema\Specific-service-page\specific-service-page.spec.ts:402:5 › 1.4.12 - Text Spacing (6.6s)
+WCAG 1.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  77 [chromium] › tests\Saquarema\Specific-service-page\specific-service-page.spec.ts:405:5 › 1.4.13 - Content on Hover or Focus
+WCAG 2.4.6: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  78 [chromium] › tests\Saquarema\Specific-service-page\specific-service-page.spec.ts:408:5 › 2.4.6 - Headings and Labels
+WCAG 2.4.7: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  79 [chromium] › tests\Saquarema\Specific-service-page\specific-service-page.spec.ts:411:5 › 2.4.7 - Focus Visible
+WCAG 2.4.13: nao_avaliado_sem_regra_axe | 0 varredura | criterio
+null
+  -  80 [chromium] › tests\Saquarema\Specific-service-page\specific-service-page.spec.ts:414:5 › 2.4.13 - Focus Appearance
+
+  48 skipped
+  32 passed (7.2m)

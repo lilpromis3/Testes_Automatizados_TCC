@@ -1,7 +1,7 @@
 {
   "criterio": "1.1.1",
   "nome": "Non-text Content",
-  "inicio": "2026-11-08T14:49:38.740Z",
+  "inicio": "2026-11-09T14:06:37.521Z",
   "url": "https://saquarema.colab.re",
   "ambiente": {
     "navegador": "chromium",
@@ -408,7 +408,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:49:49.624Z",
+    "timestamp": "2026-11-09T14:06:47.601Z",
     "url": "https://saquarema.colab.re/",
     "toolOptions": {
       "resultTypes": [
@@ -1668,5 +1668,5 @@
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T14:49:49.875Z"
+  "fim": "2026-11-09T14:06:47.822Z"
 }

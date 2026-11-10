@@ -1,0 +1,356 @@
+{
+  "criterio": "1.4.10",
+  "nome": "Reflow",
+  "inicio": "2026-11-08T14:50:12.559Z",
+  "url": "https://saquarema.colab.re",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1410",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://saquarema.colab.re/"
+    },
+    "catalogo": {
+      "secao": "Categorias de serviços",
+      "categoriaConfirmada": "Desenvolvimento Econômico"
+    },
+    "carregamento": {
+      "imagens": 26,
+      "alturaPercorrida": 3230,
+      "superficieRolagem": "BODY",
+      "imagensNaoCarregadas": []
+    },
+    "acesso": "direto_a_pagina_alvo",
+    "perfil": "baixa_visao_personalizado_colab",
+    "widgetBaixaVisao": {
+      "fornecedor": "Hand Talk",
+      "amostraAntes": {
+        "fontePx": 30,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 700,
+        "linhaPx": 39,
+        "letrasPx": 0
+      },
+      "configuracao": "nivel_maximo_de_cada_recurso",
+      "recursos": [
+        {
+          "recurso": "Tamanho de Fonte",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Tamanho de Fonte, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Letras Destacadas",
+          "selecionado": true,
+          "nivelAplicado": null,
+          "nivelMaximo": null,
+          "rotulo": "Letras Destacadas Ativo"
+        },
+        {
+          "recurso": "Espaçamento Entre Linhas",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Espaçamento Entre Linhas, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Espaço entre Letras",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Espaço entre Letras, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Destacar Cabeçalho",
+          "selecionado": true,
+          "nivelAplicado": null,
+          "nivelMaximo": null,
+          "rotulo": "Destacar Cabeçalho, ativo"
+        },
+        {
+          "recurso": "Contraste de Cores",
+          "selecionado": true,
+          "nivelAplicado": 2,
+          "nivelMaximo": 2,
+          "rotulo": "Contraste de Cores, ativo, opção 2 de 2"
+        }
+      ],
+      "estiloDeTexto": {
+        "alterado": false,
+        "rotulo": "Ativar Estilo de Texto, 3 opções"
+      },
+      "verificacaoFamiliasDeFonte": {
+        "elementosMedidos": 235,
+        "alteracoes": []
+      },
+      "controlesAposFechar": [
+        {
+          "rotulo": "Tamanho de Fonte, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Ativar Estilo de Texto, 3 opções",
+          "selecionado": null
+        },
+        {
+          "rotulo": "Letras Destacadas Ativo",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Espaçamento Entre Linhas, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Espaço entre Letras, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Destacar Cabeçalho, ativo",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Contraste de Cores, ativo, opção 2 de 2",
+          "selecionado": "true"
+        }
+      ],
+      "perfilAplicado": true,
+      "painelFechado": true,
+      "amostraAtivada": {
+        "fontePx": 60,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 900,
+        "linhaPx": 156,
+        "letrasPx": 6
+      },
+      "amostraAposFechar": {
+        "fontePx": 60,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 900,
+        "linhaPx": 156,
+        "letrasPx": 6
+      },
+      "verificacao": "controles_selecionados_e_estilos_computados_de_um_titulo"
+    },
+    "layout": {
+      "larguraViewport": 320,
+      "larguraDocumento": 320,
+      "rolagemHorizontal": false,
+      "candidatosRecorte": [
+        {
+          "html": "<div class=\"slick-list\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; line-height: 3.14286; letter-spacing: 6px;\"><div class=\"slick-track\" style=\"width: 2240px; opacity: 1; transform: translate3d(-640px, 0px, 0px); font-size: 28px; line-height: 3.14286; letter-spacing: 6px;\" data-tcc-base-font-size=\"14\" data-tcc-base-f",
+          "scrollWidth": 2240,
+          "clientWidth": 320,
+          "scrollHeight": 100,
+          "clientHeight": 100
+        },
+        {
+          "html": "<div class=\"slick-list\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\" style=\"font-size: 28px; line-height: 3.14286; letter-spacing: 6px;\"><div class=\"slick-track\" style=\"width: 650px; opacity: 1; transform: translate3d(0px, 0px, 0px); font-size: 28px; line-height: 3.14286; letter-spacing: 6px;\" data-tcc-base-font-size=\"14\" data-tcc-base-font-",
+          "scrollWidth": 650,
+          "clientWidth": 259,
+          "scrollHeight": 784,
+          "clientHeight": 784
+        },
+        {
+          "html": "<p side=\"right\" oppositeside=\"left\" color-button=\"#003087\" class=\"sc-dlfmnT gxUnvk\"><span class=\"sc-hKgJyM eJOTAo\">Recursos Assistivos</span></p>",
+          "scrollWidth": 8,
+          "clientWidth": 0,
+          "scrollHeight": 15,
+          "clientHeight": 15
+        },
+        {
+          "html": "<span class=\"sc-hKgJyM eJOTAo\">Recursos Assistivos</span>",
+          "scrollWidth": 113,
+          "clientWidth": 8,
+          "scrollHeight": 15,
+          "clientHeight": 15
+        },
+        {
+          "html": "<p side=\"right\" oppositeside=\"left\" color-button=\"#003087\" class=\"sc-dlfmnT gxUnvk\"><span class=\"sc-hKgJyM eJOTAo\">Acessível em Libras</span></p>",
+          "scrollWidth": 8,
+          "clientWidth": 0,
+          "scrollHeight": 15,
+          "clientHeight": 15
+        },
+        {
+          "html": "<span class=\"sc-hKgJyM eJOTAo\">Acessível em Libras</span>",
+          "scrollWidth": 112,
+          "clientWidth": 8,
+          "scrollHeight": 15,
+          "clientHeight": 15
+        }
+      ],
+      "raiz": "DOM_principal",
+      "toleranciaCssPx": 1
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "reflow-320",
+    "painelFechado": true,
+    "amostraTexto": {
+      "fontePx": 60,
+      "familia": "\"Open Sans\", system-ui, sans-serif",
+      "peso": 900,
+      "linhaPx": 156,
+      "letrasPx": 6
+    },
+    "viewport": {
+      "width": 320,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-1.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-2.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-3.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-4.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-5.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-6.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-7.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-8.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-9.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-10.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-11.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-12.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-13.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-14.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-15.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-16.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-17.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-18.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-19.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-20.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-21.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-22.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-23.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-24.png",
+    "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-25.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "BODY",
+    "alturaConteudo": 15344,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-10.png",
+        "scrollTop": 5508
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-11.png",
+        "scrollTop": 6120
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-12.png",
+        "scrollTop": 6732
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-13.png",
+        "scrollTop": 7344
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-14.png",
+        "scrollTop": 7956
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-15.png",
+        "scrollTop": 8568
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-16.png",
+        "scrollTop": 9180
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-17.png",
+        "scrollTop": 9792
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-18.png",
+        "scrollTop": 10404
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-19.png",
+        "scrollTop": 11016
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-20.png",
+        "scrollTop": 11628
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-21.png",
+        "scrollTop": 12240
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-22.png",
+        "scrollTop": 12852
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-23.png",
+        "scrollTop": 13464
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-24.png",
+        "scrollTop": 14076
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-colab-baixa-visao-chromium-reflow-320-trecho-25.png",
+        "scrollTop": 14624
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T14:50:25.106Z"
+}

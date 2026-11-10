@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.11",
   "nome": "Non-text Contrast",
-  "inicio": "2026-11-08T14:55:56.406Z",
+  "inicio": "2026-11-09T14:07:45.397Z",
   "url": "https://egov.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -12,125 +12,20 @@
     "retry": 0
   },
   "regrasDisponiveis": [],
-  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
-  "preparacao": {
-    "http": {
-      "status": 200,
-      "url": "https://egov.saquarema.rj.gov.br/"
-    },
-    "comunicadoFechado": true,
-    "tutorial": {
-      "exibido": true,
-      "dispensado": true,
-      "metodo": "Escape"
-    },
-    "formulario": {
-      "unidade": "1 | PMS",
-      "tipo": "1 | Processo Eletrônico",
-      "numero": "",
-      "url": "https://egov.saquarema.rj.gov.br/adm/openform.do?sys=PRO&action=openform&formID=7175",
-      "enviado": false
-    },
-    "perfil": "padrao_sem_ajustes_assistivos",
-    "escopo": {
-      "caminhoFrames": [
-        "#myIframe",
-        "iframe[name=\"mainform\"]",
-        "body"
-      ],
-      "descricao": "Documento do formulário aberto; exclui o catálogo externo do e-Gov."
-    },
-    "componentesGraficos": [
-      {
-        "html": "<a id=\"tabButton0\" href=\"#tab0\" class=\"nav-link mb-0 overflow-hidden w-auto outline-0 px-3 py-1 active\" title=\"Consulta Documento\" role=\"tab\" data-bs-toggle=\"tab\" aria-controls=\"tab0\" aria-selected=\"true\" style=\"font-size: 0.9rem; text-overflow: ellipsis;\"><span class=\"text-truncate\">Consulta&nbsp;D",
-        "cor": "rgb(33, 37, 41)",
-        "fundo": "rgb(255, 255, 255)",
-        "borda": "",
-        "preenchimento": "rgb(0, 0, 0)"
-      },
-      {
-        "html": "<button type=\"button\" class=\"w-100 p-0 align-items-center btn btn-primary\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"Ajuda\" style=\"height: 35px; text-decoration: none;\"><span style=\"white-space: pre-wrap;\"><i class=\"fa-solid fa-question\"></i></span></button>",
-        "cor": "rgb(255, 255, 255)",
-        "fundo": "rgb(0, 93, 194)",
-        "borda": "1px solid rgba(0, 0, 0, 0)",
-        "preenchimento": "rgb(0, 0, 0)"
-      },
-      {
-        "html": "<input class=\"form-control\" id=\"WFRInput1136235\" name=\"WFRInput1136235Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\">",
-        "cor": "rgb(33, 37, 41)",
-        "fundo": "rgb(255, 255, 255)",
-        "borda": "0px none rgb(33, 37, 41)",
-        "preenchimento": "rgb(0, 0, 0)"
-      },
-      {
-        "html": "<button class=\"input-group-append\" type=\"button\"></button>",
-        "cor": "rgb(33, 37, 41)",
-        "fundo": "rgb(255, 255, 255)",
-        "borda": "0px none rgb(33, 37, 41)",
-        "preenchimento": "rgb(0, 0, 0)"
-      },
-      {
-        "html": "<input class=\"form-control\" id=\"WFRInput1136236\" name=\"WFRInput1136236Show\" autocomplete=\"off\" style=\"height: 33px; text-decoration: none;\">",
-        "cor": "rgb(33, 37, 41)",
-        "fundo": "rgb(255, 255, 255)",
-        "borda": "0px none rgb(33, 37, 41)",
-        "preenchimento": "rgb(0, 0, 0)"
-      },
-      {
-        "html": "<button class=\"input-group-append\" type=\"button\"></button>",
-        "cor": "rgb(33, 37, 41)",
-        "fundo": "rgb(255, 255, 255)",
-        "borda": "0px none rgb(33, 37, 41)",
-        "preenchimento": "rgb(0, 0, 0)"
-      },
-      {
-        "html": "<input class=\"form-control\" type=\"text\" autocomplete=\"on\" name=\"WFRInput1136234\" id=\"WFRInput1136234\" style=\"height: 35px; text-decoration: none;\">",
-        "cor": "rgb(33, 37, 41)",
-        "fundo": "rgb(255, 255, 255)",
-        "borda": "1px solid rgb(222, 226, 230)",
-        "preenchimento": "rgb(0, 0, 0)"
-      },
-      {
-        "html": "<button type=\"button\" class=\"w-100 p-0 align-items-center btn btn-success\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"Consultar Documento\" style=\"height: 35px; text-decoration: none;\"><span style=\"white-space: pre-wrap;\"><i class=\"fa-solid fa-magnifying-glass\"></i></span></button>",
-        "cor": "rgb(255, 255, 255)",
-        "fundo": "rgb(22, 121, 75)",
-        "borda": "1px solid rgba(0, 0, 0, 0)",
-        "preenchimento": "rgb(0, 0, 0)"
-      }
-    ]
-  },
+  "statusExecucao": "nao_avaliado_sem_regra_axe",
+  "preparacao": {},
   "analise": {
     "varredurasExecutadas": 0,
     "escopo": "criterio",
     "coberturaAxe": "sem_regras",
-    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
-    "estado": "formulario-parcialmente-preenchido-padrao",
-    "viewport": {
-      "width": 1280,
-      "height": 720
-    }
+    "limitacao": "Sem regra axe associada ao critério nesta versão. A acessibilidade deste critério não foi verificada nesta avaliação automatizada.",
+    "estado": "nao_avaliado"
   },
   "resumoAxe": null,
   "ocorrenciasAxe": null,
   "localizacaoDosAchados": [],
   "axe": null,
-  "screenshots": [
-    "Screenshots/1.4.11-saquarema-protocolo-chromium-2026-11-08T14-55-56-406Z-formulario-parcialmente-preenchido-padrao-trecho-1.png"
-  ],
+  "screenshots": [],
   "erros": [],
-  "captura": {
-    "metodo": "iframe_por_trechos_da_rolagem_interna",
-    "geometria": {
-      "top": 0,
-      "height": 758,
-      "viewport": 758
-    },
-    "trechos": [
-      {
-        "arquivo": "Screenshots/1.4.11-saquarema-protocolo-chromium-2026-11-08T14-55-56-406Z-formulario-parcialmente-preenchido-padrao-trecho-1.png",
-        "scrollTop": 0
-      }
-    ]
-  },
-  "fim": "2026-11-08T14:56:01.458Z"
+  "fim": "2026-11-09T14:07:45.398Z"
 }

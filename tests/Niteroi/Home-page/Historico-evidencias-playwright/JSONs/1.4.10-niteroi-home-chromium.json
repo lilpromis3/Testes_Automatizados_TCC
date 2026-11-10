@@ -1,0 +1,3864 @@
+{
+  "criterio": "1.4.10",
+  "nome": "Reflow",
+  "inicio": "2026-11-08T14:45:02.745Z",
+  "url": "https://niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1410",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://niteroi.rj.gov.br/"
+    },
+    "widgetBaixaVisao": {
+      "fornecedor": "Real Accessability",
+      "nivelFonte": 3,
+      "incrementoPx": 6,
+      "maximoConfirmadoPorCliqueAdicional": true,
+      "inverterCores": true,
+      "destacarLinks": true,
+      "fonteRegular": false,
+      "tamanhos": [
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 41,
+          "atual": 47
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 18,
+          "atual": 24
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 22,
+          "atual": 28
+        },
+        {
+          "original": 22,
+          "atual": 28
+        },
+        {
+          "original": 22,
+          "atual": 28
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        }
+      ]
+    },
+    "layout": {
+      "larguraViewport": 320,
+      "larguraDocumento": 520,
+      "rolagemHorizontal": true,
+      "candidatosRecorte": [
+        {
+          "html": "<p id=\"ticker-content-1794149104339\" class=\"ticker-content\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"display: block; opacity: 1; transform: translateX(0px); font-size: 19px;\">\n\t\t\t\t\t\t\t\t<a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-comeca-com-exposicao-sobre-infancias-e-natureza-no-campo-de-sao-bento/\" role=\"link\">Semana da Educação de Niterói começa com exposição sobre",
+          "scrollWidth": 898,
+          "clientWidth": 231,
+          "scrollHeight": 40,
+          "clientHeight": 40
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-raofz=\"16\" style=\"font-size: 22px;\">Menu</span>",
+          "scrollWidth": 56,
+          "clientWidth": 1,
+          "scrollHeight": 30,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-raofz=\"16\" style=\"font-size: 22px;\">Procurar por</span>",
+          "scrollWidth": 121,
+          "clientWidth": 1,
+          "scrollHeight": 30,
+          "clientHeight": 1
+        },
+        {
+          "html": "<div aria-live=\"polite\" class=\"slick-list draggable\"><div class=\"slick-track\" role=\"listbox\" style=\"opacity: 1; width: 5220px; transform: translate3d(-580px, 0px, 0px); transition: transform 500ms;\"><div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-19-at-21.18.57.jpeg&quot;); width: 290px;\" class=\"slide slide-id-15 tie-slide-4 tie-s",
+          "scrollWidth": 5220,
+          "clientWidth": 290,
+          "scrollHeight": 220,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div class=\"tie-slick-slider slick-initialized slick-slider slick-dotted\" role=\"toolbar\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">\n\n\t\t\t\t\t\t\t\t\t\t<!-- .slide || .grid-item /-->\n\t\t\t<!-- .slide || .grid-item /-->\n\t\t\t<!-- .slide || .grid-item /-->\n\t\t\t<!-- .slide || .grid-item /-->\n\t\t\t<!-- .slide || .grid-item /-->\n\t\t\t<!-- .slide || .grid-item /-->\n\t\t\t<!-- .slide || .grid-item",
+          "scrollWidth": 305,
+          "clientWidth": 290,
+          "scrollHeight": 226,
+          "clientHeight": 226
+        },
+        {
+          "html": "<div aria-live=\"polite\" class=\"slick-list draggable\"><div class=\"slick-track\" role=\"listbox\" style=\"opacity: 1; width: 5760px; transform: translate3d(-1920px, 0px, 0px); transition: transform 500ms;\"><div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2024/09/carrossel_site_GESTAO_DE_ORLAS-780x470.png&quot;); width: 290px;\" class=\"slide slide-id-16 tie-slide-4 tie-",
+          "scrollWidth": 5760,
+          "clientWidth": 320,
+          "scrollHeight": 180,
+          "clientHeight": 180
+        },
+        {
+          "html": "<div aria-live=\"polite\" class=\"slick-list draggable\"><div class=\"slick-track\" role=\"listbox\" style=\"opacity: 1; width: 3480px; transform: translate3d(-580px, 0px, 0px); transition: transform 500ms;\"><div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-15.39.30-1-1.jpeg&quot;); width: 290px;\" class=\"slide slide-id-35235 tie-slide-",
+          "scrollWidth": 3480,
+          "clientWidth": 290,
+          "scrollHeight": 220,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-15.39.30-1-1.jpeg&quot;); width: 290px;\" class=\"slide slide-id-35235 tie-slide-4 tie-standard slick-slide slick-cloned\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"-1\" id=\"\" aria-hidden=\"true\">",
+          "scrollWidth": 365,
+          "clientWidth": 290,
+          "scrollHeight": 505,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-16.38.01-3.jpeg&quot;); width: 290px;\" class=\"slide slide-id-35269 tie-slide-1 tie-standard slick-slide\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide20\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"0\" aria-hidden=\"true\">\n\t\t\t\t\t<a href=\"https:/",
+          "scrollWidth": 381,
+          "clientWidth": 290,
+          "scrollHeight": 573,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-08-at-08.37.39-1-1.jpeg&quot;); width: 290px;\" class=\"slide slide-id-35272 tie-slide-2 tie-standard slick-slide slick-current slick-active\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide21\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"1\" aria-hidden=",
+          "scrollWidth": 332,
+          "clientWidth": 290,
+          "scrollHeight": 673,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/Defesa-Civil-Niteroi.jpeg&quot;); width: 290px;\" class=\"slide slide-id-35266 tie-slide-3 tie-standard slick-slide\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide22\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"2\" aria-hidden=\"true\">\n\t\t\t\t\t<a href=\"https://niteroi.rj.gov.br/",
+          "scrollWidth": 290,
+          "clientWidth": 290,
+          "scrollHeight": 472,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-10-14-at-18.43.17-2-1.jpeg&quot;); width: 290px;\" class=\"slide slide-id-35253 tie-slide-4 tie-standard slick-slide\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide23\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"3\" aria-hidden=\"true\">\n\t\t\t\t\t<a href=\"https",
+          "scrollWidth": 360,
+          "clientWidth": 290,
+          "scrollHeight": 573,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/BEA_0036-1.jpg&quot;); width: 290px;\" class=\"slide slide-id-35250 tie-slide-5 tie-standard slick-slide\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide24\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"4\" aria-hidden=\"true\">\n\t\t\t\t\t<a href=\"https://niteroi.rj.gov.br/brasil-venc",
+          "scrollWidth": 365,
+          "clientWidth": 290,
+          "scrollHeight": 573,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/03/D74A8689-Nittrans.jpg&quot;); width: 290px;\" class=\"slide slide-id-35263 tie-slide-6 tie-standard slick-slide\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide25\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"5\" aria-hidden=\"true\">\n\t\t\t\t\t<a href=\"https://niteroi.rj.gov.br/nitt",
+          "scrollWidth": 316,
+          "clientWidth": 290,
+          "scrollHeight": 505,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-07-at-10.07.11-1-1.jpeg&quot;); width: 290px;\" class=\"slide slide-id-35246 tie-slide-1 tie-standard slick-slide\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide26\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"6\" aria-hidden=\"true\">\n\t\t\t\t\t<a href=\"https",
+          "scrollWidth": 387,
+          "clientWidth": 290,
+          "scrollHeight": 505,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-07-at-08.18.45-2-1.jpeg&quot;); width: 290px;\" class=\"slide slide-id-35243 tie-slide-2 tie-standard slick-slide\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide27\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"7\" aria-hidden=\"true\">\n\t\t\t\t\t<a href=\"https",
+          "scrollWidth": 471,
+          "clientWidth": 290,
+          "scrollHeight": 505,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/Divulgacao-Educacao-2.jpeg&quot;); width: 290px;\" class=\"slide slide-id-35260 tie-slide-3 tie-standard slick-slide\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide28\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"8\" aria-hidden=\"true\">\n\t\t\t\t\t<a href=\"https://niteroi.rj.gov.br",
+          "scrollWidth": 405,
+          "clientWidth": 290,
+          "scrollHeight": 707,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-15.39.30-1-1.jpeg&quot;); width: 290px;\" class=\"slide slide-id-35235 tie-slide-4 tie-standard slick-slide\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"9\" aria-hidden=\"true\">\n\t\t\t\t\t<a href=\"https",
+          "scrollWidth": 365,
+          "clientWidth": 290,
+          "scrollHeight": 505,
+          "clientHeight": 220
+        },
+        {
+          "html": "<div style=\"background-image: url(&quot;https://niteroi.rj.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-16.38.01-3.jpeg&quot;); width: 290px;\" class=\"slide slide-id-35269 tie-slide-1 tie-standard slick-slide slick-cloned\" tabindex=\"-1\" role=\"option\" data-aria-describedby=\"slick-slide20\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" data-slick-index=\"10\" id=\"\" aria-hidden=\"true\">\n\t",
+          "scrollWidth": 381,
+          "clientWidth": 290,
+          "scrollHeight": 573,
+          "clientHeight": 220
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Facebook</span>",
+          "scrollWidth": 80,
+          "clientWidth": 1,
+          "scrollHeight": 48,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">X</span>",
+          "scrollWidth": 11,
+          "clientWidth": 1,
+          "scrollHeight": 48,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">YouTube</span>",
+          "scrollWidth": 73,
+          "clientWidth": 1,
+          "scrollHeight": 48,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Instagram</span>",
+          "scrollWidth": 84,
+          "clientWidth": 1,
+          "scrollHeight": 48,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">Telegram</span>",
+          "scrollWidth": 76,
+          "clientWidth": 1,
+          "scrollHeight": 48,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">TikTok</span>",
+          "scrollWidth": 53,
+          "clientWidth": 1,
+          "scrollHeight": 48,
+          "clientHeight": 1
+        },
+        {
+          "html": "<span class=\"screen-reader-text\" data-tcc-base-font-size=\"22\" data-raofz=\"22\" style=\"font-size: 28px;\">Botão Voltar ao topo</span>",
+          "scrollWidth": 73,
+          "clientWidth": 1,
+          "scrollHeight": 160,
+          "clientHeight": 1
+        }
+      ],
+      "raiz": "DOM_principal",
+      "toleranciaCssPx": 1
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "reflow-320",
+    "painelFechado": true,
+    "viewport": {
+      "width": 320,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-1.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-2.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-3.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-4.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-5.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-6.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-7.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-8.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-9.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-10.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-11.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-12.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-13.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-14.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-15.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-16.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-17.png",
+    "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-18.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 10904,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-10.png",
+        "scrollTop": 5508
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-11.png",
+        "scrollTop": 6120
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-12.png",
+        "scrollTop": 6732
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-13.png",
+        "scrollTop": 7344
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-14.png",
+        "scrollTop": 7956
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-15.png",
+        "scrollTop": 8568
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-16.png",
+        "scrollTop": 9180
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-17.png",
+        "scrollTop": 9792
+      },
+      {
+        "arquivo": "Screenshots/1.4.10-niteroi-home-chromium-reflow-320-trecho-18.png",
+        "scrollTop": 10084
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T14:45:10.583Z"
+}

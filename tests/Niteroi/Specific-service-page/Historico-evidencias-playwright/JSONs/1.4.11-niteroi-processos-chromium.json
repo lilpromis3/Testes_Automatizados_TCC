@@ -1,0 +1,990 @@
+{
+  "criterio": "1.4.11",
+  "nome": "Non-text Contrast",
+  "inicio": "2026-11-08T14:48:27.359Z",
+  "url": "https://processo.niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1411",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://processo.niteroi.rj.gov.br/"
+    },
+    "formularioVisivelAntesDoAxe": true,
+    "animacoesDeEntrada": {
+      "metodo": "titulo_completo_opacidade_e_animacoes_finitas_concluidas",
+      "titulo": "Processo.Nit",
+      "tituloEsperado": "Processo.Nit",
+      "formulario": [
+        {
+          "tag": "INPUT",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "form-control animate-box fadeInUp animated-fast"
+        },
+        {
+          "tag": "SELECT",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "form-control animate-box fadeInUp animated-fast"
+        },
+        {
+          "tag": "BUTTON",
+          "opacidade": "1",
+          "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+          "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+        }
+      ]
+    },
+    "formulario": {
+      "abertoPor": "Localizar Processo",
+      "enviado": false,
+      "numero": "",
+      "ano": "2026",
+      "controles": [
+        "<input type=\"text\" required=\"\" class=\"form-control animate-box fadeInUp animated-fast\" oninvalid=\"this.setCustomValidity('Campo Obrigatório. Digite apenas os números')\" name=\"processo\" pattern=\"[0-9]+$\" placeholder=\"Nº Processo\">",
+        "<select type=\"text\" required=\"\" class=\"form-control animate-box fadeInUp animated-fast\" name=\"ano\" minlength=\"4\" maxlength=\"4\" pattern=\"[0-9]+$\" oninvalid=\"this.setCustomValidity('Campo Obrigatório. Digite apenas os números com ano completo Ex.:2022')\" placeholder=\"Ano\">\n                                                            <option value=\"2026\">2026</option><option value=\"2025\">2025</option><option value=\"2024\">2024</option><option value=\"2023\">2023</option><option value=\"2022\">2022</option><option value=\"2021\">2021</option><option value=\"2020\">2020</option><option value=\"2019\">2019</option><option value=\"2018\">2018</option><option value=\"2017\">2017</option><option value=\"2016\">2016</option><option value=\"2015\">2015</option><option value=\"2014\">2014</option><option value=\"2013\">2013</option><option value=\"2012\">2012</option><option value=\"2011\">2011</option>                                                        </select>",
+        "<button type=\"submit\" class=\"btn btn-primary btn-block animate-box fadeInUp animated-fast\">\n                                                        <b>Pesquisar</b></button>"
+      ]
+    },
+    "perfil": "original_sem_widget_visual",
+    "componentesGraficos": [
+      {
+        "html": "<a href=\"http://www.niteroi.rj.gov.br\" class=\"item link-nav\" target=\"_blank\">Prefeitura de Niterói</a>",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://transparencia.niteroi.rj.gov.br/#/\" class=\"item link-nav\" target=\"_blank\">Portal da\n            Trasparência</a>",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://servicos.niteroi.rj.gov.br/\" class=\"item link-nav\" target=\"_blank\">Portal de Serviços</a>",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://niteroi450anos.com.br/\" class=\"item link-nav\" target=\"_blank\">Niterói 450 anos</a>",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#page\">Início</a>",
+        "cor": "rgba(255, 255, 255, 0.5)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgba(255, 255, 255, 0.5)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#gtco-features-2\">Sobre</a>",
+        "cor": "rgba(255, 255, 255, 0.5)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgba(255, 255, 255, 0.5)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"lista_adms.php\" style=\"z-index:-1!important\">Administradores\n                                        Locais</a>",
+        "cor": "rgba(255, 255, 255, 0.5)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgba(255, 255, 255, 0.5)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#contato\">Contato</a>",
+        "cor": "rgba(255, 255, 255, 0.5)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgba(255, 255, 255, 0.5)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"index.html\">\n                                    <img src=\"images/logo.png\" style=\"width: 20rem;margin-top:-6%;\">\n                                </a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#page\">Início</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#gtco-features-2\">Sobre</a>",
+        "cor": "rgba(255, 255, 255, 0.5)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgba(255, 255, 255, 0.5)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"lista_adms.php\" style=\"z-index:-1!important\">Administradores\n                                        Locais</a>",
+        "cor": "rgba(255, 255, 255, 0.5)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgba(255, 255, 255, 0.5)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#contato\">Contato</a>",
+        "cor": "rgba(255, 255, 255, 0.5)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgba(255, 255, 255, 0.5)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" class=\"btn btn-primary btn-lg\" id=\"ativar-busca\"><b>Localizar\n                                                Processo</b></a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(249, 108, 47)",
+        "borda": "2px solid rgb(249, 108, 47)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://sso.niteroi.rj.gov.br/auth/realms/niteroi/protocol/openid-connect/auth?client_id=CIGA&amp;redirect_uri=https%3A%2F%2Feciga.niteroi.rj.gov.br%2F%23%2F&amp;state=d1e45785-f7d0-4c15-bf1e-ffceaa8ca5bc&amp;response_mode=query&amp;response_type=code&amp;scope=openid&amp;nonce=e358cf62-7d7",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://eciga.niteroi.rj.gov.br/#/cidadao\" target=\"_blank\" class=\"btn btn-white btn-outline btn-lg\">Acessar e-Ciga Cidadão</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<input type=\"text\" required=\"\" class=\"form-control animate-box fadeInUp animated-fast\" oninvalid=\"this.setCustomValidity('Campo Obrigatório. Digite apenas os números')\" name=\"processo\" pattern=\"[0-9]+$\" placeholder=\"Nº Processo\">",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<select type=\"text\" required=\"\" class=\"form-control animate-box fadeInUp animated-fast\" name=\"ano\" minlength=\"4\" maxlength=\"4\" pattern=\"[0-9]+$\" oninvalid=\"this.setCustomValidity('Campo Obrigatório. Digite apenas os números com ano completo Ex.:2022')\" placeholder=\"Ano\">\n                            ",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button type=\"submit\" class=\"btn btn-primary btn-block animate-box fadeInUp animated-fast\">\n                                                        <b>Pesquisar</b></button>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgb(248, 90, 22)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#sec1\"><br>\n                                        <div class=\"arrow\">\n                                            <span></span>\n                                            <span></span>\n                                            <span></span>\n\n                                        </di",
+        "cor": "rgba(255, 255, 255, 0.7)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://leismunicipais.com.br/a/rj/n/niteroi/lei-ordinaria/2021/363/3632/lei-ordinaria-n-3632-2021-autoriza-o-ingresso-do-municipio-de-niteroi-rj-no-consorcio-de-informatica-na-gestao-publica-municipal-ciga-e-da-outras-providencias\" target=\"_blank\" class=\"btn btn-primary btn-outline\">Lei de",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://leismunicipais.com.br/a/rj/n/niteroi/decreto/2021/1418/14177/decreto-n-14177-2021-institui-o-e-Ciga-como-o-sistema-unico-de-processo-eletronico-e-organiza-a-realizacao-de-processo-administrativo-em-meio-eletronico-e-nao-presencial-no-municipio-de-niteroi-o-prefeito-do-municipio-de-n",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"docs/PORTARIAS_PROCESSO_ELETRONICO_CONSOLIDADO.pdf\" target=\"_blank\" class=\"btn btn-primary btn-outline\">Portarias de\n                                        Regulamentação</a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"docs/Relatorio_Operacao_Assistida.pdf\" target=\"_blank\" class=\"btn btn-primary btn-outline\">Relatório de Operação\n                                        Assistida</a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://egg.seplag.niteroi.rj.gov.br/curso/eciga/\" target=\"_blank\" class=\"btn btn-primary btn-outline\">Treinamento Virtual</a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://treinamento.eciga.niteroi.rj.gov.br\" target=\"_blank\" class=\"btn btn-primary btn-outline\">Simulador de Processos e-Ciga</a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"docs/Manual_de_Processos_Niteroi_06_01_23.pdf\" target=\"_blank\" class=\"btn btn-primary btn-outline\">Manuais de Processos</a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://scribehow.com/page/Manual_do_usuario__lGfX0o5yT12RPZAm-emOPg\" target=\"_blank\" class=\"btn btn-primary btn-outline\">Manual Interativo do e-Ciga</a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"docs/Modelo_Termo_TEAP.docx\" target=\"_blank\" class=\"btn btn-primary btn-outline\">Modelo Termo TEAP</a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"lista_adms.php\" target=\"_blank\" class=\"btn btn-primary btn-outline\">\n                                        Acessar Lista</a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"encontros_rede.php\" target=\"_blank\" class=\"btn btn-primary btn-outline\">\n                                        Encontros da REDE</a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "2px solid rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://drive.google.com/file/d/1ZothUOervyVxp3Txl-uDXo2Y13uV0nbE/preview\" class=\"popup-vimeo\"><i class=\"icon-video\"></i></a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "0px none rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<input id=\"pesquisa_faq\" onkeyup=\"search_faq()\" type=\"text\" name=\"search\" placeholder=\"Filtre sua pergunta\">",
+        "cor": "rgb(130, 130, 130)",
+        "fundo": "rgb(255, 255, 255)",
+        "borda": "2px inset rgb(118, 118, 118)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://fazenda.niteroi.rj.gov.br/\" target=\"_blank\">Secretária de\n                                        Fazenda</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://seconser.niteroi.rj.gov.br/\" target=\"_blank\">Secretaria Municipal de\n                                        Conservação e Serviços Públicos</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.smarhs.niteroi.rj.gov.br/\" target=\"_blank\">Secretaria Municipal\n                                        de\n                                        Meio Ambiente, Recursos Hídricos e Sustentabilidade</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://urbanismo.niteroi.rj.gov.br/\" target=\"_blank\"> Secretaria Municipal\n                                        de\n                                        Urbanismo e Mobilidade</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.educacaoniteroi.com.br/\" target=\"_blank\">Secretaria Municipal de\n                                        Educação</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.saude.niteroi.rj.gov.br/\" target=\"_blank\">Secretaria Municipal\n                                        de\n                                        Saúde</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.culturaniteroi.com.br/\" target=\"_blank\">Secretaria Municipal de\n                                        Cultura</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://defesacivil.niteroi.rj.gov.br/\" target=\"_blank\"> Defesa Civil de\n                                        Niterói</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.neltur.com.br/\" target=\"_blank\"> Niterói Empresa de Lazer e\n                                        Turismo</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.niteroiprev.niteroi.rj.gov.br/\" target=\"_blank\"> Niterói\n                                        Previdência</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.clin.rj.gov.br/\" target=\"_blank\"> Companhia de Limpeza Urbana de\n                                        Niterói</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://pactocontraaviolencia.niteroi.rj.gov.br/\" target=\"_blank\"> Pacto\n                                        Niterói\n                                        Contra a Violência</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://seplag.niteroi.rj.gov.br/\" target=\"_blank\"> Secretaria de\n                                        Planejamento,\n                                        Orçamento e Modernização da Gestão</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://seop.niteroi.rj.gov.br/\" target=\"_blank\"> Secretaria Municipal de\n                                        Ordem\n                                        Pública</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://emusa.niteroi.rj.gov.br/\" target=\"_blank\"> Empresa Municipal de\n                                        Moradia, Urbanização e Saneamento</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.nittrans.niteroi.rj.gov.br/\" target=\"_blank\"> Niterói\n                                        Transporte e\n                                        Trânsito</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://www.fesaude.niteroi.rj.gov.br/\" target=\"_blank\"> Fundação Estatal\n                                        de\n                                        Saúde</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://pgm.niteroi.rj.gov.br/\" target=\"_blank\"> Procuradoria Geral do\n                                        Município</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.esporte.niteroi.rj.gov.br/\" target=\"_blank\"> Secretaria\n                                        Municipal de\n                                        Esporte e Lazer</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://caminhoniemeyer.niteroi.rj.gov.br/\" target=\"_blank\"> Grupo Executivo\n                                        do\n                                        Caminho Niemeyer</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://niteroidebicicleta.rj.gov.br/\" target=\"_blank\"> Niterói de\n                                        Bicicleta</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.controladoria.niteroi.rj.gov.br/\" target=\"_blank\"> Controladoria\n                                        Geral do Município</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.niteroi.rj.gov.br/niteroicidada/\" target=\"_blank\"> Niterói\n                                        Cidadã</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://servicos.niteroi.rj.gov.br/#/main/dyview\" target=\"_blank\">\n                                        Portal de\n                                        Serviços</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://fazenda.niteroi.rj.gov.br/site/servicos/iptu/\" target=\"_blank\">\n                                        2ª\n                                        via de IPTU e informações do imóvel</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://fazenda.niteroi.rj.gov.br/site/servicos/iss/\" target=\"_blank\">\n                                        Consulta e 2ª Via de ISS e Taxas</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://processo.niteroi.rj.gov.br/\" target=\"_blank\"> Consulta a\n                                        Processos</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://fazenda.niteroi.rj.gov.br/site/servicos/certidao-debitos-imobiliarios/\" target=\"_blank\"> Certidão de Débitos Imobiliários</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://fazenda.niteroi.rj.gov.br/certidao/\" target=\"_blank\"> Certidão\n                                        Mobiliária</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://fazenda.niteroi.rj.gov.br/itbi/\" target=\"_blank\"> Emissão de\n                                        ITBI</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://fazenda.niteroi.rj.gov.br/itbi/itbi.php\" target=\"_blank\">\n                                        Solicitação de ITBI</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://fazenda.niteroi.rj.gov.br/site/autenticidade-de-documentos/\" target=\"_blank\"> Autenticidade de Documentos</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://fazenda.niteroi.rj.gov.br/alvara/\" target=\"_blank\"> Consulta\n                                        Pública de Alvará</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://nfse.niteroi.rj.gov.br/\" target=\"_blank\"> Nota Fiscal\n                                        Eletrônica</a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"https://tielabs.com/go/jannah-sites-footer\">Prefeitura Municipal de\n                                        Niterói</a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.facebook.com/PrefeituraMunicipaldeNiteroi/\"><i class=\"icon-facebook\"></i></a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://twitter.com/NiteroiPref\"><i class=\"icon-twitter\"></i></a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.niteroi.rj.gov.br/#\"><i class=\"icon-youtube\"></i></a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"http://www.instagram.com/curtoniteroi/\"><i class=\"icon-instagram\"></i></a>",
+        "cor": "rgb(248, 90, 22)",
+        "fundo": "rgba(0, 0, 0, 0)",
+        "borda": "0px none rgb(248, 90, 22)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<a href=\"#\" class=\"js-gotop\"><i class=\"icon-arrow-up\"></i></a>",
+        "cor": "rgb(255, 255, 255)",
+        "fundo": "rgba(0, 0, 0, 0.5)",
+        "borda": "0px none rgb(255, 255, 255)",
+        "preenchimento": "rgb(0, 0, 0)"
+      },
+      {
+        "html": "<button type=\"button\" aria-label=\"Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.\" id=\"vlibras-button\"> <img src=\"https://vlibras.gov.br/app/assets/images/vlibras-access.svg\" alt=\"\" aria-hidden=\"true\"> </button>",
+        "cor": "rgb(0, 0, 0)",
+        "fundo": "rgb(240, 240, 240)",
+        "borda": "0px none rgb(0, 0, 0)",
+        "preenchimento": "rgb(0, 0, 0)"
+      }
+    ]
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "formulario-localizar-processo-aberto",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-1.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-formulario.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-3.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-4.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-5.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-6.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-7.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-8.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-9.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-10.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-11.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-12.png",
+    "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-13.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 7229,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-1.png",
+        "scrollTop": 0,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-formulario.png",
+        "scrollTop": 549,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-3.png",
+        "scrollTop": 612,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-4.png",
+        "scrollTop": 1224,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-5.png",
+        "scrollTop": 1836,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-6.png",
+        "scrollTop": 2448,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-7.png",
+        "scrollTop": 3060,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-8.png",
+        "scrollTop": 3672,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-9.png",
+        "scrollTop": 4284,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-10.png",
+        "scrollTop": 4896,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-11.png",
+        "scrollTop": 5508,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-12.png",
+        "scrollTop": 6120,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      },
+      {
+        "arquivo": "Screenshots/1.4.11-niteroi-processos-chromium-formulario-localizar-processo-aberto-trecho-13.png",
+        "scrollTop": 6509,
+        "entrada": {
+          "titulo": "Processo.Nit",
+          "tituloEsperado": "Processo.Nit",
+          "formulario": [
+            {
+              "tag": "INPUT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "SELECT",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "form-control animate-box fadeInUp animated-fast"
+            },
+            {
+              "tag": "BUTTON",
+              "opacidade": "1",
+              "transformacao": "matrix(1, 0, 0, 1, 0, 0)",
+              "classes": "btn btn-primary btn-block animate-box fadeInUp animated-fast"
+            }
+          ]
+        }
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T14:48:36.643Z"
+}

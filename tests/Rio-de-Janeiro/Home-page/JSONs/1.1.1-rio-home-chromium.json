@@ -1,7 +1,7 @@
 {
   "criterio": "1.1.1",
   "nome": "Non-text Content",
-  "inicio": "2026-11-08T14:22:55.142Z",
+  "inicio": "2026-11-09T14:03:10.974Z",
   "url": "https://prefeitura.rio",
   "ambiente": {
     "navegador": "chromium",
@@ -24,8 +24,8 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
-      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+      "criteriosSemRegraAxe": "nao_avaliados_sem_varredura_axe_ou_verificacao_playwright",
+      "revisaoManual": "A avaliação manual está fora do escopo desta suíte; ausência de achados não certifica conformidade."
     },
     "http": {
       "status": 200,
@@ -701,7 +701,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:23:11.188Z",
+    "timestamp": "2026-11-09T14:03:25.356Z",
     "url": "https://prefeitura.rio/",
     "toolOptions": {
       "resultTypes": [
@@ -1801,9 +1801,9 @@
               }
             ],
             "impact": null,
-            "html": "<img width=\"890\" height=\"592\" src=\"https://prefeitura.r...\" class=\"attachment-post-thum...\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://prefeitura.r...\" sizes=\"auto, (max-width: 89...\" data-tcc-base-font-s...=\"20\">",
+            "html": "<img width=\"1352\" height=\"628\" src=\"https://prefeitura.r...\" class=\"attachment-post-thum...\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://prefeitura.r...\" sizes=\"auto, (max-width: 13...\" data-tcc-base-font-s...=\"20\">",
             "target": [
-              "img[width=\"890\"]"
+              "img[width=\"1352\"]"
             ]
           },
           {
@@ -1836,9 +1836,9 @@
               }
             ],
             "impact": null,
-            "html": "<img width=\"2560\" height=\"1616\" src=\"https://prefeitura.r...\" class=\"attachment-post-thum...\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://prefeitura.r...\" sizes=\"auto, (max-width: 25...\" data-tcc-base-font-s...=\"20\">",
+            "html": "<img width=\"890\" height=\"592\" src=\"https://prefeitura.r...\" class=\"attachment-post-thum...\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://prefeitura.r...\" sizes=\"auto, (max-width: 89...\" data-tcc-base-font-s...=\"20\">",
             "target": [
-              "img[width=\"2560\"]"
+              "img[width=\"890\"]"
             ]
           },
           {
@@ -1906,9 +1906,9 @@
               }
             ],
             "impact": null,
-            "html": "<img width=\"1280\" height=\"854\" src=\"https://prefeitura.r...\" class=\"attachment-post-thum...\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://prefeitura.r...\" sizes=\"auto, (max-width: 12...\" data-tcc-base-font-s...=\"14\">",
+            "html": "<img width=\"2560\" height=\"1616\" src=\"https://prefeitura.r...\" class=\"attachment-post-thum...\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://prefeitura.r...\" sizes=\"auto, (max-width: 25...\" data-tcc-base-font-s...=\"14\">",
             "target": [
-              "img[height=\"854\"]"
+              "img[width=\"2560\"]"
             ]
           },
           {
@@ -1976,9 +1976,9 @@
               }
             ],
             "impact": null,
-            "html": "<img width=\"2048\" height=\"1365\" src=\"https://prefeitura.r...\" class=\"attachment-post-thum...\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://prefeitura.r...\" sizes=\"auto, (max-width: 20...\" data-tcc-base-font-s...=\"14\">",
+            "html": "<img width=\"1280\" height=\"854\" src=\"https://prefeitura.r...\" class=\"attachment-post-thum...\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://prefeitura.r...\" sizes=\"auto, (max-width: 12...\" data-tcc-base-font-s...=\"14\">",
             "target": [
-              "img[width=\"2048\"]"
+              "img[height=\"854\"]"
             ]
           },
           {
@@ -3502,5 +3502,5 @@
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T14:23:11.480Z"
+  "fim": "2026-11-09T14:03:25.633Z"
 }

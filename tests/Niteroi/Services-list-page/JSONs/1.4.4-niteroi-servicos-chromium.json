@@ -1,0 +1,345 @@
+{
+  "criterio": "1.4.4",
+  "nome": "Resize Text",
+  "inicio": "2026-11-09T16:02:08.417Z",
+  "url": "https://niteroi360.niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag144",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "meta-viewport"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "nao_avaliados_sem_varredura_axe_ou_verificacao_playwright",
+      "revisaoManual": "A avaliação manual está fora do escopo desta suíte; ausência de achados não certifica conformidade."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://niteroi360.niteroi.rj.gov.br/"
+    },
+    "catalogo": {
+      "secao": "Categorias de serviços",
+      "categoriaConfirmada": "Desenvolvimento Econômico"
+    },
+    "carregamento": {
+      "imagens": 38,
+      "alturaPercorrida": 4320,
+      "superficieRolagem": "BODY",
+      "imagensNaoCarregadas": []
+    },
+    "perfil": "pagina_comum_por_indisponibilidade_widget",
+    "widgetBaixaVisao": {
+      "fornecedor": "Hand Talk",
+      "amostraAntes": {
+        "fontePx": 30,
+        "familia": "\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif",
+        "peso": 700,
+        "linhaPx": 39,
+        "letrasPx": 0
+      },
+      "configuracao": "nivel_maximo_de_cada_recurso",
+      "recursos": [],
+      "disponibilidade": {
+        "disponivel": false,
+        "perfilAplicado": false,
+        "mensagem": "Plugin indisponível — Ops! Site sem Hand Talk Plugin."
+      },
+      "perfilAplicado": false,
+      "painelFechado": true,
+      "continuidade": "layout_comum_por_indisponibilidade_widget"
+    },
+    "autenticacaoHandTalk": {
+      "endpoint": "https://translation-v3.handtalk.me/api/v2/addons/auth",
+      "statusHttp": 401,
+      "autorizado": false
+    },
+    "verificacaoFamiliasDeFonte": {
+      "elementosMedidos": 267,
+      "alteracoes": []
+    },
+    "redimensionamento": {
+      "metodo": "zoom_nativo_chromium_tabs_setZoom",
+      "fator": 2,
+      "zoomNativoExecutado": true,
+      "antes": {
+        "larguraCss": 1280,
+        "alturaCss": 720,
+        "devicePixelRatio": 1,
+        "escalaVisual": 1
+      },
+      "depois": {
+        "larguraCss": 640,
+        "alturaCss": 360,
+        "devicePixelRatio": 2,
+        "escalaVisual": 1
+      },
+      "referencia": "https://www.w3.org/WAI/WCAG22/Techniques/general/G142"
+    },
+    "layout": {
+      "larguraViewport": 640,
+      "larguraDocumento": 640,
+      "rolagemHorizontal": false,
+      "candidatosRecorte": [
+        {
+          "html": "<div class=\"slick-list\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\"><div class=\"slick-track\" style=\"width: 3200px; opacity: 1; transform: translate3d(-1280px, 0px, 0px);\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\"><div data-index=\"-1\" tabindex=\"-1\" class=\"slick-slide slick-cloned\" a",
+          "scrollWidth": 3200,
+          "clientWidth": 640,
+          "scrollHeight": 200,
+          "clientHeight": 200
+        },
+        {
+          "html": "<div class=\"slick-list\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\"><div class=\"slick-track\" style=\"width: 1968px; opacity: 1; transform: translate3d(0px, 0px, 0px);\" data-tcc-base-font-size=\"14\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\"><div data-ind",
+          "scrollWidth": 1229,
+          "clientWidth": 490,
+          "scrollHeight": 162,
+          "clientHeight": 162
+        },
+        {
+          "html": "<p side=\"right\" oppositeside=\"left\" color-button=\"#003087\" class=\"sc-dlfmnT gxUnvk\"><span class=\"sc-hKgJyM eJOTAo\">Recursos Assistivos</span></p>",
+          "scrollWidth": 8,
+          "clientWidth": 0,
+          "scrollHeight": 15,
+          "clientHeight": 15
+        },
+        {
+          "html": "<span class=\"sc-hKgJyM eJOTAo\">Recursos Assistivos</span>",
+          "scrollWidth": 113,
+          "clientWidth": 8,
+          "scrollHeight": 15,
+          "clientHeight": 15
+        },
+        {
+          "html": "<p side=\"right\" oppositeside=\"left\" color-button=\"#003087\" class=\"sc-dlfmnT gxUnvk\"><span class=\"sc-hKgJyM eJOTAo\">Acessível em Libras</span></p>",
+          "scrollWidth": 8,
+          "clientWidth": 0,
+          "scrollHeight": 15,
+          "clientHeight": 15
+        },
+        {
+          "html": "<span class=\"sc-hKgJyM eJOTAo\">Acessível em Libras</span>",
+          "scrollWidth": 112,
+          "clientWidth": 8,
+          "scrollHeight": 15,
+          "clientHeight": 15
+        }
+      ],
+      "raiz": "DOM_principal",
+      "toleranciaCssPx": 1
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
+    "estado": "zoom-nativo-200",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 0,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "ocorrenciasAxe": {
+    "violations": 0,
+    "passes": 1,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 640,
+      "windowHeight": 360,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-09T16:02:22.886Z",
+    "url": "https://niteroi360.niteroi.rj.gov.br/",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "meta-viewport"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [],
+    "passes": [
+      {
+        "id": "meta-viewport",
+        "impact": null,
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag2aa",
+          "wcag144",
+          "EN-301-549",
+          "EN-9.1.4.4",
+          "ACT",
+          "RGAAv4",
+          "RGAA-10.4.2"
+        ],
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/meta-viewport?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "meta-viewport",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "<meta> tag does not disable zooming on mobile devices"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "target": [
+              "meta[name=\"viewport\"]"
+            ]
+          }
+        ]
+      }
+    ],
+    "incomplete": [],
+    "violations": []
+  },
+  "screenshots": [
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-1.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-2.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-3.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-4.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-5.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-6.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-7.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-8.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-9.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-10.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-11.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-12.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-13.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-14.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-15.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-16.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-17.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-18.png",
+    "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-19.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "BODY",
+    "alturaConteudo": 5655,
+    "alturaViewport": 360,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-2.png",
+        "scrollTop": 306
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-3.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-4.png",
+        "scrollTop": 918
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-5.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-6.png",
+        "scrollTop": 1530
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-7.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-8.png",
+        "scrollTop": 2142
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-9.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-10.png",
+        "scrollTop": 2754
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-11.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-12.png",
+        "scrollTop": 3366
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-13.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-14.png",
+        "scrollTop": 3978
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-15.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-16.png",
+        "scrollTop": 4590
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-17.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-18.png",
+        "scrollTop": 5202
+      },
+      {
+        "arquivo": "Screenshots/1.4.4-niteroi-servicos-handtalk-chromium-zoom-nativo-200-trecho-19.png",
+        "scrollTop": 5295
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-09T16:02:23.173Z"
+}

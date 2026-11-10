@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.4",
   "nome": "Resize Text",
-  "inicio": "2026-11-08T14:49:14.129Z",
+  "inicio": "2026-11-09T14:06:29.205Z",
   "url": "https://www.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -48,8 +48,8 @@
           "html": "<div class=\"c-content-box\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 32px !important;\"><div class=\"article-list-inner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 32px !important;\"><i class=\"ico-shadow tp tp-text\" data-ra-fs=\"120\" data-ra-fs-in=\"\" style=\"font-size: 240px !important;\"></i><h2 class=\"article-list-title\" data-ra-fs=\"24\" data-ra-fs-in=\"\" style=\"font-size: 48px !importa",
           "scrollWidth": 625,
           "clientWidth": 595,
-          "scrollHeight": 951,
-          "clientHeight": 951
+          "scrollHeight": 1018,
+          "clientHeight": 1018
         },
         {
           "html": "<div class=\"c-content-box\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 32px !important;\">\n<div class=\"article-list-inner\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 32px !important;\"><i class=\"ico-shadow fa fa-youtube\" data-ra-fs=\"120\" data-ra-fs-in=\"\" style=\"font-size: 240px !important;\"></i><p data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 32px !important;\"></p>\n<h2 class=\"art",
@@ -169,7 +169,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:49:17.391Z",
+    "timestamp": "2026-11-09T14:06:32.262Z",
     "url": "https://www.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -230,8 +230,8 @@
     "violations": []
   },
   "screenshots": [
-    "Screenshots/1.4.4-chromium-2026-11-08T14-49-14-129Z-texto-200-css-widget-fechado.png"
+    "Screenshots/1.4.4-chromium-2026-11-09T14-06-29-205Z-texto-200-css-widget-fechado.png"
   ],
   "erros": [],
-  "fim": "2026-11-08T14:49:17.753Z"
+  "fim": "2026-11-09T14:06:32.610Z"
 }

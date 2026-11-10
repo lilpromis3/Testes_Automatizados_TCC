@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.12",
   "nome": "Text Spacing",
-  "inicio": "2026-11-08T16:29:49.278Z",
+  "inicio": "2026-11-09T14:07:45.483Z",
   "url": "https://egov.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -80,7 +80,7 @@
         },
         {
           "tag": "UL",
-          "id": "tabsController912156",
+          "id": "tabsController291689",
           "alturaLinhaComputada": "22.8px",
           "linha": 1.5000000000000002,
           "letras": 0.12000000000000001,
@@ -135,7 +135,7 @@
         },
         {
           "tag": "DIV",
-          "id": "tabsContent912156",
+          "id": "tabsContent291689",
           "alturaLinhaComputada": "22.8px",
           "linha": 1.5000000000000002,
           "letras": 0.12000000000000001,
@@ -455,7 +455,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T16:29:59.246Z",
+    "timestamp": "2026-11-09T14:07:51.603Z",
     "url": "https://egov.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -584,11 +584,11 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<ul id=\"tabsController912156\" class=\"nav nav-tabs flex-sm-nowrap\" role=\"tablist\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\" style=\"flex: 0 0 auto;\">",
+            "html": "<ul id=\"tabsController291689\" class=\"nav nav-tabs flex-sm-nowrap\" role=\"tablist\" data-tcc-spacing=\"\" data-tcc-spacing-font-family=\"sans-serif\" data-tcc-spacing-font-size=\"15.2px\" style=\"flex: 0 0 auto;\">",
             "target": [
               "#myIframe",
               "iframe",
-              "#tabsController912156"
+              "#tabsController291689"
             ]
           },
           {
@@ -1686,7 +1686,7 @@
     "violations": []
   },
   "screenshots": [
-    "Screenshots/1.4.12-saquarema-protocolo-chromium-2026-11-08T16-29-49-278Z-quatro-espacamentos-trecho-1.png"
+    "Screenshots/1.4.12-saquarema-protocolo-chromium-2026-11-09T14-07-45-483Z-quatro-espacamentos-trecho-1.png"
   ],
   "erros": [],
   "captura": {
@@ -1698,10 +1698,10 @@
     },
     "trechos": [
       {
-        "arquivo": "Screenshots/1.4.12-saquarema-protocolo-chromium-2026-11-08T16-29-49-278Z-quatro-espacamentos-trecho-1.png",
+        "arquivo": "Screenshots/1.4.12-saquarema-protocolo-chromium-2026-11-09T14-07-45-483Z-quatro-espacamentos-trecho-1.png",
         "scrollTop": 0
       }
     ]
   },
-  "fim": "2026-11-08T16:29:59.626Z"
+  "fim": "2026-11-09T14:07:51.972Z"
 }

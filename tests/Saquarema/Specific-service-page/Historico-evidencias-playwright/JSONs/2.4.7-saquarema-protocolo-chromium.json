@@ -1,0 +1,81 @@
+{
+  "criterio": "2.4.7",
+  "nome": "Focus Visible",
+  "inicio": "2026-11-08T14:56:20.924Z",
+  "url": "https://egov.saquarema.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag247",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://egov.saquarema.rj.gov.br/"
+    },
+    "comunicadoFechado": true,
+    "tutorial": {
+      "exibido": true,
+      "dispensado": true,
+      "metodo": "Escape"
+    },
+    "formulario": {
+      "unidade": "1 | PMS",
+      "tipo": "1 | Processo Eletrônico",
+      "numero": "",
+      "url": "https://egov.saquarema.rj.gov.br/adm/openform.do?sys=PRO&action=openform&formID=7175",
+      "enviado": false
+    },
+    "perfil": "padrao_sem_ajustes_assistivos",
+    "escopo": {
+      "caminhoFrames": [
+        "#myIframe",
+        "iframe[name=\"mainform\"]",
+        "body"
+      ],
+      "descricao": "Documento do formulário aberto; exclui o catálogo externo do e-Gov."
+    },
+    "foco": {
+      "elementoAlcancado": false
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "primeiro-tab",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/2.4.7-saquarema-protocolo-chromium-2026-11-08T14-56-20-924Z-primeiro-tab-trecho-1.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewport_estado_interacao_ou_erro",
+    "geometria": {
+      "top": 0,
+      "height": 758,
+      "viewport": 758
+    },
+    "trechos": [
+      {
+        "arquivo": "Screenshots/2.4.7-saquarema-protocolo-chromium-2026-11-08T14-56-20-924Z-primeiro-tab-trecho-1.png",
+        "scrollTop": 0
+      }
+    ]
+  },
+  "fim": "2026-11-08T14:56:26.943Z"
+}

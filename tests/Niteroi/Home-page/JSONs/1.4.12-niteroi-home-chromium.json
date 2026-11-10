@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.12",
   "nome": "Text Spacing",
-  "inicio": "2026-11-08T14:45:20.640Z",
+  "inicio": "2026-11-09T14:01:19.910Z",
   "url": "https://niteroi.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -18,8 +18,8 @@
   "preparacao": {
     "limitesDaAvaliacao": {
       "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
-      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
-      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+      "criteriosSemRegraAxe": "nao_avaliados_sem_varredura_axe_ou_verificacao_playwright",
+      "revisaoManual": "A avaliação manual está fora do escopo desta suíte; ausência de achados não certifica conformidade."
     },
     "http": {
       "status": 200,
@@ -117,6 +117,18 @@
         {
           "original": 13,
           "atual": 19
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 26,
+          "atual": 32
         },
         {
           "original": 26,
@@ -3569,13 +3581,13 @@
           "html": "<div id=\"tie-container\" class=\"site tie-container\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">\n\n\t\t\n\t\t<div id=\"tie-wrapper\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">\n\t\t\t\n<header id=\"theme-header\" class=\"theme-header header-layout-3 main-nav-light main-nav-default-light main-nav-below main-nav-boxed has-s",
           "scrollWidth": 1787,
           "clientWidth": 1280,
-          "scrollHeight": 6539,
-          "clientHeight": 6539
+          "scrollHeight": 6566,
+          "clientHeight": 6566
         },
         {
-          "html": "<p id=\"ticker-content-1794149122461\" class=\"ticker-content\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"display: block; opacity: 1; transform: translateX(0px); font-size: 19px;\" data-tcc-spacing=\"\">\n\t\t\t\t\t\t\t\t<a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-comeca-com-exposicao-sobre-infancias-e-natureza-no-campo-de-sao-bento/\" role=\"link\" data-tcc-spacing=\"\">Semana da Educaç",
-          "scrollWidth": 1173,
-          "clientWidth": 145,
+          "html": "<p id=\"ticker-content-1794232881584\" class=\"ticker-content\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"display: block; opacity: 1; transform: translateX(0px); font-size: 19px;\" data-tcc-spacing=\"\">\n\t\t\t\t\t\t\t\t<a href=\"https://niteroi.rj.gov.br/niteroi-antecipa-operacao-verao-para-20-de-novembro-e-reforca-seguranca-e-fiscalizacao-na-orla/\" role=\"link\" data-tcc-spacing=\"\">Niterói antecipa Oper",
+          "scrollWidth": 1063,
+          "clientWidth": 91,
           "scrollHeight": 29,
           "clientHeight": 29
         },
@@ -3657,21 +3669,28 @@
           "clientHeight": 500
         },
         {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\" data-tcc-spacing=\"\"><a href=\"https://niteroi.rj.gov.br/prefeito-rodrigo-neves-participa-de-coletiva-da-finalissima-de-futsal-2026/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">Prefeito Rodrigo Neves participa de coletiva da Finalíssim",
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\" data-tcc-spacing=\"\"><a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-ocupa-a-cidade-com-atividades-culturais-formacoes-e-experiencias-para-toda-a-populacao/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">Semana da Educaç",
+          "scrollWidth": 850,
+          "clientWidth": 850,
+          "scrollHeight": 504,
+          "clientHeight": 224
+        },
+        {
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\" data-tcc-spacing=\"\"><a href=\"https://niteroi.rj.gov.br/espanha-conquista-titulo-da-finalissima-de-futsal-2026-na-arena-niteroi/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">Espanha conquista título da Finalíssima de Futsal 2026 na Are",
           "scrollWidth": 850,
           "clientWidth": 850,
           "scrollHeight": 336,
           "clientHeight": 224
         },
         {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\" data-tcc-spacing=\"\"><a href=\"https://niteroi.rj.gov.br/niteroi-antecipa-operacao-verao-para-20-de-novembro-e-reforca-seguranca-e-fiscalizacao-na-orla/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">Niterói antecipa Operação Verão para 2",
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\" data-tcc-spacing=\"\"><a href=\"https://niteroi.rj.gov.br/niteroi-antecipa-operacao-verao-para-20-de-novembro-e-reforca-seguranca-e-fiscalizacao-na-orla/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">Niterói antecipa Operação Verão para 20",
           "scrollWidth": 850,
           "clientWidth": 850,
           "scrollHeight": 420,
           "clientHeight": 224
         },
         {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\" data-tcc-spacing=\"\"><a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-comeca-com-exposicao-sobre-infancias-e-natureza-no-campo-de-sao-bento/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">Semana da Educação de Niterói come",
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\" data-tcc-spacing=\"\"><a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-comeca-com-exposicao-sobre-infancias-e-natureza-no-campo-de-sao-bento/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">Semana da Educação de Niterói com",
           "scrollWidth": 850,
           "clientWidth": 850,
           "scrollHeight": 420,
@@ -3727,17 +3746,10 @@
           "clientHeight": 224
         },
         {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\" data-tcc-spacing=\"\"><a href=\"https://niteroi.rj.gov.br/prefeito-rodrigo-neves-participa-de-coletiva-da-finalissima-de-futsal-2026/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">Prefeito Rodrigo Neves participa de coletiva da Finalíssim",
+          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\" data-tcc-spacing=\"\"><a href=\"https://niteroi.rj.gov.br/espanha-conquista-titulo-da-finalissima-de-futsal-2026-na-arena-niteroi/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">Espanha conquista título da Finalíssima de Futsal 2026 na Are",
           "scrollWidth": 850,
           "clientWidth": 850,
           "scrollHeight": 336,
-          "clientHeight": 224
-        },
-        {
-          "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\" data-tcc-spacing=\"\"><a href=\"https://niteroi.rj.gov.br/niteroi-antecipa-operacao-verao-para-20-de-novembro-e-reforca-seguranca-e-fiscalizacao-na-orla/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">Niterói antecipa Operação Verão para 2",
-          "scrollWidth": 850,
-          "clientWidth": 850,
-          "scrollHeight": 420,
           "clientHeight": 224
         },
         {
@@ -3834,7 +3846,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:45:30.365Z",
+    "timestamp": "2026-11-09T14:01:29.123Z",
     "url": "https://niteroi.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -4055,7 +4067,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"topbar-today-date\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">\n\t\t\t\t\t\tdomingo, 8 novembro  2026\t\t\t\t\t</div>",
+            "html": "<div class=\"topbar-today-date\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">\n\t\t\t\t\t\tsegunda-feira, 9 novembro  2026\t\t\t\t\t</div>",
             "target": [
               ".topbar-today-date"
             ]
@@ -4215,9 +4227,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div id=\"ticker-wrapper-1794149122461\" class=\"ticker-wrapper has-js ticker-dir-left\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
+            "html": "<div id=\"ticker-wrapper-1794232881584\" class=\"ticker-wrapper has-js ticker-dir-left\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
             "target": [
-              "#ticker-wrapper-1794149122461"
+              "#ticker-wrapper-1794232881584"
             ]
           },
           {
@@ -4247,9 +4259,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div id=\"ticker-1794149122461\" class=\"ticker\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
+            "html": "<div id=\"ticker-1794232881584\" class=\"ticker\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
             "target": [
-              "#ticker-1794149122461"
+              "#ticker-1794232881584"
             ]
           },
           {
@@ -4279,9 +4291,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<p id=\"ticker-content-1794149122461\" class=\"ticker-content\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"display: block; opacity: 1; transform: translateX(0px); font-size: 19px;\" data-tcc-spacing=\"\">",
+            "html": "<p id=\"ticker-content-1794232881584\" class=\"ticker-content\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"display: block; opacity: 1; transform: translateX(0px); font-size: 19px;\" data-tcc-spacing=\"\">",
             "target": [
-              "#ticker-content-1794149122461"
+              "#ticker-content-1794232881584"
             ]
           },
           {
@@ -4311,9 +4323,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<li id=\"prev-1794149122461\" class=\"jnt-prev controls\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\"></li>",
+            "html": "<li id=\"prev-1794232881584\" class=\"jnt-prev controls\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\"></li>",
             "target": [
-              "#prev-1794149122461"
+              "#prev-1794232881584"
             ]
           },
           {
@@ -4343,9 +4355,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<li id=\"next-1794149122461\" class=\"jnt-next controls\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\"></li>",
+            "html": "<li id=\"next-1794232881584\" class=\"jnt-next controls\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\"></li>",
             "target": [
-              "#next-1794149122461"
+              "#next-1794232881584"
             ]
           },
           {
@@ -4439,7 +4451,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"tie-weather-widget is-animated\" title=\"Névoa\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
+            "html": "<div class=\"tie-weather-widget is-animated\" title=\"Scattered Clouds\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
             "target": [
               ".tie-weather-widget"
             ]
@@ -4503,7 +4515,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"weather-icon\" data-tcc-base-font-size=\"26\" data-raofz=\"26\" style=\"font-size: 32px;\">\n\t\t\t\t\t\t<div class=\"icon-mist\" data-tcc-base-font-size=\"26\" data-raofz=\"26\" style=\"font-size: 32px;\"></div>\n\t\t\t\t\t\t<div class=\"icon-mist-animi\" data-raofz=\"26\" style=\"font-size: 32px;\"></div>\n\t\t\t\t\t</div>",
+            "html": "<div class=\"weather-icon\" data-tcc-base-font-size=\"26\" data-raofz=\"26\" style=\"font-size: 32px;\">",
             "target": [
               ".weather-icon"
             ]
@@ -4599,7 +4611,7 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<span class=\"weather-current-temp\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 22px;\" data-tcc-spacing=\"\">\n\t\t\t\t\t\t\t\t21\t\t\t\t\t\t\t\t<sup data-tcc-base-font-size=\"9\" data-tcc-spacing=\"\">℃</sup>\n\t\t\t\t\t\t\t</span>",
+            "html": "<span class=\"weather-current-temp\" data-tcc-base-font-size=\"16\" data-raofz=\"16\" style=\"font-size: 22px;\" data-tcc-spacing=\"\">\n\t\t\t\t\t\t\t\t20\t\t\t\t\t\t\t\t<sup data-tcc-base-font-size=\"9\" data-tcc-spacing=\"\">℃</sup>\n\t\t\t\t\t\t\t</span>",
             "target": [
               ".weather-current-temp"
             ]
@@ -9303,9 +9315,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div style=\"background-image: ur...\" class=\"slide slide-id-35266...\" data-slick-index=\"2\" aria-hidden=\"false\" tabindex=\"-1\" role=\"option\" data-aria-describedb...=\"slick-slide22\" data-tcc-base-font-s...=\"13\" data-raofz=\"13\" data-tcc-spacing=\"\">",
+            "html": "<div style=\"background-image: ur...\" class=\"slide slide-id-35272...\" data-slick-index=\"2\" aria-hidden=\"false\" tabindex=\"-1\" role=\"option\" data-aria-describedb...=\"slick-slide22\" data-tcc-base-font-s...=\"13\" data-raofz=\"13\" data-tcc-spacing=\"\">",
             "target": [
-              ".slide-id-35266"
+              ".slide-id-35272"
             ]
           },
           {
@@ -9335,9 +9347,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" class=\"all-over-thumb-link\" aria-label=\"Niterói entra em estágio de alerta devido ao mau tempo\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\"></a>",
+            "html": "<a href=\"https://niteroi.rj.g...\" class=\"all-over-thumb-link\" aria-label=\"Semana da Educação d...\" role=\"link\" tabindex=\"0\" data-tcc-base-font-s...=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">",
             "target": [
-              ".slide-id-35266 > .all-over-thumb-link[role=\"link\"]"
+              ".slide-id-35272 > .all-over-thumb-link[role=\"link\"]"
             ]
           },
           {
@@ -9369,7 +9381,7 @@
             "impact": null,
             "html": "<div class=\"thumb-overlay\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
             "target": [
-              ".slide-id-35266 > .thumb-overlay"
+              ".slide-id-35272 > .thumb-overlay"
             ]
           },
           {
@@ -9401,7 +9413,7 @@
             "impact": null,
             "html": "<div class=\"container\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
             "target": [
-              ".slide-id-35266 > .thumb-overlay > .container"
+              ".slide-id-35272 > .thumb-overlay > .container"
             ]
           },
           {
@@ -9433,7 +9445,7 @@
             "impact": null,
             "html": "<div class=\"thumb-content\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
             "target": [
-              ".slide-id-35266 > .thumb-overlay > .container > .thumb-content"
+              ".slide-id-35272 > .thumb-overlay > .container > .thumb-content"
             ]
           },
           {
@@ -9463,9 +9475,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<div class=\"thumb-meta\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">7 de novembro de 2026</span></div>",
+            "html": "<div class=\"thumb-meta\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">8 de novembro de 2026</span></div>",
             "target": [
-              ".slide-id-35266 > .thumb-overlay > .container > .thumb-content > .thumb-meta"
+              ".slide-id-35272 > .thumb-overlay > .container > .thumb-content > .thumb-meta"
             ]
           },
           {
@@ -9495,9 +9507,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">7 de novembro de 2026</span>",
+            "html": "<span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">8 de novembro de 2026</span>",
             "target": [
-              ".slide-id-35266 > .thumb-overlay > .container > .thumb-content > .thumb-meta > .date.meta-item.tie-icon"
+              ".slide-id-35272 > .thumb-overlay > .container > .thumb-content > .thumb-meta > .date.meta-item.tie-icon"
             ]
           },
           {
@@ -9529,7 +9541,7 @@
             "impact": null,
             "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\" data-tcc-spacing=\"\">",
             "target": [
-              ".slide-id-35266 > .thumb-overlay > .container > .thumb-content > .thumb-title[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"]"
+              ".slide-id-35272 > .thumb-overlay > .container > .thumb-content > .thumb-title[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"]"
             ]
           },
           {
@@ -9559,9 +9571,9 @@
             ],
             "none": [],
             "impact": null,
-            "html": "<a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">Niterói entra em estágio de alerta devido ao mau tempo</a>",
+            "html": "<a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-comeca-com-exposicao-sobre-infancias-e-natureza-no-campo-de-sao-bento/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" data-tcc-spacing=\"\" style=\"font-size: 56px;\">",
             "target": [
-              ".slide-id-35266 > .thumb-overlay > .container > .thumb-content > .thumb-title[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"] > a[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"][role=\"link\"]"
+              ".slide-id-35272 > .thumb-overlay > .container > .thumb-content > .thumb-title[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"] > a[data-tcc-base-font-size=\"50\"][data-raofz=\"50\"][role=\"link\"]"
             ]
           },
           {
@@ -9882,6 +9894,326 @@
             "html": "<div class=\"mag-box-container clearfix\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
             "target": [
               "#tie-s_1441 > .container-wrapper > .mag-box-container.clearfix"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<li class=\"post-item  post-3523...\" data-tcc-base-font-s...=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
+            "target": [
+              ".post-35235"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a aria-label=\"Prefeito Rodrigo Nev...\" href=\"https://niteroi.rj.g...\" class=\"post-thumb\" role=\"link\" data-tcc-base-font-s...=\"13\" data-raofz=\"13\" data-tcc-spacing=\"\" style=\"font-size: 19px;\">",
+            "target": [
+              ".post-35235 > .post-thumb[role=\"link\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"post-cat-wrap\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\"><span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">Prefeitura de Niterói</span></span>",
+            "target": [
+              ".post-35235 > .post-thumb[role=\"link\"] > .post-cat-wrap"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">Prefeitura de Niterói</span>",
+            "target": [
+              ".post-35235 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"post-details\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
+            "target": [
+              ".post-35235 > .post-details"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 18px;\" data-tcc-spacing=\"\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 18px;\" data-tcc-spacing=\"\">6 de novembro de 2026</span></div>",
+            "target": [
+              ".post-35235 > .post-details > .post-meta.clearfix[data-tcc-base-font-size=\"12\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 18px;\" data-tcc-spacing=\"\">6 de novembro de 2026</span>",
+            "target": [
+              ".post-35235 > .post-details > .post-meta.clearfix[data-tcc-base-font-size=\"12\"] > .date.meta-item.tie-icon"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\" data-tcc-spacing=\"\">",
+            "target": [
+              ".post-35235 > .post-details > .post-title[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a href=\"https://niteroi.rj.gov.br/prefeito-rodrigo-neves-participa-de-coletiva-da-finalissima-de-futsal-2026/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" data-tcc-spacing=\"\" style=\"font-size: 26px;\">Prefeito Rodrigo Neves participa de coletiva da Finalíssima de Futsal 2026</a>",
+            "target": [
+              ".post-35235 > .post-details > .post-title[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"] > a[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"][role=\"link\"]"
+            ]
+          },
+          {
+            "any": [],
+            "all": [
+              {
+                "id": "important-letter-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-word-spacing",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+              },
+              {
+                "id": "important-line-height",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+              }
+            ],
+            "none": [],
+            "impact": null,
+            "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/prefeito-rodrigo-neves-participa-de-coletiva-da-finalissima-de-futsal-2026/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" data-tcc-spacing=\"\" style=\"font-size: 20px;\">Leia mais »</a>",
+            "target": [
+              ".post-35235 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
             ]
           },
           {
@@ -13402,326 +13734,6 @@
             "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/niteroi-reforca-compromisso-com-a-prevencao-e-o-atendimento-ao-avc/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" data-tcc-spacing=\"\" style=\"font-size: 20px;\">Leia mais »</a>",
             "target": [
               ".post-35190 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<li class=\"post-item  post-3518...\" data-tcc-base-font-s...=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
-            "target": [
-              ".post-35187"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<a aria-label=\"Niterói conquista R$...\" href=\"https://niteroi.rj.g...\" class=\"post-thumb\" role=\"link\" data-tcc-base-font-s...=\"13\" data-raofz=\"13\" data-tcc-spacing=\"\" style=\"font-size: 19px;\">",
-            "target": [
-              ".post-35187 > .post-thumb[role=\"link\"]"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<span class=\"post-cat-wrap\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\"><span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">Prefeitura de Niterói</span></span>",
-            "target": [
-              ".post-35187 > .post-thumb[role=\"link\"] > .post-cat-wrap"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<span class=\"post-cat tie-cat-29\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">Prefeitura de Niterói</span>",
-            "target": [
-              ".post-35187 > .post-thumb[role=\"link\"] > .post-cat-wrap > .tie-cat-29.post-cat"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<div class=\"post-details\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\" data-tcc-spacing=\"\">",
-            "target": [
-              ".post-35187 > .post-details"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<div class=\"post-meta clearfix\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 18px;\" data-tcc-spacing=\"\"><span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 18px;\" data-tcc-spacing=\"\">3 de novembro de 2026</span></div>",
-            "target": [
-              ".post-35187 > .post-details > .post-meta.clearfix[data-tcc-base-font-size=\"12\"]"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<span class=\"date meta-item tie-icon\" data-tcc-base-font-size=\"12\" data-raofz=\"12\" style=\"font-size: 18px;\" data-tcc-spacing=\"\">3 de novembro de 2026</span>",
-            "target": [
-              ".post-35187 > .post-details > .post-meta.clearfix[data-tcc-base-font-size=\"12\"] > .date.meta-item.tie-icon"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\" data-tcc-spacing=\"\">",
-            "target": [
-              ".post-35187 > .post-details > .post-title[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"]"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<a href=\"https://niteroi.rj.gov.br/niteroi-conquista-r-1-milhao-para-investir-em-energia-limpa-e-eficiencia-energetica/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" data-tcc-spacing=\"\" style=\"font-size: 26px;\">",
-            "target": [
-              ".post-35187 > .post-details > .post-title[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"] > a[data-tcc-base-font-size=\"20\"][data-raofz=\"20\"][role=\"link\"]"
-            ]
-          },
-          {
-            "any": [],
-            "all": [
-              {
-                "id": "important-letter-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-word-spacing",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-              },
-              {
-                "id": "important-line-height",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-              }
-            ],
-            "none": [],
-            "impact": null,
-            "html": "<a class=\"more-link button\" href=\"https://niteroi.rj.gov.br/niteroi-conquista-r-1-milhao-para-investir-em-energia-limpa-e-eficiencia-energetica/\" role=\"link\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" data-tcc-spacing=\"\" style=\"font-size: 20px;\">Leia mais »</a>",
-            "target": [
-              ".post-35187 > .post-details > .more-link.button[data-tcc-base-font-size=\"14\"]"
             ]
           },
           {
@@ -19220,7 +19232,7 @@
   "captura": {
     "metodo": "viewports_por_rolagem_real",
     "superficie": "HTML",
-    "alturaConteudo": 6639,
+    "alturaConteudo": 6666,
     "alturaViewport": 720,
     "trechos": [
       {
@@ -19265,10 +19277,10 @@
       },
       {
         "arquivo": "Screenshots/1.4.12-niteroi-home-chromium-quatro-espacamentos-trecho-11.png",
-        "scrollTop": 5819
+        "scrollTop": 5846
       }
     ],
     "cobertura": "pagina_completa"
   },
-  "fim": "2026-11-08T14:45:31.043Z"
+  "fim": "2026-11-09T14:01:29.772Z"
 }

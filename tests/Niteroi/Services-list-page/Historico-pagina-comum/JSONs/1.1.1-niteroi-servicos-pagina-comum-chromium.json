@@ -1,0 +1,2147 @@
+{
+  "criterio": "1.1.1",
+  "nome": "Non-text Content",
+  "inicio": "2026-11-09T14:01:30.282Z",
+  "url": "https://niteroi360.niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag111",
+    "retry": 0
+  },
+  "regrasDisponiveis": [
+    "aria-meter-name",
+    "aria-progressbar-name",
+    "image-alt",
+    "input-image-alt",
+    "object-alt",
+    "role-img-alt",
+    "svg-img-alt"
+  ],
+  "statusExecucao": "coleta_concluida",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "nao_avaliados_sem_varredura_axe_ou_verificacao_playwright",
+      "revisaoManual": "A avaliação manual está fora do escopo desta suíte; ausência de achados não certifica conformidade."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://niteroi360.niteroi.rj.gov.br/"
+    },
+    "catalogo": {
+      "secao": "Categorias de serviços",
+      "categoriaConfirmada": "Desenvolvimento Econômico"
+    },
+    "carregamento": {
+      "imagens": 38,
+      "alturaPercorrida": 4010,
+      "superficieRolagem": "BODY",
+      "imagensNaoCarregadas": []
+    },
+    "perfil": "pagina_comum_sem_ajustes_widget",
+    "widget": {
+      "acionado": false,
+      "recursosAssistivosAplicados": false,
+      "observacao": "Avaliação autorizada como página comum; não depende da autenticação do Hand Talk."
+    },
+    "verificacaoFamiliasDeFonte": {
+      "elementosMedidos": 355,
+      "alteracoes": []
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 1,
+    "escopo": "criterio",
+    "coberturaAxe": "parcial",
+    "limitacao": "As regras associadas cobrem apenas parte do critério; ausência de achados não certifica conformidade.",
+    "estado": "catalogo-original-sem-ajustes-widget",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": {
+    "violations": 2,
+    "passes": 2,
+    "incomplete": 0,
+    "inapplicable": 4
+  },
+  "ocorrenciasAxe": {
+    "violations": 12,
+    "passes": 39,
+    "incomplete": 0,
+    "inapplicable": 0
+  },
+  "localizacaoDosAchados": [
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".ant-card.bg-gray-100.rounded-2xl:nth-child(1) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(1) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+      ],
+      "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/human_rights.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".ant-card.bg-gray-100.rounded-2xl:nth-child(1) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(2) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+      ],
+      "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/sports.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".ant-card.bg-gray-100.rounded-2xl:nth-child(1) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(3) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+      ],
+      "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/Gestão, inovação e tecnologia.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".ant-card.bg-gray-100.rounded-2xl:nth-child(2) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(1) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+      ],
+      "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/education.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".ant-card.bg-gray-100.rounded-2xl:nth-child(2) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(2) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+      ],
+      "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/economic_development.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "image-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.1"
+      ],
+      "alvo": [
+        ".ant-card.bg-gray-100.rounded-2xl:nth-child(2) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(3) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+      ],
+      "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/tributos.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+      "mensagem": "Images must have alternative text",
+      "impacto": "critical",
+      "motivo": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "svg-img-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.5"
+      ],
+      "alvo": [
+        ".slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.flex-col > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+      ],
+      "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/traffic_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+      "mensagem": "<svg> elements with an img or image role must have alternative text",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/svg-img-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "svg-img-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.5"
+      ],
+      "alvo": [
+        ".slick-active[data-index=\"1\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.flex-col > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+      ],
+      "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/nature_people_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+      "mensagem": "<svg> elements with an img or image role must have alternative text",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/svg-img-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "svg-img-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.5"
+      ],
+      "alvo": [
+        ".slick-active[data-index=\"2\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.flex-col > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+      ],
+      "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/transfer_within_a_station_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+      "mensagem": "<svg> elements with an img or image role must have alternative text",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/svg-img-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "svg-img-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.5"
+      ],
+      "alvo": [
+        ".slick-active[data-index=\"3\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.flex-col > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+      ],
+      "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/directions_bike_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+      "mensagem": "<svg> elements with an img or image role must have alternative text",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/svg-img-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "svg-img-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.5"
+      ],
+      "alvo": [
+        "svg[enable-background=\"new 0 0 24 24\"]"
+      ],
+      "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 24 24\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/water_damage_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+      "mensagem": "<svg> elements with an img or image role must have alternative text",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/svg-img-alt?application=playwright"
+    },
+    {
+      "categoria": "violations",
+      "regra": "svg-img-alt",
+      "tagsDaRegra": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT",
+        "RGAAv4",
+        "RGAA-1.1.5"
+      ],
+      "alvo": [
+        "div[data-index=\"5\"] > div > .\\!flex.justify-center.flex-col > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+      ],
+      "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/delete_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+      "mensagem": "<svg> elements with an img or image role must have alternative text",
+      "impacto": "serious",
+      "motivo": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/svg-img-alt?application=playwright"
+    }
+  ],
+  "axe": {
+    "testEngine": {
+      "name": "axe-core",
+      "version": "4.13.0"
+    },
+    "testRunner": {
+      "name": "axe"
+    },
+    "testEnvironment": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.12 Safari/537.36",
+      "windowWidth": 1280,
+      "windowHeight": 720,
+      "orientationAngle": 0,
+      "orientationType": "landscape-primary"
+    },
+    "timestamp": "2026-11-09T14:01:40.205Z",
+    "url": "https://niteroi360.niteroi.rj.gov.br/",
+    "toolOptions": {
+      "resultTypes": [
+        "violations",
+        "passes",
+        "incomplete",
+        "inapplicable"
+      ],
+      "runOnly": {
+        "type": "rule",
+        "values": [
+          "aria-meter-name",
+          "aria-progressbar-name",
+          "image-alt",
+          "input-image-alt",
+          "object-alt",
+          "role-img-alt",
+          "svg-img-alt"
+        ]
+      },
+      "reporter": "v1"
+    },
+    "inapplicable": [
+      {
+        "id": "aria-meter-name",
+        "impact": null,
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag111",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-11.1.1"
+        ],
+        "description": "Ensure every ARIA meter node has an accessible name",
+        "help": "ARIA meter nodes must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-meter-name?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "aria-progressbar-name",
+        "impact": null,
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag111",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-11.1.1"
+        ],
+        "description": "Ensure every ARIA progressbar node has an accessible name",
+        "help": "ARIA progressbar nodes must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-progressbar-name?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "input-image-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "EN-9.4.1.2",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.3"
+        ],
+        "description": "Ensure <input type=\"image\"> elements have alternative text",
+        "help": "Image buttons must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/input-image-alt?application=playwright",
+        "nodes": []
+      },
+      {
+        "id": "object-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "RGAAv4",
+          "RGAA-1.1.6"
+        ],
+        "description": "Ensure <object> elements have alternative text",
+        "help": "<object> elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/object-alt?application=playwright",
+        "nodes": []
+      }
+    ],
+    "passes": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.1"
+        ],
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://workflow-content.colab.re/1764092925763_$colab_citizen_portal_file%25_niteroi_360_HORIZONTAL_BRANCO.png\" alt=\"logo\" class=\"\" style=\"width: auto; object-fit: contain; height: 70px;\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".active > img[alt=\"logo\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://workflow-content.colab.re/1765820706993_$colab_citizen_portal_file%25_banners_PORTAL-(2).png\" alt=\"Banner 1\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .sc-fAUdSK.eDMJhF > img[alt=\"Banner 1\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/accessibility.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(1) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/access-info.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(2) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/sports.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(3) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/Defesa Civil.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(4) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/social_assistance.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(5) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/economic_development.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(6) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/Direito da Mulher.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(7) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/human_rights.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(8) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/Diversas.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(9) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/education.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(10) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/Esporte e Lazer.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(11) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/Gestão, inovação e tecnologia.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(12) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/lai.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(13) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/urban_maintenence.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(14) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/environment.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(15) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/housing.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(16) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/main_ombudsman.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(17) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/health.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(18) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/Segurança e Ordem Pública.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(19) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/work_and_job.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(20) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/traffic.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(21) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/tributos.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(22) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/tourism.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(23) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/Urbanismo.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(24) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://images.colab.re/workflow/icons/health_surveillance.png\" alt=\"Ícone\" width=\"60\" height=\"60\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".p-5.pt-\\[27px\\].shadow-sm:nth-child(25) > .xl\\:text-\\[23px\\].text-\\[\\#434343\\].text-xl > img[alt=\"Ícone\"][width=\"60\"][height=\"60\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has an alt attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "alt-space-value",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has a valid alt attribute value"
+              }
+            ],
+            "impact": null,
+            "html": "<img src=\"https://workflow-content.colab.re/1764094008682_$colab_citizen_portal_file%25_novo-logo-niteroi-horizontal-branco.png\" alt=\"logo\" style=\"height: 49.6px; width: auto; object-fit: contain;\" data-tcc-base-font-family=\"&quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".font-medium > img[alt=\"logo\"]"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "role-img-alt",
+        "impact": null,
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.1"
+        ],
+        "description": "Ensure [role=\"img\"] and [role=\"image\"] elements have alternative text",
+        "help": "[role=\"img\"] and [role=\"image\"] elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/role-img-alt?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"user\" class=\"anticon anticon-user\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".anticon-user"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"arrow-left\" class=\"anticon anticon-arrow-left\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-prev.slick-arrow[slidecount=\"2\"] > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-next.slick-arrow[slidecount=\"2\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"search\" class=\"anticon anticon-search text-xl md:text-4xl lg:text-4xl\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".anticon-search"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"arrow-left\" class=\"anticon anticon-arrow-left\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-disabled > .anticon-arrow-left.anticon[aria-label=\"arrow-left\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"arrow-right\" class=\"anticon anticon-arrow-right\" style=\"font-size: 20px;\" data-tcc-base-font-family=\"\"Google Sans Flex\", \"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".slick-next.slick-arrow[slidecount=\"12\"] > .anticon-arrow-right.anticon[aria-label=\"arrow-right\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"facebook\" class=\"anticon anticon-facebook text-gray-500 text-3xl\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".md\\:flex > div:nth-child(2) > div > div > div > .grid-cols-5.w-48.gap-4 > .css-bz06vj[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(1) > .anticon-facebook.text-3xl[aria-label=\"facebook\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"instagram\" class=\"anticon anticon-instagram text-gray-500 text-3xl\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".md\\:flex > div:nth-child(2) > div > div > div > .grid-cols-5.w-48.gap-4 > .css-bz06vj[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(2) > .anticon-instagram.text-3xl[aria-label=\"instagram\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"tik-tok\" class=\"anticon anticon-tik-tok text-gray-500 text-3xl\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".md\\:flex > div:nth-child(2) > div > div > div > .grid-cols-5.w-48.gap-4 > .css-bz06vj[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(3) > .anticon-tik-tok.text-3xl[aria-label=\"tik-tok\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"youtube\" class=\"anticon anticon-youtube text-gray-500 text-3xl\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".md\\:flex > div:nth-child(2) > div > div > div > .grid-cols-5.w-48.gap-4 > .css-bz06vj[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(4) > .anticon-youtube.text-3xl[aria-label=\"youtube\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute exists and is not empty"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<span role=\"img\" aria-label=\"link\" class=\"anticon anticon-link text-gray-500 text-3xl\" style=\"color: rgb(255, 255, 255);\" data-tcc-base-font-family=\"\"Open Sans\", system-ui, sans-serif\">",
+            "target": [
+              ".md\\:flex > div:nth-child(2) > div > div > div > .grid-cols-5.w-48.gap-4 > .css-bz06vj[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(5) > .anticon-link.text-3xl[aria-label=\"link\"]"
+            ]
+          }
+        ]
+      }
+    ],
+    "incomplete": [],
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.1"
+        ],
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/human_rights.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".ant-card.bg-gray-100.rounded-2xl:nth-child(1) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(1) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/sports.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".ant-card.bg-gray-100.rounded-2xl:nth-child(1) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(2) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/Gestão, inovação e tecnologia.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".ant-card.bg-gray-100.rounded-2xl:nth-child(1) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(3) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/education.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".ant-card.bg-gray-100.rounded-2xl:nth-child(2) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(1) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/economic_development.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".ant-card.bg-gray-100.rounded-2xl:nth-child(2) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(2) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "any": [
+              {
+                "id": "has-alt",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an alt attribute"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<img class=\"w-[38px] h-[38px] md:w-[60px] md:h-[60px] rounded\" src=\"https://images.colab.re/workflow/icons/tributos.png\" data-tcc-base-font-family=\"&quot;Google Sans Flex&quot;, &quot;Open Sans&quot;, system-ui, sans-serif\">",
+            "target": [
+              ".ant-card.bg-gray-100.rounded-2xl:nth-child(2) > .ant-card-body > .md\\:gap-5.lg\\:gap-8.mt-4 > .ant-list.ant-list-split.css-iaswcl > .ant-spin-nested-loading.css-iaswcl > .ant-spin-container > .ant-list-items > .ant-list-item:nth-child(3) > .p-4.justify-between.h-full > .rounded.items-center.flex > .w-\\[38px\\].h-\\[38px\\].md\\:w-\\[60px\\]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        ]
+      },
+      {
+        "id": "svg-img-alt",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT",
+          "RGAAv4",
+          "RGAA-1.1.5"
+        ],
+        "description": "Ensure <svg> elements with an img, image, graphics-document or graphics-symbol role have accessible text",
+        "help": "<svg> elements with an img or image role must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/svg-img-alt?application=playwright",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "svg-non-empty-title",
+                "data": {
+                  "messageKey": "noTitle"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no child that is a title"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/traffic_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              ".slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.flex-col > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          },
+          {
+            "any": [
+              {
+                "id": "svg-non-empty-title",
+                "data": {
+                  "messageKey": "noTitle"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no child that is a title"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/nature_people_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              ".slick-active[data-index=\"1\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.flex-col > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          },
+          {
+            "any": [
+              {
+                "id": "svg-non-empty-title",
+                "data": {
+                  "messageKey": "noTitle"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no child that is a title"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/transfer_within_a_station_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              ".slick-active[data-index=\"2\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.flex-col > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          },
+          {
+            "any": [
+              {
+                "id": "svg-non-empty-title",
+                "data": {
+                  "messageKey": "noTitle"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no child that is a title"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/directions_bike_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              ".slick-active[data-index=\"3\"][aria-hidden=\"false\"] > div > .\\!flex.justify-center.flex-col > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          },
+          {
+            "any": [
+              {
+                "id": "svg-non-empty-title",
+                "data": {
+                  "messageKey": "noTitle"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no child that is a title"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 24 24\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/water_damage_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              "svg[enable-background=\"new 0 0 24 24\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          },
+          {
+            "any": [
+              {
+                "id": "svg-non-empty-title",
+                "data": {
+                  "messageKey": "noTitle"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no child that is a title"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#FFFFFF\" class=\"injected-svg\" data-src=\"https://images.colab.re/icons/delete_white_48dp.svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" style=\"fill: #ed7304;\">",
+            "target": [
+              "div[data-index=\"5\"] > div > .\\!flex.justify-center.flex-col > .rounded-full.w-\\[100px\\].h-\\[100px\\] > .w-10.h-10.sm\\:w-\\[40px\\] > span > .injected-svg[fill=\"#FFFFFF\"][viewBox=\"0 0 24 24\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has no child that is a title\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        ]
+      }
+    ]
+  },
+  "screenshots": [
+    "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-1.png",
+    "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-2.png",
+    "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-3.png",
+    "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-4.png",
+    "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-5.png",
+    "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-6.png",
+    "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-7.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "BODY",
+    "alturaConteudo": 4010,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/1.1.1-niteroi-servicos-pagina-comum-chromium-catalogo-original-sem-ajustes-widget-trecho-7.png",
+        "scrollTop": 3290
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-09T14:01:40.486Z"
+}

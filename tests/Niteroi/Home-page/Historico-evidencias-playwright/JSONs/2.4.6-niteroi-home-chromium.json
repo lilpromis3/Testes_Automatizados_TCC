@@ -1,0 +1,4247 @@
+{
+  "criterio": "2.4.6",
+  "nome": "Headings and Labels",
+  "inicio": "2026-11-08T14:45:38.306Z",
+  "url": "https://niteroi.rj.gov.br",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag246",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "limitesDaAvaliacao": {
+      "resultado": "coleta_de_evidencias_nao_certifica_conformidade",
+      "criteriosSemRegraAxe": "somente_evidencias_especificas_sem_executar_axe",
+      "revisaoManual": "Validar perdas de conteúdo e funcionalidade, contraste renderizado, hover e indicadores de foco nas capturas e na interação."
+    },
+    "http": {
+      "status": 200,
+      "url": "https://niteroi.rj.gov.br/"
+    },
+    "widgetBaixaVisao": {
+      "fornecedor": "Real Accessability",
+      "nivelFonte": 3,
+      "incrementoPx": 6,
+      "maximoConfirmadoPorCliqueAdicional": true,
+      "inverterCores": true,
+      "destacarLinks": true,
+      "fonteRegular": false,
+      "tamanhos": [
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 26,
+          "atual": 32
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 16,
+          "atual": 22
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 41,
+          "atual": 47
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 50,
+          "atual": 56
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 18,
+          "atual": 24
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 12,
+          "atual": 18
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 20,
+          "atual": 26
+        },
+        {
+          "original": 14,
+          "atual": 20
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 17,
+          "atual": 23
+        },
+        {
+          "original": 15,
+          "atual": 21
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 22,
+          "atual": 28
+        },
+        {
+          "original": 22,
+          "atual": 28
+        },
+        {
+          "original": 22,
+          "atual": 28
+        },
+        {
+          "original": 13,
+          "atual": 19
+        },
+        {
+          "original": 13,
+          "atual": 19
+        }
+      ]
+    },
+    "titulosERotulos": [
+      {
+        "html": "<input id=\"search-input\" inputmode=\"search\" type=\"text\" name=\"s\" title=\"Procurar por\" placeholder=\"Procurar por\" data-tcc-base-font-size=\"13\" data-raofz=\"13\" style=\"font-size: 19px;\">",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button id=\"search-submit\" type=\"submit\" data-tcc-base-font-size=\"15\">\n\t\t\t\t\t\t<span class=\"tie-icon-search tie-search-icon\" aria-hidden=\"true\" data-tcc-base-font-size=\"15\" data-raofz=\"15\" style=\"font-size: 21px;\"></span>\n\t\t\t\t\t\t<span class=\"screen-reader-text\" data-tcc-base-font-size=\"15\" data-raofz=\"15\" style=\"font-size: 21px;\">Procurar por</span>\n\t\t\t\t\t</button>",
+        "texto": "Procurar por",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h1 class=\"h1-off\" data-tcc-base-font-size=\"41\" data-raofz=\"41\" style=\"font-size: 47px;\">Prefeitura Municipal de Niterói</h1>",
+        "texto": "Prefeitura Municipal de Niterói",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/manualantiracista\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://www.educacao.niteroi.rj.gov.br/?p=48719\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/niteroi-avanca/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://forms.gle/kk14F2ZGW2UWY2Zv9\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/primeirainfancia\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://www.instagram.com/mulheresniteroi\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/inventarioclima\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"http://sites.niteroi.rj.gov.br/poupancaescolaniteroi/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/niteroi-empreendedora/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/wp-content/uploads/arquivos/Agenda%20Acessivel%20Novembro%202025.pdf\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/niteroi452anos/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://drive.google.com/file/d/1kcTAXbqB1CUuXtYc5p4soMCmLX4NUBCc/view?usp=sharing\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://pactocontraaviolencia.niteroi.rj.gov.br/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/arariboia/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://www.administracao.niteroi.rj.gov.br/posse/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://www.niteroi.rj.gov.br/portfolioprojetos/2025%20-%20Portfólio%20de%20Projetos%20para%20a%20Captação%20de%20Recursos%20via%20Emendas%20Parlamentares.pdf\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/manualantiracista\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://www.educacao.niteroi.rj.gov.br/?p=48719\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">1</button>",
+        "texto": "1",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">2</button>",
+        "texto": "2",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">3</button>",
+        "texto": "3",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">4</button>",
+        "texto": "4",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">5</button>",
+        "texto": "5",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">6</button>",
+        "texto": "6",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">7</button>",
+        "texto": "7",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">8</button>",
+        "texto": "8",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">9</button>",
+        "texto": "9",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">10</button>",
+        "texto": "10",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">11</button>",
+        "texto": "11",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">12</button>",
+        "texto": "12",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">13</button>",
+        "texto": "13",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">14</button>",
+        "texto": "14",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">15</button>",
+        "texto": "15",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">16</button>",
+        "texto": "16",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://niteroi.rj.gov.br/wp-content/uploads/banner/cervejeiro.zip\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://nfse.niteroi.rj.gov.br/capa.aspx\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.leismunicipais.com.br/prefeitura/rj/niteroi\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://niteroi.rj.gov.br/wp-content/uploads/arquivos/cartilha%20lei%20urbanistica%20niteroi.pdf\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://niteroi.rj.gov.br/gestao-de-orlas/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://esic.niteroi.rj.gov.br/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"http://portais.niteroi.rj.gov.br/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.controladoria.niteroi.rj.gov.br/lgpd-lei-geral-de-protecao-de-dados-pessoais/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.controladoria.niteroi.rj.gov.br/guias-de-identificacao-de-riscos-gir/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.controladoria.niteroi.rj.gov.br/matriz-e-mapa-de-gerenciamento-de-riscos/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.controladoria.niteroi.rj.gov.br/termos-de-requisitos-minimos-trms/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://transparencia.niteroi.rj.gov.br/#/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.controladoria.niteroi.rj.gov.br/ouvidoria/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.sempas.niteroi.rj.gov.br/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://sites.niteroi.rj.gov.br/casa-do-empreendedor/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.niteroi.rj.gov.br/niteroi-empreendedora/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://niteroi.rj.gov.br/wp-content/uploads/banner/cervejeiro.zip\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://nfse.niteroi.rj.gov.br/capa.aspx\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.leismunicipais.com.br/prefeitura/rj/niteroi\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://niteroi.rj.gov.br/wp-content/uploads/arquivos/cartilha%20lei%20urbanistica%20niteroi.pdf\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://niteroi.rj.gov.br/gestao-de-orlas/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://esic.niteroi.rj.gov.br/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"http://portais.niteroi.rj.gov.br/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.controladoria.niteroi.rj.gov.br/lgpd-lei-geral-de-protecao-de-dados-pessoais/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.controladoria.niteroi.rj.gov.br/guias-de-identificacao-de-riscos-gir/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"><a href=\"https://www.controladoria.niteroi.rj.gov.br/matriz-e-mapa-de-gerenciamento-de-riscos/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"14\" data-raofz=\"14\" style=\"font-size: 20px;\"></a></h2>",
+        "texto": "",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">1</button>",
+        "texto": "1",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">2</button>",
+        "texto": "2",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">3</button>",
+        "texto": "3",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">4</button>",
+        "texto": "4",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/prefeito-rodrigo-neves-participa-de-coletiva-da-finalissima-de-futsal-2026/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Prefeito Rodrigo Neves participa de coletiva da Finalíssima de Futsal 2026</a></h2>",
+        "texto": "Prefeito Rodrigo Neves participa de coletiva da Finalíssima de Futsal 2026",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/niteroi-antecipa-operacao-verao-para-20-de-novembro-e-reforca-seguranca-e-fiscalizacao-na-orla/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Niterói antecipa Operação Verão para 20 de novembro e reforça segurança e fiscalização na orla</a></h2>",
+        "texto": "Niterói antecipa Operação Verão para 20 de novembro e reforça segurança e fiscalização na orla",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-comeca-com-exposicao-sobre-infancias-e-natureza-no-campo-de-sao-bento/\" role=\"link\" tabindex=\"0\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Semana da Educação de Niterói começa com exposição sobre infâncias e natureza no Campo de São Bento</a></h2>",
+        "texto": "Semana da Educação de Niterói começa com exposição sobre infâncias e natureza no Campo de São Bento",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/niteroi-entra-em-estagio-de-alerta-devido-ao-mau-tempo/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Niterói entra em estágio de alerta devido ao mau tempo</a></h2>",
+        "texto": "Niterói entra em estágio de alerta devido ao mau tempo",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/arena-niteroi-prefeitura-projeta-r-120-milhoes-em-retorno-economico-com-parceria-publico-privada/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Arena Niterói: Prefeitura projeta R$ 120 milhões em retorno econômico com Parceria Público-Privada</a></h2>",
+        "texto": "Arena Niterói: Prefeitura projeta R$ 120 milhões em retorno econômico com Parceria Público-Privada",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/brasil-vence-argentina-e-vai-decidir-a-finalissima-de-futsal-2026-contra-a-espanha/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Brasil vence Argentina e vai decidir a Finalíssima de Futsal 2026 contra a Espanha</a></h2>",
+        "texto": "Brasil vence Argentina e vai decidir a Finalíssima de Futsal 2026 contra a Espanha",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/nittrans-prepara-esquema-especial-de-transito-para-evento-no-caminho-niemeyer/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Nittrans prepara esquema especial de trânsito para evento no Caminho Niemeyer</a></h2>",
+        "texto": "Nittrans prepara esquema especial de trânsito para evento no Caminho Niemeyer",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/niteroi-amplia-apoio-a-instituicoes-de-reabilitacao-de-pessoas-com-deficiencia/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Niterói amplia apoio a instituições de reabilitação de pessoas com deficiência</a></h2>",
+        "texto": "Niterói amplia apoio a instituições de reabilitação de pessoas com deficiência",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/prefeitura-de-niteroi-ativa-sistema-de-bombeamento-na-lagoa-de-piratininga/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Prefeitura de Niterói ativa sistema de bombeamento na Lagoa de Piratininga</a></h2>",
+        "texto": "Prefeitura de Niterói ativa sistema de bombeamento na Lagoa de Piratininga",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/semana-da-educacao-de-niteroi-ocupa-a-cidade-com-atividades-culturais-formacoes-e-experiencias-para-toda-a-populacao/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Semana da Educação de Niterói ocupa a cidade com atividades culturais, formações e experiências para toda a população</a></h2>",
+        "texto": "Semana da Educação de Niterói ocupa a cidade com atividades culturais, formações e experiências para toda a população",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/prefeito-rodrigo-neves-participa-de-coletiva-da-finalissima-de-futsal-2026/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Prefeito Rodrigo Neves participa de coletiva da Finalíssima de Futsal 2026</a></h2>",
+        "texto": "Prefeito Rodrigo Neves participa de coletiva da Finalíssima de Futsal 2026",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"thumb-title\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\"><a href=\"https://niteroi.rj.gov.br/niteroi-antecipa-operacao-verao-para-20-de-novembro-e-reforca-seguranca-e-fiscalizacao-na-orla/\" role=\"link\" tabindex=\"-1\" data-tcc-base-font-size=\"50\" data-raofz=\"50\" style=\"font-size: 56px;\">Niterói antecipa Operação Verão para 20 de novembro e reforça segurança e fiscalização na orla</a></h2>",
+        "texto": "Niterói antecipa Operação Verão para 20 de novembro e reforça segurança e fiscalização na orla",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">1</button>",
+        "texto": "1",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">2</button>",
+        "texto": "2",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">3</button>",
+        "texto": "3",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">4</button>",
+        "texto": "4",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">5</button>",
+        "texto": "5",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">6</button>",
+        "texto": "6",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">7</button>",
+        "texto": "7",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">8</button>",
+        "texto": "8",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">9</button>",
+        "texto": "9",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<button type=\"button\" data-role=\"none\" tabindex=\"0\" role=\"button\">10</button>",
+        "texto": "10",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h3 data-tcc-base-font-size=\"18\" data-raofz=\"18\" style=\"font-size: 24px;\">\n\t\t\t\tNossas Notícias\t\t\t</h3>",
+        "texto": "Nossas Notícias",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/niteroi-tera-reforco-nas-viagens-de-onibus-para-atender-estudantes-nos-dias-do-enem/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Niterói terá reforço nas viagens de ônibus para atender estudantes nos dias do Enem</a></h2>",
+        "texto": "Niterói terá reforço nas viagens de ônibus para atender estudantes nos dias do Enem",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/niteroi-e-o-segundo-municipio-do-pais-a-realizar-simulado-da-opas-para-respostas-a-eventos-climaticos-extremos/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Niterói é o segundo município do país a realizar simulado da OPAS para respostas a eventos climáticos extremos</a></h2>",
+        "texto": "Niterói é o segundo município do país a realizar simulado da OPAS para respostas a eventos climáticos extremos",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/clin-social-visita-quilombo-do-grotao-em-atividade-pelo-mes-da-consciencia-negra/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Clin Social visita Quilombo do Grotão em atividade pelo mês da Consciência Negra</a></h2>",
+        "texto": "Clin Social visita Quilombo do Grotão em atividade pelo mês da Consciência Negra",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/prefeito-de-niteroi-garante-apoio-federal-de-r-30-milhoes-por-ano-para-o-super-centro-de-saude-e-avanca-em-parceria-para-nova-unidade-no-fonseca/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Prefeito de Niterói garante apoio federal de R$ 30 milhões por ano para o Super Centro de Saúde e avança em parceria para nova unidade no Fonse",
+        "texto": "Prefeito de Niterói garante apoio federal de R$ 30 milhões por ano para o Super Centro de Saúde e avança em parceria para nova unidade no Fonseca",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/estudantes-da-rede-municipal-participam-de-clinica-de-futsal-com-comissao-tecnica-da-selecao-brasileira-e-acompanham-treino-da-equipe/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Estudantes da Rede Municipal participam de clínica de futsal com comissão técnica da Seleção Brasileira e acompanham treino</a></h2>",
+        "texto": "Estudantes da Rede Municipal participam de clínica de futsal com comissão técnica da Seleção Brasileira e acompanham treino",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/nittrans-tera-operacao-especial-de-transito-durante-os-dias-de-prova-do-enem/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">NitTrans terá operação especial de trânsito durante os dias de prova do Enem</a></h2>",
+        "texto": "NitTrans terá operação especial de trânsito durante os dias de prova do Enem",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/trabalho-de-inteligencia-do-cisp-de-niteroi-e-da-policia-civil-leva-a-prisao-de-condenado-a-mais-de-29-anos-por-latrocinio/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Trabalho de inteligência do CISP de Niterói e da Polícia Civil leva à prisão de condenado a mais de 29 anos por latrocínio</a></h2>",
+        "texto": "Trabalho de inteligência do CISP de Niterói e da Polícia Civil leva à prisão de condenado a mais de 29 anos por latrocínio",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/niteroi-reforca-protecao-da-fauna-silvestre-com-capacitacao-de-profissionais-e-apresentacao-de-tecnicas-de-manejo/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Niterói reforça proteção da fauna silvestre com capacitação de profissionais e apresentação de técnicas de manejo</a></h2>",
+        "texto": "Niterói reforça proteção da fauna silvestre com capacitação de profissionais e apresentação de técnicas de manejo",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/prefeitura-de-niteroi-realiza-encontro-de-gestores-para-alinhar-metas-na-reta-final-de-2026/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Prefeitura de Niterói realiza Encontro de Gestores para alinhar metas na reta final de 2026</a></h2>",
+        "texto": "Prefeitura de Niterói realiza Encontro de Gestores para alinhar metas na reta final de 2026",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/parque-rural-de-niteroi-oferece-treinamento-gratuito-em-nocoes-de-adestramento-de-caes/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Parque Rural de Niterói oferece treinamento gratuito em noções de adestramento de cães</a></h2>",
+        "texto": "Parque Rural de Niterói oferece treinamento gratuito em noções de adestramento de cães",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/niteroi-reforca-compromisso-com-a-prevencao-e-o-atendimento-ao-avc/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Niterói reforça compromisso com a prevenção e o atendimento ao AVC&nbsp;</a></h2>",
+        "texto": "Niterói reforça compromisso com a prevenção e o atendimento ao AVC",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      },
+      {
+        "html": "<h2 class=\"post-title\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\"><a href=\"https://niteroi.rj.gov.br/niteroi-conquista-r-1-milhao-para-investir-em-energia-limpa-e-eficiencia-energetica/\" role=\"link\" data-tcc-base-font-size=\"20\" data-raofz=\"20\" style=\"font-size: 26px;\">Niterói conquista R$ 1 milhão para investir em energia limpa e eficiência energética</a></h2>",
+        "texto": "Niterói conquista R$ 1 milhão para investir em energia limpa e eficiência energética",
+        "ariaLabel": null,
+        "ariaLabelledby": null
+      }
+    ]
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "baixa-visao-widget-fechado",
+    "painelFechado": true,
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-1.png",
+    "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-2.png",
+    "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-3.png",
+    "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-4.png",
+    "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-5.png",
+    "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-6.png",
+    "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-7.png",
+    "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-8.png",
+    "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-9.png",
+    "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-10.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "HTML",
+    "alturaConteudo": 5985,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-1.png",
+        "scrollTop": 0
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-2.png",
+        "scrollTop": 612
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-3.png",
+        "scrollTop": 1224
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-4.png",
+        "scrollTop": 1836
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-5.png",
+        "scrollTop": 2448
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-6.png",
+        "scrollTop": 3060
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-7.png",
+        "scrollTop": 3672
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-8.png",
+        "scrollTop": 4284
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-9.png",
+        "scrollTop": 4896
+      },
+      {
+        "arquivo": "Screenshots/2.4.6-niteroi-home-chromium-baixa-visao-widget-fechado-trecho-10.png",
+        "scrollTop": 5165
+      }
+    ],
+    "cobertura": "pagina_completa"
+  },
+  "fim": "2026-11-08T14:45:47.133Z"
+}

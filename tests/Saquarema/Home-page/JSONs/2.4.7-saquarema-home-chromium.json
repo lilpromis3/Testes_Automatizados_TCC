@@ -1,7 +1,7 @@
 {
   "criterio": "2.4.7",
   "nome": "Focus Visible",
-  "inicio": "2026-11-08T14:49:34.836Z",
+  "inicio": "2026-11-09T14:06:37.317Z",
   "url": "https://www.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -12,70 +12,20 @@
     "retry": 0
   },
   "regrasDisponiveis": [],
-  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
-  "preparacao": {
-    "http": {
-      "status": 200,
-      "url": "https://www.saquarema.rj.gov.br/"
-    },
-    "carregamento": {
-      "imagens": 16,
-      "alturaPercorrida": 3101,
-      "imagensNaoCarregadas": []
-    },
-    "perfil": "vision",
-    "foco": {
-      "elementoAlcancado": true,
-      "metodo": "primeiro_Tab",
-      "html": "<a href=\"https://www.saquarema.rj.gov.br\" data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"><span data-ra-fs=\"16\" data-ra-fs-in=\"\" style=\"font-size: 20px !important;\"><img src=\"https://www.saquarema.rj.gov.br/wp-content/uploads/2025/01/LogoSite_PrefeituraSaquarema_800xProporcional.png\" data-hires=\"https://www.saquarema.rj.gov.br/wp-content/uploads/2025/01/LogoSite_PrefeituraSaquarema_800xProporcional.png\" alt=\"Prefeitura de Saquarema\"></span></a>",
-      "focoVisivelPseudoClasse": true,
-      "outline": "rgb(255, 230, 0) none 3px",
-      "boxShadow": "none",
-      "retangulo": {
-        "x": 30,
-        "y": 40,
-        "largura": 300,
-        "altura": 104.109375
-      },
-      "medicaoDePixelsExecutada": false
-    }
-  },
+  "statusExecucao": "nao_avaliado_sem_regra_axe",
+  "preparacao": {},
   "analise": {
     "varredurasExecutadas": 0,
     "escopo": "criterio",
     "coberturaAxe": "sem_regras",
-    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
-    "estado": "primeiro-tab-widget-fechado",
-    "painelFechado": true,
-    "viewport": {
-      "width": 1280,
-      "height": 720
-    },
-    "widget": {
-      "preferencias": {
-        "profile": "vision",
-        "on": {
-          "headings": true,
-          "links": true,
-          "cursor": true
-        },
-        "contrast": 1,
-        "align": 0,
-        "size": 2,
-        "lh": 0,
-        "ls": 0
-      },
-      "classes": "ra-fx-ready ra-c-high ra-links ra-headings ra-cursor",
-      "painelAberto": false
-    }
+    "limitacao": "Sem regra axe associada ao critério nesta versão. A acessibilidade deste critério não foi verificada nesta avaliação automatizada.",
+    "estado": "nao_avaliado"
   },
   "resumoAxe": null,
   "ocorrenciasAxe": null,
   "localizacaoDosAchados": [],
   "axe": null,
-  "screenshots": [
-    "Screenshots/2.4.7-chromium-2026-11-08T14-49-34-836Z-primeiro-tab-widget-fechado.png"
-  ],
+  "screenshots": [],
   "erros": [],
-  "fim": "2026-11-08T14:49:37.446Z"
+  "fim": "2026-11-09T14:06:37.317Z"
 }

@@ -1,0 +1,190 @@
+{
+  "criterio": "1.4.13",
+  "nome": "Content on Hover or Focus",
+  "inicio": "2026-11-08T14:50:46.682Z",
+  "url": "https://saquarema.colab.re",
+  "ambiente": {
+    "navegador": "chromium",
+    "versaoNavegador": "153.0.8010.12",
+    "axe": "4.13.0",
+    "playwright": "1.63.0",
+    "tag": "wcag1413",
+    "retry": 0
+  },
+  "regrasDisponiveis": [],
+  "statusExecucao": "coleta_concluida_sem_cobertura_axe",
+  "preparacao": {
+    "http": {
+      "status": 200,
+      "url": "https://saquarema.colab.re/"
+    },
+    "catalogo": {
+      "secao": "Categorias de serviços",
+      "categoriaConfirmada": "Desenvolvimento Econômico"
+    },
+    "carregamento": {
+      "imagens": 26,
+      "alturaPercorrida": 3230,
+      "superficieRolagem": "BODY",
+      "imagensNaoCarregadas": []
+    },
+    "acesso": "direto_a_pagina_alvo",
+    "perfil": "baixa_visao_personalizado_colab",
+    "widgetBaixaVisao": {
+      "fornecedor": "Hand Talk",
+      "amostraAntes": {
+        "fontePx": 30,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 700,
+        "linhaPx": 39,
+        "letrasPx": 0
+      },
+      "configuracao": "nivel_maximo_de_cada_recurso",
+      "recursos": [
+        {
+          "recurso": "Tamanho de Fonte",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Tamanho de Fonte, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Letras Destacadas",
+          "selecionado": true,
+          "nivelAplicado": null,
+          "nivelMaximo": null,
+          "rotulo": "Letras Destacadas Ativo"
+        },
+        {
+          "recurso": "Espaçamento Entre Linhas",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Espaçamento Entre Linhas, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Espaço entre Letras",
+          "selecionado": true,
+          "nivelAplicado": 3,
+          "nivelMaximo": 3,
+          "rotulo": "Espaço entre Letras, ativo, opção 3 de 3"
+        },
+        {
+          "recurso": "Destacar Cabeçalho",
+          "selecionado": true,
+          "nivelAplicado": null,
+          "nivelMaximo": null,
+          "rotulo": "Destacar Cabeçalho, ativo"
+        },
+        {
+          "recurso": "Contraste de Cores",
+          "selecionado": true,
+          "nivelAplicado": 2,
+          "nivelMaximo": 2,
+          "rotulo": "Contraste de Cores, ativo, opção 2 de 2"
+        }
+      ],
+      "estiloDeTexto": {
+        "alterado": false,
+        "rotulo": "Ativar Estilo de Texto, 3 opções"
+      },
+      "verificacaoFamiliasDeFonte": {
+        "elementosMedidos": 235,
+        "alteracoes": []
+      },
+      "controlesAposFechar": [
+        {
+          "rotulo": "Tamanho de Fonte, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Ativar Estilo de Texto, 3 opções",
+          "selecionado": null
+        },
+        {
+          "rotulo": "Letras Destacadas Ativo",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Espaçamento Entre Linhas, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Espaço entre Letras, ativo, opção 3 de 3",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Destacar Cabeçalho, ativo",
+          "selecionado": "true"
+        },
+        {
+          "rotulo": "Contraste de Cores, ativo, opção 2 de 2",
+          "selecionado": "true"
+        }
+      ],
+      "perfilAplicado": true,
+      "painelFechado": true,
+      "amostraAtivada": {
+        "fontePx": 60,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 900,
+        "linhaPx": 156,
+        "letrasPx": 6
+      },
+      "amostraAposFechar": {
+        "fontePx": 60,
+        "familia": "\"Open Sans\", system-ui, sans-serif",
+        "peso": 900,
+        "linhaPx": 156,
+        "letrasPx": 6
+      },
+      "verificacao": "controles_selecionados_e_estilos_computados_de_um_titulo"
+    },
+    "hover": {
+      "seletor": "[aria-haspopup=\"true\"], [aria-haspopup=\"menu\"], [aria-describedby], [title]:not(iframe):not(script):not(style)",
+      "gatilhoVisivelEncontrado": false,
+      "observacao": "Nenhum candidato encontrado; a coleta não determina a aplicabilidade ou conformidade do critério 1.4.13."
+    }
+  },
+  "analise": {
+    "varredurasExecutadas": 0,
+    "escopo": "criterio",
+    "coberturaAxe": "sem_regras",
+    "limitacao": "Sem regra axe associada ao critério nesta versão. Apenas evidências específicas; avaliação manual necessária.",
+    "estado": "inspecao-hover-colab",
+    "painelFechado": true,
+    "amostraTexto": {
+      "fontePx": 60,
+      "familia": "\"Open Sans\", system-ui, sans-serif",
+      "peso": 900,
+      "linhaPx": 156,
+      "letrasPx": 6
+    },
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "resumoAxe": null,
+  "ocorrenciasAxe": null,
+  "localizacaoDosAchados": [],
+  "axe": null,
+  "screenshots": [
+    "Screenshots/1.4.13-colab-baixa-visao-chromium-inspecao-hover-colab-trecho-1.png"
+  ],
+  "erros": [],
+  "captura": {
+    "metodo": "viewports_por_rolagem_real",
+    "superficie": "BODY",
+    "alturaConteudo": 8846,
+    "alturaViewport": 720,
+    "trechos": [
+      {
+        "arquivo": "Screenshots/1.4.13-colab-baixa-visao-chromium-inspecao-hover-colab-trecho-1.png",
+        "scrollTop": 0
+      }
+    ],
+    "cobertura": "estado_hover_ou_foco_ou_erro"
+  },
+  "fim": "2026-11-08T14:50:56.424Z"
+}

@@ -1,7 +1,7 @@
 {
   "criterio": "1.4.3",
   "nome": "Contrast (Minimum)",
-  "inicio": "2026-11-08T14:55:33.940Z",
+  "inicio": "2026-11-09T14:07:27.991Z",
   "url": "https://egov.saquarema.rj.gov.br",
   "ambiente": {
     "navegador": "chromium",
@@ -109,7 +109,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-11-08T14:55:40.206Z",
+    "timestamp": "2026-11-09T14:07:34.569Z",
     "url": "https://egov.saquarema.rj.gov.br/",
     "toolOptions": {
       "resultTypes": [
@@ -430,7 +430,7 @@
     ]
   },
   "screenshots": [
-    "Screenshots/1.4.3-saquarema-protocolo-chromium-2026-11-08T14-55-33-940Z-formulario-parcialmente-preenchido-padrao-trecho-1.png"
+    "Screenshots/1.4.3-saquarema-protocolo-chromium-2026-11-09T14-07-27-991Z-formulario-parcialmente-preenchido-padrao-trecho-1.png"
   ],
   "erros": [],
   "captura": {
@@ -442,10 +442,10 @@
     },
     "trechos": [
       {
-        "arquivo": "Screenshots/1.4.3-saquarema-protocolo-chromium-2026-11-08T14-55-33-940Z-formulario-parcialmente-preenchido-padrao-trecho-1.png",
+        "arquivo": "Screenshots/1.4.3-saquarema-protocolo-chromium-2026-11-09T14-07-27-991Z-formulario-parcialmente-preenchido-padrao-trecho-1.png",
         "scrollTop": 0
       }
     ]
   },
-  "fim": "2026-11-08T14:55:40.673Z"
+  "fim": "2026-11-09T14:07:34.960Z"
 }
